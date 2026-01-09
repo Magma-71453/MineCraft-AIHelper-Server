@@ -1,31 +1,33 @@
 # MineCraft-AIHelper-Server
 
-一个为 Minecraft 服务器添加 AI 助手功能的工具，支持任何兼容 OpenAI API 的模型。
-
+一个轻量级的 Minecraft 服务器 AI 助手工具，支持任何兼容 OpenAI API 的模型。
 ## 功能特性
 
-- 🤖 AI 聊天助手 - 与玩家进行智能对话
-- 📚 Wiki 搜索 - 自动搜索 Minecraft Wiki 获取游戏信息
-- 🔌 灵活集成 - 支持任何兼容 OpenAI 库的 AI 模型
+- 🤖 智能信息整理 - AI 作为图书管理员，整合并呈现 Wiki 权威信息
+- 📚 自动 Wiki 查询 - 检测游戏关键词自动搜索 Minecraft Wiki
+- ⚡ 高效监听机制 - 通过 tmux capture-pane 实时捕获玩家消息
+- 🔌 模型灵活 - 无需高性能模型，基础文本处理能力即可
 
 ## 工作原理
 ```
-玩家发送消息 → Start.fish 监听并捕获
+玩家消息 → tmux capture-pane 实时监听
               ↓
-         AiChat.py 处理消息
+    检测到游戏关键词（如"钻石"、"creeper"）
               ↓
-    (需要游戏信息时调用 WikiSearch.py)
+    查询 /Lang/mc_zh_en_db.json 获取游戏 ID
               ↓
-         AI 生成回复
+    WikiSearch.py 向 Minecraft Wiki 提交查询
               ↓
-    Start.fish 将回复发送到游戏聊天
+    获取 Wiki 权威信息
+              ↓
+    AiChat.py 整理并呈现信息
+              ↓
+    回复发送至游戏聊天
 ```
 
-**流程说明：**
-1. `Start.fish` 作为主程序监听服务器日志，检测玩家消息
-2. 捕获到消息后调用 `AiChat.py` 进行 AI 处理
-3. `AiChat.py` 根据需要调用 `WikiSearch.py` 查询 Minecraft Wiki
-4. AI 生成回复后，`Start.fish` 通过 Tmux 将消息发送回游戏
+### 关于 AI 模型选择
+
+**本工具不需要高性能 AI 模型！** 由于主要信息来自 Minecraft Wiki 的权威数据，AI 仅需具备基本的文本整理和分析能力，因此，即使是较小的模型也能胜任此任务。
 
 ## 安装前准备
 
@@ -52,16 +54,11 @@ sudo pacman -S tmux python fish
 sudo zypper install tmux python3 fish
 ```
 
-**Alpine:**
-```bash
-sudo apk add tmux python3 fish
-```
-
 ## 快速开始
 
 ### 1. 创建 Python 虚拟环境
 
-现代 Linux 系统要求使用虚拟环境来隔离 Python 包，避免破坏系统环境：
+现代 Linux 系统要求使用虚拟环境管理 Python 包：
 ```bash
 # 创建虚拟环境
 python3 -m venv ~/minecraft-ai-venv
@@ -73,39 +70,48 @@ source ~/minecraft-ai-venv/bin/activate
 pip install openai requests
 ```
 
-### 2. 配置环境路径
+### 2. 配置虚拟环境路径
 
-编辑 `Start.fish` 第 3 行，修改 `source` 命令后的路径为你创建的虚拟环境：
+编辑 `Start.fish` 第 3 行，将路径修改为你创建的虚拟环境：
 ```fish
 source ~/minecraft-ai-venv/bin/activate.fish
 ```
 
 ### 3. 配置 API 密钥
 
-编辑 `AiChat.py`，修改你的 OpenAI API Key：
+编辑 `AiChat.py`，填入你的 OpenAI API Key：
 ```python
 OPENAI_KEY = "your-api-key-here"
 ```
 
-### 4. 运行程序
+### 4. 启动服务
 ```bash
 fish Start.fish
 ```
 
-或在其他 shell 中：
+或使用其他 shell：
 ```bash
 bash -c "fish Start.fish"
 ```
 
-### 5. 在游戏中使用
+### 5. 开始使用
 
-玩家在聊天框发送消息"@悦灵 ***"，AI 助手会自动回复并在需要时查询 Wiki 信息。
+玩家在游戏中提及游戏物品、生物或机制时，AI 助手会自动查询 Wiki 并整理相关信息进行回复。
+
+## 技术细节
+
+- **消息监听**: 使用 `tmux capture-pane` 捕获服务器日志
+- **关键词检测**: 自动识别游戏相关词汇
+- **数据库索引**: 通过 `./Lang/mc_zh_en_db.json` 快速定位游戏 ID
+- **Wiki 查询**: `WikiSearch.py` 提交查询并获取权威信息
+- **信息整理**: AI 将 Wiki 内容整理为易读的回复
 
 ## 文件说明
 
-- `Start.fish` - 主程序，负责消息监听和转发
-- `AiChat.py` - AI 聊天核心逻辑
-- `WikiSearch.py` - Minecraft Wiki 搜索功能
+- `Start.fish` - 主程序，负责 tmux 监听和消息转发
+- `AiChat.py` - AI 交互核心，整理 Wiki 信息
+- `WikiSearch.py` - Minecraft Wiki 查询模块
+- `Lang/mc_zh_en_db.json` - 游戏物品/实体 ID 数据库
 - `Lang/` - 多语言支持文件
 
 ## 许可证
