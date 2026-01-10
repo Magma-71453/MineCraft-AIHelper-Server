@@ -67,7 +67,7 @@ python3 -m venv ~/minecraft-ai-venv
 source ~/minecraft-ai-venv/bin/activate
 
 # 安装依赖
-pip install openai requests
+pip install openai mwclient
 ```
 
 ### 2. 配置虚拟环境路径
