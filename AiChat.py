@@ -6,7 +6,7 @@ import subprocess
 import openai
 
 # ===== OpenAI 配置 =====
-openai.api_key = os.getenv("OPENAI_API_KEY", "sk-99TbGF8PJQ71l4R026B2615166Fc40EdA540D10dD5070753")
+openai.api_key = os.getenv("OPENAI_API_KEY", "")
 openai.base_url = os.getenv("OPENAI_API_BASE", "https://free.v36.cm/v1/")
 
 # ===== 路径配置 =====
