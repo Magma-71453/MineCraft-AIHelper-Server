@@ -1,16 +1,16 @@
 #!/usr/bin/env fish
 
-source ~/MC-AiChat/bin/activate.fish
-
+source ./venv/bin/activate.fish
+tmux ls
 read -P "请选择 MC tmux 会话: " MC_SERVER
 set -gx MC_SERVER $MC_SERVER
 
-set last_msg ""
+set last_hash ""
 
 echo "开始监听 @悦灵 ……"
 
 while true
-    # 直接在管道里处理，避免 fish 拆变量
+    # 捕获日志
     set line (
         tmux capture-pane -t $MC_SERVER -p -S -50 |
         grep "@悦灵" |
@@ -25,12 +25,18 @@ while true
         continue
     end
 
-    # 去重（用整行文本，宽松但可靠）
-    if test "$line" = "$last_msg"
-        sleep 1
+    # === 优化部分：哈希去重 ===
+    # 计算当前行的 MD5 哈希值 (适配 Linux md5sum 输出格式)
+    set current_hash (echo -n "$line" | md5sum | cut -d ' ' -f 1)
+
+    if test "$current_hash" = "$last_hash"
+        sleep 0.5
         continue
     end
-    set last_msg "$line"
+
+    # 更新最后一次处理的哈希值
+    set last_hash "$current_hash"
+    # ========================
 
     # 提取 @悦灵 后的内容
     set question (echo $line | sed -E 's/^.*@悦灵[ ]*//')
