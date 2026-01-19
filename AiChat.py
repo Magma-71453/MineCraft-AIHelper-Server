@@ -21,11 +21,12 @@ with open(DB_PATH, "r", encoding="utf-8") as f:
     MC_DB = json.load(f)
 
 def find_keyword(question: str):
-    """滑动窗口中文匹配"""
     hits = []
     for name in MC_DB.keys():
         if name in question:
             hits.append(name)
+    hits.sort(key=len, reverse=True)
+    
     return hits
 
 def fetch_wiki(en_name: str):
