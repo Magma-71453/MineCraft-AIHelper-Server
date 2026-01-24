@@ -1,0 +1,227 @@
+{{Infobox block
+|image1=Iron Door.png
+|image1caption={{el|je}}
+|image2=Iron Door BE.png
+|image2caption={{el|be}}
+|image1size=x150px
+|image2size=x150px
+|invimage=Iron Door
+|light=0
+}}
+'''铁门（Iron Door）'''是仅可被[[红石信号]]开关的[[门]]。
+
+== 生成 ==
+=== 自然生成 ===
+铁门会自然生成于[[林地府邸]]的三种监狱房间和{{only|je|for=[[要塞]]}}。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|A1= Iron Ingot
+|B1= Iron Ingot
+|A2= Iron Ingot
+|B2= Iron Ingot
+|A3= Iron Ingot
+|B3= Iron Ingot
+|Output= Iron Door,3
+|type= Redstone
+}}
+
+== 破坏 ==
+挖掘铁门的合适工具是镐。
+
+{{Breaking table}}
+
+铁门被破坏后会掉落自身。
+
+== 用途 ==
+{{main|门#用途}}
+不同于木门和铜门，铁门只能使用红石信号开启，也不会被僵尸破坏。
+
+== 音效 ==
+{{Sound table/Block/Iron
+|suffix-je=
+{{Sound table
+|sound=Iron Door open1.ogg
+|sound2=Iron Door open2.ogg
+|sound3=Iron Door open3.ogg
+|sound4=Iron Door open4.ogg
+|subtitle={{tp|subtitles.block.door.toggle}}
+|source={{tp|soundCategory.block}}
+|description=打开铁门
+|id=block.iron_door.open
+|translationkey=subtitles.block.door.toggle
+|volume=0.9}}
+{{Sound table
+|sound=Iron Door close1.ogg
+|sound2=Iron Door close2.ogg
+|sound3=Iron Door close3.ogg
+|sound4=Iron Door close4.ogg
+|subtitle={{tp|subtitles.block.door.toggle}}
+|source={{tp|soundCategory.block}}
+|description=关闭铁门
+|id=block.iron_door.close
+|translationkey=subtitles.block.door.toggle
+|volume=0.9
+|foot=1}}
+|suffix-be=
+{{Sound table
+|bedrock=1
+|sound=Iron Door open1.ogg
+|sound2=Iron Door open2.ogg
+|sound3=Iron Door open3.ogg
+|sound4=Iron Door open4.ogg
+|source=方块
+|description=打开铁门
+|id=open.iron_door
+|typeid=door.open
+|soundvolume=0.9
+|soundpitch=0.9-1.0
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=Iron Door close1.ogg
+|sound2=Iron Door close2.ogg
+|sound3=Iron Door close3.ogg
+|sound4=Iron Door close4.ogg
+|source=方块
+|description=关闭铁门
+|id=close.iron_door
+|typeid=door.close
+|soundvolume=0.9
+|soundpitch=0.9-1.0
+|sounddistance
+|foot=1
+}}
+}}
+
+== 数据值 ==
+=== ID ===
+{{el|je}}：
+
+{{ID table
+|generatetranslationkeys=java
+|Iron Door
+|spritetype=block
+|nameid=iron_door
+|showblocktags=1 |blocktags={{GameTag|blocks|iron_door}}
+|foot=1}}
+
+{{el|be}}：
+; 方块
+{{ID table
+|generatetranslationkeys=bedrock
+|Iron Door
+|spritetype=block
+|nameid=iron_door
+|translationkey=tile.iron_door.name
+|foot=1}}
+
+; 物品
+{{ID table
+|generatetranslationkeys=bedrock
+|Iron Door
+|spritetype=item
+|nameid=iron_door
+|foot=1}}
+
+=== 方块数据 ===
+{{see also|基岩版数据值}}
+
+{{:门/DV}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+
+{{Block states table}}
+
+== 历史 ==
+{{for|当时所有种类的门共有的更改|门#历史}}
+{{HistoryTable
+|{{HistoryLine|java alpha}}
+|{{HistoryLine||v1.0.1|[[File:Iron Door JE1 BE1.png|32px]] [[File:Iron Door (item) JE1 BE1.png|32px]] [[File:Iron Door (bottom texture) JE1 BE1.png|32px]] 加入了铁门。}}
+|{{HistoryLine|java beta}}
+|{{HistoryLine||1.8|dev=pre1|铁门现在会自然生成于[[要塞]]。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.0.0|dev=Beta 1.9-pre6|现在使用[[镐]]可以更快地破坏铁门，破坏速度取决于工具的[[品质]]。}}
+|{{HistoryLine|||dev=rc1|更改了开关门的音效。}}
+|{{HistoryLine||1.2.1|dev=12w06a|[[File:Iron Door JE2 BE5.png|32px]] 更改了铁门上半部分的模型。}}
+|{{HistoryLine|||dev=12w07a|僵尸不再能破坏铁门。}}
+|{{HistoryLine||1.7.2|dev=13w37a|从{{cmd|give}}命令中移除了方块ID 71（铁门）。}}
+|{{HistoryLine||1.8|dev=14w10a|[[File:Iron Door JE3.png|32px]] 更改了铁门的模型。}}
+|{{HistoryLine|||dev=14w33b|[[File:Iron Door (item) JE2 BE2.png|32px]] 更改了铁门的物品纹理，现在所有门轴都在左侧，所有把手都在右侧了。铁门的纹理也有了更多细节。}}
+|{{HistoryLine||1.9|dev=15w43a|门现在的放置音效和开关音效是不同的。
+|铁门现在使用和木门不同的音效。}}
+|{{HistoryLine|||dev=15w47a|现在放置门时有音效了。<ref>{{bug|MC-2844|||Fixed}}</ref>}}
+|{{HistoryLine||1.11|dev=16w33a|铁门不再具有{{ctrl|使用}}操作，以前这样做会导致手臂摆动，并且会覆盖其他有效的{{ctrl|使用}}操作，例如扔雪球。}}
+|{{HistoryLine||1.11|dev=16w39a|铁门现在会自然生成在[[林地府邸]]中。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，铁门[[方块]]的数字ID是71，[[物品]]ID是330。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Iron Door JE4.png|32px]] 更改了铁门的纹理。}}
+|{{HistoryLine||1.15|dev=19w39a|现在铁门必须由[[镐]]挖掘才能掉落为物品。}}
+|{{HistoryLine||1.18|dev=21w41a|[[File:Iron Door (item) JE3 BE3.png|32px]] 更改了铁门的物品形式纹理，以匹配各自方块形式的外观。}}
+|{{HistoryLine|||dev=pre5|[[File:Iron Door JE5.png|32px]] 更改了铁门的模型UV映射，并更改了铁门的纹理。}}
+|{{HistoryLine||1.21.4|dev=24w44a|现在铁门不再需要木镐或品质更好的镐来挖掘。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.1.0|[[File:Iron Door JE1 BE1.png|32px]] 加入了铁门。<!--[[File:Iron Door (bottom texture) JE1 BE1.png|32px]] 这是<samp>[[gui_blocks.png]]</samp>中门的纹理，但仍不知道这个纹理是使用于可获得，还是不可获得的门（见下段）。-->}}
+|{{HistoryLine||0.1.3|[[File:Iron Door BE2.png|32px]] 现在铁门的模型的上半部是不透明的。}}
+|{{HistoryLine||0.2.0|[[File:Iron Door (item) JE1 BE1.png|32px]] 加入了铁门的物品纹理。
+|[[File:Iron Door JE1 BE1.png|32px]] 更改了铁门的模型，以显示出上半部分的透明部分。}}
+|{{HistoryLine||0.2.1 Rev2|link=携带版0.2.1 Rev2|[[File:Iron Door BE3.png|32px]] 更改了铁门的纹理。}}
+|{{HistoryLine||0.5.0|[[File:Iron Door BE4.png|32px]] 更改了铁门的模型。}}
+|{{HistoryLine||0.8.0|dev=build 1|[[File:Iron Door JE2 BE5.png|32px]] 更改了铁门的纹理以匹配{{el|je}}。}}
+|{{HistoryLine||0.13.0|dev=build 1|将铁门加入了[[创造模式物品栏]]。
+|铁门现在可以合成。
+|加入红石机制使得铁门可以正常运作。}}
+|{{HistoryLine|||dev=build 4|[[File:Iron Door (item) JE2 BE2.png|32px]] 更改了铁门的物品纹理。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.1.0|dev=1.1.0.0|现在放置铁门时有音效了。<ref>{{bug|MCPE-10079|||Fixed}}</ref>
+|铁门现在会自然生成在林地府邸中。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Iron Door BE6.png|32px]] 更改了铁门的纹理。}}
+|{{HistoryLine||1.16.0|dev=1.15.0.51|僵尸不能再破坏铁门了。<ref>{{bug|MCPE-43725|||Fixed}}</ref>}}
+|{{HistoryLine||1.18.10|dev=1.18.10.20|[[File:Iron Door (item) JE3 BE3.png|32px]] 更改了铁门的物品形式纹理，以匹配各自方块形式的外观。}}
+|{{HistoryLine|||dev=1.18.10.22|[[File:Iron Door BE7.png|32px]] 更改了铁门的模型UV映射和纹理。}}
+|{{HistoryLine||1.19.50|dev=1.19.50.21|更改了铁门的开关音效以匹配{{el|je}}。}}
+|{{HistoryLine||1.21.50|dev=1.21.50.24|现在铁门不再需要木镐或品质更好的镐挖掘。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU1|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|[[File:Iron Door JE1 BE1.png|32px]] [[File:Iron Door (item) JE1 BE1.png|32px]] 加入了铁门。}}
+|{{HistoryLine||xbox=TU5|铁门现在会自然生成于要塞。}}
+|{{HistoryLine||xbox=TU27|xbone=CU15|ps3=1.18|psvita=1.18|ps4=1.18|现在合成铁门时会给予3个，而不是1个。}}
+|{{HistoryLine||xbox=TU32|xbone=?|ps3=?|psvita=?|ps4=?|wiiu=?|switch=1.0.1|铁门不再具有{{ctrl|使用}}操作，以前这样做会导致手臂摆动，并且会覆盖其他有效的{{ctrl|使用}}操作，例如扔雪球。}}
+|{{HistoryLine||xbox=TU33|xbone=CU21|ps3=1.24|psvita=1.24|ps4=1.24|wiiu=Patch 3| [[File:Iron Door (item) JE2 BE2.png|32px]] 更改了铁门的物品纹理。}}
+|{{HistoryLine||xbox=TU43|xbone=CU33|ps3=1.36|psvita=1.36|ps4=1.36|wiiu=Patch 13| [[File:Iron Door (item) JE1 BE1.png|32px]] 更改了铁门的物品纹理。}}
+|{{HistoryLine||xbox=TU44|xbone=CU34|ps3=1.37|psvita=1.37|ps4=1.37|wiiu=Patch 14| [[File:Iron Door (item) JE2 BE2.png|32px]] 更改了铁门的物品纹理。}}
+|{{HistoryLine||xbox=TU54|xbone=CU44|ps3=1.52|psvita=1.52|ps4=1.52|wiiu=Patch 24|switch=1.0.4|铁门现在会自然生成在林地府邸中。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Iron Door BE6.png|32px]] 更改了铁门的纹理。}}
+|{{HistoryLine|new 3ds}}
+|{{HistoryLine||0.1.0|[[File:Iron Door JE2 BE5.png|32px]] [[File:Iron Door (item) JE1 BE1.png|32px]] 加入了铁门。}}
+|{{HistoryLine||1.9.19|铁门现在会自然生成在林地府邸中。}}
+}}
+{{-}}
+
+== 画廊 ==
+<gallery>
+Iron Door in Stronghold.png|{{in|je}}[[要塞]]里自然生成的铁门
+Doortypes.png|目前所有种类的门以及对应的活板门
+MansionDoor.png|林地府邸监狱中的铁门
+</gallery>
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|building blocks|redstone blocks}}
+{{Navbox redstone}}
+
+[[Category:红石电路]]
+
+[[en:Iron Door]]
+[[es:Puerta de hierro]]
+[[fr:Porte en fer]]
+[[ja:鉄のドア]]
+[[ko:철 문]]
+[[pt:Porta de ferro]]

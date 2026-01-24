@@ -1,0 +1,67 @@
+{{Infobox item
+|image=Mourner Pottery Sherd.png
+|image2=Mourner Decorated Pot.png
+|invimage=Mourner Pottery Sherd
+}}
+
+'''悲恸纹样陶片（Mourner Pottery Sherd）'''是图案形似[[监守者]]的[[陶片]]。
+
+== 获取 ==
+=== 考古战利品 ===
+用[[刷子]]刷扫[[海底废墟]]里的[[可疑的沙砾]]有概率掉落悲恸纹样陶片。
+
+{{ArchaeologyLootItem|mourner_pottery_sherd}}
+
+=== 饰纹陶罐 ===
+被不具有[[精准采集]]的工具挖掘破坏或被[[弹射物]]击毁时，附有悲恸纹样陶片的[[饰纹陶罐]]会掉落悲恸纹样陶片。
+
+== 用途 ==
+=== 合成材料 ===
+{{crafting usage|Mourner Pottery Sherd}}
+
+== 数据值 ==
+=== ID ===
+{{el|je}}：
+{{ID table
+|generatetranslationkeys=java
+|Mourner Pottery Sherd
+|spritetype=item
+|nameid=mourner_pottery_sherd
+|showitemtags=1
+|itemtags={{GameTag|item|mourner_pottery_sherd}}
+|foot=1}}
+
+{{el|be}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Mourner Pottery Sherd
+|spritetype=item
+|nameid=mourner_pottery_sherd
+|foot=1}}
+
+== 成就 ==
+{{Load achievements|careful-restoration}}
+
+== 进度 ==
+{{load advancements|adventure.salvage_sherd;adventure.craft_decorated_pot_using_only_sherds}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.20|dev=23w12a|[[File:Mourner Pottery Shard JE1 BE1.png|32px]] 加入了悲恸纹样陶片。}}
+|{{HistoryLine|||dev=23w16a|将悲恸纹样陶片的英文名称由“Mourner Pottery Shard”改为“Mourner Pottery Sherd”。}}
+|{{HistoryLine||1.21.2|dev=24w33a|悲恸纹样陶片的稀有度由常见改为少见。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.19.80|exg=1.20|dev=1.19.80.22|[[File:Mourner Pottery Shard JE1 BE1.png|32px]] 加入了悲恸纹样陶片。}}
+|{{HistoryLine|||exg=none|dev=1.20.0.21|悲恸纹样陶片不再属于[[实验性玩法]]。}}
+|{{HistoryLine|||dev=1.20.0.22|将悲恸纹样陶片的英文名称由“Mourner Pottery Shard”改为“Mourner Pottery Sherd”。}}
+|{{HistoryLine||1.21.30|dev=1.21.30.21|悲恸纹样陶片的稀有度由常见改为少见。}}
+}}
+
+== 导航 ==
+{{Navbox items|Ingredients}}
+
+[[Category:陶片]]
+
+[[en:Mourner Pottery Sherd]]
+[[pt:Óstraco de Defensor]]

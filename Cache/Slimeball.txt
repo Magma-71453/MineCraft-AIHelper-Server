@@ -1,0 +1,121 @@
+{{Distinguish|黏液块|史莱姆}}
+{{Infobox item
+|image=Slimeball.png
+|invimage=Slimeball
+}}
+{{quote|Minecraft世界中的某些区域比别处更加……黏糊。你从地表是看不出区别的，但在这些被爱好者们称为“史莱姆区块”的地下深处，栖居着一种从墙体中渗出来的生物。这些生物死亡时会掉落最纯最恶心的黏液球。|[[Duncan Geere]]<ref>{{article|taking-inventory--slimeball|Taking Inventory: Slimeball|Jun 24,2021}}</ref>||Duncan Geere Mojavatar.png}}
+
+'''黏液球（Slimeball）'''是主要由[[史莱姆]]掉落的[[物品]]。
+
+== 获取 ==
+=== 史莱姆 ===
+{{Drop sources|Slimeball}}
+
+=== 熊猫 ===
+幼年[[熊猫]]打喷嚏时有{{frac|1|700}}（约0.143%）的概率掉落1个黏液球。
+
+=== 合成 ===
+{{Crafting
+|Slime Block
+|Output=Slimeball,9
+|type=Miscellaneous
+}}
+
+=== 交易 ===
+{{Trade sources}}
+
+== 用途 ==
+=== 繁殖 ===
+黏液球可用来繁殖[[青蛙]]，给[[蝌蚪]]喂食黏液球会使其加速成长。
+
+=== 合成材料 ===
+{{crafting usage|Slimeball}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Slimeball
+|spritetype=item
+|nameid=slime_ball
+|showitemtags=1
+|itemtags={{GameTag|item|slime_ball}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Slimeball
+|spritetype=item
+|nameid=slime_ball
+|foot=1}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java Alpha}}
+|{{HistoryLine||v1.0.11|[[File:Slimeball JE1 BE1.png|32px]] 加入史莱姆的掉落物黏液球，它们当时没有任何用途。}}
+|{{HistoryLine|java Beta}}
+|{{HistoryLine||1.7|现在黏液球可用于合成[[黏性活塞]]。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.0.0|dev=Beta 1.9-pre2|现在黏液球可用于合成[[岩浆膏]]。}}
+|{{HistoryLine||1.6.1|dev=13w18a|现在黏液球可用于合成[[拴绳]]。}}
+|{{HistoryLine||1.8|dev=14w02a|现在9个黏液球可以合成1个[[黏液块]]，每个黏液块可以分解为9个黏液球。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，黏液球的数字ID是341。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Slimeball JE2 BE2.png|32px]] 更改了黏液球的纹理。
+|现在幼年[[熊猫]]打喷嚏时有极小概率掉落黏液球。}}
+|{{HistoryLine||1.19|dev=22w11a|现在黏液球可用于繁殖[[青蛙]]和加速[[蝌蚪]]成长。}}
+|{{HistoryLine||1.21.6|dev=25w18a|黏液球不再能用于合成[[拴绳]]。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.9.0|dev=build 1|[[File:Slimeball JE1 BE1.png|32px]] 加入了黏液球。}}
+|{{HistoryLine||0.12.1|dev=build 1|将黏液球加入到创造模式物品栏中。
+|现在黏液球可由史莱姆掉落。
+|现在黏液球可用于合成[[岩浆膏]]。}}
+|{{HistoryLine||0.14.0|dev=build 1|现在黏液球可用于合成[[黏液块]]。}}
+|{{HistoryLine||0.15.0|dev=build 1|现在黏液球可用于合成[[黏性活塞]]和[[拴绳]]。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.8.0|dev=1.8.0.8|现在幼年[[熊猫]]打喷嚏时有极小概率掉落黏液球。}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Slimeball JE2 BE2.png|32px]] 更改了黏液球的纹理。
+|黏液球现在可以通过与[[流浪商人]]交易获得。}}
+|{{HistoryLine||1.18.30|dev=1.18.20.23|现在黏液球可用于繁殖[[青蛙]]和加速[[蝌蚪]]成长。}}
+|{{HistoryLine||1.21.0|exg=updateAnnouncedLive2023|dev=1.21.0.20|黏液球现在可以从[[不祥宝库]]普通战利品中获得。}}
+|{{HistoryLine|||exg=none|dev=1.21.0.22|1.21.0.20中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine|||dev=1.21.0.23|回退了1.21.0.20中的变更。}}
+|{{HistoryLine||1.21.90|dev=1.21.90.21|黏液球不再能用于合成[[拴绳]]。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU1|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|[[File:Slimeball.png|32px]] 加入了黏液球。}}
+|{{HistoryLine||xbox=TU3|现在黏液球可用于合成黏性活塞。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.83|wiiu=none|switch=none|现在幼年[[熊猫]]打喷嚏时有极小概率掉落黏液球。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Slimeball JE2 BE2.png|32px]] 更改了黏液球的纹理。}}
+|{{HistoryLine|New 3DS}}
+|{{HistoryLine||0.1.0|[[File:Slimeball JE1 BE1.png|32px]] 加入了黏液球。}}
+}}
+
+== 画廊 ==
+=== 其他媒体 ===
+<gallery>
+Slimeball on a plain background.png|一个纯色背景中的黏液球
+</gallery>
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox items|Ingredients}}
+
+[[cs:Sliz]]
+[[de:Schleimball]]
+[[en:Slimeball]]
+[[es:Bola de slime]]
+[[fr:Boule de slime]]
+[[hu:Nyálkagolyó]]
+[[it:Palla di gelatina]]
+[[ja:スライムボール]]
+[[ko:슬라임볼]]
+[[lzh:黏膠球]]
+[[nl:Slijmbal]]
+[[pl:Kula szlamu]]
+[[pt:Bola de Slime]]
+[[ru:Слизь]]
+[[th:ก้อนสไลม์]]
+[[uk:Слизова кулька]]

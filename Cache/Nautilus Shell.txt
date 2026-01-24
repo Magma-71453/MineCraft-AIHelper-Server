@@ -1,0 +1,87 @@
+{{about|一种物品|生物|鹦鹉螺}}
+{{Infobox item
+|image=Nautilus Shell.png
+|invimage=Nautilus Shell
+}}
+{{quote|鹦鹉螺壳于2018年7月在水域更新中与探险家地图、海龟蛋、海带和三叉戟一同加入Minecraft。有趣的是，游戏中并没有鹦鹉螺，这就引出了这些鹦鹉螺壳是从哪里来的问题。也许它们曾经存在，后来灭绝了？我们会让Mojang的海洋生物团队进行调查并汇报。|custom=[[Duncan Geere]]评论于2023年10月16日<ref>{{article|nautilus-shell|Taking Inventory: Nautilus Shell|October 16, 2023}}</ref>，在[[鹦鹉螺]]于2025年9月举办的[[Minecraft LIVE – September 2025]]宣布前|image=Duncan Geere Mojavatar.png}}
+
+'''鹦鹉螺壳（Nautilus Shell）'''是一种用于合成[[潮涌核心]]的物品。
+
+== 获取 ==
+=== 钓鱼 ===
+鹦鹉螺壳可以在[[钓鱼]]时作为[[钓鱼#垃圾与宝藏|宝藏物品]]钓上来。[[海之眷顾]]魔咒可以增加钓到鹦鹉螺壳的概率。
+
+=== 溺尸 ===
+[[溺尸]]生成时有{{only|for=3%|java|short=1}}、{{until|for=8%|be 26.0}}或{{upcoming|for=7%|be 26.0}}的概率在[[副手]]持有一个鹦鹉螺壳，被杀死后会掉落，因为溺尸死亡时总是会掉落副手中的物品。
+
+=== 交易 ===
+{{Trade sources}}
+
+=== 鹦鹉螺 ===
+{{Drop sources|Nautilus Shell}}
+
+== 用途 ==
+{{in|bedrock}}鹦鹉螺壳是少数可以放在副手槽的物品之一。
+
+=== 合成材料 ===
+{{Crafting usage|Nautilus Shell}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Nautilus Shell
+|spritetype=item
+|nameid=nautilus_shell
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Nautilus Shell
+|spritetype=item
+|nameid=nautilus_shell
+|foot=1}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.13|dev=18w15a|[[File:Nautilus Shell JE1 BE2.png|32px]] 加入了鹦鹉螺壳。}}
+|{{HistoryLine||1.21.2|dev=24w33a|鹦鹉螺壳的稀有度由常见改为少见。}}
+|{{HistoryLine||1.21.11|dev=25w41a|加入了[[鹦鹉螺]]，其死亡时有概率掉落鹦鹉螺壳。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.4.0|dev=1.2.20.1|exg=1|[[File:Nautilus Shell BE1.png|32px]] 加入了鹦鹉螺壳。
+|此时鹦鹉螺壳无法获得。}}
+|{{HistoryLine|||dev=1.2.20.2|[[File:Nautilus Shell JE1 BE2.png|32px]] 更改了鹦鹉螺壳的纹理。}}
+|{{HistoryLine||1.5.0|dev=1.5.0.0|exg=none|鹦鹉螺壳不再属于[[实验性玩法]]。
+|现在[[溺尸]]生成时副手会持有鹦鹉螺壳。}}
+|{{HistoryLine|||dev=1.5.0.1|鹦鹉螺壳现在可以用来合成[[潮涌核心]]。}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|鹦鹉螺壳现在可以通过与[[流浪商人]]交易获得。}}
+|{{HistoryLine||1.21.30|dev=1.21.30.21|鹦鹉螺壳的稀有度由常见改为少见。}}
+|{{HistoryLine||1.21.130|dev=1.21.130.20|加入了[[鹦鹉螺]]，其死亡时有概率掉落鹦鹉螺壳。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU69|ps3=1.76|psvita=1.76|ps4=1.76|wiiu=Patch 38|[[File:Nautilus Shell JE1 BE2.png|32px]] 加入了鹦鹉螺壳。}}
+|{{HistoryLine||xbox=none|ps3=none|psvita=none|ps4=1.91|wiiu=none|鹦鹉螺壳现在可以通过与流浪商人交易获得。}}
+}}
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox items|Ingredients}}
+
+[[de:Nautilusschale]]
+[[en:Nautilus Shell]]
+[[es:Caparazón de nautilo]]
+[[fr:Coquille de nautile]]
+[[it:Conchiglia di nautilo]]
+[[ja:オウムガイの殻]]
+[[ko:앵무조개 껍데기]]
+[[lzh:鸚鵡螺殼]]
+[[nl:Nautilusschelp]]
+[[pl:Muszla łodzika]]
+[[pt:Concha de Náutilo]]
+[[ru:Раковина наутилуса]]
+[[th:เปลือกหอยงวงช้าง]]
+[[uk:Мушля навтилуса]]

@@ -1,0 +1,138 @@
+{{about|完整方块|薄薄的雪层|雪|会造成冻伤的类似方块|细雪}}
+{{Infobox block
+|image=Snow Block.png
+|invimage=Snow Block
+|light=0
+}}
+
+{{quote|世界上没有任何事情能比在冬天的早晨醒来、打开窗帘、发现它一夜之间下雪了的感觉更好了。看到世界变化的喜悦隐藏在深深而又蓬松的白色之下，这是任何其他体验无法比拟的。|[[Duncan Geere]]<ref name="block-week-snow">{{article|block-week-snow|Block of the Week: Snow|May 19, 2017}}</ref>||Duncan Geere Mojavatar.png}}
+'''雪块（Snow Block）'''是用[[雪]]做成的完整方块。
+
+== 生成 ==
+=== 自然生成 ===
+雪块自然生成在[[冰刺之地]]、[[冻洋]]、[[雪林]]、[[积雪山坡]]、[[尖峭山峰]]、[[冰封山峰]]生物群系中，也会作为[[雪屋]]的墙壁和雪原[[村庄]]中一些房屋的墙壁生成。
+
+{{Block distribution}}
+
+== 获取 ==
+被具有[[精准采集]]的锹挖掘破坏时，8层的[[雪]]被破坏后会掉落1个雪块。<ref>{{bug|MC-134408}}</ref>
+
+=== 箱子战利品 ===
+[[Java版]]：
+{{lootChestItem|snow_block|only=java}}
+
+=== 合成 ===
+{{Crafting
+|A2= Snowball |B2= Snowball |C2=
+|A3= Snowball |B3= Snowball |C3=
+|Output= Snow Block
+|type= Building block
+}}
+
+== 破坏 ==
+挖掘雪块的合适工具是锹。雪块需要木锹或品质更好的锹来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+没有被具有[[精准采集]]的工具挖掘破坏时，雪块被破坏后会掉落4个[[雪球]]。
+
+被具有[[精准采集]]的工具挖掘破坏时，雪块被破坏后会掉落自身。
+
+== 用途 ==
+与[[雪]]不同，雪块既不会在高亮度等级的光源下融化，也不会被水摧毁。
+
+=== 雪傀儡 ===
+{{FakeImage|align=right|{{BlockGrid|scale=2|s=Snow block|p=Carved Pumpkin|p|s|s}}|雪傀儡构建方法。}}
+雪块能用来制造[[雪傀儡]]。放2个雪块，可以竖放或横放，然后在雪块一端再放1个[[雕刻南瓜]]或[[南瓜灯]]就能生成雪傀儡，注意雕刻南瓜或南瓜灯必须要最后放置。
+
+=== 合成材料 ===
+{{crafting usage|Snow Block}}
+
+== 音效 ==
+{{Sound table/Block/Snow}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Snow Block
+|spritetype=block
+|nameid=snow_block
+|showblocktags=1
+|blocktags={{GameTag|block|snow_block}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Snow Block
+|spritename=snow-block
+|spritetype=block
+|nameid=snow
+|foot=1}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java Alpha}}
+|{{HistoryLine||v1.0.5|[[File:Snow Block JE1 BE1.png|32px]] 加入了雪块。}}
+|{{HistoryLine||v1.0.5_01|现在需要用锹来获取[[雪球]]。
+|雪块上面的雪看起来不再不正常了。}}
+|{{HistoryLine||v1.0.6|现在需要4个雪球合成雪块而不是9个了。
+|摧毁雪块会掉落4-6个雪球，允许只带4个雪球就能刷无限雪块和雪球了。}}
+|{{HistoryLine||v1.1.1|修复了无限刷雪球的漏洞，现在摧毁雪块只会掉落4个雪球。}}
+|{{HistoryLine|java Beta}}
+|{{HistoryLine||1.8|dev=pre1|雪现在不再在寒冷的生物群系中生成。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.0.0|dev=Beta 1.9-pre1|雪块现在再次在寒冷的生物群系中生成。
+|雪块现在可以用于制造[[雪傀儡]]。}}
+|{{HistoryLine||1.3.1|dev=12w22a|雪块的物品栏纹理被旋转了。}}
+|{{HistoryLine||1.4.2|dev=12w38a|雪块被给予了新的破坏音效。}}
+|{{HistoryLine||1.9|dev=15w43a|雪块现在可以在[[雪屋]]里生成。}}
+|{{HistoryLine||1.13|dev=17w47a|方块ID从<code>snow</code>更改为<code>snow_block</code>。
+|英文名被更改为“Snow Block”。
+|在[[扁平化]]前，此方块的数字ID是80。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Snow Block JE2 BE2.png|32px]] 更改了雪块的纹理。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.1.0|[[File:Snow Block JE1 BE1.png|32px]] 加入了雪块。}}
+|{{HistoryLine||0.9.0|dev=build 1|现在雪块会在冰刺之地生物群系自然生成。}}
+|{{HistoryLine||0.12.1|dev=build 1|雪块现在是可再生资源，并且也能够用来制作雪傀儡了。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|雪块现在作为[[雪屋]]的一部分生成。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.4.0|dev=1.2.14.2|雪块现在会在[[冰山]]中自然生成。}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Snow Block JE2 BE2.png|32px]] 更改了雪块的纹理。
+|雪块现在会生成于雪原村庄里。}}
+|{{HistoryLine||1.11.0|dev=1.11.0.1|雪块现在能在积雪的村庄里的[[箱子]]里找到。}}
+|{{HistoryLine||1.21.30|dev=1.21.30.22|雪块的英文名称由“Snow”更改为“Snow Block”，以匹配{{el|je}}。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU1|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|[[File:Snow Block JE1 BE1.png|32px]] 加入了雪块。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Snow Block JE2 BE2.png|32px]] 更改了雪块的纹理。}}
+}}
+
+== 你知道吗 ==
+* 当雪块放在草方块上面的时候，草方块中草的纹理会改变，看起来就像是有一层雪覆盖在它上面一样。
+
+== 参见 ==
+* [[雪傀儡]]
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|natural blocks}}
+
+[[cs:Sníh]]
+[[de:Schneeblock]]
+[[en:Snow Block]]
+[[es:Nieve]]
+[[fr:Bloc de neige]]
+[[hu:Hóblokk]]
+[[it:Blocco di neve]]
+[[ja:雪ブロック]]
+[[ko:눈 블록]]
+[[nl:Sneeuwblok]]
+[[pl:Blok śniegu]]
+[[pt:Bloco de neve]]
+[[ru:Снег (блок)]]
+[[uk:Блок снігу]]

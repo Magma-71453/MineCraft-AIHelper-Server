@@ -1,0 +1,484 @@
+{{About|[[Minecraft]]中的方块|[[Minecraft: Story Mode]]中的方块|MCSM:结构方块}}
+{{Infobox block
+|title=结构方块
+|group1=方块物品
+|1-1=Structure_Block.png
+|group2=保存模式
+|2-1=Structure Block Save.png
+|group3=加载模式
+|3-1=Structure Block Load.png
+|group4=角落模式
+|4-1=Structure Block Corner.png
+|group5=数据模式
+|5-1=Structure Block Data.png
+|group6=3D输出模式（仅基岩版）
+|6-1=Structure Block Export.png
+|invimage=Structure Block
+|light=0
+}}
+{{relevant tutorial|结构方块}}
+{{quote|这是一种类似于[[命令方块]]的地图编辑方块。它可以储存你在一个世界所建造的结构，比如房子。然后就有可能把它在世界里加载很多次了。<br>所以基本上只要保存模板，就可以在任意位置放置你的结构。更不错的特点是，每一个结构放置时可被旋转或镜像。|[[Searge]]|结构方块<ref>https://www.reddit.com/r/Minecraft/comments/4hn10x/jeb_made_textures_for_seargedps_structure_block/d2qya3z</ref>|Michael_Stoyke_Mojang_avatar.png}}
+'''结构方块（Structure Block）'''是用于放置和手动操作[[结构]]的方块。
+
+== 生成 ==
+结构方块不会生成在世界中。部分结构包含结构方块，但这些结构方块在自然生成时被转换为了其他物体，使结构方块不会生成在世界中。
+
+使用结构方块加载包含结构方块的结构会正常地生成结构方块。
+
+== 获取 ==
+{{see also|Tutorial:获取任意物品}}
+结构方块无法在未开启[[作弊]]的[[生存模式]]的世界中获取。使用[[创造模式]]或启用[[作弊]]，结构方块可以通过{{only|for=[[创造模式物品栏]]（需要启用“{{tp|options.operatorItemsTab}}”，或“{{tp|itemGroup.hotbar}}”中有结构方块）|JE}}、[[创造模式]]中使用{{ctrl|选取方块}}或[[命令]]等方式获得。
+
+== 破坏 ==
+结构方块不能被挖掘破坏。
+
+{{Breaking table}}
+
+结构方块被破坏后不会掉落。
+
+== 用途 ==
+结构方块不可被[[生存模式]]下的玩家破坏，也不可被[[凋灵]]和[[末影龙]]破坏，其爆炸抗性和基岩相同。
+
+对结构方块按下{{ctrl|使用}}键可以打开其界面。只有处于[[创造模式]]且拥有适当权限的玩家才能打开结构方块界面。{{in|je}}若被命名，结构方块会在突出显示时在其上方显示名字，名字跟在方块模式后面（如“保存：房子”）。
+
+结构方块的物品形式使用一个方块形式不会使用的“空”的纹理。
+
+保存在内存中的结构比保存在磁盘上的同名结构有更高的优先级。只有在内存中的结构卸载后，磁盘上的同名结构才能被加载。
+
+结构方块可以切换模式来改变工作方式，在切换模式时会尽可能保留结构方块的设置。
+
+部分模式下的结构方块允许接收红石信号来触发其工作，此时的结构方块是[[红石元件#机械元件|机械元件]]，可被下列形式激活：
+* 毗邻的开启的'''[[红石元件#电源|电源]]'''（例外：[[红石火把]]不会激活其所附着的结构方块，[[侦测器]]只会激活指向的结构方块）。
+* 毗邻的'''[[红石电路/充能与激活|充能方块]]'''。
+* 毗邻的指向结构方块且激活的[[红石中继器]]、[[红石比较器]]或[[红石粉]]（包括结构方块上方的红石粉）；毗邻但未指向结构方块的红石粉不会激活结构方块。
+
+{{in|be}}在同一红石刻内，电容器更新阶段前存在，但在电容器更新阶段被取消的信号无法激活结构方块。
+
+多数模式具有这些选项：
+
+; 模式
+: 这个选项被用于更改当前模式。
+: {{in|je}}点击模式按钮会切换模式。需要按住Alt时点击才能切换成数据模式。
+: {{in|be}}模式选择是一个下拉菜单，可以选择其中的选项。
+
+; 结构名称
+: 希望操作的结构的[[命名空间ID]]。只能使用命名空间ID允许的[[命名空间ID#合法字符|合法字符]]。
+: 若不指定命名空间，则默认为{{only|je|for=<code>minecraft</code>}}或{{only|be|for=<code>mystructure</code>}}。
+
+; 相对位置
+: 从结构方块本身所处的位置计算，输入X、Y、Z值以设置结构轮廓的起始坐标。
+: 对于任何方向，结构方块允许的最大尺寸是{{only|je|for=48格}}或{{only|be|for=长、宽64格，高384格}}。
+: {{in|je}}默认为X=0，Y=1，Z=0。
+: {{in|be}}默认为X=0，Y=-1，Z=0。
+
+; {{only|be|for=重置}}
+: 恢复所有参数回到打开界面时的值。
+
+{{in|be}}结构方块的界面会实时渲染结构区域的场景，可以拖动并改变角度，但不能缩放。
+
+=== 保存模式 ===
+{{Filetr|StructureSaveGUI.png|缩略图|250px|Java版的保存模式界面}}
+{{Filetr|Structure Block Bedrock ClassicUI.png|thumb|250px|基岩版的保存模式界面}}
+{{Filetr|InvisibleBlocksShow.png|缩略图|250px|{{in|je}}游戏中的隐形方块被渲染出的立方体框外观}}
+{{BlockSprite|Structure Block Save}} '''保存模式（Save Mode）'''的结构方块可以存储结构。
+
+保存模式的结构方块在被红石激活时，会尝试以其中被配置的内容存储结构。{{in|je}}红石激活的存储模式的结构方块只会存储结构到内存而不是文件中；{{in|be}}红石激活的存储模式的结构方块的存储方式由“红石存储模式”选项控制。
+
+保存模式的结构方块包含以下选项：
+
+; 结构名称
+: 将要存储的结构名称。
+
+; 相对位置
+: 将要存储的结构的起始位置。
+
+; {{only|je|for=显示隐形方块}}{{anchor|隐形方块}}
+: 以小型的彩色立方体线框标记[[空气]]及其变种、[[结构空位]]、[[屏障]]和[[光源方块]]的位置。
+: 空气的种类不会影响渲染外观。<ref>{{bug|MC-221834|||Invalid}}</ref>
+: 默认关闭。
+: {| class="wikitable" style="text-align:center" data-description="Rendered invisible blocks"
+! 方块
+! 渲染外观
+! 颜色
+|-
+| {{BlockLink|Air}}<br>{{code|minecraft:air}}<br>{{BlockLink|Cave Air}}<br>{{code|minecraft:cave_air}}<br>{{BlockLink|Void Air}}<br>{{code|minecraft:void_air}}
+| [[File:Air (shown).png|100px]]
+| {{color|#8080FF}}
+|-
+| {{BlockLink|Structure Void}}<br>{{code|minecraft:structure_void}}
+| [[File:Structure Void (shown).png|100px]]
+| {{color|#FFC0C0}}
+|-
+| {{BlockLink|Barrier}}<br>{{code|minecraft:barrier}}
+| [[File:Barrier (shown).png|100px]]
+| {{color|#FF0000}}
+|-
+| {{BlockLink|Light Block}}<br>{{code|minecraft:light}}
+| [[File:Light (shown).png|100px]]
+| {{color|#FFFF00}}
+|}
+
+; 结构大小
+: 输入X、Y、Z坐标来设置与相对位置坐标的距离，决定与第一个角相对的另一个角，控制了结构的大小。
+: 最大尺寸{{only|je|for=48×48×48}}或{{only|be|for=64×384×64}}。
+: {{in|je}}若指定的值合法，结构方块将会在结构周围绘制存储区域的轮廓。
+: {{in|be}}若指定的值合法，结构方块将会在'''显示边框'''设置开启时结构周围绘制存储区域的轮廓。
+
+; 探测结构大小和位置
+: 使用放置在结构对角的{{slink||角落模式}}方块，来自动计算结构的大小和位置
+: 保存模式方块的结构名称必须与角落模式方块内的名称完全匹配，否则无法检测。
+: 按下探测时会尝试获取区域，获取成功后就会更新相应的参数：
+:# 首先，根据结构方块获取区域：
+:#* 若只有一个对应的角落模式方块，则选取以自身和对应的角落模式方块为顶点的立方体。
+:#* 若只有两个对应的角落模式方块，则选取以这两个角落模式方块为顶点的立方体。
+:#* 若有多于两个对应的角落模式方块，则在其中分别取出各个坐标轴坐标的最大及最小值作为边界，以此取出最大的立方体。（即所有对应的角落模式方块的内接立方体）
+:#* 若上述条件不符合则获取失败。
+:#* 会使结构大小或相对位置超出限制的角落方块会被忽略，而不会被视为上述的“对应的角落模式方块”。
+:# 随后，选取其中以两个结构方块的顶点为顶点的立方体区域。
+:#* 如果被选择两个结构方块在任意坐标轴的距离不大于1，则获取失败。
+:#* 若结构大小或相对位置超出限制，则获取失败。
+
+; 包括实体
+: 保存结构时也保存结构中的任何[[实体]]。
+: 默认{{only|je|for=关闭}}或{{only|be|for=开启}}。
+
+; {{only|be|for=移除方块}}
+: 导出结构时，不在其中包含任何[[方块]]，但可以包含实体。
+: 默认关闭。
+
+; {{only|be|for=红石存储模式}}
+: 选项包括{{cd|d=，|存储在内存中|存储至磁盘}}。
+: 当设置为“存储在内存中”时，通过红石信号激活结构方块所创建的结构会在世界关闭后被删除；
+: 当设置为“存储至磁盘”时，通过红石信号激活结构方块所创建的结构不会在世界关闭后被删除。
+: 该设置不影响手动保存的结构。
+: 默认为<code>-{}-存储在内存中</code>。
+
+; {{only|be|for=显示边框}}
+: 高亮显示即将存储区域的轮廓。
+: 默认开启。
+
+; 保存
+: 当所有的坐标和结构名称已被输入时，按下保存按钮将结构保存。
+: {{in|je}}结构会被存储到{{filepath|-{}-<''存档名称''>/generated/<''命名空间''>/structures/<''路径''>.nbt}}中，命名空间和路径取决于结构名称。若有同名文件则覆盖。
+: {{in|be}}结构会被存储到存档的数据库中，而不是独立的文件。
+
+; {{only|be|for=导出}}
+: 将结构导出为一个<code>.mcstructure</code>文件，可以被[[行为包]]加载。如果一个结构包含了行为包的自定义方块，那么这个方块也会被存储到结构中。
+: 这个选项只在Windows 10设备上可用。尽管Android设备已经宣称加入此特性，但由于{{bug|MCPE-122681}}，其并不可用，需要使用资源包修改结构方块界面以实现功能。[[基岩版1.21.130]]后，使用资源包修改界面亦无法再导出。
+
+=== 加载模式 ===
+{{Filetr|StructureLoadGUI.png|缩略图|250px|Java版的加载模式界面}}
+{{Filetr|Structure Block Bedrock ClassicUI Load.png|thumb|250px|基岩版的加载模式界面}}
+
+{{BlockSprite|Structure Block Load}} '''加载模式（Load Mode）'''的结构方块可以向世界中生成结构。
+
+加载模式的结构方块在被红石激活时，会尝试以其中被配置的内容加载结构，并自动先进行初始化。
+
+{{in|be}}结构加载可以指定加载动画，使加载将不再是在一刻内完成的，而是随着时间逐渐生成。
+* 一旦开始加载，即使破坏结构方块也不会停止加载过程。
+* 这个过程可能会破坏结构中由多个部分构成的方块（如[[床]]、[[门]]或[[高草]]），破坏结构中需要依附其他方块的方块（如[[火把]]），或导致[[水]]、[[熔岩]]、[[火]]的溢出和蔓延。
+
+加载模式的结构方块包含以下选项：
+
+; 结构名称
+: 将要加载的结构名称。
+: {{in|je}}游戏中原本就存在许多结构，这些结构处于<版本号>.jar中<code>-{}-/data/minecraft/structure/''<文件夹名称>''</code>里，只需输入<code>-{}-''<文件夹名称>''/''<结构名称(无后缀名)>''</code>即可被加载模式的结构方块使用。
+: 存在下列文件夹：
+:* <code>-{}-[[ancient_city]]</code>
+:* <code>-{}-[[bastion]]</code>
+:* <code>-{}-[[末地城|end_city]]</code>
+:* <code>[[fossil]]</code>
+:* <code>[[雪屋|igloo]]</code>
+:* <code>-{}-[[下界化石|nether_fossils]]</code>
+:* <code>-{}-[[掠夺者前哨站|pillager_outpost]]</code>
+:* <code>-{}-[[废弃传送门|ruined_portal]]</code>
+:* <code>[[沉船|shipwreck]]</code>
+:* <code>-{}-[[trail_ruins]]</code>
+:* <code>-{}-[[试炼密室|trial_chambers]]</code>
+:* <code>-{}-[[海底废墟|underwater_ruin]]</code>
+:* <code>-{}-[[village]]</code>
+:* <code>-{}-[[林地府邸|woodland_mansion]]</code>
+
+; 相对位置
+: 将要加载的结构的起始位置。
+
+; 显示边框
+: 高亮显示即将加载区域的轮廓。
+
+; {{text anchor|结构完整性}}及种子
+: 根据输入的种子，在生成时只生成部分方块。
+: 完整性数值越低，生成的方块越少。
+: 未生成方块的位置，位置上原本的方块会被保留。
+: {{in|je}}完整性数值仅允许0.0到1.0范围内，默认为1.0。
+: {{in|be}}完整性数值仅允许0.0到100.0范围内，默认为100.0。
+
+; 包括实体
+: 加载结构中保存的[[实体]]。
+: 默认{{only|je|for=关闭}}或{{only|be|for=开启}}。
+
+; {{only|be|for=含水方块}}
+: 加载结构时，使可含水方块在加载区域的水源方块上可以加载为含水方块。否则，可含水方块会取代水源方块而加载为普通方块。
+: 但由于一个漏洞{{info needed}}，在关闭该选项时会导致部分位置本应加载为普通方块，实际上加载为具有一定含水方块特性，却不真正含水的方块，具体表现为可以像水源一样减速玩家，外观上和普通的含水方块一致，却不像水源方块一样流出水，也不判定为含水方块的特殊方块。
+: 默认关闭。
+
+; {{only|be|for=移除方块}}
+: 加载结构时，忽略其中的所有[[方块]]。
+: 默认关闭。
+
+; 旋转
+: 选项包括{{cd|d=，|0|90|180|270}}。
+: 以Y轴为旋转轴，旋转方向为俯瞰时的顺时针。
+
+; 镜像
+: {{in|je|nc=1}}：
+:* 选项包括{{cd|d=，|{{!}}|←→|↑↓}}。
+:* 设置结构的镜像为无（|）、左右翻转（←→）或者是前后翻转（↑↓）。
+:* 结构会先以X轴为对称轴进行镜像（←→），或以Z轴为对称轴进行镜像（↑↓），然后被旋转。
+: {{in|be|nc=1}}：
+:* 分别设置最终的结构是否以X轴或Z轴作为对称轴进行镜像处理。
+
+; {{only|be|for=动画模式}}
+: 选择结构加载时的动画。
+: 选项包括{{cd|d=，|无|逐层放置|逐块放置}}。
+: 默认为无。
+
+; {{only|be|for=动画时长}}
+: 调整加载结构的动画时长，单位为秒。
+: 默认为0。
+
+; {{only|je|for=严格放置}}
+: 生成结构时不产生方块更新。
+: 默认关闭。
+
+; 加载
+: {{in|je}}输入新结构名称后第一次按下加载按钮时会预加载，确定结构的尺寸。如果已经预加载了，按下按钮就可以生成结构。
+: {{in|je}}即使没有开启任何内置数据包选项，内置数据包中包含的结构也可以被结构方块加载，但因为部分方块为实验性内容，加载出的结构不完整。<ref>{{bug|MC-268069|||Cannot Reproduce}}</ref>
+
+=== 角落模式 ===
+{{Filetr|StructureCornerGUI.png|缩略图|250px|角落模式界面}}
+{{Filetr|Structure Block Bedrock ClassicUI Corner.png|250px|thumb|基岩版的角落模式界面}}
+
+{{BlockSprite|Structure Block Corner}} '''角落模式（Corner Mode）'''的结构方块是用于辅助测量结构区域的工具，由保存模式使用，允许在保存时自动计算结构的尺寸。
+
+角落模式的结构方块在被红石激活时会从内存中卸载当前结构。
+
+角落模式的结构方块包含以下选项：
+
+; 结构名称
+: 对应的存储模式的结构方块的结构名称。
+
+=== 数据模式 ===
+{{Exclusive|Java|section=1}}
+{{Filetr|StructureDataGUI.png|缩略图|250px|数据模式界面}}
+
+{{BlockSprite|Structure Block Data}} '''数据模式（Data Mode）'''是一个已经被弃用的模式，其功能现已由[[拼图方块]]代替，但仍在一些原版结构中使用。数据模式的结构方块只能在自然生成的过程中发挥作用，其用作运行特定硬编码函数的位置标记。
+
+数据模式的结构方块在被红石激活时没有效果。
+
+数据模式的结构方块只在自然生成的过程中有实际作用。使用结构方块加载这些结构将会正常生成数据模式的结构方块。
+
+它们通过其元数据所标注的位置来运行，它只能被用于指定相关结构的一个函数。该结构方块之后删除。
+: 直接放在要保存的任意方块的周围。
+: 当这个结构首次被替换的时候，这个数据是错误的。
+
+数据模式的结构方块包含以下选项：
+
+; 自定义数据标签名称
+: 方块实体的名称。
+: 可用的值包括:
+:; [[雪屋]]
+:: "chest" - 将该结构方块下的箱子的[[战利品表]]设为"chests/igloo_chest"，此外，该表种子取决于世界种子。
+:; [[末地城]]
+:: "Chest" - 将该结构方块下的箱子的战利品表设为"chests/end_city_treasure"，此外，该表种子取决于世界种子。
+:: "Sentry" - 在该结构方块的位置生成[[潜影贝]]。
+:: "Elytra" - 在该结构方块的位置生成带有[[鞘翅]]的[[物品展示框]]实体。
+:; [[林地府邸]]
+:: "ChestSouth" - 设置要替代该结构方块的箱子的战利品表为"chests/woodland_mansion"，并将战利品表种子设置为取决于世界种子。
+:: "ChestNorth" - 设置要替代该结构方块的箱子的战利品表为"chests/woodland_mansion"，并将战利品表种子设置为取决于世界种子。
+:: "ChestEast" - 设置要替代该结构方块的箱子的战利品表为"chests/woodland_mansion"，并将战利品表种子设置为取决于世界种子。
+:: "ChestWest" - 设置要替代该结构方块的箱子的战利品表为"chests/woodland_mansion"，并将战利品表种子设置为取决于世界种子。
+:: "Mage" - 在该结构方块的位置生成[[唤魔者]]。
+:: "Warrior" - 在该结构方块的位置生成[[卫道士]]。
+
+=== 3D输出模式 ===
+{{Exclusive|Bedrock|section=1}}
+{{Filetr|ExportModeBedrock.png|缩略图|250px|3D输出模式界面}}
+
+{{BlockSprite|Structure Block Export}} '''3D输出模式（3D Export Mode）'''的结构方块类似于存储模式，但结构将被输出为<code>.glb</code>文件格式的3D渲染而不是实际的结构。
+
+该模式只能在Windows版本中使用，在其他版本中{{ctrl|使用}}处于此模式的结构方块会变成默认的保存模式，且无法通过重置恢复。
+
+导出时，会弹出一个Windows文件资源管理器窗口引导用户存储导出的文件。
+
+通过这种方式导出的3D渲染与预览图中的实时渲染是基本一致的——包括所有不正确剔除的方块表面。
+
+尝试导出包含[[末地传送门方块]]、[[下界传送门方块]]等的结构时只能得到一个静态纹理的方块。
+
+这种方式导出的<code>.glb</code>文件可以用3D Viewer<ref>https://www.microsoft.com/p/3d-viewer/9nblggh42ths</ref>或Paint 3D<ref>https://www.microsoft.com/p/paint-3d/9nblggh5fv99</ref>应用查看，但游戏不能从<code>.glb</code>文件中加载结构。
+
+此模式不支持导出实体。同时，被导出的部分方块在3D Viewer或Paint 3D中无法正常显示，例如活塞臂、箱子、床等。
+
+3D输出模式的结构方块在被红石激活时没有效果。
+
+3D输出模式的结构方块包含以下选项：
+
+; 相对位置
+: 将要输出为3D渲染的结构的起始位置，与[[#保存模式|保存模式]]中同样的选项的用法一致。
+
+; 结构大小
+: 输入X、Y、Z坐标来设置与相对位置坐标的距离，与保存模式中同样的选项的用法一致。
+: 最大为64×384×64。
+
+; 移除方块
+: 输出3D渲染时，不在其中包含任何[[方块]]。
+: 默认关闭。
+
+; 显示边框
+: 高亮显示即将加载区域的轮廓。
+: 默认开启。
+
+; 导出
+: 执行导出并输出<code>.glb</code>文件。
+
+== 音效 ==
+{{Sound table/Block/Stone}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Structure Block
+|spritetype=block
+|nameid=structure_block
+|showblocktags=1|blocktags=dragon_immune,wither_immune
+|foot=1}}
+{{ID table
+|displayname=方块实体
+|spritename=structure-block
+|spritetype=block
+|nameid=structure_block
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Structure Block
+|spritetype=block
+|nameid=structure_block
+|foot=1}}
+{{ID table
+|notnamespaced=y
+|displayname=方块实体
+|spritename=structure-block
+|nameid=StructureBlock
+|spritetype=block
+|foot=1}}
+
+=== 方块数据 ===
+{{in|be}}结构方块使用下列数据值：
+{{/DV}}
+
+=== 方块状态 ===
+{{Block states table}}
+
+=== 方块实体 ===
+{{see also|方块实体}}
+结构方块有和它相关的方块实体，用于存储数据。
+
+{{el|je}}：
+{{see also|方块实体数据格式}}
+{{/BE}}
+
+{{el|be}}：
+{{see also|基岩版存档格式/方块实体格式}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.9|dev=2015年3月18日|slink={{tweet|SeargeDP|578219322373496832}}|[[Searge]]发推文展示了一个神秘的暗色调方块的图片。}}
+|{{HistoryLine|||dev=2015年4月8日|slink={{tweet|SeargeDP|585838892999380992}}|Searge发了一条隐晦的推文，其中又有一张神秘暗色调方块的截图。
+|他随后询问玩家们是否想要一种不可获取的、使世界变得“明晰而令人激动”的方块。<ref>{{tweet|SeargeDP|585863978636681216}}</ref>}}
+|{{HistoryLine|||dev=2015年4月14日|slink={{tweet|SeargeDP|588002295750721540}}|Searge发布了一张神秘的图片，在快捷栏里和右上角可以看见暗色调方块。
+|图片左上角有许多亮点，它们遮盖住了一个奇怪的浮空结构，Searge在随后的一条推文中对此进行了“澄清”。<ref>{{tweet|SeargeD
+|588014450118098944}}</ref>}}
+|{{HistoryLine|||dev=2015年6月24日|slink={{tweet|SeargeDP|613699145069654017}}|Searge解释说，这种神秘的方块属于技术性方块，用于内部世界的生成。}}
+|{{HistoryLine|||dev=2015年7月5日|slink=https://www.twitch.tv/mojang/v/6949826?t=13h40m25s|结构方块的用途在[[MINECON 2015]]的一次直播中被详细介绍。}}
+|{{HistoryLine||1.9|dev=15w31a|[[File:Structure Block JE1.png|32px]][[File:Structure Block Save JE1.png|32px]][[File:Structure Block Load JE1.png|32px]][[File:Structure Block Corner JE1.png|32px]] [[File:Structure Block Data JE1.png|32px]]加入了结构方块，只能够使用{{cmd|setblock}}命令放置。
+|当时结构方块没有界面，且仅供开发者内部使用。}}
+|{{HistoryLine||1.10|dev=2016年5月3日|slink={{tweet|jeb_|727476558621872128}}|[[Jens Bergensten]]发推文展示了结构方块新纹理的图片。
+|他被指示要让结构方块“感觉神秘一些”。<ref>{{tweet|jeb_|727479748344033280}}</ref> }}
+|{{HistoryLine|||dev=2016年5月13日|slink={{tweet|ProfMobius|731048441015631872}}|[[Thomas Guimbretière|ProfMobius]]在Twitter上展示了处于运行状态的新结构方块，其生成了一组似乎是由[[石英块]]组成的[[化石]]。}}
+|{{HistoryLine|||dev=16w20a|[[File:Structure Block JE2 BE1.png|32px]][[File:Structure Block Save JE2 BE1.png|32px]][[File:Structure Block Load JE2 BE1.png|32px]][[File:Structure Block Corner JE2 BE1.png|32px]][[File:Structure Block Data JE2 BE1.png|32px]] 现在结构方块可以使用了，也有了全新的纹理。}}
+|{{HistoryLine|||dev=16w21a|向加载模式添加“结构完整性及种子”。
+|现在读取模式可以自定义是否完整与完整程度了（0-1，1为100%，并且这不是一个精准的数字，经常会有一定的偏差），当它是不完整的时候，它缺失什么方块，保留什么方块可以被结构方块的种子决定。}}
+|{{HistoryLine||1.11|dev=16w32a|它的方块实体ID由<code>Structure</code>改为了<code>structure_block</code>。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，结构方块的ID是255。
+|保存的结构现在被存储于{{code|.minecraft/saves/(WorldName)/generated/minecraft/structures}}内。
+|在此之前，结构会被保存到<code>.minecraft/saves/(WorldName)/structures</code>中。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Structure Void JE2.png|32px]] 更改了[[结构空位]]的渲染外观。}}
+|{{HistoryLine||1.16|dev=20w16a|结构的最大可选尺寸从32格增加到48格。}}
+|{{HistoryLine||1.17|dev=20w46a|结构方块的默认模式由数据模式更改为加载模式。
+|数据模式现在被隐藏，但仍可通过在点击切换模式按钮时按住{{key|alt}}键选择数据模式。}}
+|{{HistoryLine|||dev=21w20a|[[File:Structure Void (shown) JE3.png|32px]] 更改了[[结构空位]]的渲染外观。
+|[[File:Barrier (shown) JE1.png|32px]] 添加了[[屏障]]的渲染外观。
+|[[File:Light (shown) JE1.png|32px]] 添加了[[光源方块]]的渲染外观。
+}}
+|{{HistoryLine||1.19.3|dev=22w45a|现在结构方块可从创造模式物品栏中获取。}}
+|{{HistoryLine||1.21.5|dev=25w02a|为<code>load</code>模式下的结构方块加入了新选项<code>Strict Placement</code>，为<code>true</code>时被放置的结构中的方块将不会触发方块更新、方块实体副效果或形状更新。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|加入了结构方块。虽然它有全部的功能，但由于它没有分配方块ID而完全无法获得。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.2.0|dev=1.2.0.2|[[File:Structure Block JE2 BE1.png|32px]][[File:Structure Block Save JE2 BE1.png|32px]][[File:Structure Block Load JE2 BE1.png|32px]][[File:Structure Block Corner JE2 BE1.png|32px]][[File:Structure Block Data JE2 BE1.png|32px]] 结构方块现在有了ID，可以通过{{cmd|give}}和{{cmd|setblock}}获得。
+|[[File:Structure Block Export BE1.png|32px]] 结构方块新增"3D输出"模式且拥有专属纹理。仅能在Windows 10平台中使用，且“3D输出”是唯一的模式。}}
+|{{HistoryLine||1.5.0|dev=1.5.0.0|现在结构方块可以在[[wzh:iOS|iOS]]和[[wzh:Android|Android]]平台中被获取，但还不能使用。}}
+|{{HistoryLine||1.9.0|dev=1.9.0.0|移除了使用remix3d导出的选项，现在结构将在本地导出。}}
+|{{HistoryLine||1.13.0|exg=1|dev=1.13.0.1|现在结构方块可以在iOS和Android平台中使用保存和加载功能了，但需要开启[[实验性玩法]]。}}
+|{{HistoryLine||1.16.0|exg=1|dev=1.15.0.51|为结构方块的保存模式加入了检测结构的按钮。}}
+|{{HistoryLine|||exg=none|dev=1.16.0.57|结构方块的功能不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.17.0|dev=1.16.230.54|结构方块现在有了类似{{cmd|structure}}命令的放置动画。}}
+|{{HistoryLine||1.17.30|dev=1.17.20.21|为结构方块加入了角落模式。}}
+|{{HistoryLine||1.19.30|dev=1.19.30.21|为加载模式的结构方块加入了“水涝方块{{sic}}”选项，用于允许被放置于水下的结构正确含水。}}
+}}
+
+== 画廊 ==
+<gallery>
+File:Darkblock.png|第一张关于结构方块的图片，由[[Michael Stoyke]]发布
+File:SeargeMysteryImage.png|另一张由Searge发布的图片，可以看到结构方块在图片中央和快捷栏中
+File:SeargeMysteryImageBrightened.png|上一张图片的加亮版本
+File:SeargeMysteryImageDots.png|另一张由Searge发布的图片，注意结构方块在快捷栏中，还有几个结构方块在右上角
+File:SeargeDotsSecretMessage.png|使用图片编辑软件发现的在上一张图片中隐藏的信息
+File:Structure Block 1.png|高亮了[[末地城]]结构
+File:Structure Block 2.png|处于数据模式的结构方块
+File:Structure Block 3.png|在1.9中结构方块的界面
+File:Structure Block 4.png|在保存模式高亮[[末地城]]结构
+File:Structure Block 5.png|高亮结构
+File:QZeDv7D.jpg|1.10中新的结构方块纹理
+File:ProfMobiusFossil.jpg|结构方块生成了一个由石英块组成的化石，这张图片由ProfMobius发布
+File:Structureblockcomparison.png|两种空白的结构方块纹理比较（[[Java版1.9]]和[[Java版1.10]]）
+File:StructureTree1.png|使用保存模式和角落模式的结构方块来选择岛上的一棵[[树]]
+File:StructureTree2.png|准备将保存好的树木结构加载到一片空旷的[[向日葵平原]]中
+File:StructureTree3.png|结构加载完成
+File:InvisibleBlock1.17.png|结构方块展示了四种隐形方块：空气、光、结构空位和屏障
+</gallery>
+
+== 参见 ==
+* [[Tutorial:结构方块]]
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|others}}
+{{Navbox redstone}}
+
+[[de:Konstruktionsblock]]
+[[en:Structure Block]]
+[[es:Bloque estructural]]
+[[fr:Bloc de structure]]
+[[it:Blocco strutture]]
+[[ja:ストラクチャーブロック]]
+[[ko:구조물 블록]]
+[[pl:Blok struktur]]
+[[pt:Gerador de Estruturas]]
+[[ru:Структурный блок]]

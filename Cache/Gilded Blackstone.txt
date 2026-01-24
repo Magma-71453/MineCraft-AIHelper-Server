@@ -1,0 +1,166 @@
+{{Distinguish|下界金矿石}}
+{{Infobox block
+|image=Gilded Blackstone.png
+|invimage=Gilded Blackstone
+|light=0
+}}
+'''镶金黑石（Gilded Blackstone）'''是[[黑石]]的变种方块，挖掘后会掉落自身或[[金粒]]。
+
+== 生成 ==
+=== 自然生成 ===
+镶金黑石会在[[堡垒遗迹]]中自然生成。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 箱子战利品 ===
+{{LootChestItem|gilded_blackstone}}
+
+== 破坏 ==
+挖掘镶金黑石的合适工具是镐。镶金黑石需要木镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+没有被具有[[精准采集]]的工具挖掘破坏时，镶金黑石被破坏后有10%的概率掉落2-5个金粒，若挖掘工具具有[[时运]]I则掉落金粒的概率提升至14.29%（{{frac|1|7}}），时运II提升至25%，时运III提升至100%，如果没有掉落金粒则掉落自身。
+
+被具有[[精准采集]]的工具挖掘破坏时，镶金黑石被破坏后会掉落自身。
+
+== 用途 ==
+=== 猪灵 ===
+在非和平[[难度]]下，无论玩家是否装备了[[盔甲|金质盔甲]]，成年[[猪灵]]看见或听见玩家破坏镶金黑石后会与之敌对。
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=nether Ore break1.ogg
+|sound2=nether Ore break2.ogg
+|sound3=nether Ore break3.ogg
+|sound4=nether Ore break4.ogg
+|id=block.gilded_blackstone.break
+|description=破坏方块
+|source=方块
+|translationkey=subtitles.block.generic.break
+|subtitle={{tp|subtitles.block.generic.break}}
+}}
+{{Sound table
+|sound=nether Ore step1.ogg
+|sound2=nether Ore step2.ogg
+|sound3=nether Ore step3.ogg
+|sound4=nether Ore step4.ogg
+|sound5=nether Ore step5.ogg
+|id=block.gilded_blackstone.fall
+|description=带有坠落伤害时坠落在方块上
+|source=玩家
+|translationkey=subtitles.block.generic.fall
+|subtitle={{tp|subtitles.block.generic.fall}}
+}}
+{{Sound table
+|sound=nether Ore step1.ogg
+|sound2=nether Ore step2.ogg
+|sound3=nether Ore step3.ogg
+|sound4=nether Ore step4.ogg
+|sound5=nether Ore step5.ogg
+|id=block.gilded_blackstone.hit
+|description=挖掘方块
+|source=方块
+|translationkey=subtitles.block.generic.hit
+|subtitle={{tp|subtitles.block.generic.hit}}
+}}
+{{Sound table
+|sound=nether Ore break1.ogg
+|sound2=nether Ore break2.ogg
+|sound3=nether Ore break3.ogg
+|sound4=nether Ore break4.ogg
+|id=block.gilded_blackstone.place
+|description=放置方块
+|source=方块
+|translationkey=subtitles.block.generic.place
+|subtitle={{tp|subtitles.block.generic.place}}
+}}
+{{Sound table
+|sound=nether Ore step1.ogg
+|sound2=nether Ore step2.ogg
+|sound3=nether Ore step3.ogg
+|sound4=nether Ore step4.ogg
+|sound5=nether Ore step5.ogg
+|id=block.gilded_blackstone.step
+|description=在方块上行走
+|source=玩家
+|translationkey=subtitles.block.generic.footsteps
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|foot=1
+}}
+
+{{el|be}}：
+{{Sound table/Block/Stone/BE}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Gilded Blackstone
+|spritetype=block
+|nameid=gilded_blackstone
+|showblocktags=1
+|showitemtags=1
+|blocktags={{GameTag|blocks|gilded_blackstone}}
+|itemtags={{GameTag|items|gilded_blackstone}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Gilded Blackstone
+|spritetype=block
+|nameid=gilded_blackstone
+|foot=1}}
+
+== 成就 ==
+{{load achievements|oooh-shiny}}
+
+== 进度 ==
+{{Load advancements|nether.distract_piglin}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.16|dev=20w15a|[[File:Gilded Blackstone JE1 BE1.png|32px]] 加入了镶金黑石。
+|目前只能通过[[创造模式物品栏]]及[[命令]]获得。}}
+|{{HistoryLine|||dev=20w16a|镶金黑石现在会作为[[堡垒遗迹]]的一部分自然生成。
+|现在会生成在[[堡垒遗迹]]的战利品箱中。}}
+|{{HistoryLine|||dev=20w17a|现在镶金黑石使用下界石英矿石的音效。}}
+|{{HistoryLine||1.16.2|dev=20w30a|堡垒遗迹中的战利品箱现在更有可能生成在镶金黑石上方。
+|提高了堡垒遗迹战利品箱中镶金黑石的平均生成数量。}}
+|{{HistoryLine||1.17|dev=21w11a|[[File:Gilded Blackstone JE2 BE2.png|32px]] 更改了镶金黑石的纹理。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.16.0|dev=1.16.0.57|[[File:Gilded Blackstone JE1 BE1.png|32px]] 加入了镶金黑石。}}
+|{{HistoryLine||1.17.0|dev=1.17.0.50|[[File:Gilded Blackstone JE2 BE2.png|32px]] 更改了镶金黑石的纹理。}}
+}}
+
+== 你知道吗 ==
+* 镶金黑石结合了[[黑石]]的纹理和[[20w13a]]之前的[[下界金矿石]]的纹理。
+* 镶金黑石不属于[[矿石]]。<ref>{{bug|MC-178087#comment-666625}}：“WAI as gilded blackstone is not a gold ore and cannot be smelted into gold ingots.” – Cory Scheviak，2020年4月16日</ref>
+
+== 参见 ==
+* [[金矿石]]
+* [[下界石英矿石]]
+* [[下界金矿石]]
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|building blocks}}
+
+[[de:Golddurchzogener Schwarzstein]]
+[[en:Gilded Blackstone]]
+[[es:Piedra negra áurea]]
+[[fr:Roche noire dorée]]
+[[ja:きらめくブラックストーン]]
+[[ko:황금이 박힌 흑암]]
+[[lzh:嵌金之墨石]]
+[[pl:Złocony czernit]]
+[[pt:Pedra-Negra Dourada]]
+[[ru:Позолоченный чернокамень]]
+[[uk:Позолочений чорнокамінь]]

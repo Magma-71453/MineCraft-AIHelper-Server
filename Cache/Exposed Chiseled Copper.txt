@@ -1,0 +1,210 @@
+{{Distinguish|切制铜块}}{{Infobox block
+|group1=未氧化
+|1-1=Chiseled Copper.png
+|group2=斑驳
+|2-1=Exposed Chiseled Copper.png
+|group3=锈蚀
+|3-1=Weathered Chiseled Copper.png
+|group4=氧化
+|4-1=Oxidized Chiseled Copper.png
+|invimage=Chiseled Copper
+|invimage2=Exposed Chiseled Copper
+|invimage3=Weathered Chiseled Copper
+|invimage4=Oxidized Chiseled Copper
+|invimage5=----
+|invimage6=Waxed Chiseled Copper
+|invimage7=Waxed Exposed Chiseled Copper
+|invimage8=Waxed Weathered Chiseled Copper
+|invimage9=Waxed Oxidized Chiseled Copper
+|autovalue-id=雕纹铜块;斑驳的雕纹铜块;锈蚀的雕纹铜块;氧化的雕纹铜块;涂蜡的雕纹铜块;涂蜡的斑驳雕纹铜块;涂蜡的锈蚀雕纹铜块;涂蜡的氧化雕纹铜块
+|light=0
+}}
+
+'''雕纹铜块（Chiseled Copper）'''是[[铜块]]制作的装饰性方块。
+
+== 生成 ==
+雕纹铜块、斑驳的雕纹铜块、锈蚀的雕纹铜块、氧化的雕纹铜块、涂蜡的斑驳雕纹铜块和涂蜡的锈蚀雕纹铜块不会生成在世界中，只能通过氧化机制生成。
+
+=== 自然生成 ===
+涂蜡的雕纹铜块和涂蜡的氧化雕纹铜块会作为试炼密室的一部分生成。
+{{block distribution|涂蜡的雕纹铜块,涂蜡的氧化雕纹铜块}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|head=1
+|B2=Matching Unwaxed Cut Copper Slab; Matching Waxed Cut Copper Slab
+|B3=Matching Unwaxed Cut Copper Slab; Matching Waxed Cut Copper Slab
+|Output=Matching Unwaxed Chiseled Copper; Matching Waxed Chiseled Copper
+|type=Building block
+}}
+{{Crafting
+|Matching Unwaxed Chiseled Copper
+|Honeycomb
+|Output=Matching Waxed Chiseled Copper
+|type=Building block
+|foot=1
+}}
+
+=== 切石 ===
+{{Stonecutting
+|head=1
+|Matching Unwaxed Block of Copper;Matching Waxed Block of Copper
+|Matching Unwaxed Chiseled Copper, 4;Matching Waxed Chiseled Copper, 4
+}}
+{{Stonecutting
+|Matching Unwaxed Cut Copper; Matching Waxed Cut Copper
+|Matching Unwaxed Chiseled Copper; Matching Waxed Chiseled Copper
+|foot=1
+}}
+
+== 破坏 ==
+挖掘雕纹铜块的合适工具是镐。雕纹铜块需要石镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table|雕纹铜块,斑驳的雕纹铜块,锈蚀的雕纹铜块,氧化的雕纹铜块,涂蜡的雕纹铜块,涂蜡的斑驳雕纹铜块,涂蜡的锈蚀雕纹铜块,涂蜡的氧化雕纹铜块}}
+
+雕纹铜块被破坏后会掉落自身。
+
+== 用途 ==
+=== 氧化 ===
+{{main|氧化}}
+雕纹铜块受氧化机制影响，能够在不同变种之间转化。
+
+== 音效 ==
+{{Sound table/Block/Copper
+|suffix-je=
+{{Sound table/Misc/Oxidation/JE}}
+|suffix-be=
+{{Sound table/Misc/Oxidation/BE}}
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|showblocktags=1
+|showitemtags=1
+|Chiseled Copper
+|spritetype=block
+|blocktags={{GameTag|block|chiseled_copper,cut_copper}}
+|rowspan=8
+|nameid=chiseled_copper}}
+{{ID table
+|generatetranslationkeys=java
+|Exposed Chiseled Copper
+|spritetype=block
+|nameid=exposed_chiseled_copper}}
+{{ID table
+|generatetranslationkeys=java
+|Weathered Chiseled Copper
+|spritetype=block
+|nameid=weathered_chiseled_copper}}
+{{ID table
+|generatetranslationkeys=java
+|Oxidized Chiseled Copper
+|spritetype=block
+|nameid=oxidized_chiseled_copper}}
+{{ID table
+|generatetranslationkeys=java
+|Waxed Chiseled Copper
+|spritetype=block
+|blocktags={{GameTag|block|waxed_chiseled_copper,waxed_cut_copper}}
+|rowspan=8
+|nameid=waxed_chiseled_copper}}
+{{ID table
+|generatetranslationkeys=java
+|Waxed Exposed Chiseled Copper
+|spritetype=block
+|nameid=waxed_exposed_chiseled_copper}}
+{{ID table
+|generatetranslationkeys=java
+|Waxed Weathered Chiseled Copper
+|spritetype=block
+|nameid=waxed_weathered_chiseled_copper}}
+{{ID table
+|generatetranslationkeys=java
+|Waxed Oxidized Chiseled Copper
+|spritetype=block
+|nameid=waxed_oxidized_chiseled_copper
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|head=1
+|Chiseled Copper
+|showforms=y
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=chiseled_copper}}
+{{ID table
+|Exposed Chiseled Copper
+|spritetype=block
+|nameid=exposed_chiseled_copper}}
+{{ID table
+|Weathered Chiseled Copper
+|spritetype=block
+|nameid=weathered_chiseled_copper}}
+{{ID table
+|Oxidized Chiseled Copper
+|spritetype=block
+|nameid=oxidized_chiseled_copper}}
+{{ID table
+|Waxed Chiseled Copper
+|spritetype=block
+|nameid=waxed_chiseled_copper}}
+{{ID table
+|Waxed Exposed Chiseled Copper
+|spritetype=block
+|nameid=waxed_exposed_chiseled_copper}}
+{{ID table
+|Waxed Weathered Chiseled Copper
+|spritetype=block
+|nameid=waxed_weathered_chiseled_copper}}
+{{ID table
+|Waxed Oxidized Chiseled Copper
+|spritetype=block
+|nameid=waxed_oxidized_chiseled_copper
+|foot=1}}
+
+== 成就 ==
+{{load achievements|wax-on-wax-off}}
+
+== 进度 ==
+{{load advancements|prefix=husbandry|wax_on;wax_off}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.20.3|exp=update_1_21|dev=23w43a|[[File:Chiseled Copper JE1 BE1.png|32px]][[File:Exposed Chiseled Copper JE1 BE1.png|32px]][[File:Weathered Chiseled Copper JE1 BE1.png|32px]][[File:Oxidized Chiseled Copper JE1 BE1.png|32px]] 加入了雕纹铜块。}}
+|{{HistoryLine|||dev=23w44a|雕纹铜块现在可由对应的切制铜块在[[切石机]]中切成。}}
+|{{HistoryLine|||dev=23w45a|涂蜡的雕纹铜块和涂蜡的氧化雕纹铜块现在会作为[[试炼密室]]的一部分生成。}}
+|{{HistoryLine||1.21|dev=24w18a|自[[23w43a]]起的变更不再属于[[实验性内容]]。}}
+|{{HistoryLine||1.21.11|dev=25w46a|现在用涂蜡的切制铜台阶可以合成两个而非一个对应的涂蜡的雕纹铜块。}}
+|{{HistoryLine|||dev=pre1|回退了25w46a的更改。<ref>{{Bug|MC-304196|||Fixed}}</ref>}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.20.50|exg=updateAnnouncedLive2023|dev=1.20.50.22|[[File:Chiseled Copper JE1 BE1.png|32px]][[File:Exposed Chiseled Copper JE1 BE1.png|32px]][[File:Weathered Chiseled Copper JE1 BE1.png|32px]][[File:Oxidized Chiseled Copper JE1 BE1.png|32px]] 加入了雕纹铜块。
+|此时雕纹铜块无法通过合成获得。}}
+|{{HistoryLine|||dev=1.20.50.23|雕纹铜块现在可以通过合成获得。
+|涂蜡的雕纹铜块现在可由对应的涂蜡的铜块在[[切石机]]中切成。}}
+|{{HistoryLine||1.20.60|exg=updateAnnouncedLive2023|dev=1.20.60.20|涂蜡的雕纹铜块和涂蜡的氧化雕纹铜块现在会作为[[试炼密室]]的一部分生成。}}
+|{{HistoryLine|||dev=1.20.60.21|雕纹铜块现在可由对应的切制铜块在[[切石机]]中切成。}}
+|{{HistoryLine||1.21.0|exg=none|dev=1.21.0.22|雕纹铜块不再属于[[实验性玩法]]。}}
+}}
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox blocks|building blocks}}
+
+[[de:Gemeißelter Kupferblock]]
+[[en:Chiseled Copper]]
+[[es:Cobre cincelado]]
+[[fr:Cuivre sculpté]]
+[[ja:銅ブロック]]
+[[ko:조각된 구리]]
+[[lzh:雕銅塊]]
+[[pt:Cobre talhado]]
+[[ru:Точёный медный блок]]
+[[uk:Різьблена мідь]]

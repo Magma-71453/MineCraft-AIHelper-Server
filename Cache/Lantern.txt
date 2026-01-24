@@ -1,0 +1,153 @@
+{{for|使用灵魂火把合成的灯笼|灵魂灯笼|使用铜火把合成的灯笼|铜灯笼}}
+{{Distinguish|海晶灯}}
+{{Infobox block
+|image=Lantern.gif
+|invimage=Lantern
+|light=15
+}}
+{{quote|他们用火把来装饰墙壁？*倒吸一口气*，甚至连地板上都有火把？赶紧转身走出那间房子，发誓永远不会再进去，除非他们用更加讲究的东西取代那些火把。如果他们想不出好点子的话，请容我谦卑地介绍一下我们的本周物品——灯笼。|[[Duncan Geere]]<ref>{{article|taking-inventory--lantern|Taking Inventory: Lantern|Jun 25, 2020}}</ref>||Duncan Geere Mojavatar.png}}
+
+'''灯笼（Lantern）'''是一种能够提供照明的固体[[方块]]。
+
+== 生成 ==
+=== 自然生成 ===
+在雪原[[村庄]]中，灯笼会悬挂在灯柱和一些房屋的屋檐上。
+
+灯笼也会悬挂在[[堡垒遗迹]]的一些房间里。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 交易 ===
+{{Trade sources}}
+
+=== 合成 ===
+{{Crafting
+|A1=Iron Nugget |A2=Iron Nugget |A3=Iron Nugget
+|B1=Iron Nugget |B2=Torch       |B3=Iron Nugget
+|C1=Iron Nugget |C2=Iron Nugget |C3=Iron Nugget
+|Output=Lantern
+|type=Decoration block
+}}
+
+== 破坏 ==
+挖掘灯笼的合适工具是镐。
+
+{{Breaking table}}
+
+灯笼被破坏后会掉落自身。
+
+== 用途 ==
+=== 放置 ===
+灯笼必须放在方块[[方块支撑形状|中心完整]]上表面的上方或中心完整下表面的下方，但有些情况需要通过{{control|潜行}}来放置。依附的方块发生变化且不再能够依附时，灯笼会被破坏并掉落。
+
+垂直的[[铁链]]和[[铜链]]能在视觉上和依附在其下方的灯笼相互连接。
+
+灯笼的高度是0.5625格，宽度是0.375格。
+
+=== 光源 ===
+灯笼会发出光照等级为15级的[[光]]，比[[火把]]的光照等级高1级。它也可以融化3格内的[[冰]]和[[雪]]。
+
+== 音效 ==
+{{Sound table/Block/Lantern}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table|generatetranslationkeys=java
+|Lantern|spritetype=block|nameid=lantern
+|showblocktags=1|blocktags={{GameTag|blocks|lantern}}
+|showitemtags=1|itemtags={{GameTag|items|lantern}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table|generatetranslationkeys=bedrock
+|Lantern|spritetype=block|nameid=lantern|foot=1}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+{{Block states table}}
+
+=== 方块数据值 ===
+{{see also|基岩版数据值}}
+
+{{/DV}}
+
+== 视频 ==
+{{bv|BV1Wv411h7v7}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2010年10月6日|link=http://web.archive.org/web/20101006220531/http://www.minecraft.net:80/boo/|[[Notch]]发表推文称，如果把灯笼加入游戏中，那么灯笼将会代替[[火把]]成为永久光源，火把则可能会在一段时间后熄灭并且需要[[打火石]]重新点燃。}}
+|{{HistoryLine||2011年1月5日|link={{tweet|notch|22743846228070400}}|灯笼本来要在[[万圣节更新]]内加入，但由于时间匆忙没有实现。}}
+|{{HistoryLine||2011年1月13日|link={{tweet|notch|25611065517670400}}|Notch说灯笼要“延后”加入。}}
+|{{HistoryLine||2011年1月20日|link={{tweet|notch|28246272062259201}}|Notch说他“不确定”灯笼何时加入。}}
+|{{HistoryLine||2011年11月18日|link={{ytl|1pg05j6K0fc|t=14m3s}}|Notch在[[MINECON 2011]]中声明，由于社区的负面反应以及对火把的影响，开发团队决定不在游戏中加入灯笼。}}
+|{{HistoryLine||2012年4月4日|link={{tweet|notch|187453842781257729}}|Notch发表推文称，开发团队决定不加入灯笼，而是加入其他类型的光源，例如[[红石灯]]和[[荧石]]。}}
+|{{HistoryLine||2018年11月9日|link={{tweet|LadyAgnes|1060854320516788224}}|[[File:Lantern_(pre-realease).png|32px]][[File:Hanging Lantern__(pre-realease).png|32px]] [[LadyAgnes]]发布了一张灯笼的图片。}}
+|{{HistoryLine|Java}}
+|{{HistoryLine||1.14|dev=18w46a|[[File:Lantern JE1 BE1.gif|32px]] [[File:Hanging Lantern JE1 BE1.gif|32px]] [[File:Lantern (item) JE1 BE2.png|32px]] 加入了灯笼。}}
+|{{HistoryLine|||dev=18w49a|灯笼可以在[[积雪的冻原]]村庄中自然生成。}}
+|{{HistoryLine|||dev=19w05a|为灯笼加入了独有的音效。}}
+|{{HistoryLine|||dev=19w11a|图书管理员村民现在以1颗绿宝石的价格出售灯笼。}}
+|{{HistoryLine||1.14.3|dev=pre3|灯笼现在可以悬挂在[[铁栏杆]]和[[玻璃板]]的底部。}}
+|{{HistoryLine||1.16|dev=20w16a|灯笼现在会自然生成在堡垒遗迹里。}}
+|{{HistoryLine||1.16.2|dev=20w30a|灯笼现在可以[[含水]]了。}}
+|{{HistoryLine||1.17|dev=21w13a|略微更改了悬挂的灯笼的模型，其铁链的背面纹理现在是镜像的。}}
+|{{HistoryLine||1.21.4|dev=24w44a|现在灯笼不再需要木镐或品质更好的镐来挖掘。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.9.0|exg=1|dev=1.9.0.2|[[File:Lantern JE1 BE1.gif|32px]] [[File:Hanging Lantern JE1 BE1.gif|32px]] [[File:Lantern (item) BE1.png|32px]] 加入了灯笼。}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|灯笼不再属于[[实验性玩法]]。
+|灯笼现在可以悬挂在楼梯下面了。
+|灯笼现在能在工作台中合成。
+|灯笼现在能在积雪的冻原村庄里自然生成。}}
+|{{HistoryLine||1.11.0|dev=1.11.0.1|为灯笼加入了独有的音效。}}
+|{{HistoryLine|||dev=1.11.0.4|灯笼现在可以从图书管理员村民处购买。}}
+|{{HistoryLine||1.16.0|dev=1.16.0.51|[[File:Lantern (item) JE1 BE2.png|32px]] 更改了灯笼的物品纹理。}}
+|{{HistoryLine|||dev=1.16.0.57|灯笼现在会自然生成在堡垒遗迹里。}}
+|{{HistoryLine||1.16.100|dev=1.16.100.54|灯笼现在可以[[含水]]了。}}
+|{{HistoryLine||1.20.30|dev=1.20.20.21|灯笼的硬度由5改为3.5。
+|灯笼的爆炸抗性由5改为3.5。}}
+|{{HistoryLine||1.21.50|dev=1.21.50.24|现在灯笼不再会在不使用镐挖掘时延长挖掘时间。}}
+|{{HistoryLine|ps4}}
+|{{HistoryLine||1.90|[[File:Lantern JE1 BE1.gif|32px]] [[File:Hanging Lantern JE1 BE1.gif|32px]] [[File:Lantern (item) JE1 BE2.png|32px]] 加入了灯笼。}}
+|{{HistoryLine||1.91|为灯笼加入了独有的音效。
+|灯笼现在可以从图书管理员村民处购买。
+|灯笼现在能在积雪的冻原村庄里自然生成。}}
+}}
+
+== 你知道吗 ==
+* [[海龟蛋]]能够支撑放置于其上或其下的灯笼，使得灯笼看上去是悬空的。<ref>{{bug|MC-169684|||WAI}}</ref>
+
+== 画廊 ==
+<gallery>
+File:18w46a.jpg|[[18w46a]]的更新横幅，展示了灯笼<ref>{{snap|18w46a|November 15, 2018}}</ref>
+File:Jappa lantern screenshot.jpg|来自[[JAPPA]]的图片，展示了村庄建筑内的灯笼
+<ref>{{tweet|Jappa|1063082129003868160|Decorating a village with Lanterns makes me feel all cozy and warm inside|November 15, 2018}}</ref>
+File:Soul Fire Lantern and Lantern.png|灵魂灯笼和灯笼
+File:SnowyVillageLantern.png|雪原村庄中自然生成的灯笼
+File:SnowyVillageLantern2.png|雪原村庄房屋上悬挂的灯笼
+</gallery>
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|functional blocks}}
+
+[[Category:功能方块]]
+
+[[cs:Lucerna]]
+[[de:Laterne]]
+[[en:Lantern]]
+[[es:Farol]]
+[[fr:Lanterne]]
+[[it:Lanterna]]
+[[ja:ランタン]]
+[[ko:랜턴]]
+[[lzh:燈籠]]
+[[pl:Latarnia]]
+[[pt:Lampião]]
+[[ru:Фонарь]]
+[[th:โคมไฟ]]
+[[uk:Ліхтар]]

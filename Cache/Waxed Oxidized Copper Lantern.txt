@@ -1,0 +1,185 @@
+{{Distinguish|铜灯}}
+{{Infobox block
+|group1=未氧化
+|1-1=Copper Lantern.gif
+|group2=斑驳
+|2-1=Exposed Copper Lantern.gif
+|group3=锈蚀
+|3-1=Weathered Copper Lantern.gif
+|group4=氧化
+|4-1=Oxidized Copper Lantern.gif
+|invimage=Copper Lantern
+|invimage2=Exposed Copper Lantern
+|invimage3=Weathered Copper Lantern
+|invimage4=Oxidized Copper Lantern
+|invimage5=----
+|invimage6=Waxed Copper Lantern
+|invimage7=Waxed Exposed Copper Lantern
+|invimage8=Waxed Weathered Copper Lantern
+|invimage9=Waxed Oxidized Copper Lantern
+|light=15
+|autovalue-id=铜灯笼;斑驳的铜灯笼;锈蚀的铜灯笼;氧化的铜灯笼;涂蜡的铜灯笼;涂蜡的斑驳铜灯笼;涂蜡的锈蚀铜灯笼;涂蜡的氧化铜灯笼
+}}
+
+'''铜灯笼（Copper Lantern）'''是使用[[铜粒]]和[[铜火把]]合成的[[灯笼]]变种。
+
+== 生成 ==
+铜灯笼不会生成在世界中。
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|A1=Copper Nugget |A2=Copper Nugget     |A3=Copper Nugget
+|B1=Copper Nugget |B2=Copper Torch |B3=Copper Nugget
+|C1=Copper Nugget |C2=Copper Nugget     |C3=Copper Nugget
+|Output=Copper Lantern
+|type=Decoration block
+|head=1
+}}
+{{Crafting
+|Matching Unwaxed Copper Lantern
+|Honeycomb
+|Output=Matching Waxed Copper Lantern
+|type=Decoration block
+|foot=1
+}}
+
+== 破坏 ==
+挖掘铜灯笼的合适工具是镐。
+
+{{Breaking table|铜灯笼,斑驳的铜灯笼,锈蚀的铜灯笼,氧化的铜灯笼,涂蜡的铜灯笼,涂蜡的斑驳铜灯笼,涂蜡的锈蚀铜灯笼,涂蜡的氧化铜灯笼}}
+
+铜灯笼被破坏后会掉落自身。
+
+== 用途 ==
+=== 放置 ===
+{{main|灯笼#放置}}
+
+=== 光源 ===
+铜灯笼会发出光照等级为15级的[[光]]，比[[火把]]的光照等级高1级。它也可以融化3格内的[[冰]]和[[雪]]。
+
+=== 氧化 ===
+{{main|氧化}}
+铜灯笼受氧化机制影响，能够在不同变种之间转化。
+
+铜灯笼的亮度等级不会随氧化程度变化。
+
+== 音效 ==
+{{Sound table/Block/Lantern
+|suffix-je=
+{{Sound table/Misc/Oxidation/JE}}
+|suffix-be=
+{{Sound table/Misc/Oxidation/BE}}
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table|generatetranslationkeys=java
+|Copper Lantern|spritetype=block|nameid=copper_lantern
+|showblocktags=1|blocktags={{GameTag|blocks|copper_lantern,exposed_copper_lantern,weathered_copper_lantern,oxidized_copper_lantern,waxed_copper_lantern,waxed_exposed_copper_lantern,waxed_weathered_copper_lantern,waxed_oxidized_copper_lantern}}
+|showitemtags=1|itemtags={{GameTag|items|copper_lantern,exposed_copper_lantern,weathered_copper_lantern,oxidized_copper_lantern,waxed_copper_lantern,waxed_exposed_copper_lantern,waxed_weathered_copper_lantern,waxed_oxidized_copper_lantern}}
+|rowspan=8}}
+{{ID table|generatetranslationkeys=java
+|Exposed Copper Lantern|spritetype=block|nameid=exposed_copper_lantern}}
+{{ID table|generatetranslationkeys=java
+|Weathered Copper Lantern|spritetype=block|nameid=weathered_copper_lantern}}
+{{ID table|generatetranslationkeys=java
+|Oxidized Copper Lantern|spritetype=block|nameid=oxidized_copper_lantern}}
+{{ID table|generatetranslationkeys=java
+|Waxed Copper Lantern|spritetype=block|nameid=waxed_copper_lantern}}
+{{ID table|generatetranslationkeys=java
+|Waxed Exposed Copper Lantern|spritetype=block|nameid=waxed_exposed_copper_lantern}}
+{{ID table|generatetranslationkeys=java
+|Waxed Weathered Copper Lantern|spritetype=block|nameid=waxed_weathered_copper_lantern}}
+{{ID table|generatetranslationkeys=java
+|Waxed Oxidized Copper Lantern|spritetype=block|nameid=waxed_oxidized_copper_lantern|foot=1}}
+
+{{el|be}}：
+{{ID table
+|Copper Lantern
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=copper_lantern
+}}
+{{ID table
+|Exposed Copper Lantern
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=exposed_copper_lantern
+}}
+{{ID table
+|Weathered Copper Lantern
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=weathered_copper_lantern
+}}
+{{ID table
+|Oxidized Copper Lantern
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=oxidized_copper_lantern
+}}
+{{ID table
+|Waxed Copper Lantern
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=waxed_copper_lantern
+}}
+{{ID table
+|Waxed Exposed Copper Lantern
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=waxed_exposed_copper_lantern
+}}
+{{ID table
+|Waxed Weathered Copper Lantern
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=waxed_weathered_copper_lantern
+}}
+{{ID table
+|Waxed Oxidized Copper Lantern
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=waxed_oxidized_copper_lantern
+|foot=1
+}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+{{Block states table|铜灯笼,斑驳的铜灯笼,锈蚀的铜灯笼,氧化的铜灯笼,涂蜡的铜灯笼,涂蜡的斑驳铜灯笼,涂蜡的锈蚀铜灯笼,涂蜡的氧化铜灯笼}}
+
+=== 方块数据值 ===
+{{see also|基岩版数据值}}
+
+{{:灯笼/DV}}
+
+== 进度 ==
+{{load advancements|husbandry.wax_on;husbandry.wax_off}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|Java}}
+|{{HistoryLine||1.21.9|dev=25w32a|[[File:Copper Lantern JE1 BE1.gif|32px]] [[File:Exposed Copper Lantern JE1 BE1.gif|32px]] [[File:Weathered Copper Lantern JE1 BE1.gif|32px]] [[File:Oxidized Copper Lantern JE1 BE1.gif|32px]] [[File:Copper Lantern (item) JE1 BE1.png|32px]] [[File:Exposed Copper Lantern (item) JE1 BE1.png|32px]] [[File:Weathered Copper Lantern (item) JE1 BE1.png|32px]] [[File:Oxidized Copper Lantern (item) JE1 BE1.png|32px]] 加入了铜灯笼。}}
+|{{HistoryLine||1.21.9|dev=25w36a|[[File:Copper Lantern JE2 BE2.gif|32px]] [[File:Exposed Copper Lantern JE2 BE2.gif|32px]] [[File:Weathered Copper Lantern JE2 BE2.gif|32px]] [[File:Oxidized Copper Lantern JE2 BE2.gif|32px]] [[File:Copper Lantern (item) JE2 BE2.png|32px]] [[File:Exposed Copper Lantern (item) JE2 BE2.png|32px]] [[File:Weathered Copper Lantern (item) JE2 BE2.png|32px]] [[File:Oxidized Copper Lantern (item) JE2 BE2.png|32px]] 更改了铜灯笼的纹理。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.21.111|dev=1.21.110.23|[[File:Copper Lantern JE1 BE1.gif|32px]] [[File:Exposed Copper Lantern JE1 BE1.gif|32px]] [[File:Weathered Copper Lantern JE1 BE1.gif|32px]] [[File:Oxidized Copper Lantern JE1 BE1.gif|32px]]  [[File:Copper Lantern (item) JE1 BE1.png|32px]] [[File:Exposed Copper Lantern (item) JE1 BE1.png|32px]] [[File:Weathered Copper Lantern (item) JE1 BE1.png|32px]] [[File:Oxidized Copper Lantern (item) JE1 BE1.png|32px]] 加入了铜灯笼。}}
+|{{HistoryLine||1.21.120|dev=1.21.120.21|[[File:Copper Lantern JE2 BE2.gif|32px]] [[File:Exposed Copper Lantern JE2 BE2.gif|32px]] [[File:Weathered Copper Lantern JE2 BE2.gif|32px]] [[File:Oxidized Copper Lantern JE2 BE2.gif|32px]] [[File:Copper Lantern (item) JE2 BE2.png|32px]] [[File:Exposed Copper Lantern (item) JE2 BE2.png|32px]] [[File:Weathered Copper Lantern (item) JE2 BE2.png|32px]] [[File:Oxidized Copper Lantern (item) JE2 BE2.png|32px]] 更改了铜灯笼的纹理。}}
+}}
+
+== 导航 ==
+{{Navbox blocks|functional blocks}}
+
+[[Category:功能方块]]
+
+[[de:Kupferlaterne]]
+[[en:Copper Lantern]]
+[[es:Farol de cobre]]
+[[fr:Lanterne en cuivre]]
+[[ja:銅のランタン]]
+[[ko:구리 랜턴]]
+[[lzh:銅燈籠]]
+[[pt:Lampião de Cobre]]
+[[ru:Медный фонарь]]
+[[uk:Мідний ліхтар]]

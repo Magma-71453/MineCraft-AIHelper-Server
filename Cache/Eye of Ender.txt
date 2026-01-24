@@ -1,0 +1,195 @@
+{{About|Minecraft中用于定位[[要塞]]并激活[[末地传送门]]的物品|[[末影人]]掉落的物品|末影珍珠|Minecraft Dungeons中的消耗品|MCD:末影之眼}}
+{{Infobox item
+|image=Eye of Ender.png
+|invimage=Eye of Ender
+|size=高度：0.25格<br>宽度：0.25格
+}}
+'''末影之眼（Eye of Ender）'''是一种用于定位并激活[[要塞]]里面的[[末地传送门]]的可合成物品。
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|Blaze Powder
+|Ender Pearl
+|Output=Eye of Ender
+|type=Miscellaneous
+}}
+
+== 用途 ==
+=== 定位要塞 ===
+[[File:Eye of Ender (break).gif|thumb|350px|末影之眼在空中消失的动画]]
+末影之眼能够用来定位[[末地传送门]]（及传送门所在的[[要塞]]）：
+* 手持末影之眼并按下{{ctrl|使用}}键，末影之眼会飞向最近的要塞，飞过大约12个方块的距离，穿过必要的方块，并在其经过的地方留下一条带有紫色粒子的痕迹，此种粒子和[[末影箱]]的相同。
+** {{in|java}}末影之眼会飞向要塞初始旋转楼梯的方向（楼梯入口总是在区块的(4, 4)处，但末影之眼会停在(1, 1)处）。
+** {{in|bedrock}}末影之眼将会飞向五通道路口，这是要塞中第二个生成的房间。
+* 如果距离要塞很远，末影之眼就会飞得更高，以便在垂直方向上更明确指示玩家必须通过的路径。
+* 当玩家接近要塞所在的纵向坐标轴时，末影之眼会更精准地飞行来定位这条Y轴。这也就意味着末影之眼可能会向下飞行，指示出玩家在要塞的上方，让玩家向下挖。
+* 在空中飞行2 – 3秒后，末影之眼会在空中悬浮一会儿，然后掉落，变成可拾取的物品，或者有20%的概率消失。因此，一颗末影之眼可以使用的期望值是5次。
+* 末影之眼的飞行功能只在[[主世界]]工作，在[[下界]]、[[末地]]以及没有[[要塞]]的世界中不会起作用。
+
+=== 激活末地传送门 ===
+[[File:Active_End_Portal.png|缩略图|350px|一个激活的末地传送门]]
+
+末地传送门需要末影之眼来激活。对着[[末地传送门框架]]方块按下{{ctrl|使用}}键可以放置末影之眼。当12个全部放满后，末地传送门就会激活。每个末地传送门框架方块在生成时有10%的概率已经放有一颗末影之眼。末影之眼一旦被放置在末地传送门框架上就无法被拆下来。
+
+=== 合成材料 ===
+{{crafting usage|Eye of Ender}}
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Ender Eye launch1.ogg
+|sound2=Ender Eye launch2.ogg
+|source=玩家
+|description=投掷末影之眼
+|subtitle={{tp|subtitles.entity.ender_eye.launch}}
+|id=entity.ender_eye.launch
+|translationkey=subtitles.entity.ender_eye.launch}}
+{{Sound table
+|sound=Ender Eye death1.ogg
+|sound2=Ender Eye death2.ogg
+|source=玩家
+|description=末影之眼掉落或破碎
+|subtitle={{tp|subtitles.entity.ender_eye.death}}
+|id=entity.ender_eye.death
+|translationkey=subtitles.entity.ender_eye.death
+|foot=1}}
+
+{{el|be}}：
+{{Sound table
+|bedrock=1
+|sound=random.bow.wav
+|source=友好生物
+|description=投掷末影之眼
+|id=random.bow
+|typeid=bow
+|soundvolume=1.0
+|soundpitch=0.33-0.5
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=block.itemframe.break1.wav
+|sound2=block.itemframe.break2.wav
+|sound3=block.itemframe.break3.wav
+|source=方块
+|description=末影之眼破碎
+|id=block.itemframe.break
+|typeid=break
+|soundvolume
+|soundpitch=0.8-1
+|sounddistance
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|firstcolumnname=物品
+|generatetranslationkeys=java
+|Eye of Ender
+|spritetype=item
+|nameid=ender_eye
+|foot=1}}
+{{ID table
+|firstcolumnname=实体
+|generatetranslationkeys=java
+|Eye of Ender
+|spritetype=entity
+|nameid=eye_of_ender
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|firstcolumnname=物品
+|generatetranslationkeys=bedrock
+|Eye of Ender
+|spritetype=item
+|nameid=ender_eye
+|foot=1}} 
+{{ID table
+|firstcolumnname=实体
+|generatetranslationkeys=bedrock
+|Eye of Ender
+|spritetype=entity
+|nameid=eye_of_ender_signal
+|foot=1}}
+
+=== 实体数据 ===
+{{el|je}}：
+{{main|实体数据格式}}
+末影之眼有与之相联系的包含许多该[[实体]]属性的存档数据。
+
+{{/ED}}
+
+{{el|be}}：
+{{see also|基岩版存档格式/实体格式|基岩版存档格式/实体格式/组件}}
+
+== 进度 ==
+{{load advancements|story.follow_ender_eye}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.0.0|dev=Beta 1.9-pre3|[[File:Eye of Ender JE1 BE1.png|32px]] 加入了末影之眼，用来修复损坏的[[末地传送门框架|末地传送门]]。
+|在此版本之前生成的世界里，末影之眼会误导你去一个完全不是[[要塞]]的地方。这样的原因多数是末影之眼会引导到种子应该会生成要塞的区域，并且种子与之前生成世界的版本有很大的不同。因此，如果你保存了旧世界的种子，并在新版本中使用同样的种子生成要塞，那么末影之眼会引导到那个要塞里。}}
+|{{HistoryLine|||dev=Beta 1.9-pre4|末影之眼现在可以放进一个[[末地传送门框架|末地传送门]]里了，或者用于安全返回要塞的工具。[[Jeb]]在他的直播流中演示了末影之眼的新用途。<ref>http://www.twitch.tv/jebox/b/297000418</ref>从直播流中可以看见2个末影之眼分别插在2个末地传送门框架上。}}
+|{{HistoryLine|||dev=正式版|更改了投掷末影之眼时的音效。}}
+|{{HistoryLine||1.3.1|dev=12w21a|末影之眼能被用于合成末影箱了。}}
+|{{HistoryLine|||dev=12w22a|现在可以从村民那里购买获得末影之眼了。}}
+|{{HistoryLine||1.6.4|dev=1.6.3|末影之眼现在基于保存在世界文件中的结构数据来引导[[要塞]]，而不是通过种子计算出要塞的位置。因此，即使要塞的生成规律发生了变化，在旧版本中生成的要塞仍能被末影之眼找到。}}
+|{{HistoryLine||1.8|dev=14w02a|随着村民和交易系统的改变，牧师村民现在会以7-11个绿宝石的价格出售一个末影之眼，作为它们的三级交易之一。}}
+|{{HistoryLine||1.9|dev=15w41a|牧师村民不再售卖末影之眼了。}}
+|{{HistoryLine|||dev=15w44b|末影之眼现在能被用于合成[[末地水晶]]。}}
+|{{HistoryLine||1.11|dev=16w32a|实体ID由<code>EyeOfEnderSignal</code>改为<code>eye_of_ender_signal</code>。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，此物品的数字ID是381。}}
+|{{HistoryLine|||dev=pre5|末影之眼的[[实体]]ID被更改为 <code>eye_of_ender</code>了。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Eye of Ender JE2 BE2.png|32px]] 更改了纹理。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|[[File:Eye of Ender JE1 BE1.png|32px]] 加入了末影之眼。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Eye of Ender JE2 BE2.png|32px]] 更改了纹理。}}
+|{{HistoryLine||1.16.0|dev=1.15.0.51|更改了末影之眼扔出后的[[粒子]]的纹理，以与Java版匹配。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU7|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|[[File:Eye of Ender JE1 BE1.png|32px]] 加入了末影之眼。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Eye of Ender JE2 BE2.png|32px]] 更改了纹理。}}
+|{{HistoryLine|3ds}}
+|{{HistoryLine||1.7.10|[[File:Eye of Ender JE1 BE1.png|32px]] 加入了末影之眼。}}
+}}
+
+== 你知道吗 ==
+* 当处于第三人称视角时，末影之眼会从玩家的脚而不是手上飞出去。
+* {{in|je}}玩家不能在没有选择生成要塞的虚空、自定义或超平坦世界中投掷末影之眼。
+* {{in|be}}[[旧世界类型]]中的末影之眼会飞向对应无限世界的要塞，并黏在边界上。
+* 在尚未加入末影之眼的携带版版本中，自然生成的末地传送门框架上有概率生成末影之眼。但这在当时没有任何作用，因为末地尚未被加入到游戏中。
+* 因为每一个[[末地传送门框架]]都有10%的概率会自然生成末影之眼，所以每个[[末地传送门框架]]都自然生成末影之眼的概率大约为一万亿分之一（10<sup>-12</sup>）。如果遇到这种情况，玩家可以不花费任何末影之眼进入末地。
+* 物品栏中的末影之眼并不是在其槽位中居中放置，而是向右和向下各偏移了一个像素。
+
+== 画廊 ==
+<gallery>
+File:Held Eye of Ender.png|在较旧的版本中，当玩家在快捷栏中手持末影之眼时，其在第三人称视角中显得很大
+</gallery>
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox items|Tools & Utilities|Ingredients}}
+{{Navbox entities|Non-mobs}}
+
+[[cs:Oko z Endu]]
+[[de:Enderauge]]
+[[en:Eye of Ender]]
+[[es:Ojo de ender]]
+[[fr:Oeil de l'Ender]]
+[[hu:Végzet szeme]]
+[[it:Occhio di ender]]
+[[ja:エンダーアイ]]
+[[ko:엔더의 눈]]
+[[nl:Enderoog]]
+[[pl:Oko Endera]]
+[[pt:Olho de Ender]]
+[[ru:Око Края]]
+[[th:ดวงตาแห่งเอนเดอร์]]
+[[uk:Око Енду]]

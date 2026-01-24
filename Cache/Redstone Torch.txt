@@ -1,0 +1,243 @@
+{{about|可以发出红石信号的火把|纹理相似的火把|彩色火把||火把（消歧义）}}
+{{Infobox block
+|group1=点亮
+|1-1=Redstone Torch.png
+|1-2=Redstone Torch JE4.png
+|group2=熄灭
+|2-1=Unlit Redstone Torch.png
+|2-2=Unlit Redstone Torch.png
+|*-1caption={{el|java}}
+|*-2caption={{el|bedrock}}
+|invimage=Redstone Torch
+|invimage2=----
+|invimage3=Redstone Torch BE
+|invimage4=[红石火把（基岩版）]Unlit Redstone Torch BE
+|light=7<small>（点亮时）</small>
+}}
+
+'''红石火把（Redstone Torch）'''是逻辑类似于非门的[[红石元件#电源元件|红石电源]]，是一种非固体[[方块]]。
+
+== 生成 ==
+=== 自然生成 ===
+红石火把会在[[雪屋]]和[[远古城市]]中自然生成。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|B1= Redstone Dust
+|B2= Stick
+|Output= Redstone Torch
+|type= Redstone
+}}
+
+== 破坏 ==
+红石火把被挖掘时会立刻被破坏。
+
+{{Breaking table}}
+
+红石火把被破坏后会掉落自身。
+
+== 用途 ==
+红石火把可作为合成材料、红石元件或光源。
+
+=== 放置 ===
+{{see also|火把#放置}}
+[[File:Redstone torch as power source.png|缩略图|红石火把的放置及其特点示意图]]
+
+红石火把必须{{ctrl|放置}}于[[方块支撑形状]]上表面中心完整的方块上方或侧面完整的方块侧面，不能放置于任何方块的底部，有个别情况需要{{ctrl|潜行}}放置。详见{{slink|火把|用途}}。
+
+尝试在无效的表面放置红石火把会使其“滑入”这块空间内最近的有效表面。例如，尝试在地面上的栅栏侧面放置红石火把会使其附着到栅栏周围地面方块的顶部。
+
+当红石火把附着的方块变动（移动、破坏、替代等），不再允许附着时，或有[[水]]流过和有[[活塞]]试图推动它或将方块推入其位置时，红石火把会掉落为方块物品。若[[熔岩]]流过其位置，红石火把不会掉落。
+
+=== 合成材料 ===
+红石火把可用于合成[[激活铁轨]]、[[红石比较器]]与[[红石中继器]]。
+
+{{crafting usage|Redstone Torch}}
+
+=== 光源 ===
+点亮的红石火把会发出[[亮度]]为7的光，所以红石火把不能融化[[雪]]或[[冰]]。
+
+=== 红石元件 ===
+{{see also|红石电路}}
+
+红石火把可以用于强充能方块、激活红石元器件（如[[红石线]]，信号强度为15）与[[红石元件#机械元件|机械元件]]（如[[活塞]]），或类似[[逻辑电路#非门|非门]]那样反转信号。
+
+==== 点亮与熄灭 ====
+红石火把的逻辑类似于[[逻辑电路#非门|非门]]：'''未激活'''时，红石火把亮起并输出信号（强度为15），'''激活'''时则熄灭并取消输出信号。
+* 红石火把所附着的红石导体被[[充能]]时会被激活，从而熄灭。
+* 红石火把附着在[[红石块]]上时被激活，从而熄灭。
+* {{in|be}}附着在活塞基部的红石火把在活塞被激活时熄灭，否则亮起，无论活塞是否成功推出或收回。
+
+红石火把有2游戏刻的延迟，这意味着它需要2游戏刻来改变状态。
+
+{{in|be}}在上一红石刻存在，但在该红石刻的图更新阶段被阻断的信号无法激活红石火把。
+
+{{in|je}}其附着的充能状态的变更一般情况下至少需要持续1红石刻才能让红石火把改变状态。例如红石火把在自己的附着方块向其输出2游戏刻或更短的脉冲时不会熄灭。
+* 例如：红石火把附着的[[侦测器]]向其输出信号时，红石火把会创建2[[游戏刻]]后更新状态的[[计划刻]]。2游戏刻后由于侦测器已经熄灭，此时红石火把不会被激活而熄灭，也不能再次计划更新状态从而在侦测器再次点亮时熄灭。但若红石火把在2游戏刻内被破坏且在原处放置了相同[[命名空间ID]]、附着有信号的方块的红石火把，新的红石火把能在旧的红石火把的计划刻执行时熄灭。
+
+; 行为
+红石火把不会直接影响其附着的方块，即使附着的是机械元件，如红石火把不会激活其附着的红石灯。
+
+{{Schematic|caption='''毗邻（除了附着）的方块'''
+||LW||||LW||-
+|LW|rt-$!|LW||LW|rt-$e!|RW|-
+||RW||||LW||-
+}}
+* 激活[[红石电路#毗邻|毗邻]]（除了附着）的[[红石粉]]至15[[充能等级]]；
+* 向毗邻（除了附着）的[[红石比较器]]、[[红石中继器]]朝向红石火把的输入端输入15信号强度；
+* 强充能其正上方的[[红石导体]]（侧面或下方的红石导体不会被充能）；
+* 激活毗邻（除了附着）的[[红石元件列表#机械元件|机械元件]]（除不接受此方向激活的红石元件，如面向它的活塞等）；
+* 产生红色粉末[[粒子]]。
+
+==== 烧毁 ====
+红石火把烧毁时会产生“smoke”[[粒子]]，并发出像火被浇灭时那样的嘶嘶声。红石火把烧毁次数没有上限。
+
+; Java版
+{{in|je}}当某一位置的红石火把在{{convert|60}}之内熄灭'''8'''次时，其会立即'''烧毁'''。
+
+若最后一次熄灭'''直接'''导致了红石火把'''瞬间'''撤销激活，那么它将会保持熄灭，直到收到[[NC更新]]；但在最近60游戏刻内熄灭次数小于8次前它会无视所有方块更新。
+
+若最后一次熄灭不会直接导致火把瞬间撤销激活，将会保持熄灭并无视所有方块更新，直到160游戏刻后会检测是否应该亮起并恢复正常。
+
+; 基岩版
+红石火把具有两个变量：“燃烧值”和“CanReigniteFromBurnout”{{note|名称取自游戏源代码。}}。前者默认为0，用于判断烧毁；后者默认为false，用于控制火把烧毁后是否可以复燃，后续将该变量称为“复燃值”。
+
+若燃烧值大于32，复燃值会被设置为<code>true</code>；若复燃值为<code>true</code>，则燃烧值不可增加。
+
+“半脉冲”指红石火把即将烧毁（燃烧值大于0且小于等于16）时输出的高频脉冲信号。只有一部分红石元件能够正常接受半脉冲信号，另一部分红石元件会始终将红石火把视为激活（直到该红石火把烧毁）。
+* 红石灯是特例，其会正常接收高频半脉冲信号且内部信号会被正确计算，但会因失去信号时间过短而不会熄灭。
+
+当某个红石火把的输入只有自身时，会使自身燃烧值+1（若可以），反转亮灭，输出“半脉冲”。若燃烧值大于16，火把“烧毁”（不再输出信号，燃烧值等于16时会输出最后一次半脉冲）。
+* 若红石火把收到其他元件的输入，燃烧值'''归零'''，复燃值被设置为<code>false</code>。
+* 若红石火把收到方块更新，且复燃值为<code>true</code>，燃烧值'''归零'''，复燃值被设置为<code>false</code>。
+
+== 音效 ==
+{{Sound table/Block/Wood
+|suffix-je=
+{{Sound table
+|sound=Fizz.ogg
+|subtitle={{tp|subtitles.block.redstone_torch.burnout}}
+|id=block.redstone_torch.burnout
+|source={{tp|soundCategory.block}}
+|description=红石火把熄灭
+|translationkey=subtitles.block.redstone_torch.burnout
+|foot=1}}
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|showitemforms=y
+|generatetranslationkeys=java
+|Redstone Torch
+|spritetype=block
+|showblocktags=1
+|blocktags=wall_post_override
+|nameid=redstone_torch
+|itemform=y}}
+{{ID table
+|Redstone Wall Torch
+|spritetype=block
+|nameid=redstone_wall_torch
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Redstone Torch
+|spritetype=block
+|nameid=redstone_torch}}
+{{ID table
+|spritename=Unlit Redstone Torch
+|spritetype=block
+|nameid=unlit_redstone_torch
+|displayname=熄灭的红石火把
+|foot=1}}
+
+=== 方块数据 ===
+{{see also|基岩版数据值}}
+
+{{:火把/DV}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+
+{{Block states table|红石火把,墙上的红石火把|红石火把,熄灭的红石火把}}
+
+== 历史 ==
+{{needs render|section=1|基岩版1.21.123的红石火把不再渲染背面。}}
+{{HistoryTable
+|{{HistoryLine|java Alpha}}
+|{{HistoryLine||v1.0.1|[[File:Redstone Torch JE1 BE1.png|32px]][[File:Redstone Wall Torch (S) JE1 BE1.png|32px]][[File:Unlit Redstone Torch JE1 BE1.png|32px]][[File:Unlit Redstone Wall Torch (S) JE1 BE1.png|32px]] 加入了红石火把。}}
+|{{HistoryLine||v1.0.2_01|红石火把作为非门只会将信号传入上方或侧面的方块。}}
+|{{HistoryLine||v1.1.0|红石火把无法在高品质画质下被放置在树叶上了。}}
+|{{HistoryLine||v1.2.0_02|红石火把无法在多人生存中刷取了。}}
+|{{HistoryLine|java Beta}}
+|{{HistoryLine||1.2_01|修复红石火把放置时表现很怪异的漏洞。}}
+|{{HistoryLine||1.3|红石火把现在可用于合成[[红石中继器]]。}}
+|{{HistoryLine||1.6.6|红石火把可以放置在[[荧石]]上了。}}
+|{{HistoryLine||1.7.3|修复红石火把可以利用[[活塞]]刷取的漏洞。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.2.1|dev=1.2|“烧毁”计时从100游戏刻减至60游戏刻。}}
+|{{HistoryLine|||dev=12w07a|红石火把现在可以放置在[[玻璃]]的顶部了。}}
+|{{HistoryLine||1.3.1|dev=12w25a|红石火把可以放置在倒置的[[台阶]]和[[楼梯]]上了。}}
+|{{HistoryLine||1.5|dev=13w01a|红石火把现在可用于制作[[红石比较器]]与[[激活铁轨]]。}}
+|{{HistoryLine||1.7.2|dev=13w37a|方块ID为75的物品（熄灭的红石火把）被移除。它无法再在物品栏中获取，仅以方块形式存在。}}
+|{{HistoryLine||1.8|dev=14w07a|墙上的红石火把现在只是旋转地上的红石火把的模型，不再拥有单独的方块模型。}}
+|{{HistoryLine|||dev=14w25a|烧毁的红石火把不再随机重新亮起。}}
+|{{HistoryLine||1.9|dev=15w43a|现在红石火把会自然生成于[[雪屋]]中。}}
+|{{HistoryLine||1.13|dev=17w47a|红石火把被拆分为<code>redstone_torch</code>和<code>redstone_wall_torch</code>两个方块。
+|加入了方块状态<code>lit</code>。
+|[[扁平化]]前，方块分为熄灭的红石火把和点亮的红石火把，数字ID为75和76。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Redstone Torch JE2.png|32px]][[File:Redstone Wall Torch JE2.png|32px]][[File:Unlit Redstone Torch JE2.png|32px]][[File:Unlit Redstone Wall Torch JE2.png|32px]] 更改了红石火把的纹理。}}
+|{{HistoryLine|||dev=19w12b|红石火把现在可放置在[[冰]]、荧石与[[海晶灯]]上。}}
+|{{HistoryLine||1.19|dev=22w13a|现在红石火把会自然生成于[[远古城市]]中。}}
+|{{HistoryLine||1.21.2|dev=24w33a|[[File:Redstone Torch JE3.png|32px]][[File:Redstone Wall Torch JE3.png|32px]] [[File:Redstone_Torch_(Facing_NWU)_JE3.png|32px]] 更改了红石火把的纹理和模型，但缺失了底部纹理。<ref>{{bug|MC-275248|||Fixed}}</ref><ref>{{bug|MC-275750|||Fixed}}</ref>}}
+|{{HistoryLine|||dev=24w37a|[[File:Redstone_Torch_(Facing_NWU)_JE4.png|32px]] 再次更改了红石火把的模型和UV映射，修复了丢失底部纹理的问题。}}
+|{{HistoryLine|||dev=24w38a|再次更改了红石火把的模型和UV映射。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.13.0|dev=build 1|[[File:Redstone Torch JE1 BE1.png|32px]][[File:Redstone Wall Torch (S) JE1 BE1.png|32px]][[File:Unlit Redstone Torch JE1 BE1.png|32px]][[File:Unlit Redstone Wall Torch (S) JE1 BE1.png|32px]] 加入了红石火把。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|现在红石火把会自然生成于雪屋中。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.2.13|dev=1.2.13.5|[[File:Redstone Torch BE2.png|32px]][[File:Redstone Wall Torch BE2.png|32px]]红石火把的背面也会渲染了。}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Redstone Torch BE3.png|32px]][[File:Redstone Wall Torch BE3.png|32px]][[File:Unlit Redstone Torch JE2.png|32px]][[File:Unlit Redstone Wall Torch BE2.png|32px]] 更改了红石火把的纹理。}}
+|{{HistoryLine||1.19.0|dev=1.19.0.26|现在红石火把会自然生成于[[远古城市]]中。}}
+|{{HistoryLine||1.21.123|[[File:Redstone Torch BE4.png|32px]][[File:Redstone Wall Torch BE4.png|32px]] 红石火把的背面不再渲染。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU1|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|[[File:Redstone Torch JE1 BE1.png|32px]][[File:Redstone Wall Torch (S) JE1 BE1.png|32px]][[File:Unlit Redstone Torch JE1 BE1.png|32px]][[File:Unlit Redstone Wall Torch (S) JE1 BE1.png|32px]] 加入了红石火把。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Redstone Torch JE2.png|32px]][[File:Redstone Wall Torch LCE2.png|32px]] 更改了纹理。}}
+|{{HistoryLine|new 3ds}}
+|{{HistoryLine||0.1.0|[[File:Redstone Torch JE1 BE1.png|32px]][[File:Redstone Wall Torch (S) JE1 BE1.png|32px]][[File:Unlit Redstone Torch JE1 BE1.png|32px]][[File:Unlit Redstone Wall Torch (S) JE1 BE1.png|32px]] 加入了红石火把。}}
+}}
+
+== 注释 ==
+{{Notelist}}
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox blocks|functional blocks|redstone blocks}}
+{{Navbox redstone}}
+
+[[Category:机制]]
+[[Category:红石机制]]
+
+[[de:Redstone-Fackel]]
+[[en:Redstone Torch]]
+[[es:Antorcha de redstone]]
+[[fr:Torche de redstone]]
+[[hu:Redstone-fáklya]]
+[[it:Torcia di redstone]]
+[[ja:レッドストーントーチ]]
+[[ko:레드스톤 횃불]]
+[[nl:Redstonefakkel]]
+[[pl:Pochodnia redstone]]
+[[pt:Tocha de Redstone]]
+[[ru:Редстоуновый факел]]
+[[uk:Редстоуновий смолоскип]]

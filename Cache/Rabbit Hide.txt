@@ -1,0 +1,98 @@
+{{Infobox item
+|image=Rabbit Hide.png
+|invimage=Rabbit Hide
+}}
+'''兔子皮（Rabbit Hide）'''是[[兔子]]的一种掉落物。
+
+== 获取 ==
+=== 掉落物 ===
+{{Drop sources|Rabbit Hide}}
+
+嘴里叼着兔子皮的[[狐狸]]在被杀死时会掉落兔子皮。
+
+=== 礼物 ===
+{{main|猫#礼物}}
+已驯服的[[猫]]赠予玩家礼物时，礼物有16.129%的概率是1个兔子皮。
+
+== 用途 ==
+=== 合成材料 ===
+{{crafting usage|Rabbit Hide}}
+
+=== 交易 ===
+{{Trade uses}}
+
+== 数据值 ==
+=== ID ===
+{{el|je}}：
+{{ID table
+|generatetranslationkeys=java
+|Rabbit Hide
+|spritetype=item
+|nameid=rabbit_hide
+|foot=1}}
+
+{{el|be}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Rabbit Hide
+|spritetype=item
+|nameid=rabbit_hide
+|foot=1}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.8|dev=2014年6月30日|slink={{tweet|TheMogMiner|483636993780232192}}|Ryan Holtz在推特上发布了兔子皮以及其他新物品。}}
+|{{HistoryLine|||dev=14w27a|[[File:Rabbit Hide JE1.png|32px]] 加入了兔子皮。}}
+|{{HistoryLine|||dev=14w33b|[[File:Rabbit Hide JE2 BE1.png|32px]] 更改了兔子皮的纹理。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，此物品的数字ID是415。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Rabbit Hide JE3 BE2.png|32px]] 再次更改了兔子皮的纹理。}}
+|{{HistoryLine|||dev=18w44a|已驯服的[[猫]]现在有概率将兔子皮当作礼物赠送给[[玩家]]。}}
+|{{HistoryLine||1.17|dev=20w45a|兔子皮现在可以用于合成[[收纳袋]]。}}
+|{{HistoryLine|||dev=21w19a|现在除非加载了[[洞穴与山崖预览数据包|数据包]]，否则不再能用于合成收纳袋。}}
+|{{HistoryLine||1.18|dev=exp1|兔子皮现在再次可以用于合成收纳袋。}}
+|{{HistoryLine|||dev=21w37a|由于移除了收纳袋的合成配方，兔子皮现在不再能用于合成收纳袋。}}
+|{{HistoryLine||1.19.3|exp=bundle|dev=22w42a|兔子皮现在又可以用于合成收纳袋。}}
+|{{HistoryLine||1.21.2|exp=bundle|dev=24w33a|更改了收纳袋的合成配方，现在兔子皮不再能用于合成收纳袋。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.13.0|dev=build 1|[[File:Rabbit Hide JE2 BE1.png|32px]] 加入了兔子皮。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.8.0|dev=1.8.0.8|已驯服的[[猫]]现在有概率将兔子皮当作礼物赠送给[[玩家]]。}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Rabbit Hide JE3 BE2.png|32px]] 更改了兔子皮的纹理。}}
+|{{HistoryLine||1.11.0|dev=1.11.0.4|现在可以将兔子皮出售给皮革匠村民。}}
+|{{HistoryLine||1.13.0|dev=1.13.0.1|加入了可以掉落兔子皮的[[狐狸]]。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU31|xbone=CU19|ps3=1.22|psvita=1.22|ps4=1.22|wiiu=Patch 3|[[File:Rabbit Hide JE2 BE1.png|32px]] 加入了兔子皮。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Rabbit Hide JE3 BE2.png|32px]] 再次更改了兔子皮的纹理。}}
+|{{HistoryLine|new3ds}}
+|{{HistoryLine||0.1.0|[[File:Rabbit Hide JE2 BE1.png|32px]] 加入了兔子皮。}}
+}}
+
+== 你知道吗 ==
+* {{el|je}}兔子皮的第二个纹理是由Reddit用户[https://www.reddit.com/u/zeldahuman zeldahuman]设计的。<ref>{{reddit|2bjzes/a_reminder_of_the_blocks_and_items_added_in_18_so|cj69zie|context=3}}</ref><ref>{{reddit|2c5f35/minecraft_snapshot_14w31a_has_been_released|cjct7gb}}</ref>
+
+== 画廊 ==
+<gallery>
+Rabbit Items 1 Ryan Holtz.png|[[Ryan Holtz]]在推特上发布的第一张兔子皮照片
+</gallery>
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox items|Ingredients}}
+
+[[de:Kaninchenfell]]
+[[en:Rabbit Hide]]
+[[es:Piel de conejo]]
+[[fr:Peau de lapin]]
+[[hu:Nyúlbőr]]
+[[it:Pelle di coniglio]]
+[[ja:ウサギの皮]]
+[[ko:토끼 가죽]]
+[[lzh:兔皮]]
+[[nl:Konijnenhuid]]
+[[pl:Królicza skóra]]
+[[pt:Pele de Coelho]]
+[[ru:Кроличья шкурка]]
+[[uk:Кроляча шкурка]]

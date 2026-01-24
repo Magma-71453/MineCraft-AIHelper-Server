@@ -1,0 +1,124 @@
+{{Distinguish|药水}}
+{{Infobox item
+|image=Ominous Bottle.png
+|invimage=Ominous Bottle
+}}
+{{quote|关于灾厄村民，我们还有很多地方不了解。它们曾经是村民吗？它们是怎么获得魔力的？它们一直如此愤怒吗？不过，与这些“不祥之物”的接触让我们明白了一件事——它们的指挥结构十分严密，其中领头的被称为“袭击队长”。如果你想获得我们本月的物品——不祥之瓶，就必须找到这些高级的坏蛋。|[[Duncan Geere]]<ref>{{article|ominous-bottle|Taking Inventory: Ominous Bottle|Dec 27,2024}}</ref>||Duncan Geere Mojavatar.png}}
+
+'''不祥之瓶（Ominous Bottle）'''是一种可以给予玩家[[不祥之兆]]状态效果的物品。
+
+== 获取 ==
+=== 生物掉落物 ===
+不在（包含脫離）[[袭击]]中的[[掠夺者]]和{{only|for=[[卫道士]]|be}}作为[[袭击队长]]被杀死后会掉落I-V级的不祥之瓶，每种等级概率相同。
+
+{{Drop sources}}
+
+=== 箱子战利品 ===
+{{LootChestItem|ominous_bottle}}
+{{Loot notelist}}
+
+== 用途 ==
+{{Filetr|Ominous Event System.png|thumb|使用不祥之瓶可以触发的两种不祥事件}}
+玩家{{ctrl|使用}}此物品后会获得1小时40分钟的[[不祥之兆]]状态效果，从而触发不祥事件。
+
+尽管有类似[[玻璃瓶]]的外观，不祥之瓶被消耗后不会留下玻璃瓶。
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Ominous Bottle dispose JE2.ogg
+|subtitle={{tp|subtitles.item.ominous_bottle.dispose}}
+|source=玩家
+|description=使用不祥之瓶
+|id=item.ominous_bottle.dispose
+|translationkey=subtitles.item.ominous_bottle.dispose
+|foot=1
+}}
+
+{{el|be}}：
+{{Sound table
+|bedrock=1
+|sound=Ominous Bottle dispose BE2.ogg
+|source=方块
+|description=使用不祥之瓶
+|id=ominous_bottle.end_use
+|typeid=ominous_bottle.end_use
+|soundvolume=1.0
+|soundpitch=0.8-1.2
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{el|je}}：
+{{ID table
+|generatetranslationkeys=java
+|Ominous Bottle
+|spritetype=item
+|nameid=ominous_bottle
+|foot=1}}
+
+{{el|be}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Ominous Bottle
+|spritetype=item
+|nameid=ominous_bottle
+|foot=1}}
+
+=== 物品数据 ===
+{{el|je}}：
+{{see also|物品格式}}
+
+不祥之瓶使用数据组件保存等级数据。
+
+<div class="treeview">
+* {{nbt|compound|components}}：物品附加的[[数据组件]]信息。
+** {{nbt transclude|编码格式/DataComponent|codec_ominous_bottle_amplifier_component}}
+</div>
+
+{{el|be}}：
+{{see also|基岩版存档格式/物品格式}}
+
+== 进度 ==
+{{load advancements|husbandry.root}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.20.5|dev=24w13a|exp=update_1_21|[[File:Ominous Bottle JE1 BE1.png|32px]] 加入了不祥之瓶。
+|不祥之瓶I-II可以从[[宝库]]普通战利品中获得。
+|不祥之瓶III-V可以从[[不祥宝库]]普通战利品中获得。}}
+|{{HistoryLine||1.21|dev=24w18a|exp=none|不祥之瓶不再属于[[实验性内容]]。}}
+|{{HistoryLine||1.21.2|dev=24w33a|不祥之瓶的稀有度由常见改为少见。}}
+|{{HistoryLine|||dev=24w34a|不祥之瓶现在不是食物。
+|此前，不祥之瓶的食物属性为{{fp|1|0.2}}。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.21.0|dev=1.21.0.20|exg=updateAnnouncedLive2023|[[File:Ominous Bottle JE1 BE1.png|32px]] 加入了不祥之瓶。
+|不祥之瓶I-II可以从[[宝库]]普通战利品中获得。
+|不祥之瓶III-V可以从[[不祥宝库]]普通战利品中获得。}}
+|{{HistoryLine|||dev=1.21.0.22|exg=none|不祥之瓶不再属于[[实验性玩法]]。}}
+|{{HistoryLine|||dev=1.21.0.23|更改了不祥之瓶被使用后碎裂的音效。}}
+|{{HistoryLine||1.21.30|dev=1.21.30.21|不祥之瓶的稀有度由常见改为少见。}}
+}}
+
+== 画廊 ==
+<gallery>
+OminousTrials bottle.jpeg|正在饮用不祥之瓶的Makena
+</gallery>
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox items|Food & Drinks}}
+
+[[de:Unheilvolle Flasche]]
+[[en:Ominous Bottle]]
+[[es:Frasco ominoso]]
+[[fr:Fiole funeste]]
+[[ja:不吉な瓶]]
+[[pl:Złowieszcza butelka]]
+[[pt:Frasco Sombrio]]
+[[ru:Зловещая бутылка]]
+[[uk:Зловісна пляшка]]

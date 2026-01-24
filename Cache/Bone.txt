@@ -1,0 +1,122 @@
+{{about|物品|方块|骨块||骨}}
+{{Infobox item
+|image=Bone.png
+|invimage=Bone
+}}
+
+'''骨头（Bone）'''是一种主要从[[骷髅]]掉落的[[物品]]。
+
+== 获取 ==
+=== 箱子战利品 ===
+{{LootChestItem|bone}}
+
+=== 掉落物 ===
+{{Drop sources|Bone}}
+
+=== 钓鱼 ===
+骨头在[[钓鱼]]时可以作为垃圾钓出。最高概率是在没有海之眷顾和饵钓[[魔咒]]时达到，为1.1%。
+
+== 用途 ==
+=== 驯服 ===
+骨头可用于驯服[[狼]]，每使用一次有{{frac|1|3}}的概率驯服。骨头无法驯服敌对的狼。
+
+=== 合成材料 ===
+{{crafting usage|Bone}}
+
+== 成就 ==
+{{load achievements|leader-of-the-pack}}
+
+== 进度 ==
+{{load advancements|husbandry.whole_pack;husbandry.tame_an_animal}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Bone
+|spritetype=item
+|nameid=bone
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Bone
+|spritetype=item
+|nameid=bone
+|foot=1}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java Beta}}
+|{{HistoryLine||1.2|[[File:Bone JE1 BE1.png|32px]] 加入了骨头，它可以被合成为[[骨粉]]。}}
+|{{HistoryLine||1.4|骨头现在可以被用来驯服[[狼]]。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.3.1|dev=12w21a|骨头能在沙漠神殿中被找到，使其能在和平难度中被得到。}}
+|{{HistoryLine||1.4.2|dev=12w36a|新添加的生物凋灵骷髅，现在也掉落骨头。}}
+|{{HistoryLine||1.7.2|dev=13w36a|骨头能通过钓鱼以垃圾的身份在和平难度轻易地获得。}}
+|{{HistoryLine||1.9|dev=15w44a|增加了沙漠神殿里骨头的平均数量。
+|在[[地牢]]的箱子加入骨头。}}
+|{{HistoryLine||1.11|dev=16w39a|骨头现在能够在[[林地府邸]]中的箱子里获得。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]前，此物品的ID是352。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Bone JE2.png|32px]] 更改了骨头的纹理。}}
+|{{HistoryLine|||dev=18w44a|[[File:Bone JE3 BE2.png|32px]] 再次更改了骨头的纹理。}}
+|{{HistoryLine||1.19|dev=exp1|骨头现在能够从[[远古城市]]的战利品箱子中获得。}}
+|{{HistoryLine||1.20.5|dev=24w07a|exp=update_1_21|加入了[[沼骸]]，死亡时掉落骨头。}}
+|{{HistoryLine||1.21|dev=24w18a|24w07a中的变更不再属于[[实验性内容]]。}}
+|{{HistoryLine||1.21.11|dev=25w44a|加入了[[焦骸]]，死亡时掉落骨头。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.3.3|[[File:Bone JE1 BE1.png|32px]] 在生存模式中加入了骨头，它可以被合成为骨粉。}}
+|{{HistoryLine||0.9.0|dev=build 1|在创造模式中加入了骨头。}}
+|{{HistoryLine||0.11.0|dev=build 1|骨头现在可以通过钓鱼当做垃圾获得。}}
+|{{HistoryLine||0.12.1|dev=build 1|加入了凋灵骷髅，当它们被击杀时有概率掉落骨头。}}
+|{{HistoryLine||0.13.0|dev=build 1|骨头现在可以在[[沙漠神殿]]的隐藏密室中找到。}}
+|{{HistoryLine||0.15.0|dev=build 1|加入了[[流浪者]]和骷髅马，当它们被击杀时将掉落骨头。
+|骨头现在可以在丛林神庙的[[箱子]]中找到。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.1.0|dev=1.1.0.0|骨头现在可以在林地府邸的箱子中找到。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.4.0|dev=1.2.14.2|骨头现在可以由生物鱼掉落。}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Bone JE3 BE2.png|32px]] 更改了骨头的纹理。}}
+|{{HistoryLine||1.18.30|dev=1.18.30.32|骨头现在能够从[[远古城市]]的战利品箱子中获得。}}
+|{{HistoryLine||1.20.70|dev=1.20.70.24|exg=updateAnnouncedLive2023|加入了[[沼骸]]，死亡时掉落骨头。}}
+|{{HistoryLine||1.21.0|dev=1.21.0.22|1.20.70.24中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.21.130|dev=1.21.130.24|加入了[[焦骸]]，死亡时掉落骨头。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU1|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|[[File:Bone JE1 BE1.png|32px]] 加入了骨头。}}
+|{{HistoryLine||xbox=TU19|xbone=CU7|ps3=1.12|psvita=1.12|ps4=1.12|wiiu=Patch 1|加入了会掉落骨头的凋灵骷髅。}}
+|{{HistoryLine||xbox=TU31|xbone=CU19|ps3=1.22|psvita=1.22|ps4=1.22|wiiu=Patch 3|骨头可从钓鱼中获取。}}
+|{{HistoryLine||xbox=TU46|xbone=CU36|ps3=1.38|psvita=1.38|ps4=1.38|wiiu=Patch 15|加入了流浪者和骷髅马，当它们被击杀时将掉落骨头。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|[[File:Bone JE3 BE2.png|32px]] 更改了骨头的纹理。}}
+|{{HistoryLine|new 3ds}}
+|{{HistoryLine||0.1.0|[[File:Bone JE1 BE1.png|32px]] 加入了骨头。}}
+}}
+
+== 你知道吗 ==
+<div style='float:right'>{{animate|Steve wearing Bone.png;Alex wearing Bone.png|100px}}</div>
+* {{in|java}}若使用命令{{cmd|item}}将骨头放入玩家的{{SlotSprite|Head}}头盔槽，它会横向出现在玩家嘴部，看起来像是把骨头衔着。可在{{slink|彩蛋|物品模型}}了解更多此类彩蛋。
+* 玩家和一些人-{}-形生物手持长条状物品（骨头、[[竹子]]、[[木棍]]、[[调试棒]]、[[烈焰棒]]、[[旋风棒]]）的方式和手持工具类似。
+
+== 参见 ==
+* [[骨粉]]
+* [[染料]]
+* [[狼]]
+
+== 导航 ==
+{{Navbox items|Ingredients}}
+
+[[de:Knochen]]
+[[en:Bone]]
+[[es:Hueso]]
+[[fr:Os]]
+[[hu:Csont]]
+[[it:Osso]]
+[[ja:骨]]
+[[ko:뼈]]
+[[nl:Bot]]
+[[pl:Kość]]
+[[pt:Osso]]
+[[ru:Кость]]
+[[th:กระดูก]]
+[[uk:Кістка]]

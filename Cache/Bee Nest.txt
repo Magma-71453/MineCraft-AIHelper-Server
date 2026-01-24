@@ -1,0 +1,6 @@
+-{T|蜂巢}-
+'''-{蜂巢}-（Bee Nest, Honeycomb）'''可能指：
+* {{BlockLink|Bee Nest}} - 作为[[蜜蜂]]巢穴的方块。
+* {{ItemLink|Honeycomb}} - 可以从蜂巢与[[蜂箱]]中获得的[[物品]]。
+
+{{Disambiguation}}

@@ -1,0 +1,161 @@
+{{Infobox block
+|group1=普通
+|1-1=Sea Pickle 1.png
+|1-2=Sea Pickle 1 Dry.png
+|group2=叠放两个
+|2-1=Sea Pickle 2.png
+|2-2=Sea Pickle 2 Dry.png
+|group3=叠放三个
+|3-1=Sea Pickle 3.png
+|3-2=Sea Pickle 3 Dry.png
+|group4=叠放四个
+|4-1=Sea Pickle 4.png
+|4-2=Sea Pickle 4 Dry.png
+|*-1caption=含水
+|*-2caption=不含水
+|invimage=Sea Pickle
+|light=是，6 - 15（水下）
+}}
+
+'''海泡菜（Sea Pickle）'''是以小群落生成的、可以在水下发现的静止的仿生物方块。
+
+== 生成 ==
+=== 自然生成 ===
+海泡菜群落可以在[[暖水海洋]]底部或[[珊瑚礁]]中的[[珊瑚块]]顶部以1-4个为一组生成。每个区块有{{frac|1|16}}的概率生成海泡菜群落。
+
+海泡菜也可以在沙漠[[村庄]]的小型房屋8中作为装饰出现。
+
+{{Block distribution}}
+
+=== 骨粉 ===
+对在[[水源]]中且位于[[珊瑚块]]上方的海泡菜{{control|使用}}[[骨粉]]时，该格海泡菜的数量会增加到4个，且有概率向以该格为中心X和Z轴偏移{{range|-2|2}}格、Y轴偏移{{range|-1|0}}格的下方为珊瑚块的水源或流动的水蔓延。当海泡菜生成的地方是流动的水时，它会将其转化为水源。
+
+在数量为4的海泡菜上{{control|使用}}骨粉且尝试蔓延的位置均不是下方为珊瑚块的水源或流动的水时，仍会消耗骨粉。
+
+== 获取 ==
+=== 交易 ===
+{{Trade sources}}
+
+== 破坏 ==
+海泡菜被挖掘时会立刻被破坏。
+
+{{Breaking table}}
+
+海泡菜被破坏后会掉落自身，掉落数等于方块内海泡菜数。
+
+== 用途 ==
+海泡菜可以放在大多数固体方块的顶部，每个方块最多可以放4个，类似于[[海龟蛋]]。
+
+=== 烧炼 ===
+{{Smelting
+|head=1
+|showdescription=1
+|showname=1
+|description={{only|je}}
+|Sea Pickle
+|Lime Dye
+|0.1
+}}
+{{Smelting
+|showname=1
+|description={{only|be}}
+|Sea Pickle
+|Lime Dye
+|0.2
+|foot=1
+}}
+
+=== 堆肥 ===
+海泡菜有65%概率将[[堆肥桶]]堆肥等级增加1。
+
+=== 光源 ===
+含水的海泡菜会发光，一个海泡菜会产生6光照等级，之后每增加一个会增加3光照等级。海泡菜发光时，其末尾会有一道浅绿色的光。
+
+== 音效 ==
+{{Sound table/Block/Slime Block}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Sea Pickle
+|spritetype=block
+|nameid=sea_pickle
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Sea Pickle
+|spritetype=block
+|nameid=sea_pickle
+|foot=1}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+{{Block states table}}
+
+=== 方块数据 ===
+{{Main|基岩版数据值}}
+
+{{/DV}}
+
+== 成就 ==
+{{load achievements|one-pickle-two-pickle-sea-pickle-four}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.13|dev=18w14b|[[File:Sea_Pickle_(item)_JE1_BE1.png|42px]]{{animate|Sea Pickle 1 JE1 BE1.png; Sea Pickle 2 JE1 BE1.png; Sea Pickle 3 JE1 BE1.png; Sea Pickle 4 JE1 BE1.png|42px}} {{animate|Sea Pickle 1 Dry JE1 BE1.png; Sea Pickle 2 Dry JE1 BE1.png; Sea Pickle 3 Dry JE1 BE1.png; Sea Pickle 4 Dry JE1 BE1.png|42px}} 加入了海泡菜。}}
+|{{HistoryLine|||dev=18w16a|海泡菜可以放置在非固体[[方块]]的顶部。}}
+|{{HistoryLine|||dev=18w22a|玩家不能在自己所在的位置上的放置海泡菜。
+|一个方块内海泡菜数量增加时会发出放置的音效。
+|可以相邻放置海泡菜。
+|海泡菜需要方块支撑。}}
+|{{HistoryLine||1.14|dev=19w03a|将海泡菜放入[[堆肥桶]]里有50%概率增加1个堆肥层。}}
+|{{HistoryLine|||dev=19w05a|将海泡菜放入[[堆肥桶]]里现在有65%概率增加1个堆肥层。}}
+|{{HistoryLine||1.21.2|dev=24w33a|现在在数量为4的海泡菜上{{control|使用}}[[骨粉]]时不再消耗骨粉。<ref>{{bug|MC-127995|||Fixed}}</ref>}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.4.0|dev=1.2.20.1|[[File:Sea_Pickle_(item)_JE1_BE1.png|42px]]{{animate|Sea Pickle 1 JE1 BE1.png; Sea Pickle 2 JE1 BE1.png; Sea Pickle 3 JE1 BE1.png; Sea Pickle 4 JE1 BE1.png|42px}} {{animate|Sea Pickle 1 Dry JE1 BE1.png; Sea Pickle 2 Dry JE1 BE1.png; Sea Pickle 3 Dry JE1 BE1.png; Sea Pickle 4 Dry JE1 BE1.png|42px}} 加入了海泡菜。}}
+|{{HistoryLine||1.7.0|dev=1.7.0.3|在[[生存模式]]中破坏海泡菜现在会瞬间掉落。}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|海泡菜现在能从[[流浪商人]]处购买。
+|新的沙漠村庄房子里现在会生成2个海泡菜。}}
+|{{HistoryLine||1.11.0|dev=1.11.0.1|将海泡菜放入[[堆肥桶]]里现在有65%概率增加1个堆肥层。}}
+|{{HistoryLine||1.21.70|dev=1.21.70.20|现在海泡菜能够放置在提供中心支撑的任意方块上<ref>{{bug|MCPE-116152|||Fixed}}</ref>，并且放置时会直接替换目标位置的方块。}}
+|{{HistoryLine||1.21.72|现在放置海泡菜时会正常进行放置检查，不再会直接替换目标位置的方块。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU69|ps3=1.76|psvita=1.76|ps4=1.76|wiiu=Patch 38|[[File:Sea_Pickle_(item)_JE1_BE1.png|42px]]{{animate|Sea Pickle 1 JE1 BE1.png; Sea Pickle 2 JE1 BE1.png; Sea Pickle 3 JE1 BE1.png; Sea Pickle 4 JE1 BE1.png|42px}} {{animate|Sea Pickle 1 Dry JE1 BE1.png; Sea Pickle 2 Dry JE1 BE1.png; Sea Pickle 3 Dry JE1 BE1.png; Sea Pickle 4 Dry JE1 BE1.png|42px}} 加入了海泡菜。}}
+}}
+
+== 你知道吗 ==
+* 海泡菜与现实中的[[wikipedia:Pyrosome|火体虫]]有相似之处，后者是一种能发出蓝绿色光的真实动物。
+
+== 画廊 ==
+<gallery>
+File:Sea pickles no glow.png|放置在陆地上的海泡菜
+File:Sea pickle glow.png|在水里的海泡菜
+File:Sea pickles on ocean floor.png|在珊瑚礁温暖的海床上的海泡菜
+File:Sea pickles on coral.png|海泡菜在珊瑚结构上产生
+File:Glowing sea pickles.png|清楚地显示海泡菜会产生光这个事实的截图
+File:Sea pickle light comparison.png|对于-{}-海泡菜会发出多少光的一个比较图
+File:Coral reef at night.png|海泡菜照亮了珊瑚礁
+</gallery>
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|natural blocks}}
+
+[[de:Meeresgurke]]
+[[en:Sea Pickle]]
+[[es:Pepino de mar]]
+[[fr:Cornichon de mer]]
+[[ja:シーピクルス]]
+[[ko:불우렁쉥이]]
+[[pl:Iskrzyłuda]]
+[[pt:Pepino-do-Mar]]
+[[ru:Морской огурец]]
+[[th:แตงกวาดองทะเล]]
+[[uk:Морський огірок]]

@@ -1,0 +1,77 @@
+{{Infobox item
+|image=Archer Pottery Sherd.png
+|image2=Archer Decorated Pot.png
+|invimage=Archer Pottery Sherd
+}}
+
+'''弓箭纹样陶片（Archer Pottery Sherd）'''是图案形似[[弓]]的[[陶片]]。
+
+== 获取 ==
+=== 考古战利品 ===
+用[[刷子]]刷扫[[沙漠神殿]]里的[[可疑的沙子]]有概率掉落弓箭纹样陶片。
+
+{{ArchaeologyLootItem|archer_pottery_sherd}}
+
+=== 饰纹陶罐 ===
+被不具有[[精准采集]]的工具挖掘破坏或被[[弹射物]]击毁时，附有弓箭纹样陶片的[[饰纹陶罐]]会掉落弓箭纹样陶片。
+
+== 用途 ==
+=== 合成材料 ===
+{{crafting usage|Archer Pottery Sherd}}
+
+== 数据值 ==
+=== ID ===
+{{el|je}}：
+{{ID table
+|generatetranslationkeys=java
+|Archer Pottery Sherd
+|spritetype=item
+|nameid=archer_pottery_sherd
+|showitemtags=1
+|itemtags={{GameTag|item|archer_pottery_sherd}}
+|foot=1}}
+
+{{el|be}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Archer Pottery Sherd
+|spritetype=item
+|nameid=archer_pottery_sherd
+|foot=1}}
+
+== 成就 ==
+{{Load achievements|careful-restoration}}
+
+== 进度 ==
+{{load advancements|adventure.salvage_sherd;adventure.craft_decorated_pot_using_only_sherds}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.19.4|exp=update_1_20|dev=23w07a|[[File:Archer Pottery Shard JE1.png|32px]] 加入了弓箭纹样陶片。}}
+|{{HistoryLine|||dev=pre3|[[File:Archer Pottery Shard JE2 BE2.png|32px]] 更改了弓箭纹样陶片的纹理。
+|弓箭纹样陶片应用于饰纹陶罐上的图案纹理也一并更改，由[[File:Archer Pottery Pattern (texture) JE1 BE1.png|32px]]更改为[[File:Archer Pottery Pattern (texture) JE2 BE2.png|32px]]。}}
+|{{HistoryLine||1.20|dev=23w12a|弓箭纹样陶片不再属于[[实验性内容]]。}}
+|{{HistoryLine|||dev=23w16a|将弓箭纹样陶片的英文名称由“Archer Pottery Shard”改为“Archer Pottery Sherd”。}}
+|{{HistoryLine||1.21.2|dev=24w33a|弓箭纹样陶片的稀有度由常见改为少见。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.19.70|exg=1.20|dev=1.19.70.23|[[File:Archer Pottery Shard BE1.png|32px]] 加入了弓箭纹样陶片。}}
+|{{HistoryLine||1.19.80|exg=1.20|dev=1.19.80.20|[[File:Archer Pottery Shard JE2 BE2.png|32px]] 更改了弓箭纹样陶片的纹理。
+|弓箭纹样陶片应用于饰纹陶罐上的图案纹理也一并更改，由[[File:Archer Pottery Pattern (texture) JE1 BE1.png|32px]]更改为[[File:Archer Pottery Pattern (texture) JE2 BE2.png|32px]]。}}
+|{{HistoryLine|||dev=1.19.80.21|现在弓箭纹样陶片能通过刷扫[[海底废墟]]里的[[可疑的沙子]]获得。}}
+|{{HistoryLine|||dev=1.19.80.22|海底废墟里的可疑的方块不再能刷扫出弓箭纹样陶片。}}
+|{{HistoryLine|||exg=none|dev=1.20.0.21|弓箭纹样陶片不再属于[[实验性玩法]]。}}
+|{{HistoryLine|||dev=1.20.0.22|将弓箭纹样陶片的英文名称由“Archer Pottery Shard”改为“Archer Pottery Sherd”。}}
+|{{HistoryLine||1.21.30|dev=1.21.30.21|弓箭纹样陶片的稀有度由常见改为少见。}}
+}}
+
+== 导航 ==
+{{Navbox items|Ingredients}}
+
+[[Category:陶片]]
+
+[[en:Archer Pottery Sherd]]
+[[ko:궁수 도자기 조각]]
+[[pt:Óstraco de Arco]]
+[[ru:Глиняный черепок «Лучник»]]
+[[uk:Гончарний черепок «Лучник»]]

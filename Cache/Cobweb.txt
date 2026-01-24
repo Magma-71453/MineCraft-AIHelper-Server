@@ -1,0 +1,378 @@
+{{Infobox block
+|image=Cobweb.png
+|imageclass=drop-shadow-light
+|invimage=Cobweb
+|light=0
+}}
+
+'''蜘蛛网（Cobweb）'''是一种可以减慢[[实体]]移动速度的方块。
+
+== 生成 ==
+=== 自然生成 ===
+蜘蛛网会自然生成在[[要塞]]的图书馆、[[雪屋]]地下室、[[僵尸村庄]]、[[废弃矿井]]、[[林地府邸]]的蜘蛛房间中以及[[试炼密室]]中生成[[蜘蛛]]和[[洞穴蜘蛛]]的[[试炼刷怪笼]]旁。
+
+{{Block distribution}}
+
+=== 人为生成 ===
+拥有[[盘丝]]状态效果的生物死亡后会在以自身为中心3×3×3的范围内尝试生成2-3个蜘蛛网，且只能生成在上表面完整的方块上。
+
+== 获取 ==
+蜘蛛网只能通过破坏蜘蛛网获得。
+
+== 破坏 ==
+挖掘蜘蛛网的合适工具是剪刀和剑。蜘蛛网需要剪刀或剑来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+没有被剪刀或具有[[精准采集]]的工具挖掘破坏时，蜘蛛网被破坏后会掉落1个[[线]]。
+
+被剪刀或具有精准采集的工具挖掘破坏时，蜘蛛网被破坏后会掉落自身。
+
+== 用途 ==
+生物能生成在蜘蛛网内。
+
+{{in|je}}当亡灵生物在蜘蛛网里时，它们不会因阳光而燃烧。
+
+蜘蛛网也会使太阳光扩散。
+
+[[方块]]能放在蜘蛛网上，包括[[告示牌]]和[[画]]。
+
+蜘蛛网会被液体冲毁。
+
+=== 酿造材料 ===
+{{Brewing
+|head=1
+|Cobweb
+|Mundane Potion
+|base=Water Bottle
+}}
+{{Brewing
+|Cobweb
+|Potion of Weaving
+|foot=1
+}}
+
+=== 减速 ===
+蜘蛛网可以使绝大多数实体减速，阻止实体受到摔落伤害。蜘蛛和洞穴蜘蛛不会被蜘蛛网减慢速度，[[箭]]等弹射物会直接穿过蜘蛛网而不会被减慢速度。
+
+进入蜘蛛网后实体的移动能力会受到削弱。当玩家在蜘蛛网里行走或[[疾跑]]时，玩家的速度会被降低至0.490格/秒或0.637格/秒，未触及地面时水平移动速度进一步降低至0.098格/秒或0.127格/秒。降落速度约为0.078格/秒并保持不变。[[黏液块]]和[[冰]]的减速效果可与蜘蛛网的减速效果叠加生效。
+
+拥有[[盘丝]]状态效果且会被蜘蛛网减速的生物会以正常速度的50%而不是25%穿过蜘蛛网。
+
+蜘蛛网会限制玩家[[跳跃]]，效果等同于处于2米高的窄小空间中。
+
+处在[[旁观模式]]中或[[飞行]]状态下的[[创造模式]]中的玩家不会受蜘蛛网的影响。
+
+[[File:Cobweb delay.png|缩略图|双蜘蛛网延时器，延时大概一分钟]]
+在[[红石电路]]中，蜘蛛网可作为延时器，掉落物约24秒才能自上而下穿过一个蜘蛛网。
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Cobweb break1.ogg
+|sound2=Cobweb break2.ogg
+|sound3=Cobweb break3.ogg
+|sound4=Cobweb break4.ogg
+|sound5=Cobweb break5.ogg
+|sound6=Cobweb break6.ogg
+|subtitle={{tp|subtitles.block.generic.break}}
+|source={{tp|soundCategory.block}}
+|description=破坏方块
+|id=block.cobweb.break
+|translationkey=subtitles.block.generic.break}}
+{{Sound table
+|sound=Cobweb step1.ogg
+|sound2=Cobweb step2.ogg
+|sound3=Cobweb step3.ogg
+|sound4=Cobweb step4.ogg
+|sound5=Cobweb step5.ogg
+|sound6=Cobweb step6.ogg
+|subtitle={{tp|subtitles.block.generic.fall}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=带有摔落伤害时摔落在方块上
+|id=block.cobweb.fall
+|translationkey=subtitles.block.generic.fall}}
+{{Sound table
+|sound=Cobweb step1.ogg
+|sound2=Cobweb step2.ogg
+|sound3=Cobweb step3.ogg
+|sound4=Cobweb step4.ogg
+|sound5=Cobweb step5.ogg
+|sound6=Cobweb step6.ogg
+|subtitle={{tp|subtitles.block.generic.hit}}
+|source={{tp|soundCategory.block}}
+|description=挖掘方块
+|id=block.cobweb.hit
+|translationkey=subtitles.block.generic.hit}}
+{{Sound table
+|sound=Cobweb break1.ogg
+|sound2=Cobweb break2.ogg
+|sound3=Cobweb break3.ogg
+|sound4=Cobweb break4.ogg
+|sound5=Cobweb break5.ogg
+|sound6=Cobweb break6.ogg
+|subtitle={{tp|subtitles.block.generic.place}}
+|source={{tp|soundCategory.block}}
+|description=放置方块
+|id=block.cobweb.place
+|translationkey=subtitles.block.generic.place}}
+{{Sound table
+|sound=Cobweb step1.ogg
+|sound2=Cobweb step2.ogg
+|sound3=Cobweb step3.ogg
+|sound4=Cobweb step4.ogg
+|sound5=Cobweb step5.ogg
+|sound6=Cobweb step6.ogg
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=在方块上行走
+|id=block.cobweb.step
+|translationkey=subtitles.block.generic.footsteps
+|foot=1}}
+
+{{el|be}}：
+{{Sound table
+|bedrock=1
+|sound=step.web1.wav
+|sound2=step.web2.wav
+|sound3=step.web3.wav
+|sound4=step.web4.wav
+|sound5=step.web5.wav
+|sound6=step.web6.wav
+|source=方块
+|description=方块作为物品使用时发出的音效
+|id=step.web
+|typeid=item.use.on
+|soundvolume
+|soundpitch
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=break.web1.wav
+|sound2=break.web2.wav
+|sound3=break.web3.wav
+|sound4=break.web4.wav
+|sound5=break.web5.wav
+|sound6=break.web6.wav
+|source=方块
+|description=破坏方块
+|id=break.web
+|typeid=break
+|soundvolume
+|soundpitch
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=step.web1.wav
+|sound2=step.web2.wav
+|sound3=step.web3.wav
+|sound4=step.web4.wav
+|sound5=step.web5.wav
+|sound6=step.web6.wav
+|source=方块
+|description=挖掘方块
+|id=step.web
+|typeid=hit
+|soundvolume=0.9
+|soundpitch=0.7
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=break.web1.wav
+|sound2=break.web2.wav
+|sound3=break.web3.wav
+|sound4=break.web4.wav
+|sound5=break.web5.wav
+|sound6=break.web6.wav
+|source=方块
+|description=放置方块
+|id=break.web
+|typeid=place
+|soundvolume
+|soundpitch
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=step.web1.wav
+|sound2=step.web2.wav
+|sound3=step.web3.wav
+|sound4=step.web4.wav
+|sound5=step.web5.wav
+|sound6=step.web6.wav
+|description=带有摔落伤害时摔落在方块上
+|source=方块
+|id=step.web
+|typeid=fall
+|soundvolume
+|soundpitch
+}}
+{{Sound table
+|bedrock=1
+|sound=step.web1.wav
+|sound2=step.web2.wav
+|sound3=step.web3.wav
+|sound4=step.web4.wav
+|sound5=step.web5.wav
+|sound6=step.web6.wav
+|description=在方块上行走
+|source=方块
+|id=step.web
+|typeid=step
+|soundvolume
+|soundpitch
+}}
+{{Sound table
+|bedrock=1
+|sound=step.web1.wav
+|sound2=step.web2.wav
+|sound3=step.web3.wav
+|sound4=step.web4.wav
+|sound5=step.web5.wav
+|sound6=step.web6.wav
+|description=在方块上跳跃
+|source=方块
+|id=step.web
+|typeid=jump
+|soundvolume=0.12
+|soundpitch=1.1
+}}
+{{Sound table
+|bedrock=1
+|sound=step.web1.wav
+|sound2=step.web2.wav
+|sound3=step.web3.wav
+|sound4=step.web4.wav
+|sound5=step.web5.wav
+|sound6=step.web6.wav
+|description=在方块上着陆
+|source=方块
+|id=step.web
+|typeid=land
+|soundvolume
+|soundpitch
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Cobweb
+|spritetype=block
+|showblocktags=1
+|blocktags={{GameTag|block|cobweb}}
+|nameid=cobweb
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Cobweb
+|spritetype=block
+|nameid=web
+|foot=1}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2009年10月23日|link={{notch|220964272/new-enemy-type-the-idea-is-that-these-will}}|Notch起初设计蜘蛛可以织网。}}
+|{{HistoryLine|java Classic}}
+|{{HistoryLine||0.26_SURVIVAL_TEST|[[File:Cobweb_(texture)_JE0_BE0.png|class=drop-shadow-light|32px]] 在<code>terrain.png</code>中加入了蜘蛛网的纹理，但未分配方块ID。}}
+|{{HistoryLine|java Beta}}
+|{{HistoryLine||1.5|加入了蜘蛛网，但无法正常获得。
+|[[File:Cobweb JE1 BE1.png|32px]] 更改了蜘蛛网的纹理，现在其基于[[线]]的纹理。
+|挖掘蜘蛛网时其会被瞬间破坏掉落自身。}}
+|{{HistoryLine||1.7|现在使用[[剑]]和[[剪刀]]破坏蜘蛛网只会掉落线。}}
+|{{HistoryLine||1.8|蜘蛛网会生成在[[废弃矿井]]中，并大量生成于[[洞穴蜘蛛]][[刷怪笼]]附近。
+|蜘蛛网现在会生成于[[要塞]]的图书馆里。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.2.1|dev=12w06a|蜘蛛网现在可以吸收所有掉落伤害。}}
+|{{HistoryLine||1.4.4|dev=pre|蜘蛛网现在不会减缓[[创造模式]]玩家的速度。}}
+|{{HistoryLine||1.4.6|dev=12w50a|蜘蛛网现在能够被附魔[[精准采集]]的剪刀或剑采集。然而在生存模式，蜘蛛网只能被附魔精准采集的剪刀采集。}}
+|{{HistoryLine||1.8|dev=14w07a|[[File:Cobweb_JE2_BE2.png|32px]] 更改了蜘蛛网的模型。}}
+|{{HistoryLine||1.8|dev=14w10c|[[File:Cobweb_JE3.png|32px]] 再次更改了蜘蛛网的模型。}}
+|{{HistoryLine||1.8|dev=14w10c|[[File:Cobweb_JE1_BE1.png|32px]] 再次更改了蜘蛛网的模型。}}
+|{{HistoryLine||1.8|dev=14w25a|[[File:Cobweb_JE5.png|32px]] 现在蜘蛛网受环境光遮蔽。}}
+|{{HistoryLine||1.8|dev=14w26a|[[File:Cobweb_JE1_BE1.png|32px]] 蜘蛛网现在不再受环境光遮蔽。}}
+|{{HistoryLine||1.9|dev=15w43b|蜘蛛网可以在[[雪屋]]地下室里找到。}}
+|{{HistoryLine|||dev=15w47c|现在未附魔精准采集的剪刀也能开采蜘蛛网。}}
+|{{HistoryLine|||dev=15w49a|蜘蛛网现在会把弹射物变成物品。<ref name="MC-93685">{{bug|MC-93685|||Fixed}}</ref>}}
+|{{HistoryLine|||dev=15w49b|蜘蛛网不再将弹射物变成物品。<ref name="MC-93685" />}}
+|{{HistoryLine||1.11|dev=16w39a|蜘蛛网现在会在[[林地府邸]]中生成。}}
+|{{HistoryLine||1.13|dev=17w47a|蜘蛛网的ID从<code>web</code>变为<code>cobweb</code>。
+|在[[扁平化]]之前，蜘蛛网的ID是30。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Cobweb JE7 BE4.png|32px]] 更改了蜘蛛网的纹理。}}
+|{{HistoryLine||1.17|dev=21w06a|从[[废弃矿井]]中移除了多余的飘浮蜘蛛网。<ref>{{bug|MC-105035|||Fixed}}</ref>}}
+|{{HistoryLine||1.20.3|exp=update_1_21|dev=23w45a|蜘蛛网现在可以生成于[[试炼密室]]中生成[[蜘蛛]]和[[洞穴蜘蛛]]的[[试炼刷怪笼]]旁。}}
+|{{HistoryLine||1.20.5|dev=24w13a|现在蜘蛛网可以用来酿造盘丝药水。
+|现在拥有盘丝效果的生物死亡后会生成蜘蛛网。
+|为蜘蛛网加入了独有音效。<ref>{{bug|MC-94413|||Fixed}}</ref>}}
+|{{HistoryLine|||exp=update_1_21|dev=pre1|用蜘蛛网酿造盘丝药水的功能现在属于[[实验性内容]]。<ref>{{bug|MC-269999|||Fixed}}</ref>}}
+|{{HistoryLine||1.21|dev=24w18a|23w45a中的变更不再属于[[实验性内容]]。
+|用蜘蛛网酿造盘丝药水的功能不再属于[[实验性内容]]，使其成为可再生资源。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.5.0|[[File:Cobweb JE1 BE1.png|32px]] 加入了蜘蛛网，但无法正常获得。}}
+|{{HistoryLine||0.8.0|dev=build 6|蜘蛛网现在可在[[创造模式物品栏]]中获得。}}
+|{{HistoryLine||0.9.0|dev=build 1|蜘蛛网现在在[[废弃矿井]]与[[要塞]]中自然生成。
+|蜘蛛网现在受平滑光照影响。}}
+|{{HistoryLine||0.11.0|dev=build 14|[[File:Cobweb_JE2_BE2.png|32px]] 更改了蜘蛛网的模型。}}
+|{{HistoryLine||0.12.1|dev=build 1|蜘蛛网现在可以在[[生存模式]]使用附魔[[精准采集]]的剪刀开采获得。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|蜘蛛网可以在[[雪屋]]地下室里被找到。}}
+|{{HistoryLine||1.1.0|dev=1.1.0.0|蜘蛛网现在会在[[林地府邸]]自然生成。}}
+|{{HistoryLine|||dev=1.1.0.3|蜘蛛网现在可合成9根线。}}
+|{{HistoryLine||?|现在未附魔精准采集的剪刀也能开采蜘蛛网。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Cobweb BE3.png|32px]] 更改了蜘蛛网的纹理。}}
+|{{HistoryLine||1.20.10|dev=1.20.10.20|移除了蜘蛛网用于合成[[线]]的合成配方。}}
+|{{HistoryLine||1.20.60|exg=1.21|dev=1.20.60.20|蜘蛛网现在可以生成于[[试炼密室]]中生成[[蜘蛛]]和[[洞穴蜘蛛]]的[[试炼刷怪笼]]旁。}}
+|{{HistoryLine||1.21.0|exg=1.21|dev=1.21.0.20|现在蜘蛛网可以用来酿造盘丝药水。
+|现在拥有盘丝效果的生物死亡后会生成蜘蛛网，使其成为可再生资源。
+|为蜘蛛网加入了独有音效。<ref>{{bug|MCPE-180109|||Fixed}}</ref>}}
+|{{HistoryLine|||exg=none|dev=1.21.0.22|1.20.60.20和1.21.0.20中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.21.50|dev=1.21.50.20|现在重锤不再能够加速挖掘蜘蛛网。}}
+|{{HistoryLine||1.21.60|dev=1.21.60.21|[[File:Cobweb JE7 BE4.png|32px]] 更改了蜘蛛网的模型，以匹配{{el|je}}。<ref>{{bug|MCPE-40646|||Fixed}}</ref>}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU5|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|[[File:Cobweb JE1 BE1.png|32px]] 加入了蜘蛛网。}}
+|{{HistoryLine||xbox=TU57|xbone=CU49|ps3=1.57|psvita=1.56|ps4=1.56|wiiu=Patch 27|switch=1.0.7|蜘蛛网现在可以合成9根线。}}
+|{{HistoryLine||xbox=TU69|ps3=1.76|psvita=1.76|ps4=1.76|wiiu=Patch 38|switch=none|蜘蛛网的英文名从“Web”更改为“Cobweb”。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Cobweb JE7 BE4.png|32px]] 更改了蜘蛛网的纹理。}}
+|{{HistoryLine|new 3ds}}
+|{{HistoryLine||0.1.0|[[File:Cobweb JE1 BE1.png|32px]] 加入了蜘蛛网。}}
+}}
+
+== 画廊 ==
+<gallery>
+File:WebBlockIngame.png|一张蜘蛛网
+File:1.8 mine shaft with fences.png|在废弃矿井中天然出现的蜘蛛网
+File:Stronghold Library.png|在要塞的图书馆中天然出现的蜘蛛网
+File:Woodland mansion 1x1 as2.png|蜘蛛网自然生成在林地府邸里的蜘蛛房间里
+File:Igloobasement BE.png|雪屋中自然生成的蜘蛛网
+File:Mine shaft chest.png|废弃矿井中的一张蜘蛛网
+File:Mineshaft Spawner Closeup.png|废弃矿井中的蜘蛛刷怪笼
+</gallery>
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox blocks|natural blocks}}
+
+[[cs:Pavučina]]
+[[de:Spinnennetz]]
+[[en:Cobweb]]
+[[es:Telaraña]]
+[[fr:Toile d'araignée]]
+[[hu:Pókháló]]
+[[it:Ragnatela]]
+[[ja:クモの巣]]
+[[ko:거미줄]]
+[[nl:Spinnenweb]]
+[[pl:Pajęczyna]]
+[[pt:Teia de Aranha]]
+[[ru:Паутина]]
+[[uk:Павутиння]]

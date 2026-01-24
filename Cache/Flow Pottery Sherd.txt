@@ -1,0 +1,64 @@
+{{Infobox item
+|image=Flow Pottery Sherd.png
+|image2=Flow Decorated Pot.png
+|invimage=Flow Pottery Sherd
+}}
+
+'''涡流纹样陶片（Flow Pottery Sherd）'''是图案形似涡流的[[陶片]]。
+
+== 获取 ==
+=== 饰纹陶罐 ===
+被不具有[[精准采集]]的工具挖掘破坏或被[[弹射物]]击毁时，附有涡流纹样陶片的[[饰纹陶罐]]会掉落涡流纹样陶片。
+
+[[试炼密室]]中生成的饰纹陶罐会随机附有涡流纹样陶片。
+
+== 用途 ==
+=== 合成材料 ===
+{{crafting usage|Flow Pottery Sherd}}
+
+== 数据值 ==
+=== ID ===
+{{el|je}}：
+{{ID table
+|generatetranslationkeys=java
+|Flow Pottery Sherd
+|spritetype=item
+|nameid=flow_pottery_sherd
+|showitemtags=1
+|itemtags={{GameTag|item|flow_pottery_sherd}}
+|foot=1}}
+
+{{el|be}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Flow Pottery Sherd
+|spritetype=item
+|nameid=flow_pottery_sherd
+|foot=1}}
+
+== 成就 ==
+{{Load achievements|careful-restoration}}
+
+== 进度 ==
+{{load advancements|adventure.craft_decorated_pot_using_only_sherds}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.20.5|exp=update_1_21|dev=24w11a|[[File:Flow Pottery Sherd JE1 BE1.png|32px]] 加入了涡流纹样陶片。}}
+|{{HistoryLine||1.21|dev=24w18a|涡流纹样陶片不再属于[[实验性内容]]。}}
+|{{HistoryLine||1.21.2|dev=24w33a|涡流纹样陶片的稀有度由常见改为少见。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.20.80|exg=1.21|dev=1.20.80.22|[[File:Flow Pottery Sherd JE1 BE1.png|32px]] 加入了涡流纹样陶片。}}
+|{{HistoryLine||1.21.0|dev=1.21.0.22|涡流纹样陶片不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.21.30|dev=1.21.30.21|涡流纹样陶片的稀有度由常见改为少见。}}
+}}
+
+== 导航 ==
+{{Navbox items|Ingredients}}
+
+[[Category:陶片]]
+
+[[en:Flow Pottery Sherd]]
+[[pt:Óstraco de Fluxo]]
+[[ru:Глиняный черепок «Поток»]]

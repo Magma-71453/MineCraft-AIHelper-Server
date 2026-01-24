@@ -1,0 +1,334 @@
+{{Infobox block
+|image=Bone Block.png
+|invimage=Bone Block
+}}
+{{quote|很久很久以前，Minecraft的世界曾生活着一群巨大的生物。这些生物要比房子大很多，但是我们现在只能猜测它们的生活、饮食和习性，还有为什么它们会灭亡掉。现在的它们只剩下了一具骨架，散布在这个世界上，与煤矿石和我们的每周方块——骨块组合在了一起。|[[Duncan Geere]]<ref>{{article|block-week-bone|Block of the Week: Bone|August 4, 2017}}</ref>||Duncan Geere Mojavatar.png}}
+
+'''骨块（Bone Block）'''是一种用于存储[[骨粉]]的方块。
+
+== 生成 ==
+=== 自然生成 ===
+骨块会作为[[化石]]和[[下界化石]]的一部分生成，前者出现于[[沙漠]]、[[沼泽]]和[[红树林沼泽]]生物群系，后者出现于[[灵魂沙峡谷]]生物群系。骨块还会生成在[[试炼密室]]中生成[[骷髅]]的[[试炼刷怪笼]]旁。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 合成 ===
+{{crafting
+|head=1
+|A1= Bone Meal
+|A2= Bone Meal
+|A3= Bone Meal
+|B1= Bone Meal
+|B2= Bone Meal
+|B3= Bone Meal
+|C1= Bone Meal
+|C2= Bone Meal
+|C3= Bone Meal
+|Output= Bone Block
+|type= Building block
+|foot=1
+}}
+
+=== 箱子战利品 ===
+{{LootChestItem|bone_block}}
+
+== 破坏 ==
+挖掘骨块的合适工具是镐。骨块需要木镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+骨块被破坏后会掉落自身。
+
+== 用途 ==
+骨块是一种装饰性方块，能面朝不同的方向，也可以用来储存[[骨粉]]。
+
+=== 合成材料 ===
+{{crafting usage|Bone Block}}
+
+== 音效 ==
+{{edition|java}}：
+{{Sound table
+|sound=Bone Block break1.ogg
+|sound2=Bone Block break2.ogg
+|sound3=Bone Block break3.ogg
+|sound4=Bone Block break4.ogg
+|sound5=Bone Block break5.ogg
+|subtitle={{tp|subtitles.block.generic.break}}
+|source={{tp|soundCategory.block}}
+|description=破坏方块
+|id=block.bone_block.break
+|translationkey=subtitles.block.generic.break
+}}
+{{Sound table
+|sound=Bone Block step1.ogg
+|sound2=Bone Block step2.ogg
+|sound3=Bone Block step3.ogg
+|sound4=Bone Block step4.ogg
+|sound5=Bone Block step5.ogg
+|subtitle={{tp|subtitles.block.generic.fall}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=带有摔落伤害时摔落在方块上
+|id=block.bone_block.fall
+|translationkey=subtitles.block.generic.fall
+}}
+{{Sound table
+|sound=Bone Block step1.ogg
+|sound2=Bone Block step2.ogg
+|sound3=Bone Block step3.ogg
+|sound4=Bone Block step4.ogg
+|sound5=Bone Block step5.ogg
+|subtitle={{tp|subtitles.block.generic.hit}}
+|source={{tp|soundCategory.block}}
+|description=挖掘方块
+|id=block.bone_block.hit
+|translationkey=subtitles.block.generic.hit
+}}
+{{Sound table
+|sound=Bone Block break1.ogg
+|sound2=Bone Block break2.ogg
+|sound3=Bone Block break3.ogg
+|sound4=Bone Block break4.ogg
+|sound5=Bone Block break5.ogg
+|subtitle={{tp|subtitles.block.generic.place}}
+|source={{tp|soundCategory.block}}
+|description=放置方块
+|id=block.bone_block.place
+|translationkey=subtitles.block.generic.place
+}}
+{{Sound table
+|sound=Bone Block step1.ogg
+|sound2=Bone Block step2.ogg
+|sound3=Bone Block step3.ogg
+|sound4=Bone Block step4.ogg
+|sound5=Bone Block step5.ogg
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=在方块上行走
+|id=block.bone_block.step
+|translationkey=subtitles.block.generic.footsteps
+|foot=1}}
+
+{{edition|bedrock}}：
+{{Sound table
+|bedrock=1
+|sound=step.bone_block1.wav
+|sound2=step.bone_block2.wav
+|sound3=step.bone_block3.wav
+|sound4=step.bone_block4.wav
+|sound5=step.bone_block5.wav
+|source=方块
+|description=方块作为物品使用时发出的音效
+|id=use.bone_block
+|typeid=item.use.on
+|soundvolume
+|soundpitch=0.8
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=dig.bone_block1.wav
+|sound2=dig.bone_block2.wav
+|sound3=dig.bone_block3.wav
+|sound4=dig.bone_block4.wav
+|sound5=dig.bone_block5.wav
+|source=方块
+|description=破坏方块
+|id=dig.bone_block
+|typeid=break
+|soundvolume
+|soundpitch=0.8-1
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=step.bone_block1.wav
+|sound2=step.bone_block2.wav
+|sound3=step.bone_block3.wav
+|sound4=step.bone_block4.wav
+|sound5=step.bone_block5.wav
+|source=方块
+|description=挖掘方块
+|id=hit.bone_block
+|typeid=hit
+|soundvolume=0.38
+|soundpitch=0.5
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=dig.bone_block1.wav
+|sound2=dig.bone_block2.wav
+|sound3=dig.bone_block3.wav
+|sound4=dig.bone_block4.wav
+|sound5=dig.bone_block5.wav
+|source=方块
+|description=放置方块
+|id=dig.bone_block
+|typeid=place
+|soundvolume
+|soundpitch=0.8-1
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=step.bone_block1.wav
+|sound2=step.bone_block2.wav
+|sound3=step.bone_block3.wav
+|sound4=step.bone_block4.wav
+|sound5=step.bone_block5.wav
+|source=玩家
+|description=带有摔落伤害时摔落在方块上
+|id=fall.bone_block
+|typeid=fall
+|soundvolume=0.4
+|soundpitch
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=step.bone_block3.wav
+|sound2=step.bone_block1.wav
+|sound3=step.bone_block2.wav
+|sound4=step.bone_block4.wav
+|sound5=step.bone_block5.wav
+|source=玩家
+|description=在方块上行走
+|id=step.bone_block
+|typeid=step
+|soundvolume=0.22
+|soundpitch
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=step.bone_block1.wav
+|sound2=step.bone_block2.wav
+|sound3=step.bone_block3.wav
+|sound4=step.bone_block4.wav
+|sound5=step.bone_block5.wav
+|source=方块
+|description=在方块上跳跃
+|id=jump.bone_block
+|typeid=jump
+|soundvolume=0.15
+|soundpitch
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=step.bone_block1.wav
+|sound2=step.bone_block2.wav
+|sound3=step.bone_block3.wav
+|sound4=step.bone_block4.wav
+|sound5=step.bone_block5.wav
+|source=方块
+|description=在方块上着陆
+|id=land.bone_block
+|typeid=land
+|soundvolume=0.18
+|soundpitch
+|sounddistance
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Bone Block
+|spritetype=block
+|nameid=bone_block
+|showblocktags=1
+|blocktags={{GameTag|block|bone_block}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Bone Block
+|spritetype=block
+|nameid=bone_block
+|foot=1}}
+
+=== 方块数据 ===
+{{see also|基岩版数据值}}
+
+在[[基岩版]]中，骨块使用了以下数据：
+
+{{/DV}}
+
+=== 方块状态 ===
+{{See also|方块状态}}
+
+{{Block states table}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.10|dev=16w20a|[[File:Bone Block (UD) JE1 BE1.png|32px]] [[File:Bone Block (EW) JE1 BE1.png|32px]] [[File:Bone Block (NS) JE1 BE1.png|32px]] 加入了骨块，会作为[[化石]]的一部分生成。}}
+|{{HistoryLine||1.10|dev=16w21a|骨块现在不再是透明的了。}}
+|{{HistoryLine||1.12|dev=17w17a|骨块现在可以放置在[[音符盒]]下方来使其发出木琴的音色。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，骨块的数字ID是216。}}
+|{{HistoryLine||1.14|dev=18w43a| [[File:Bone Block (UD) JE2 BE2.png|32px]] [[File:Bone Block (EW) JE2 BE2.png|32px]] [[File:Bone Block (NS) JE2 BE2.png|32px]] 更改了骨块的纹理。}}
+|{{HistoryLine||1.16|dev=20w06a|骨块现在能作为[[下界化石]]的一部分，生成于[[灵魂沙峡谷]]。
+|更改了骨块的音效。}}
+|{{HistoryLine||1.20.3|exp=update_1_21|dev=23w45a|骨块现在可以生成于[[试炼密室]]中生成[[骷髅]]的[[试炼刷怪笼]]旁。}}
+|{{HistoryLine||1.21|dev=24w18a|23w45a中的变更不再属于[[实验性内容]]。}}
+|{{HistoryLine||1.21.6|dev=25w15a|骨块现在可以用来合成[[失水恶魂]]。}}
+|{{HistoryLine|||dev=25w18a|骨块不再能用来合成失水恶魂。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.1.3|dev=1.1.3.0|[[File:Bone Block (UD) JE1 BE1.png|32px]] [[File:Bone Block (EW) JE1 BE1.png|32px]] [[File:Bone Block (NS) JE1 BE1.png|32px]] 加入了骨块，会作为[[化石]]的一部分生成。
+|[[File:Bone Block (no direction) BE1.png|32px]] 此时存在一种骨块变种，其六个面均带有侧面纹理。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Bone Block (UD) JE2 BE2.png|32px]] [[File:Bone Block (EW) JE2 BE2.png|32px]] [[File:Bone Block (NS) JE2 BE2.png|32px]] [[File:Bone Block (no direction) BE2.png|32px]] 更改了骨块的纹理。}}
+|{{HistoryLine||?|移除了所有面均带有侧面纹理的骨块，世界中已有的该方块被替换为Y轴朝向的骨块。}}
+|{{HistoryLine||1.13.0|dev=1.13.0.9|骨块现在可以放置在[[音符盒]]下方来使其发出木琴的音色。}}
+|{{HistoryLine||1.16.0|dev=1.16.0.57|骨块现在能作为[[下界化石]]的一部分，生成于[[灵魂沙峡谷]]。}}
+|{{HistoryLine||1.20.60|exg=1.21|dev=1.20.60.20|骨块现在可以生成于[[试炼密室]]中生成[[骷髅]]的[[试炼刷怪笼]]旁。}}
+|{{HistoryLine||1.21.0|dev=1.21.0.22|1.20.60.20中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.21.80|exg=25d2|dev=1.21.80.25|骨块现在可以用来合成[[失水恶魂]]。}}
+|{{HistoryLine||1.21.90|dev=1.21.90.20|1.21.80.25中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine|||dev=1.21.90.21|骨块不再能用来合成失水恶魂。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU43|xbone=CU33|ps3=1.36|psvita=1.36|ps4=1.36|wiiu=Patch 13|switch=1.0.1|[[File:Bone Block (UD) JE1 BE1.png|32px]] [[File:Bone Block (EW) JE1 BE1.png|32px]] [[File:Bone Block (NS) JE1 BE1.png|32px]] 加入了骨块，会作为化石的一部分生成。}}
+|{{HistoryLine||xbox=TU53|xbone=CU43|ps3=1.49|psvita=1.49|ps4=1.50|wiiu=Patch 23|switch=1.0.3|骨块现在可以放置在[[音符盒]]下方来使其发出木琴的音色。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Bone Block (UD) JE2 BE2.png|32px]] [[File:Bone Block (EW) JE2 BE2.png|32px]] [[File:Bone Block (NS) JE2 BE2.png|32px]] 更改了骨块的纹理。}}
+|{{HistoryLine|new3ds}}
+|{{HistoryLine||1.9.19|[[File:Bone Block (UD) JE1 BE1.png|32px]] [[File:Bone Block (EW) JE1 BE1.png|32px]] [[File:Bone Block (NS) JE1 BE1.png|32px]] 加入了骨块，会作为化石的一部分生成。
+|[[File:Bone Block (no direction) BE1.png|32px]] 此时存在一种骨块变种，其六个面均带有侧面纹理。}}
+}}
+
+== 画廊 ==
+<gallery>
+BoneBlock.png|几个骨块
+BoneBlockFaces.png|骨块可以有不同方向的纹理
+CaveFossil.png|骨块自然生成在地下
+Nether Fossil in Soul Sand Valley.png|下界化石中的骨块
+</gallery>
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|natural blocks}}
+
+[[de:Knochenblock]]
+[[en:Bone Block]]
+[[es:Bloque de huesos]]
+[[fr:Bloc d'os]]
+[[it:Blocco di ossa]]
+[[ja:骨ブロック]]
+[[ko:뼈 블록]]
+[[nl:Bottenblok]]
+[[pl:Blok kości]]
+[[pt:Bloco de Ossos]]
+[[ru:Костяной блок]]
+[[uk:Кістяний блок]]

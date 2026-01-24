@@ -1,0 +1,226 @@
+{{Infobox block
+|image=Lever.png
+|invimage=Lever
+|light=0
+}}
+'''拉杆（Lever）'''是一种可打开和关闭的[[红石元件|电源]]。
+
+== 生成 ==
+=== 自然生成 ===
+拉杆会生成在[[林地府邸]]的监狱门边。
+
+每个[[丛林神庙]]会自然生成3个拉杆。
+
+拉杆还会生成在[[远古城市]]中，作为地下室红石电路的元件和冰窖的开关生成。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|B2= Stick
+|B3= Cobblestone
+|Output= Lever
+|type= Redstone
+}}
+
+== 破坏 ==
+没有工具可以加速对拉杆的挖掘。
+
+{{Breaking table}}
+
+拉杆被破坏后会掉落自身。
+
+== 用途 ==
+[[File:Lever positions.png|缩略图|可能方向中的其中五种，拉杆为关闭状态]]
+{{see also|红石电路}}
+
+拉杆是可打开及关闭的红石[[红石元件#电源|电源]]。
+
+拉杆在下列情况中被破坏并掉落为物品：
+* 拉杆的附着位置变得不可附着（被移动、替换或被破坏等）
+* {{in|je|nc=1}}有[[水]]或[[熔岩]]（不会掉落为物品）流过
+* [[活塞]]尝试推动拉杆或把方块推入拉杆的位置
+
+; 放置
+对着要附着拉杆的方块表面按下{{control|使用}}键即可放置拉杆。
+
+{{in|java}}拉杆可附着在所有[[方块支撑形状]]完整的面。当把拉杆放在方块的上面或底面时，拉杆的柄大致朝向玩家。当把拉杆放置在方块的侧面时，拉杆向下为''开''状态，向上则为''关''状态。共有12种可能的放置方向。
+
+{{in|bedrock}}拉杆可附着在{{info needed}}方块（例如石头、泥土、金块等）的'''顶部'''、'''侧面'''以及'''底面'''，或者是上下颠倒的[[台阶]]或上下颠倒的[[楼梯]]（但不是台阶或楼梯右拐角向上的底部）的'''顶部'''，还能附着在栅栏、石墙和漏斗的顶部。当把拉杆放在方块的上面或底面时，拉杆会的方向会与玩家大致朝向方向在同一直线。当把拉杆放置在方块的侧面时，拉杆向下为''开''状态，向上则为''关''状态。当拉杆在方块的顶部或底面时，拉杆在''开''状态时朝向北边或西边，''关''状态为南方或东边。共有8种可能的放置方向。
+
+; 开关
+对着拉杆按下{{control|使用}}键即可打开或关闭它。拉杆处于[[爆炸#风爆|风爆]]影响范围中时也会改变其开关状态。
+
+; 行为
+当打开时，拉杆会：
+* 激活任何毗邻的[[红石线]]至[[红石电路#信号强度|信号等级]]至15级。
+* 给任何四周背对拉杆的[[红石比较器]]或[[红石中继器]]提供信号等级15级。
+* 强充能拉杆附着的红石导体至充能等级15级。
+* 激活毗邻的[[红石元件#机械元件|机械元件]]（面向拉杆的[[活塞]]除外）。
+* {{in|je|nc=1}}会产生[[粒子#dust|红石粉粒子]]。
+
+== 音效 ==
+{{el|je}}：
+{{Sound table/Block/Stone/JE|continue=1}}
+{{Sound table
+|sound=Click pitch0.6.ogg
+|subtitle={{tp|subtitles.block.lever.click}}
+|source={{tp|soundCategory.block}}
+|description=启动拉杆<!--<ref group=sound name=same>The lever uses the same sound event for both turning on and off. This has been reported on mojira: {{bug|MC-177454}}.</ref>-->
+|id=block.lever.click
+|translationkey=subtitles.block.lever.click}}
+{{Sound table
+|sound=Click pitch0.5.ogg
+|subtitle={{tp|subtitles.block.lever.click}}
+|source={{tp|soundCategory.block}}
+|description=关闭拉杆
+|id=block.lever.click
+|translationkey=subtitles.block.lever.click
+|foot=1}}
+
+{{el|be}}：
+{{Sound table/Block/Wood/BE|continue=1}}
+{{Sound table
+|bedrock=1
+|sound=Click pitch0.6.ogg
+|source=方块
+|description=启动拉杆
+|id=random.lever_click
+|typeid=power.on
+|soundvolume=0.2
+|soundpitch=0.6
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=Click pitch0.5.ogg
+|source=方块
+|description=关闭拉杆
+|id=random.lever_click
+|typeid=power.off
+|soundvolume=0.2
+|soundpitch=0.5
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=Click pitch0.6.ogg
+|source=方块
+|description=启动拉杆
+|id=random.lever_click
+|typeid=button.click_on
+|soundvolume=0.2
+|soundpitch=0.6
+|sounddistance
+|soundpreload=1
+}}
+{{Sound table
+|bedrock=1
+|sound=Click pitch0.5.ogg
+|source=方块
+|description=关闭拉杆
+|id=random.lever_click
+|typeid=button.click_off
+|soundvolume=0.2
+|soundpitch=0.5
+|sounddistance
+|soundpreload=1
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|Lever
+|generatetranslationkeys=java
+|spritetype=block
+|nameid=lever
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|Lever
+|generatetranslationkeys=bedrock
+|spritetype=block
+|nameid=lever
+|foot=1}}
+
+=== 方块数据值 ===
+{{see also|基岩版数据值}}
+
+{{in|bedrock}}拉杆的方块数据值储存了它的朝向以及是否被打开的信息。
+
+{{/DV}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+
+{{Block states table}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java Classic}}
+|{{HistoryLine||2009年5月21日|link={{notch|110762705/my-list-on-tile-types-so-far}}|[[Notch]]提出有兴趣加入拉杆。}}
+|{{HistoryLine|java Alpha}}
+|{{HistoryLine||v1.0.1|[[File:Wall Lever (S) JE1.png|32px]] [[File:Powered Wall Lever (S) JE1.png|32px]] 加入了拉杆。}}
+|{{HistoryLine|java Beta}}
+|{{HistoryLine||1.7|[[File:Lever JE2 BE1.png|32px]] 更改了拉杆的纹理。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.3.1|dev=12w22a|拉杆现在会在[[丛林神庙]]自然生成。}}
+|{{HistoryLine|||dev=12w24a|拉杆现在可以放置在方块底部。}}
+|{{HistoryLine||1.5|dev=13w03a|拉杆的方向不再随机。}}
+|{{HistoryLine||1.8|dev=14w10a|<!--[[File:Lever JE3.png|32px]] [[File:Powered Lever JE3.png|32px]] -->更改了拉杆的模型UV映射。}}
+|{{HistoryLine||1.11|dev=16w39a|拉杆现在会自然生成在[[林地府邸]]里。}}
+|{{HistoryLine||1.12|dev=正式版|拉杆现在可以放置在[[南瓜灯]]上了。}}
+|{{HistoryLine||1.13|dev=17w47a|推动拉杆现在会显示红石粒子。
+|拉杆不再能被放置在活塞顶部。
+|加入了拉杆的底部纹理。
+|[[扁平化]]前拉杆的数字ID是69。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Lever JE3 BE2.png|32px]] 更改了拉杆的纹理。}}
+|{{HistoryLine|||dev=18w50a|<!--[[File:Lever JE5-L1.png|32px]] [[File:Powered Lever JE5-L1.png|32px]]  -->由于[[圆石]]纹理的更改，拉杆的纹理也被更改。}}
+|{{HistoryLine|||dev=19w03c|拉杆现在有正确的{{cd|cullface}}参数，并删除了一个无用的面。}}
+|{{HistoryLine||1.19|dev=22w13a|现在拉杆会自然生成于[[远古城市]]中。}}
+|{{HistoryLine||1.20.2|dev=23w33a|现在拉杆使用石质方块的音效，而非木质方块。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.13.0|dev=build 1|[[File:Lever JE2 BE1.png|32px]] 加入了拉杆。}}
+|{{HistoryLine||0.15.0|dev=build 1|拉杆现在会自然生成在[[丛林神庙]]里。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.1.0|dev=1.1.0.0|拉杆现在会自然生成在[[林地府邸]]里。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Lever JE3 BE2.png|32px]] 更改了拉杆的纹理。}}
+|{{HistoryLine||1.19.0|dev=1.19.0.26|现在拉杆会自然生成于[[远古城市]]中。}}
+|{{HistoryLine||1.19.50|dev=1.19.50.21|更改了拉杆的开关音效。}}
+|{{HistoryLine||1.19.60|dev=1.19.60.26|拉杆现在使用与石质（此前为木质）按钮激活和取消激活音效相同的开关音效。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU1|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|加入了拉杆。}}
+|{{HistoryLine||xbox=TU14|ps3=1.04|psvita=1.00|ps4=1.00|拉杆现在可以放置在方块的底面上。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Lever JE3 BE2.png|32px]] 更改了拉杆的纹理。}}
+|{{HistoryLine|new 3ds}}
+|{{HistoryLine||0.1.0|[[File:Lever JE2 BE1.png|32px]] 加入了拉杆。}}
+}}
+
+== 导航 ==
+{{Navbox blocks|redstone blocks}}
+{{Navbox redstone}}
+
+[[Category:红石机制]]
+
+[[cs:Páka]]
+[[de:Hebel]]
+[[en:Lever]]
+[[es:Palanca]]
+[[fr:Levier]]
+[[hu:Kar]]
+[[it:Leva]]
+[[ja:レバー]]
+[[ko:레버]]
+[[nl:Hendel]]
+[[pl:Dźwignia]]
+[[pt:Alavanca]]
+[[ru:Рычаг]]
+[[th:คันโยก]]
+[[uk:Важіль]]

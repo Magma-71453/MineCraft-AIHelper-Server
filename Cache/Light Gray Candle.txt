@@ -1,0 +1,642 @@
+{{Infobox block
+|group1=未染色
+|1-1=Candle.png; Candle (lit).png
+|1-2=Candle BE.png; Candle (lit) BE.png
+|group2=白色
+|2-1=White Candle.png; White Candle (lit).png
+|2-2=White Candle BE.png; White Candle (lit) BE.png
+|group3=淡灰色
+|3-1=Light Gray Candle.png; Light Gray Candle (lit).png
+|3-2=Light Gray Candle BE.png; Light Gray Candle (lit) BE.png
+|group4=灰色
+|4-1=Gray Candle.png; Gray Candle (lit).png
+|4-2=Gray Candle BE.png; Gray Candle (lit) BE.png
+|group5=黑色
+|5-1=Black Candle.png; Black Candle (lit).png
+|5-2=Black Candle BE.png; Black Candle (lit) BE.png
+|group6=棕色
+|6-1=Brown Candle.png; Brown Candle (lit).png
+|6-2=Brown Candle BE.png; Brown Candle (lit) BE.png
+|group7=红色
+|7-1=Red Candle.png; Red Candle (lit).png
+|7-2=Red Candle BE.png; Red Candle (lit) BE.png
+|group8=橙色
+|8-1=Orange Candle.png; Orange Candle (lit).png
+|8-2=Orange Candle BE.png; Orange Candle (lit) BE.png
+|group9=黄色
+|9-1=Yellow Candle.png; Yellow Candle (lit).png
+|9-2=Yellow Candle BE.png; Yellow Candle (lit) BE.png
+|group10=黄绿色
+|10-1=Lime Candle.png; Lime Candle (lit).png
+|10-2=Lime Candle BE.png; Lime Candle (lit) BE.png
+|group11=绿色
+|11-1=Green Candle.png; Green Candle (lit).png
+|11-2=Green Candle BE.png; Green Candle (lit) BE.png
+|group12=青色
+|12-1=Cyan Candle.png; Cyan Candle (lit).png
+|12-2=Cyan Candle BE.png; Cyan Candle (lit) BE.png
+|group13=淡蓝色
+|13-1=Light Blue Candle.png; Light Blue Candle (lit).png
+|13-2=Light Blue Candle BE.png; Light Blue Candle (lit) BE.png
+|group14=蓝色
+|14-1=Blue Candle.png; Blue Candle (lit).png
+|14-2=Blue Candle BE.png; Blue Candle (lit) BE.png
+|group15=紫色
+|15-1=Purple Candle.png; Purple Candle (lit).png
+|15-2=Purple Candle BE.png; Purple Candle (lit) BE.png
+|group16=品红色
+|16-1=Magenta Candle.png; Magenta Candle (lit).png
+|16-2=Magenta Candle BE.png; Magenta Candle (lit) BE.png
+|group17=粉红色
+|17-1=Pink Candle.png; Pink Candle (lit).png
+|17-2=Pink Candle BE.png; Pink Candle (lit) BE.png
+|*-1caption={{el|je}}
+|*-2caption={{el|be}}
+|extratext={{tr|查看|檢視}}[[#渲染图|所有渲染图]]
+|invimage=Candle
+|invimage2=----
+|invimage3=White Candle
+|invimage4=Light Gray Candle
+|invimage5=Gray Candle
+|invimage6=Black Candle
+|invimage7=Brown Candle
+|invimage8=Red Candle
+|invimage9=Orange Candle
+|invimage10=Yellow Candle
+|invimage11=Lime Candle
+|invimage12=Green Candle
+|invimage13=Cyan Candle
+|invimage14=Light Blue Candle
+|invimage15=Blue Candle
+|invimage16=Purple Candle
+|invimage17=Magenta Candle
+|invimage18=Pink Candle
+|autovalue-id=蜡烛;染色蜡烛
+|light='''点燃的1个蜡烛'''：3<br>'''点燃的2个蜡烛'''：6<br>'''点燃的3个蜡烛'''：9<br>'''点燃的4个蜡烛'''：12<br>'''未点燃的蜡烛'''：0
+}}
+{{quote|将用作烛芯的[[线]]与用作蜡的[[蜜脾]]在合成方格中合成——你就会得到一支蜡烛。放下来，呃......它就只待在那儿，不会发亮。你需要用[[打火石]]或火焰弹点燃，或是驱使一只友好的恶魂吐一团[[火球]]过去（不推荐）。<br>......如果今天是你的生日，或服务器中好友的生日，我们强烈建议在蛋糕上添支蜡烛，以营造独特的庆生氛围。|[[Duncan Geere]]<ref>{{article|taking-inventory--candle|Taking Inventory: Candle|September 30, 2021}}</ref>||Duncan Geere Mojavatar.png}}
+
+'''蜡烛（Candle）'''是形状类似于海泡菜的、可用[[染料]]染色的光源。
+
+== 生成 ==
+橙色蜡烛、品红色蜡烛、淡蓝色蜡烛、黄色蜡烛、黄绿色蜡烛、粉红色蜡烛、灰色蜡烛、淡灰色蜡烛、青色蜡烛、紫色蜡烛、蓝色蜡烛、棕色蜡烛、绿色蜡烛、黑色蜡烛不会生成在世界中。
+
+=== 自然生成 ===
+普通蜡烛会生成在[[远古城市]]的入口长廊两侧和中心雕像前，还会生成在[[试炼密室]]中。
+
+白色蜡烛会生成在远古城市的一些建筑中。
+
+红色蜡烛会生成于试炼密室里的[[不祥宝库]]的框架上。
+
+{{Block distribution|蜡烛, 白色蜡烛, 红色蜡烛}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+  |showdescription=1
+  |head= 1
+  |B1=String
+  |B2=Honeycomb
+  |Output=Candle
+  |type= Decoration block
+}}
+{{Crafting
+  |A2=Candle
+  |B2=Matching Dye
+  |Output=Matching Candle
+  |type=Decoration block
+  |foot=1
+}}
+<div style="display:none">
+{{Crafting
+  |Candle
+  |Bone Meal; Lapis Lazuli; Cocoa Beans; Ink Sac
+  |Output=White Candle; Blue Candle; Brown Candle; Black Candle
+  |type=Decoration block
+  |description={{only|bedrock}}
+}}
+</div>
+
+蜡烛只能染色一次，染色后无法被重新上色或者去除颜色。
+
+=== 箱子战利品 ===
+{{LootChestItem|candle}}
+
+=== 考古战利品 ===
+用[[刷子]]刷扫[[古迹废墟]]里的[[可疑的沙砾]]有概率掉落染色蜡烛。
+
+{{ArchaeologyLootItem|purple_candle|green_candle|red_candle|brown_candle}}
+
+== 破坏 ==
+没有工具可以加速对蜡烛的挖掘。
+
+{{Breaking table|蜡烛,染色蜡烛}}
+
+蜡烛被破坏后会掉落自身，掉落数等于方块内蜡烛数。
+
+== 用途 ==
+[[File:Four Candles (lit).gif|right|点燃的蜡烛的动画|150px]]
+蜡烛须放置于{{only|for=[[固体方块]]|be|short=1}}或{{only|for=方块的[[方块支撑形状|中心完整]]上表面|je|short=1}}的上方，若其依附的方块被破坏，则会悬浮于空中。
+
+与[[海泡菜]]相似，单个方块空间内最多能放4个同色蜡烛。
+
+蜡烛在放置时是未点燃的，打火石、[[火焰弹]]、{{only|be|short=1|for=附有[[火焰附加]]的剑}}、燃烧的[[弹射物]]或是{{only|be|short=1|for=所有燃烧的实体}}可以将其点燃。
+
+蜡烛点燃后，玩家可以通过与蜡烛{{ctrl|交互}}来熄灭它。蜡烛也会被[[爆炸#风爆|风爆]]、{{only|je|short=1|for=掷出的[[喷溅型水瓶]]和[[滞留型水瓶]]}}熄灭。
+
+蜡烛可以含水，且含水时无法点燃。
+
+=== 光源 ===
+蜡烛可以用作光源。点燃时，每个蜡烛会将亮度等级提高3，单个方块空间的亮度最高可达12级。
+
+=== 蛋糕 ===
+每个完整的[[蛋糕]]上都能且只能放一个蜡烛。如果蛋糕被食用，蜡烛就会掉下来。
+
+== 音效 ==
+{{edition|java}}：
+{{Sound table
+|sound=Candle break1.ogg
+|sound2=Candle break2.ogg
+|sound3=Candle break3.ogg
+|sound4=Candle break4.ogg
+|sound5=Candle break5.ogg
+|subtitle={{tp|subtitles.block.generic.break}}
+|source={{tp|soundCategory.block}}
+|description=破坏方块
+|id=block.candle.break
+|translationkey=subtitles.block.generic.break
+|distance=16}}
+{{Sound table
+|sound=Candle step1.ogg
+|sound2=Candle step2.ogg
+|sound3=Candle step3.ogg
+|sound4=Candle step4.ogg
+|sound5=Candle step5.ogg
+|subtitle={{tp|subtitles.block.generic.fall}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=带有摔落伤害时摔落在方块上
+|id=block.candle.fall
+|translationkey=subtitles.block.generic.fall
+|distance=16}}
+{{Sound table
+|sound=Candle step1.ogg
+|sound2=Candle step2.ogg
+|sound3=Candle step3.ogg
+|sound4=Candle step4.ogg
+|sound5=Candle step5.ogg
+|subtitle={{tp|subtitles.block.generic.hit}}
+|source={{tp|soundCategory.block}}
+|description=挖掘方块
+|id=block.candle.hit
+|translationkey=subtitles.block.generic.hit
+|distance=16}}
+{{Sound table
+|sound=Candle break1.ogg
+|sound2=Candle break2.ogg
+|sound3=Candle break3.ogg
+|sound4=Candle break4.ogg
+|sound5=Candle break5.ogg
+|subtitle={{tp|subtitles.block.generic.place}}
+|source={{tp|soundCategory.block}}
+|description=放置方块
+|id=block.candle.place
+|translationkey=subtitles.block.generic.place
+|distance=16}}
+{{Sound table
+|sound=Candle step1.ogg
+|sound2=Candle step2.ogg
+|sound3=Candle step3.ogg
+|sound4=Candle step4.ogg
+|sound5=Candle step5.ogg
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=在方块上行走
+|id=block.candle.step
+|translationkey=subtitles.block.generic.footsteps
+}}
+{{Sound table
+|sound=Cake add_candle1.ogg
+|sound2=Cake add_candle2.ogg
+|sound3=Cake add_candle3.ogg
+|subtitle={{tp|subtitles.block.cake.add_candle}}
+|source={{tp|soundCategory.block}}
+|description=在蛋糕上插蜡烛
+|id=block.cake.add_candle
+|translationkey=subtitles.block.cake.add_candle
+|distance=16}}
+{{Sound table
+|sound=Candle ambient1.ogg
+|sound2=Candle ambient2.ogg
+|sound3=Candle ambient3.ogg
+|sound4=Candle ambient4.ogg
+|sound5=Candle ambient5.ogg
+|sound6=Candle ambient6.ogg
+|sound7=Candle ambient7.ogg
+|sound8=Candle ambient8.ogg
+|sound9=Candle ambient9.ogg
+|subtitle={{tp|subtitles.block.candle.crackle}}
+|source={{tp|soundCategory.block}}
+|description=环境音效
+|id=block.candle.ambient
+|translationkey=subtitles.block.candle.crackle
+|distance=3}}
+{{Sound table
+|sound=Candle extinguish1.ogg
+|sound2=Candle extinguish2.ogg
+|sound3=Candle extinguish3.ogg
+|subtitle={{tp|subtitles.block.candle.extinguish}}
+|source={{tp|soundCategory.block}}
+|description=蜡烛被熄灭
+|id=block.candle.extinguish
+|translationkey=subtitles.block.candle.extinguish
+|distance=8
+|foot=1}}
+
+{{edition|bedrock}}：
+{{Sound table
+|bedrock=1
+|sound=Candle step1.ogg
+|sound2=Candle step2.ogg
+|sound3=Candle step3.ogg
+|sound4=Candle step4.ogg
+|sound5=Candle step5.ogg
+|source=方块
+|description=方块作为物品使用时发出的音效
+|id=use.candle
+|typeid=item.use.on
+|soundpitch=0.8
+}}
+{{Sound table
+|sound=Candle step1.ogg
+|sound2=Candle step2.ogg
+|sound3=Candle step3.ogg
+|sound4=Candle step4.ogg
+|sound5=Candle step5.ogg
+|source=方块
+|description=破坏方块
+|id=dig.candle
+|typeid=break
+}}
+{{Sound table
+|sound=Candle break1.ogg
+|sound2=Candle break2.ogg
+|sound3=Candle break3.ogg
+|sound4=Candle break4.ogg
+|sound5=Candle break5.ogg
+|source=方块
+|description=挖掘方块
+|id=hit.candle
+|typeid=hit
+}}
+{{Sound table
+|sound=Candle break1.ogg
+|sound2=Candle break2.ogg
+|sound3=Candle break3.ogg
+|sound4=Candle break4.ogg
+|sound5=Candle break5.ogg
+|source=方块
+|description=放置方块
+|id=dig.candle
+|typeid=place
+}}
+{{Sound table
+|sound=Candle step1.ogg
+|sound2=Candle step2.ogg
+|sound3=Candle step3.ogg
+|sound4=Candle step4.ogg
+|sound5=Candle step5.ogg
+|source=方块
+|description=带有摔落伤害时摔落在方块上
+|id=step.candle
+|typeid=fall
+}}
+{{Sound table
+|sound=Candle step1.ogg
+|sound2=Candle step2.ogg
+|sound3=Candle step3.ogg
+|sound4=Candle step4.ogg
+|sound5=Candle step5.ogg
+|source=方块
+|description=在方块上行走
+|id=step.candle
+|typeid=step
+}}
+{{Sound table
+|sound=Candle step1.ogg
+|sound2=Candle step2.ogg
+|sound3=Candle step3.ogg
+|sound4=Candle step4.ogg
+|sound5=Candle step5.ogg
+|source=方块
+|description=在方块上跳跃
+|id=step.candle
+|typeid=jump
+}}
+{{Sound table
+|sound=Candle step1.ogg
+|sound2=Candle step2.ogg
+|sound3=Candle step3.ogg
+|sound4=Candle step4.ogg
+|sound5=Candle step5.ogg
+|source=方块
+|description=在方块上着陆
+|id=step.candle
+|typeid=land
+}}
+{{Sound table
+|sound=Cake add_candle1.ogg
+|sound2=Cake add_candle2.ogg
+|sound3=Cake add_candle3.ogg
+|source=方块
+|description=在蛋糕上插蜡烛
+|id=cake.add_candle
+|typeid=cake.add_candle
+}}
+{{Sound table
+|sound=Candle ambient1.ogg
+|sound2=Candle ambient2.ogg
+|sound3=Candle ambient3.ogg
+|sound4=Candle ambient4.ogg
+|sound5=Candle ambient5.ogg
+|sound6=Candle ambient6.ogg
+|sound7=Candle ambient7.ogg
+|sound8=Candle ambient8.ogg
+|sound9=Candle ambient9.ogg
+|source=方块
+|description=环境音效
+|id=ambient.candle
+|soundvolume=0.7/0.8/1.0<ref group="音效">这里代表9条音效文件分别以3种不同的音量播放。</ref>
+|soundpitch=0.8/0.9<ref group="音效">这里代表9条音效文件分别以2种不同的音高播放。</ref>
+|typeid=ambient.candle
+}}
+{{Sound table
+|sound=Candle extinguish1.ogg
+|sound2=Candle extinguish2.ogg
+|sound3=Candle extinguish3.ogg
+|source=方块
+|description=蜡烛被熄灭
+|id=extinguish.candle
+|typeid=extinguish.candle
+|soundvolume=0.9/1.0<ref group="音效">这里代表3条音效文件分别以2种不同的音量播放。</ref>
+|soundpitch=0.9/1.0/1.1<ref group="音效">这里代表3条音效文件分别以3种不同的音高播放。</ref>
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+
+{{ID table
+|generatetranslationkeys=java
+|Candle
+|spritetype=block
+|showblocktags=1
+|showitemtags=1
+|rowspan=17
+|blocktags={{GameTag|block|candle}}
+|itemtags={{GameTag|item|candle}}
+|nameid=candle}}
+{{ID table
+|generatetranslationkeys=java
+|White Candle
+|spritetype=block
+|nameid=white_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Orange Candle
+|spritetype=block
+|nameid=orange_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Magenta Candle
+|spritetype=block
+|nameid=magenta_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Light Blue Candle
+|spritetype=block
+|nameid=light_blue_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Yellow Candle
+|spritetype=block
+|nameid=yellow_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Lime Candle
+|spritetype=block
+|nameid=lime_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Pink Candle
+|spritetype=block
+|nameid=pink_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Gray Candle
+|spritetype=block
+|nameid=gray_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Light Gray Candle
+|spritetype=block
+|nameid=light_gray_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Cyan Candle
+|spritetype=block
+|nameid=cyan_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Purple Candle
+|spritetype=block
+|nameid=purple_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Blue Candle
+|spritetype=block
+|nameid=blue_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Brown Candle
+|spritetype=block
+|nameid=brown_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Green Candle
+|spritetype=block
+|nameid=green_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Red Candle
+|spritetype=block
+|nameid=red_candle}}
+{{ID table
+|generatetranslationkeys=java
+|Black Candle
+|spritetype=block
+|nameid=black_candle
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|showforms=y
+|generatetranslationkeys=bedrock
+|Candle
+|spritetype=block
+|nameid=candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|White Candle
+|spritetype=block
+|nameid=white_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Orange Candle
+|spritetype=block
+|nameid=orange_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Magenta Candle
+|spritetype=block
+|nameid=magenta_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Light Blue Candle
+|spritetype=block
+|nameid=light_blue_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Yellow Candle
+|spritetype=block
+|nameid=yellow_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Lime Candle
+|spritetype=block
+|nameid=lime_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Pink Candle
+|spritetype=block
+|nameid=pink_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Gray Candle
+|spritetype=block
+|nameid=gray_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Light Gray Candle
+|spritetype=block
+|nameid=light_gray_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Cyan Candle
+|spritetype=block
+|nameid=cyan_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Purple Candle
+|spritetype=block
+|nameid=purple_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Blue Candle
+|spritetype=block
+|nameid=blue_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Brown Candle
+|spritetype=block
+|nameid=brown_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Green Candle
+|spritetype=block
+|nameid=green_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Red Candle
+|spritetype=block
+|nameid=red_candle}}
+{{ID table
+|generatetranslationkeys=bedrock
+|Black Candle
+|spritetype=block
+|nameid=black_candle
+|foot=1}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+{{Block states table|蜡烛,橙色蜡烛,品红色蜡烛,淡蓝色蜡烛,黄色蜡烛,黄绿色蜡烛,粉红色蜡烛,灰色蜡烛,淡灰色蜡烛,青色蜡烛,紫色蜡烛,蓝色蜡烛,棕色蜡烛,绿色蜡烛,红色蜡烛,黑色蜡烛,白色蜡烛}}
+
+=== 方块数据值 ===
+{{see also|基岩版数据值}}
+
+{{/DV}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2020年10月3日|link={{ytl|DBvZ2Iqmm3M|t=17m}}|[[File:Black Candle (lit) JE1.png|32px]] [[File:Two Black Candles (lit) JE1.png|32px]] [[File:Three Black Candles (lit) JE1.png|32px]] [[File:Four White Candles (lit) JE1.png|32px]] 黑色和白色蜡烛在[[Minecraft Live 2020]]中出现。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.17|dev=20w45a|[[File:Candle JE1.png|32px]] [[File:White Candle JE1.png|32px]] [[File:Light Gray Candle JE1.png|32px]] [[File:Gray Candle JE1.png|32px]] [[File:Black Candle JE1.png|32px]] [[File:Brown Candle JE1.png|32px]] [[File:Red Candle JE1.png|32px]] [[File:Orange Candle JE1.png|32px]] [[File:Yellow Candle JE1.png|32px]] [[File:Lime Candle JE1.png|32px]] [[File:Green Candle JE1.png|32px]] [[File:Cyan Candle JE1.png|32px]] [[File:Light Blue Candle JE1.png|32px]] [[File:Blue Candle JE1.png|32px]] [[File:Purple Candle JE1.png|32px]] [[File:Magenta Candle JE1.png|32px]] [[File:Pink Candle JE1.png|32px]]<br>[[File:Candle (lit) JE1.png|32px]] [[File:White Candle (lit) JE1.png|32px]] [[File:Light Gray Candle (lit) JE1.png|32px]] [[File:Gray Candle (lit) JE1.png|32px]] [[File:Black Candle (lit) JE1.png|32px]] [[File:Brown Candle (lit) JE1.png|32px]] [[File:Red Candle (lit) JE1.png|32px]] [[File:Orange Candle (lit) JE1.png|32px]] [[File:Yellow Candle (lit) JE1.png|32px]] [[File:Lime Candle (lit) JE1.png|32px]] [[File:Green Candle (lit) JE1.png|32px]] [[File:Cyan Candle (lit) JE1.png|32px]] [[File:Light Blue Candle (lit) JE1.png|32px]] [[File:Blue Candle (lit) JE1.png|32px]] [[File:Purple Candle (lit) JE1.png|32px]] [[File:Magenta Candle (lit) JE1.png|32px]] [[File:Pink Candle (lit) JE1.png|32px]]<br>[[File:Candle (item) JE1.png|32px]] [[File:White Candle (item) JE1.png|32px]] [[File:Light Gray Candle (item) JE1.png|32px]] [[File:Gray Candle (item) JE1.png|32px]] [[File:Black Candle (item) JE1.png|32px]] [[File:Brown Candle (item) JE1.png|32px]] [[File:Red Candle (item) JE1.png|32px]] [[File:Orange Candle (item) JE1.png|32px]] [[File:Yellow Candle (item) JE1.png|32px]] [[File:Lime Candle (item) JE1.png|32px]] [[File:Green Candle (item) JE1.png|32px]] [[File:Cyan Candle (item) JE1.png|32px]] [[File:Light Blue Candle (item) JE1.png|32px]] [[File:Blue Candle (item) JE1.png|32px]] [[File:Purple Candle (item) JE1.png|32px]] [[File:Magenta Candle (item) JE1.png|32px]] [[File:Pink Candle (item) JE1.png|32px]] <br>加入了蜡烛。}}
+|{{HistoryLine|||dev=20w46a|[[File:Candle (item) JE2.png|32px]] [[File:White Candle (item) JE2.png|32px]] [[File:Light Gray Candle (item) JE2.png|32px]] [[File:Gray Candle (item) JE2.png|32px]] [[File:Black Candle (item) JE2.png|32px]] [[File:Brown Candle (item) JE2.png|32px]] [[File:Red Candle (item) JE2.png|32px]] [[File:Orange Candle (item) JE2.png|32px]] [[File:Yellow Candle (item) JE2.png|32px]] [[File:Lime Candle (item) JE2.png|32px]] [[File:Green Candle (item) JE2.png|32px]] [[File:Cyan Candle (item) JE2.png|32px]] [[File:Light Blue Candle (item) JE2.png|32px]] [[File:Blue Candle (item) JE2.png|32px]] [[File:Purple Candle (item) JE2.png|32px]] [[File:Magenta Candle (item) JE2.png|32px]] [[File:Pink Candle (item) JE2.png|32px]] <br>更改了蜡烛物品的纹理。}}
+|{{HistoryLine|||dev=20w48a|[[File:Candle (item) JE3 BE1.png|32px]] [[File:White Candle (item) JE3 BE1.png|32px]] [[File:Light Gray Candle (item) JE3 BE1.png|32px]] [[File:Gray Candle (item) JE3 BE1.png|32px]] [[File:Black Candle (item) JE3 BE1.png|32px]] [[File:Brown Candle (item) JE3 BE1.png|32px]] [[File:Red Candle (item) JE3 BE1.png|32px]] [[File:Orange Candle (item) JE3 BE1.png|32px]] [[File:Yellow Candle (item) JE3 BE1.png|32px]] [[File:Lime Candle (item) JE3 BE1.png|32px]] [[File:Green Candle (item) JE3 BE1.png|32px]] [[File:Cyan Candle (item) JE3 BE1.png|32px]] [[File:Light Blue Candle (item) JE3 BE1.png|32px]] [[File:Blue Candle (item) JE3 BE1.png|32px]] [[File:Purple Candle (item) JE3 BE1.png|32px]] [[File:Magenta Candle (item) JE3 BE1.png|32px]] [[File:Pink Candle (item) JE3 BE1.png|32px]] <br>再次更改了蜡烛物品的纹理。}}
+|{{HistoryLine|||dev=21w13a|现在蜡烛会被掷出的[[喷溅型水瓶]]和[[滞留型水瓶]]熄灭。}}
+|{{HistoryLine|||dev=21w19a|从[[创造模式物品栏]]移除了蜡烛。
+|移除了蜡烛的合成配方并整合到[[洞穴与山崖预览数据包]]中。}}
+|{{HistoryLine|||dev=pre1|[[File:Candle (lit) JE2.png|32px]] [[File:White Candle (lit) JE2.png|32px]] [[File:Light Gray Candle (lit) JE2.png|32px]] [[File:Gray Candle (lit) JE2.png|32px]] [[File:Black Candle (lit) JE2.png|32px]] [[File:Brown Candle (lit) JE2.png|32px]] [[File:Red Candle (lit) JE2.png|32px]] [[File:Orange Candle (lit) JE2.png|32px]] [[File:Yellow Candle (lit) JE2.png|32px]] [[File:Lime Candle (lit) JE2.png|32px]] [[File:Green Candle (lit) JE2.png|32px]] [[File:Cyan Candle (lit) JE2.png|32px]] [[File:Light Blue Candle (lit) JE2.png|32px]] [[File:Blue Candle (lit) JE2.png|32px]] [[File:Purple Candle (lit) JE2.png|32px]] [[File:Magenta Candle (lit) JE2.png|32px]] [[File:Pink Candle (lit) JE2.png|32px]] <br>更改了点燃的蜡烛的纹理，使顶部的纹理与未点燃时的不同。
+|重新将蜡烛加入到创造模式物品栏。
+|重新加入了蜡烛的合成配方。}}
+|{{HistoryLine||2021年5月28日|link={{Tweet|JasperBoerstra|1398249599178059782}}|[[File:White Candle (lit) (pre-release).png|32px]] [[File:Light Gray Candle (lit) (pre-release).png|32px]] [[File:Gray Candle (lit) (pre-release).png|32px]] [[File:Black Candle (lit) (pre-release).png|32px]] [[File:Brown Candle (lit) (pre-release).png|32px]] [[File:Red Candle (lit) (pre-release).png|32px]] [[File:Orange Candle (lit) (pre-release).png|32px]] [[File:Yellow Candle (lit) (pre-release).png|32px]] [[File:Lime Candle (lit) (pre-release).png|32px]] [[File:Green Candle (lit) (pre-release).png|32px]] [[File:Cyan Candle (lit) (pre-release).png|32px]] [[File:Light Blue Candle (lit) (pre-release).png|32px]] [[File:Blue Candle (lit) (pre-release).png|32px]] [[File:Purple Candle (lit) (pre-release).png|32px]] [[File:Magenta Candle (lit) (pre-release).png|32px]] [[File:Pink Candle (lit) (pre-release).png|32px]]<br>[[JAPPA]]在推特上展示了点燃的染色蜡烛的新纹理。}}
+|{{HistoryLine||2021年5月31日|link={{Tweet|JasperBoerstra|1399345798480109573}}|[[File:White Candle (lit) JE3.png|32px]] [[File:Light_Gray Candle (lit) JE3.png|32px]] [[File:Gray Candle (lit) JE3.png|32px]] [[File:Black Candle (lit) JE3.png|32px]] [[File:Brown Candle (lit) JE3.png|32px]] [[File:Red Candle (lit) JE3.png|32px]] [[File:Orange Candle (lit) JE3.png|32px]] [[File:Yellow Candle (lit) JE3.png|32px]] [[File:Lime Candle (lit) JE3.png|32px]] [[File:Green Candle (lit) JE3.png|32px]] [[File:Cyan Candle (lit) JE3.png|32px]] [[File:Light_Blue Candle (lit) JE3.png|32px]] [[File:Blue Candle (lit) JE3.png|32px]] [[File:Purple Candle (lit) JE3.png|32px]] [[File:Magenta Candle (lit) JE3.png|32px]] [[File:Pink Candle (lit) JE3.png|32px]]<br>JAPPA在推特上展示了点燃的染色蜡烛的新纹理。}}
+|{{HistoryLine||1.17|dev=pre3||[[File:White Candle (lit) JE3.png|32px]] [[File:Light Gray Candle (lit) JE3.png|32px]] [[File:Gray Candle (lit) JE3.png|32px]] [[File:Black Candle (lit) JE3.png|32px]] [[File:Brown Candle (lit) JE3.png|32px]] [[File:Red Candle (lit) JE3.png|32px]] [[File:Orange Candle (lit) JE3.png|32px]] [[File:Yellow Candle (lit) JE3.png|32px]] [[File:Lime Candle (lit) JE3.png|32px]] [[File:Green Candle (lit) JE3.png|32px]] [[File:Cyan Candle (lit) JE3.png|32px]] [[File:Light Blue Candle (lit) JE3.png|32px]] [[File:Blue Candle (lit) JE3.png|32px]] [[File:Purple Candle (lit) JE3.png|32px]] [[File:Magenta Candle (lit) JE3.png|32px]] [[File:Pink Candle (lit) JE3.png|32px]] <br>更改了点燃的染色蜡烛的纹理。}}
+|{{HistoryLine||1.19|dev=exp1|现在普通蜡烛和白色蜡烛会自然生成于[[远古城市]]中。
+|现在普通蜡烛可以在远古城市的战利品箱子中找到。}}
+|{{HistoryLine||1.20|dev=23w12a|现在棕色、红色、绿色和紫色蜡烛能通过刷扫古迹废墟里的[[可疑的沙子]]和[[可疑的沙砾]]获得。}}
+|{{HistoryLine|||dev=23w16a|棕色、红色、绿色和紫色蜡烛不再能通过刷扫古迹废墟里的可疑的沙子获得。}}
+|{{HistoryLine||1.20.3|dev=23w45a|exp=update_1_21|普通蜡烛现在可以生成于试炼密室。}}
+|{{HistoryLine||1.20.5|dev=24w13a|exp=update_1_21|红色蜡烛现在可以生成于试炼密室。}}
+|{{HistoryLine||1.21|dev=24w18a|23w45a和24w13a中的变更不再属于[[实验性内容]]。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.17.10|dev=1.17.10.22|[[File:Candle BE1.png|32px]] [[File:White Candle BE1.png|32px]] [[File:Light Gray Candle BE1.png|32px]] [[File:Gray Candle BE1.png|32px]] [[File:Black Candle BE1.png|32px]] [[File:Brown Candle BE1.png|32px]] [[File:Red Candle BE1.png|32px]] [[File:Orange Candle BE1.png|32px]] [[File:Yellow Candle BE1.png|32px]] [[File:Lime Candle BE1.png|32px]] [[File:Green Candle BE1.png|32px]] [[File:Cyan Candle BE1.png|32px]] [[File:Light Blue Candle BE1.png|32px]] [[File:Blue Candle BE1.png|32px]] [[File:Purple Candle BE1.png|32px]] [[File:Magenta Candle BE1.png|32px]] [[File:Pink Candle BE1.png|32px]]<br>[[File:Candle (lit) BE1.png|32px]] [[File:White Candle (lit) BE1.png|32px]] [[File:Light Gray Candle (lit) BE1.png|32px]] [[File:Gray Candle (lit) BE1.png|32px]] [[File:Black Candle (lit) BE1.png|32px]] [[File:Brown Candle (lit) BE1.png|32px]] [[File:Red Candle (lit) BE1.png|32px]] [[File:Orange Candle (lit) BE1.png|32px]] [[File:Yellow Candle (lit) BE1.png|32px]] [[File:Lime Candle (lit) BE1.png|32px]] [[File:Green Candle (lit) BE1.png|32px]] [[File:Cyan Candle (lit) BE1.png|32px]] [[File:Light Blue Candle (lit) BE1.png|32px]] [[File:Blue Candle (lit) BE1.png|32px]] [[File:Purple Candle (lit) BE1.png|32px]] [[File:Magenta Candle (lit) BE1.png|32px]] [[File:Pink Candle (lit) BE1.png|32px]]<br>[[File:Candle (item) JE3 BE1.png|32px]] [[File:White Candle (item) JE3 BE1.png|32px]] [[File:Light Gray Candle (item) JE3 BE1.png|32px]] [[File:Gray Candle (item) JE3 BE1.png|32px]] [[File:Black Candle (item) JE3 BE1.png|32px]] [[File:Brown Candle (item) JE3 BE1.png|32px]] [[File:Red Candle (item) JE3 BE1.png|32px]] [[File:Orange Candle (item) JE3 BE1.png|32px]] [[File:Yellow Candle (item) JE3 BE1.png|32px]] [[File:Lime Candle (item) JE3 BE1.png|32px]] [[File:Green Candle (item) JE3 BE1.png|32px]] [[File:Cyan Candle (item) JE3 BE1.png|32px]] [[File:Light Blue Candle (item) JE3 BE1.png|32px]] [[File:Blue Candle (item) JE3 BE1.png|32px]] [[File:Purple Candle (item) JE3 BE1.png|32px]] [[File:Magenta Candle (item) JE3 BE1.png|32px]] [[File:Pink Candle (item) JE3 BE1.png|32px]] <br>加入了蜡烛。}}
+|{{HistoryLine||1.18.30|dev=1.18.30.32|exg=wild_update|现在普通蜡烛和白色蜡烛会自然生成于远古城市中。
+|现在普通蜡烛可以在远古城市的战利品箱子中找到。}}
+|{{HistoryLine||1.19.0|dev=1.19.0.20|1.18.30.32中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.19.80|dev=1.19.80.22|exg=next_major_update|现在棕色、红色、绿色和紫色蜡烛能通过刷扫[[古迹废墟]]里的可疑的沙子和可疑的沙砾获得。}}
+|{{HistoryLine||1.20.0|dev=1.20.0.21|1.19.80.22中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine|||dev=1.20.0.22|棕色、红色、绿色和紫色蜡烛不再能通过刷扫古迹废墟里的可疑的沙子获得。}}
+|{{HistoryLine||1.20.30|dev=1.20.20.21|淡灰色蜡烛的硬度由0改为0.1。
+|淡灰色蜡烛的爆炸抗性由0改为0.1。}}
+|{{HistoryLine||1.20.60|dev=1.20.60.20|exg=updateAnnouncedLive2023|普通蜡烛现在可以生成于[[试炼密室]]。}}
+|{{HistoryLine||1.21.0|dev=1.21.0.20|红色蜡烛现在可以生成于试炼密室。}}
+|{{HistoryLine|||dev=1.21.0.22|1.20.60.20和1.21.0.20中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.21.60|dev=1.21.60.21|点燃的蜡烛现在有可能播放环境音效。<ref>{{bug|MCPE-130585|||Fixed}}</ref>}}
+|{{HistoryLine||1.21.100|dev=1.21.100.22|蜡烛不再能被附有[[火焰附加]]的[[附魔书]]点燃。}}
+}}
+
+== 你知道吗 ==
+* 蜡烛的设计类似于[[万圣节更新]]中计划的火把的燃尽变种。
+* {{in|je}}使用命令{{cmd|setblock ~ ~ ~ minecraft:candle[lit{{=}}true,waterlogged{{=}}true]}}会放置一个同时被点燃和含水的蜡烛。
+
+== 画廊 ==
+{{LoadPage|蜡烛/渲染图|渲染图|h3}}
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|colored blocks|functional blocks}}
+
+[[de:Kerze]]
+[[en:Candle]]
+[[es:Vela]]
+[[fr:Bougie]]
+[[it:Candela]]
+[[ja:Candle]]
+[[pl:Świeczka]]
+[[pt:Vela]]
+[[ru:Свеча]]
+[[th:เทียน]]
+[[uk:Свічка]]

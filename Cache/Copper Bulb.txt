@@ -1,0 +1,443 @@
+{{distinguish|铜灯笼}}
+{{Infobox block
+|group1=未氧化
+|1-1=Copper Bulb.png
+|1-2=Powered Copper Bulb.png
+|1-3=Lit Copper Bulb.png
+|1-4=Lit Powered Copper Bulb.png
+|group2=斑驳
+|2-1=Exposed Copper Bulb.png
+|2-2=Powered Exposed Copper Bulb.png
+|2-3=Lit Exposed Copper Bulb.png
+|2-4=Lit Powered Exposed Copper Bulb.png
+|group3=锈蚀
+|3-1=Weathered Copper Bulb.png
+|3-2=Powered Weathered Copper Bulb.png
+|3-3=Lit Weathered Copper Bulb.png
+|3-4=Lit Powered Weathered Copper Bulb.png
+|group4=氧化
+|4-1=Oxidized Copper Bulb.png
+|4-2=Powered Oxidized Copper Bulb.png
+|4-3=Lit Oxidized Copper Bulb.png
+|4-4=Lit Powered Oxidized Copper Bulb.png
+|*-1caption=熄灭、未激活
+|*-2caption=熄灭、激活
+|*-3caption=点亮、未激活
+|*-4caption=点亮、激活
+|invimage=Copper Bulb
+|invimage2=Exposed Copper Bulb
+|invimage3=Weathered Copper Bulb
+|invimage4=Oxidized Copper Bulb
+|invimage5=----
+|invimage6=Waxed Copper Bulb
+|invimage7=Waxed Exposed Copper Bulb
+|invimage8=Waxed Weathered Copper Bulb
+|invimage9=Waxed Oxidized Copper Bulb
+|autovalue-id = 铜灯;斑驳的铜灯;锈蚀的铜灯;氧化的铜灯;涂蜡的铜灯;涂蜡的斑驳铜灯;涂蜡的锈蚀铜灯;涂蜡的氧化铜灯
+|creative-tab-id=涂蜡的铜灯:涂蜡;铜灯:未涂蜡
+|light='''开启'''：<br>15<small>（未氧化）</small><br>12<small>（斑驳）</small><br>8<small>（锈蚀）</small><br>4<small>（氧化）</small><br>'''未开启'''：0
+}}
+'''铜灯（Copper Bulb）'''是一种会随着时间缓慢生锈的照明[[方块]]，接收到红石脉冲信号时会切换开关状态。
+
+== 生成 ==
+铜灯、斑驳的铜灯、锈蚀的铜灯、氧化的铜灯不会生成在世界中，只能通过[[氧化]]机制生成。
+
+=== 自然生成 ===
+涂蜡的铜灯、涂蜡的斑驳铜灯、涂蜡的锈蚀铜灯和涂蜡的氧化铜灯可以生成在[[试炼密室]]中，且均为点亮状态。
+
+{{Block distribution|涂蜡的铜灯, 涂蜡的斑驳铜灯, 涂蜡的锈蚀铜灯, 涂蜡的氧化铜灯}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|head=1
+|A2=Matching Block of Copper
+|B1=Matching Block of Copper
+|B2=Blaze Rod
+|B3=Redstone Dust
+|C2=Matching Block of Copper
+|Output=Matching Copper Bulb, 4
+}}
+{{Crafting
+|Matching Unwaxed Copper Bulb
+|Honeycomb
+|Output=Matching Waxed Copper Bulb
+|foot=1
+}}
+
+== 破坏 ==
+挖掘铜灯的合适工具是镐。铜灯需要石镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table|铜灯,斑驳的铜灯,锈蚀的铜灯,氧化的铜灯,涂蜡的铜灯,涂蜡的斑驳铜灯,涂蜡的锈蚀铜灯,涂蜡的氧化铜灯}}
+
+铜灯被破坏后会掉落自身。
+
+== 用途 ==
+铜灯属于[[红石元件#机械元件|机械元件]]，可被下列形式激活：
+* 毗邻的开启的'''[[红石元件#电源|电源]]'''（例外：[[红石火把]]不会激活其所附着的铜灯，[[侦测器]]只会激活指向的铜灯）。
+* 毗邻的'''[[红石电路/充能与激活|充能方块]]'''。
+* 毗邻的指向铜灯且激活的[[红石中继器]]、[[红石比较器]]或[[红石粉]]（包括铜灯上方的红石粉）；毗邻但未指向铜灯的红石粉不会激活铜灯。
+
+{{in|be}}在同一红石刻内，电容器更新阶段前存在，但在电容器更新阶段被取消的信号无法激活铜灯。
+
+铜灯接收到红石脉冲后，会{{only|je|for=立即}}或{{only|be|for=在1[[游戏刻]]后}}切换点亮和熄灭状态。{{in|be}}该延迟通过创建一个{{convert|1}}后的[[计划刻]]来实现。
+
+铜灯纹理中心具有一个红点，在其被激活时亮起，而无论铜灯是否点亮。
+
+[[红石比较器]]可以检测铜灯的状态。无论其是否氧化，只要铜灯点亮，比较器会发出15级的红石信号；铜灯熄灭时比较器不会发出红石信号。
+
+铜灯搭配红石比较器可构建又小又快且无需上升沿探测器的[[记忆电路#T触发器|T触发器]]。
+
+; {{in|be|nc=1}}：
+: 铜灯相较其他消费者元件额外具有1游戏刻延迟，因此会在红石刻工作。
+: 铜灯不具有“晋升为信号源”属性，因此铜灯不能被[[红石电路/充能与激活|充能]]，但可以[[红石粉#形状|压线]]。
+
+=== 光源 ===
+铜灯是一种可控[[光]]源，放置时默认为熄灭状态。
+
+点亮的铜灯会发出其氧化程度对应亮度等级的光。
+
+=== 氧化 ===
+{{main|氧化}}
+铜灯受氧化机制影响，能够在不同变种之间转化。
+
+铜灯的亮度等级会随氧化程度增加而衰减。
+
+{| class="sortable wikitable"
+|-
+! 变种 !! 亮度等级
+|-
+| 普通 || 15
+|-
+| 斑驳 || 12
+|-
+| {{tr|锈蚀|風化|生鏽}} || 8
+|-
+| 氧化 || 4
+|}
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Copper Bulb break1.ogg
+|sound2=Copper Bulb break2.ogg
+|sound3=Copper Bulb break3.ogg
+|sound4=Copper Bulb break4.ogg
+|subtitle={{tp|subtitles.block.generic.break}}
+|source={{tp|soundCategory.block}}
+|description=破坏方块
+|id=block.copper_bulb.break
+|translationkey=subtitles.block.generic.break}}
+{{Sound table
+|sound=Copper Bulb step1.ogg
+|sound2=Copper Bulb step2.ogg
+|sound3=Copper Bulb step3.ogg
+|sound4=Copper Bulb step4.ogg
+|sound5=Copper Bulb step5.ogg
+|sound6=Copper Bulb step6.ogg
+|subtitle={{tp|subtitles.block.generic.fall}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=带有摔落伤害时摔落在方块上
+|id=block.copper_bulb.fall
+|translationkey=subtitles.block.generic.fall}}
+{{Sound table
+|sound=Copper Bulb step1.ogg
+|sound2=Copper Bulb step2.ogg
+|sound3=Copper Bulb step3.ogg
+|sound4=Copper Bulb step4.ogg
+|sound5=Copper Bulb step5.ogg
+|sound6=Copper Bulb step6.ogg
+|subtitle={{tp|subtitles.block.generic.hit}}
+|source={{tp|soundCategory.block}}
+|description=挖掘方块
+|id=block.copper_bulb.hit
+|translationkey=subtitles.block.generic.hit}}
+{{Sound table
+|sound=Copper Bulb place1.ogg
+|sound2=Copper Bulb place2.ogg
+|sound3=Copper Bulb place3.ogg
+|sound4=Copper Bulb place4.ogg
+|subtitle={{tp|subtitles.block.generic.place}}
+|source={{tp|soundCategory.block}}
+|description=放置方块
+|id=block.copper_bulb.place
+|translationkey=subtitles.block.generic.place}}
+{{Sound table
+|sound=Copper Bulb step1.ogg
+|sound2=Copper Bulb step2.ogg
+|sound3=Copper Bulb step3.ogg
+|sound4=Copper Bulb step4.ogg
+|sound5=Copper Bulb step5.ogg
+|sound6=Copper Bulb step6.ogg
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=在方块上行走
+|id=block.copper_bulb.step
+|translationkey=subtitles.block.generic.footsteps}}
+{{Sound table
+|sound=Copper Bulb turn on.ogg
+|subtitle={{tp|subtitles.block.copper_bulb.turn_on}}
+|source={{tp|soundCategory.block}}
+|description=铜灯点亮
+|id=block.copper_bulb.turn_on
+|translationkey=subtitles.block.copper_bulb.turn_on}}
+{{Sound table
+|sound=Copper Bulb turn off.ogg
+|subtitle={{tp|subtitles.block.copper_bulb.turn_off}}
+|source={{tp|soundCategory.block}}
+|description=铜灯熄灭
+|id=block.copper_bulb.turn_off
+|translationkey=subtitles.block.copper_bulb.turn_off}}
+{{Sound table/Misc/Oxidation/JE}}
+
+{{el|be}}：
+{{Sound table
+|bedrock=1
+|sound=Copper Bulb step1.ogg
+|sound2=Copper Bulb step2.ogg
+|sound3=Copper Bulb step3.ogg
+|sound4=Copper Bulb step4.ogg
+|sound5=Copper Bulb step5.ogg
+|sound6=Copper Bulb step6.ogg
+|source=方块
+|description=方块作为物品使用时发出的音效
+|id=step.copper_bulb
+|typeid=item.use.on
+}}
+{{Sound table
+|sound=Copper Bulb break1.ogg
+|sound2=Copper Bulb break2.ogg
+|sound3=Copper Bulb break3.ogg
+|sound4=Copper Bulb break4.ogg
+|source=方块
+|description=破坏方块
+|id=break.copper_bulb
+|typeid=break
+|soundpitch=0.8
+}}
+{{Sound table
+|sound=Copper Bulb step1.ogg
+|sound2=Copper Bulb step2.ogg
+|sound3=Copper Bulb step3.ogg
+|sound4=Copper Bulb step4.ogg
+|sound5=Copper Bulb step5.ogg
+|sound6=Copper Bulb step6.ogg
+|source=方块
+|description=挖掘方块
+|id=step.copper_bulb
+|typeid=hit
+|soundpitch=0.5
+}}
+{{Sound table
+|sound=Copper Bulb place1.ogg
+|sound2=Copper Bulb place2.ogg
+|sound3=Copper Bulb place3.ogg
+|sound4=Copper Bulb place4.ogg
+|source=方块
+|description=放置方块
+|id=place.copper_bulb
+|typeid=place
+|soundpitch=0.8
+}}
+{{Sound table
+|sound=Copper Bulb step1.ogg
+|sound2=Copper Bulb step2.ogg
+|sound3=Copper Bulb step3.ogg
+|sound4=Copper Bulb step4.ogg
+|sound5=Copper Bulb step5.ogg
+|sound6=Copper Bulb step6.ogg
+|source=方块
+|description=带有摔落伤害时摔落在方块上
+|id=step.copper_bulb
+|typeid=fall
+}}
+{{Sound table
+|sound=Copper Bulb step1.ogg
+|sound2=Copper Bulb step2.ogg
+|sound3=Copper Bulb step3.ogg
+|sound4=Copper Bulb step4.ogg
+|sound5=Copper Bulb step5.ogg
+|sound6=Copper Bulb step6.ogg
+|source=方块
+|description=在方块上行走
+|id=step.copper_bulb
+|typeid=step
+}}
+{{Sound table
+|sound=Copper Bulb step1.ogg
+|sound2=Copper Bulb step2.ogg
+|sound3=Copper Bulb step3.ogg
+|sound4=Copper Bulb step4.ogg
+|sound5=Copper Bulb step5.ogg
+|sound6=Copper Bulb step6.ogg
+|source=方块
+|description=在方块上跳跃
+|id=step.copper_bulb
+|typeid=jump
+|soundvolume=0.12
+|soundpitch=1.1
+}}
+{{Sound table
+|sound=Copper Bulb step1.ogg
+|sound2=Copper Bulb step2.ogg
+|sound3=Copper Bulb step3.ogg
+|sound4=Copper Bulb step4.ogg
+|sound5=Copper Bulb step5.ogg
+|sound6=Copper Bulb step6.ogg
+|source=方块
+|description=在方块上着陆
+|id=step.copper_bulb
+|typeid=land
+}}
+{{Sound table
+|sound=Copper Bulb turn on.ogg
+|source=方块
+|description=铜灯点亮
+|id=block.copper_bulb.turn_on
+|typeid=block.copper_bulb.turn_on
+|sounddistance=6
+}}
+{{Sound table
+|sound=Copper Bulb turn off.ogg
+|source=方块
+|description=铜灯熄灭
+|id=block.copper_bulb.turn_off
+|typeid=block.copper_bulb.turn_off
+|soundpitch=0.75
+|sounddistance=6
+}}
+{{Sound table/Misc/Oxidation/BE}}
+
+== 数据值 ==
+=== ID ===
+{{el|je}}：
+{{ID table
+|generatetranslationkeys=java
+|Copper Bulb
+|spritetype=block
+|nameid=copper_bulb
+|showblocktags=1 |blocktagsmerge=8 |blocktags={{GameTag|block|copper_bulb,exposed_copper_bulb,weathered_copper_bulb,oxidized_copper_bulb,waxed_copper_bulb,waxed_exposed_copper_bulb,waxed_weathered_copper_bulb,waxed_oxidized_copper_bulb}}}}
+{{ID table
+|Exposed Copper Bulb
+|spritetype=block
+|nameid=exposed_copper_bulb}}
+{{ID table
+|Weathered Copper Bulb
+|spritetype=block
+|nameid=weathered_copper_bulb}}
+{{ID table
+|Oxidized Copper Bulb
+|spritetype=block
+|nameid=oxidized_copper_bulb}}
+{{ID table
+|Waxed Copper Bulb
+|spritetype=block
+|nameid=waxed_copper_bulb}}
+{{ID table
+|Waxed Exposed Copper Bulb
+|spritetype=block
+|nameid=waxed_exposed_copper_bulb}}
+{{ID table
+|Waxed Weathered Copper Bulb
+|spritetype=block
+|nameid=waxed_weathered_copper_bulb}}
+{{ID table
+|Waxed Oxidized Copper Bulb
+|spritetype=block
+|nameid=waxed_oxidized_copper_bulb
+|foot=1}}
+
+{{el|be}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Copper Bulb
+|spritetype=block
+|nameid=copper_bulb}}
+{{ID table
+|Exposed Copper Bulb
+|spritetype=block
+|nameid=exposed_copper_bulb}}
+{{ID table
+|Weathered Copper Bulb
+|spritetype=block
+|nameid=weathered_copper_bulb}}
+{{ID table
+|Oxidized Copper Bulb
+|spritetype=block
+|nameid=oxidized_copper_bulb}}
+{{ID table
+|Waxed Copper Bulb
+|spritetype=block
+|nameid=waxed_copper_bulb}}
+{{ID table
+|Waxed Exposed Copper Bulb
+|spritetype=block
+|nameid=waxed_exposed_copper_bulb}}
+{{ID table
+|Waxed Weathered Copper Bulb
+|spritetype=block
+|nameid=waxed_weathered_copper_bulb}}
+{{ID table
+|Waxed Oxidized Copper Bulb
+|spritetype=block
+|nameid=waxed_oxidized_copper_bulb
+|foot=1}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+{{Block states table|铜灯,斑驳的铜灯,锈蚀的铜灯,氧化的铜灯,涂蜡的铜灯,涂蜡的斑驳铜灯,涂蜡的锈蚀铜灯,涂蜡的氧化铜灯}}
+
+== 成就 ==
+{{load achievements|wax-on-wax-off}}
+
+== 进度 ==
+{{load advancements|husbandry.wax_on;husbandry.wax_off;adventure.lighten_up}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2023年10月15日|link=https://www.youtube.com/watch?v=DnY5xz11lR0&ab_channel=Minecraft|[[File:Lit Copper Bulb JE1 BE1.png|32px]] [[File:Lit Exposed Copper Bulb JE1 BE1.png|32px]] [[File:Lit Weathered Copper Bulb JE1 BE1.png|32px]] [[File:Lit Oxidized Copper Bulb JE1 BE1.png|32px]] [[File:Oxidized Copper Bulb JE1 BE1.png|32px]] [[Minecraft Live 2023]]展示了铜灯。}}
+|{{HistoryLine||2023年10月17日|link={{tweet|kingbdogz|1714359749662425120}}|[[Brandon Pearce]]在推特中透露，锈蚀的铜灯光照等级为8。<ref>{{tweet|kingbdogz|1714359749662425120|Weathered Copper Bulbs will be the first survival block that emits a light level of 8 👀|October 17, 2023}}</ref>}}
+|{{HistoryLine||2023年10月24日|[[File:Unlit Copper Bulbs.png|32px]]更多熄灭的铜灯变种公布。|link=https://pbs.twimg.com/media/F9OpOZYbMAAc4h1?format=jpg&name=large}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.20.3|dev=23w43a|exp=update_1_21|[[File:Copper Bulb JE1 BE1.png|32px]] [[File:Exposed Copper Bulb JE1 BE1.png|32px]] [[File:Weathered Copper Bulb JE1 BE1.png|32px]] [[File:Oxidized Copper Bulb JE1 BE1.png|32px]] [[File:Lit Copper Bulb JE1 BE1.png|32px]] [[File:Lit Exposed Copper Bulb JE1 BE1.png|32px]] [[File:Lit Weathered Copper Bulb JE1 BE1.png|32px]] [[File:Lit Oxidized Copper Bulb JE1 BE1.png|32px]]<br>[[File:Powered Copper Bulb JE1 BE1.png|32px]] [[File:Powered Exposed Copper Bulb JE1 BE1.png|32px]] [[File:Powered Weathered Copper Bulb JE1 BE1.png|32px]] [[File:Powered Oxidized Copper Bulb JE1 BE1.png|32px]] [[File:Lit Powered Copper Bulb JE1 BE1.png|32px]] [[File:Lit Powered Exposed Copper Bulb JE1 BE1.png|32px]] [[File:Lit Powered Weathered Copper Bulb JE1 BE1.png|32px]] [[File:Lit Powered Oxidized Copper Bulb JE1 BE1.png|32px]] 加入了铜灯。}}
+|{{HistoryLine|||dev=23w45a|涂蜡的铜灯、斑驳的铜灯、锈蚀的铜灯和氧化的铜灯现在可以生成在[[试炼密室]]中。}}
+|{{HistoryLine|||dev=23w46a|现在铜灯在红石信号变化时立刻切换状态。}}
+|{{HistoryLine||1.20.5|dev=23w51a|exp=update_1_21|现在试炼密室内会生成涂蜡的斑驳铜灯、涂蜡的锈蚀铜灯和涂蜡的氧化铜灯，而不再是它们的未涂蜡变种。}}
+|{{HistoryLine||1.21|dev=24w18a|铜灯不再属于[[实验性内容]]。}}
+|{{HistoryLine||1.21.4|dev=24w46a|[[File:Lit Powered Exposed Copper Bulb JE2 BE2.png|32px]] 调整了激活状态下点亮的斑驳的铜灯的纹理。<ref>{{bug|MC-266991|||Fixed}}</ref>}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.20.50|dev=1.20.50.22|exg=updateAnnouncedLive2023|[[File:Copper Bulb JE1 BE1.png|32px]] [[File:Exposed Copper Bulb JE1 BE1.png|32px]] [[File:Weathered Copper Bulb JE1 BE1.png|32px]] [[File:Oxidized Copper Bulb JE1 BE1.png|32px]] [[File:Lit Copper Bulb JE1 BE1.png|32px]] [[File:Lit Exposed Copper Bulb JE1 BE1.png|32px]] [[File:Lit Weathered Copper Bulb JE1 BE1.png|32px]] [[File:Lit Oxidized Copper Bulb JE1 BE1.png|32px]]<br>[[File:Powered Copper Bulb JE1 BE1.png|32px]] [[File:Powered Exposed Copper Bulb JE1 BE1.png|32px]] [[File:Powered Weathered Copper Bulb JE1 BE1.png|32px]] [[File:Powered Oxidized Copper Bulb JE1 BE1.png|32px]] [[File:Lit Powered Copper Bulb JE1 BE1.png|32px]] [[File:Lit Powered Exposed Copper Bulb JE1 BE1.png|32px]] [[File:Lit Powered Weathered Copper Bulb JE1 BE1.png|32px]] [[File:Lit Powered Oxidized Copper Bulb JE1 BE1.png|32px]] 加入了铜灯。}}
+|{{HistoryLine||1.20.60|dev=1.20.60.20|exg=updateAnnouncedLive2023|涂蜡的铜灯、斑驳的铜灯、锈蚀的铜灯和氧化的铜灯现在可以生成在[[试炼密室]]中。}}
+|{{HistoryLine|||dev=1.20.60.23|现在试炼密室内会生成涂蜡的斑驳铜灯、涂蜡的锈蚀铜灯和涂蜡的氧化铜灯，而不再是它们的未涂蜡变种。<ref>{{bug|MCPE-176949|||Fixed}}</ref>}}
+|{{HistoryLine||1.21.0|dev=1.21.0.22|铜灯不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.21.50|dev=1.21.50.20|铜灯及其所有变种现在需要石镐或品质更好的镐来挖掘，此前仅需要木镐或品质更好的镐。}}
+|{{HistoryLine||1.21.60|dev=1.21.60.21|[[File:Lit Powered Exposed Copper Bulb JE2 BE2.png|32px]] 调整了激活状态下点亮的斑驳的铜灯的纹理。<ref>{{bug|MCPE-177105|||Fixed}}</ref>}}
+}}
+
+== 画廊 ==
+<gallery>
+File:Copper Bulb in Trial Chamber.jpeg|在试炼密室中生成的铜灯<ref>{{tweet|Minecraft|1713611637041832312|Introducing Minecraft 1.21, an adventurous mix of trap-filled trial chambers, new challenges, and playful engineering to delve into solo or with friends!|October 15, 2023}}</ref>
+File:Copper bulb teaser 01.jpg|[[Brandon Pearce]]为铜灯除锈<ref>{{tweet|Minecraft|1713611645724000571|New Bulbs from #MinecraftLive: Copper These new bulbs offer players a fun and unique way to illuminate their builds! When oxidized, they appear dim, but you can easily brighten up a room by using your axe to scrape away the oxidation.|October 15, 2023}}</ref>
+File:Unlit Copper Bulbs.png|[[minecraft.net]]官方文章中的熄灭铜灯
+All Oxidizing Blocks.png|所有不同[[氧化]]阶段的铜质方块
+The Trial Chamber Blocks Artwork.jpg|铜灯和其他[[棘巧试炼]]新内容的艺术作品
+</gallery>
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|building blocks|functional blocks|redstone blocks}}
+{{Navbox redstone}}
+
+[[de:Kupferleuchte]]
+[[en:Copper Bulb]]
+[[es:Lámpara de cobre]]
+[[fr:Ampoule en cuivre]]
+[[ja:銅の電球]]
+[[ko:구리 전구]]
+[[lzh:銅燈]]
+[[pl:Miedziana lampa]]
+[[pt:Lâmpada de Cobre]]
+[[ru:Медная лампа]]
+[[uk:Мідна жарівка]]

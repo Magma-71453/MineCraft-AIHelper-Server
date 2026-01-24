@@ -1,0 +1,97 @@
+{{Infobox block
+|image=Polished Tuff.png
+|invimage=Polished Tuff
+}}
+
+'''磨制凝灰岩（Polished Tuff）'''是[[凝灰岩]]制作的装饰性方块。
+
+== 生成 ==
+=== 自然生成 ===
+磨制凝灰岩会生成在试炼密室中部分结构的天花板上。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+  |A2=Tuff
+  |A3=Tuff
+  |B2=Tuff
+  |B3=Tuff
+  |Output=Polished Tuff,4
+  |type=Building block
+}}
+
+=== 切石 ===
+{{stonecutting
+| Tuff
+| Polished Tuff
+}}
+
+== 破坏 ==
+挖掘磨制凝灰岩的合适工具是镐。磨制凝灰岩需要木镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+磨制凝灰岩被破坏后会掉落自身。
+
+== 用途 ==
+=== 合成材料 ===
+{{crafting usage|Polished Tuff}}
+
+=== 切石 ===
+{{Stonecutting
+| Polished Tuff
+| Polished Tuff Stairs; Polished Tuff Slab, 2; Polished Tuff Wall; Tuff Bricks; Chiseled Tuff Bricks
+| showname=1
+}}
+
+== 音效 ==
+{{Sound table/Block/Polished Tuff}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|showblocktags=1
+|generatetranslationkeys=java
+|Polished Tuff
+|spritetype=block
+|blocktags={{GameTag|block|polished_tuff}}
+|nameid=polished_tuff
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|showforms=y
+|generatetranslationkeys=bedrock
+|Polished Tuff
+|spritetype=block
+|nameid=polished_tuff
+|foot=1}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.20.3|dev=23w43a|exp=update_1_21|[[File:Polished Tuff JE1 BE1.png|32px]] 加入了磨制凝灰岩。}}
+|{{HistoryLine|||dev=23w45a|磨制凝灰岩现在可以生成于[[试炼密室]]中。}}
+|{{HistoryLine||1.21|dev=24w18a|磨制凝灰岩不再属于[[实验性内容]]。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.20.50|dev=1.20.50.22|exg=updateAnnouncedLive2023|[[File:Polished Tuff JE1 BE1.png|32px]] 加入了磨制凝灰岩。
+|此时磨制凝灰岩无法通过合成获得。}}
+|{{HistoryLine|||dev=1.20.50.23|磨制凝灰岩现在可以通过合成获得。}}
+|{{HistoryLine||1.21.0|dev=1.21.0.22|磨制凝灰岩不再属于[[实验性玩法]]。}}
+}}
+
+== 导航 ==
+{{Navbox blocks|building blocks}}
+
+[[de:Polierter Tuffstein]]
+[[en:Polished Tuff]]
+[[es:Toba pulida]]
+[[fr:Tuf poli]]
+[[ja:磨かれた凝灰岩]]
+[[ko:윤나는 응회암]]
+[[pt:Tufo Polido]]
+[[ru:Полированный туф]]
+[[uk:Полірований туф]]

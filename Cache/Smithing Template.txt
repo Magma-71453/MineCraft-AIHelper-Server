@@ -1,0 +1,273 @@
+{{Distinguish|Earth:建造模板}}
+{{Infobox item
+|group1=下界合金升级
+|1-1=Netherite Upgrade Smithing Template.png
+|group2=哨兵
+|2-1=Sentry Armor Trim Smithing Template.png
+|group3=恼鬼
+|3-1=Vex Armor Trim Smithing Template.png
+|group4=荒野
+|4-1=Wild Armor Trim Smithing Template.png
+|group5=海岸
+|5-1=Coast Armor Trim Smithing Template.png
+|group6=沙丘
+|6-1=Dune Armor Trim Smithing Template.png
+|group7=向导
+|7-1=Wayfinder Armor Trim Smithing Template.png
+|group8=牧民
+|8-1=Raiser Armor Trim Smithing Template.png
+|group9={{lan|zh-cn=塑造|zh-tw=工匠|zh-hk=塑造}}
+|9-1=Shaper Armor Trim Smithing Template.png
+|group10=雇主
+|10-1=Host Armor Trim Smithing Template.png
+|group11=监守
+|11-1=Ward Armor Trim Smithing Template.png
+|group12=幽静
+|12-1=Silence Armor Trim Smithing Template.png
+|group13=潮汐
+|13-1=Tide Armor Trim Smithing Template.png
+|group14=猪鼻
+|14-1=Snout Armor Trim Smithing Template.png
+|group15=肋骨
+|15-1=Rib Armor Trim Smithing Template.png
+|group16=眼眸
+|16-1=Eye Armor Trim Smithing Template.png
+|group17=尖塔
+|17-1=Spire Armor Trim Smithing Template.png
+|group18=镶铆
+|18-1=Bolt Armor Trim Smithing Template.png
+|group19=涡流
+|19-1=Flow Armor Trim Smithing Template.png
+|invimage=Netherite Upgrade Smithing Template
+|invimage2=----
+|invimage3=Sentry Armor Trim Smithing Template
+|invimage4=Vex Armor Trim Smithing Template
+|invimage5=Wild Armor Trim Smithing Template
+|invimage6=Coast Armor Trim Smithing Template
+|invimage7=Dune Armor Trim Smithing Template
+|invimage8=Wayfinder Armor Trim Smithing Template
+|invimage9=Raiser Armor Trim Smithing Template
+|invimage10=Shaper Armor Trim Smithing Template
+|invimage11=Host Armor Trim Smithing Template
+|invimage12=Ward Armor Trim Smithing Template
+|invimage13=Silence Armor Trim Smithing Template
+|invimage14=Tide Armor Trim Smithing Template
+|invimage15=Snout Armor Trim Smithing Template
+|invimage16=Rib Armor Trim Smithing Template
+|invimage17=Eye Armor Trim Smithing Template
+|invimage18=Spire Armor Trim Smithing Template
+|invimage19=Bolt Armor Trim Smithing Template
+|invimage20=Flow Armor Trim Smithing Template
+}}
+
+'''锻造模板（Smithing Template）'''是在[[锻造台]]上使用的物品，分为'''下界合金升级锻造模板（Netherite Upgrade Smithing Template）'''和'''盔甲纹饰锻造模板（Armor Trim Smithing Template）'''两类。
+
+== 物品列表 ==
+总共有以下19种锻造模板：
+* {{ItemLink|Netherite Upgrade Smithing Template}}
+* 盔甲纹饰：{{columns-list|colwidth=15em|
+** {{ItemLink|Sentry Armor Trim Smithing Template}}
+** {{ItemLink|Vex Armor Trim Smithing Template}}
+** {{ItemLink|Wild Armor Trim Smithing Template}}
+** {{ItemLink|Coast Armor Trim Smithing Template}}
+** {{ItemLink|Dune Armor Trim Smithing Template}}
+** {{ItemLink|Wayfinder Armor Trim Smithing Template}}
+** {{ItemLink|Raiser Armor Trim Smithing Template}}
+** {{ItemLink|Shaper Armor Trim Smithing Template}}
+** {{ItemLink|Host Armor Trim Smithing Template}}
+** {{ItemLink|Ward Armor Trim Smithing Template}}
+** {{ItemLink|Silence Armor Trim Smithing Template}}
+** {{ItemLink|Tide Armor Trim Smithing Template}}
+** {{ItemLink|Snout Armor Trim Smithing Template}}
+** {{ItemLink|Rib Armor Trim Smithing Template}}
+** {{ItemLink|Eye Armor Trim Smithing Template}}
+** {{ItemLink|Spire Armor Trim Smithing Template}}
+** {{ItemLink|Bolt Armor Trim Smithing Template}}
+** {{ItemLink|Flow Armor Trim Smithing Template}}
+}}
+
+== 获取 ==
+=== 箱子战利品 ===
+{{LootChestItem|bolt_armor_trim_smithing_template|coast_armor_trim_smithing_template|dune_armor_trim_smithing_template|eye_armor_trim_smithing_template|flow_armor_trim_smithing_template|netherite_upgrade_smithing_template|rib_armor_trim_smithing_template|sentry_armor_trim_smithing_template|silence_armor_trim_smithing_template|snout_armor_trim_smithing_template|spire_armor_trim_smithing_template|tide_armor_trim_smithing_template|vex_armor_trim_smithing_template|ward_armor_trim_smithing_template|wild_armor_trim_smithing_template}}
+
+=== 考古战利品 ===
+用[[刷子]]刷扫[[古迹废墟]]里的[[可疑的沙砾]]有概率掉落锻造模板。
+
+{{ArchaeologyLootItem|wayfinder_armor_trim_smithing_template|raiser_armor_trim_smithing_template|shaper_armor_trim_smithing_template|host_armor_trim_smithing_template}}
+
+=== 生物掉落物 ===
+[[远古守卫者]]死亡时有20%的概率掉落1个潮汐盔甲纹饰，不受[[抢夺]]魔咒影响。
+
+=== 合成 ===
+尽管锻造模板本身不能合成获得，但可以利用特定的合成配方来复制它们自身。
+
+{{Crafting
+|A1=Diamond
+|B1=Matching Smithing Template
+|C1=Diamond
+|A2=Diamond
+|B2=Netherrack; Cobblestone; Cobblestone; Mossy Cobblestone; Cobblestone; Sandstone; Terracotta; Terracotta; Terracotta; Terracotta; Cobbled Deepslate; Cobbled Deepslate; Prismarine; Blackstone; Netherrack; End Stone; Purpur Block; Breeze Rod; Block of Copper
+|C2=Diamond
+|A3=Diamond
+|B3=Diamond
+|C3=Diamond
+|Output=Matching Smithing Template,2
+|ignoreusage=1
+}}
+
+{| class="wikitable" style="text-align: center;"
+|+ 锻造模板复制所需的材料
+! 锻造模板 !! 材料
+|-
+| {{ItemLink|Netherite Upgrade}} || {{BlockLink|Netherrack}}
+|-
+| {{ItemLink|Sentry Armor Trim}} || {{BlockLink|Cobblestone}}
+|-
+| {{ItemLink|Vex Armor Trim}} || {{BlockLink|Cobblestone}}
+|-
+| {{ItemLink|Wild Armor Trim}} || {{BlockLink|Mossy Cobblestone}}
+|-
+| {{ItemLink|Coast Armor Trim}} || {{BlockLink|Cobblestone}}
+|-
+| {{ItemLink|Dune Armor Trim}} || {{BlockLink|Sandstone}}<br>{{BlockLink|Smooth Sandstone}}{{only|BE}}<br>{{BlockLink|Cut Sandstone}}{{only|BE}}<br>{{BlockLink|Chiseled Sandstone}}{{only|BE}}
+|-
+| {{ItemLink|Wayfinder Armor Trim}} || {{BlockLink|Terracotta}}
+|-
+| {{ItemLink|Raiser Armor Trim}} || {{BlockLink|Terracotta}}
+|-
+| {{ItemLink|Shaper Armor Trim}} || {{BlockLink|Terracotta}}
+|-
+| {{ItemLink|Host Armor Trim}} || {{BlockLink|Terracotta}}
+|-
+| {{ItemLink|Ward Armor Trim}} || {{BlockLink|Cobbled Deepslate}}
+|-
+| {{ItemLink|Silence Armor Trim}} || {{BlockLink|Cobbled Deepslate}}
+|-
+| {{ItemLink|Tide Armor Trim}} || {{BlockLink|Prismarine}}<br>{{BlockLink|Prismarine Bricks}}{{only|BE}}<br>{{BlockLink|Dark Prismarine}}{{only|BE}}
+|-
+| {{ItemLink|Snout Armor Trim}} || {{BlockLink|Blackstone}}
+|-
+| {{ItemLink|Rib Armor Trim}} || {{BlockLink|Netherrack}}
+|-
+| {{ItemLink|Eye Armor Trim}} || {{BlockLink|End Stone}}
+|-
+| {{ItemLink|Spire Armor Trim}} || {{BlockLink|Purpur Block}}<br>{{BlockLink|Purpur Pillar}}{{only|BE}}
+|-
+| {{ItemLink|Flow Armor Trim}}
+|| {{ItemLink|Breeze Rod}}
+|-
+| {{ItemLink|Bolt Armor Trim}}
+|| {{BlockLink|all copper blocks|text=Block of Copper|link=Block of Copper}}<br>{{BlockLink|all copper blocks|text=Waxed Block of Copper|link=Block of Copper}}
+|}
+
+== 用途 ==
+=== 下界合金升级 ===
+{{main|锻造}}
+
+下界合金升级锻造模板可在[[锻造台]]上与[[装备|钻石装备]]和[[下界合金锭]]相结合，将其升级为对应的下界合金装备。
+
+=== 盔甲纹饰 ===
+{{main|锻造|盔甲#盔甲纹饰}}
+盔甲纹饰锻造模板可在锻造台上与[[盔甲]]和锻造原材料相结合，给盔甲添加不同的纹饰。
+
+== 成就 ==
+{{Load achievements|smithing-with-style}}
+
+== 进度 ==
+{{load advancements|adventure.trim_with_any_armor_pattern;adventure.trim_with_all_exclusive_armor_patterns}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.19.4|exp=update_1_20|dev=23w04a|[[File:Netherite Upgrade Smithing Template JE1 BE1.png|32px]] [[File:Coast Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Dune Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Eye Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Rib Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Sentry Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Snout Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Spire Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Tide Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Vex Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Ward Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Wild Armor Trim Smithing Template JE1 BE1.png|32px]] 加入了锻造模板。}}
+|{{HistoryLine|||dev=23w05a|现在盔甲纹饰锻造模板也可以为皮革盔甲添加纹饰。
+|现在下界合金升级的生成概率加倍。
+|现在沙丘、海岸、荒野和哨兵盔甲纹饰在其对应战利品箱中总会生成2个。
+|现在[[要塞]]图书馆的战利品箱中总会生成1个眼眸盔甲纹饰。
+|大幅增加了恼鬼盔甲纹饰在[[林地府邸]]中的生成概率。}}
+|{{HistoryLine||1.20|dev=23w12a|锻造模板不再属于[[实验性内容]]。
+|[[File:Host Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Raiser Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Shaper Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Silence Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Wayfinder Armor Trim Smithing Template JE1 BE1.png|32px]] 加入了雇主、牧民、塑造、幽静和向导盔甲纹饰。
+|[[File:Dune Armor Trim Smithing Template JE2 BE2.png|32px]] [[File:Sentry Armor Trim Smithing Template JE2 BE2.png|32px]] 更改了沙丘和哨兵盔甲纹饰的纹理。}}
+|{{HistoryLine||1.20.5|exp=update_1_21|dev=24w11a|[[File:Bolt Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Flow Armor Trim Smithing Template JE1 BE1.png|32px]] 加入了镶铆和涡流盔甲纹饰。}}
+|{{HistoryLine|||dev=24w13a|涡流盔甲纹饰现在可以从[[不祥宝库]]独有战利品中获得，取代了原有的宝库独有战利品。}}
+|{{HistoryLine||1.21|dev=24w18a|镶铆和涡流盔甲纹饰不再属于[[实验性内容]]。}}
+|{{HistoryLine|||dev=24w21a|镶铆盔甲纹饰现在可以用[[涂蜡的铜块]]复制。<ref>{{bug|MC-269351||镶铆盔甲纹饰不能用涂蜡的铜块复制。|Fixed}}</ref>}}
+|{{HistoryLine||1.21.2|dev=24w33a|幽静盔甲纹饰的稀有度由常见更改为史诗，监守盔甲纹饰、眼眸盔甲纹饰、恼鬼盔甲纹饰、尖塔盔甲纹饰的稀有度由常见更改为稀有，其余稀有度由常见更改为少见。
+|更改了锻造模板的命名方式。现在直接会在物品名称中指示图案类型，而非显示在[[提示框]]的小标题中。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.19.80|exg=next_major_update|dev=1.19.80.21|[[File:Netherite Upgrade Smithing Template JE1 BE1.png|32px]] [[File:Coast Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Dune Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Eye Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Rib Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Sentry Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Snout Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Spire Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Tide Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Vex Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Ward Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Wild Armor Trim Smithing Template JE1 BE1.png|32px]] 加入了锻造模板。}}
+|{{HistoryLine|||dev=1.19.80.22|[[File:Host Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Raiser Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Shaper Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Silence Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Wayfinder Armor Trim Smithing Template JE1 BE1.png|32px]] 加入了雇主、牧民、塑造、幽静和向导盔甲纹饰。
+|[[File:Dune Armor Trim Smithing Template JE2 BE2.png|32px]] [[File:Sentry Armor Trim Smithing Template JE2 BE2.png|32px]] 更改了沙丘和哨兵盔甲纹饰的纹理。}}
+|{{HistoryLine||1.20.0|dev=1.20.0.21|锻造模板不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.20.80|exg=updateAnnouncedLive2023|dev=1.20.80.22|[[File:Bolt Armor Trim Smithing Template JE1 BE1.png|32px]] [[File:Flow Armor Trim Smithing Template JE1 BE1.png|32px]] 加入了镶铆和涡流盔甲纹饰，只能从[[宝库]]独有战利品中获得。}}
+|{{HistoryLine||1.21.0|exg=updateAnnouncedLive2023|dev=1.21.0.20|涡流盔甲纹饰现在可以从[[不祥宝库]]独有战利品中获得，取代了原有的宝库独有战利品。}}
+|{{HistoryLine|||exg=none|dev=1.21.0.22|镶铆和涡流盔甲纹饰不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.21.30|dev=1.21.30.21|幽静盔甲纹饰的稀有度由常见更改为史诗，监守盔甲纹饰、眼眸盔甲纹饰、恼鬼盔甲纹饰、尖塔盔甲纹饰的稀有度由常见更改为稀有，其余稀有度由常见更改为少见。
+|更改了锻造模板的命名方式。现在直接会在物品名称中指示图案类型，而非显示在[[提示框]]的小标题中。}}
+}}
+
+== 你知道吗 ==
+* 据[[LadyAgnes]]所说，锻造模板的原名为“锻造蓝图”（Smithing Blueprints），而“蓝图”一词过于现代，偏离了Minecraft的幻想性世界。<ref>{{ytl|klP9SrJFDU8|Minecraft 1.20: Armor Trims - What Do They Mean?|Minecraft|May 4, 2023|t=98}}</ref>
+* 一些盔甲纹饰表现的图案与对应锻造模板的获取地点有关<ref>"Some of the armor trims reflect the place where you found the template, for example bastions contain a piglin-inspired trim."-[[Sofia Dankis]]-{{Mcnet|armor-trims-coming-minecraft-1-20|Armor Trims Coming to Minecraft 1.20|January 24, 2023}}</ref>：
+** 胸甲和护腿前部的哨兵盔甲纹饰像是[[掠夺者前哨站]]的墙面图案。
+** 胸甲前部的眼眸盔甲纹饰看起来像[[末影之眼]]，头盔前部的纹饰像是人-{}-形生物的双眼。
+** 肋骨盔甲纹饰看起来像[[凋灵骷髅]]。
+** 幽静盔甲纹饰看起来像[[监守者]]。
+** 猪鼻盔甲纹饰看起来像[[猪灵]]。
+** 尖塔盔甲纹饰看起来像[[潜影贝]]。
+** 潮汐盔甲纹饰看起来像[[海晶石砖]]。
+** 胸甲和护腿前部的恼鬼盔甲纹饰看起来像[[唤魔者]]袍子的门襟，头盔前部的纹饰像是[[恼鬼]]的眉毛。
+** 镶铆盔甲纹饰看起来像是纹理上有铆钉的[[铜块]]。
+** 涡流盔甲纹饰看起来像[[雕纹凝灰岩]]侧面的“气旋”图案。
+* 锻造模板的物品纹理都反映了合成它们所需的物品种类。
+** 此外，海岸盔甲纹饰锻造模板上的[[wzh:藤壺|藤壶]]、幽静盔甲纹饰锻造模板上的[[幽匿]]虽与合成物品无关，但也反映了它们的获取地点。
+
+== 画廊 ==
+<gallery>
+Armor Trim Bolt (sample model).png|镶铆盔甲纹饰
+Armor Trim Coast (sample model).png|海岸盔甲纹饰
+Armor Trim Dune (sample model).png|沙丘盔甲纹饰
+Armor Trim Eye (sample model).png|眼眸盔甲纹饰
+Armor Trim Flow (sample model).png|涡流盔甲纹饰
+Armor Trim Host (sample model).png|雇主盔甲纹饰
+Armor Trim Raiser (sample model).png|牧民盔甲纹饰
+Armor Trim Rib (sample model).png|肋骨盔甲纹饰
+Armor Trim Sentry (sample model).png|哨兵盔甲纹饰
+Armor Trim Silence (sample model).png|幽静盔甲纹饰
+Armor Trim Shaper (sample model).png|塑造盔甲纹饰
+Armor Trim Snout (sample model).png|猪鼻盔甲纹饰
+Armor Trim Spire (sample model).png|尖塔盔甲纹饰
+Armor Trim Tide (sample model).png|潮汐盔甲纹饰
+Armor Trim Vex (sample model).png|恼鬼盔甲纹饰
+Armor Trim Ward (sample model).png|监守盔甲纹饰
+Armor Trim Wayfinder (sample model).png|向导盔甲纹饰
+Armor Trim Wild (sample model).png|荒野盔甲纹饰
+Leather armors smithing.png|[[23w12a]]与[[基岩版1.19.80.22]]前在皮革盔甲上的所有锻造效果
+Chainmail armors smithing.png|23w12a与基岩版1.19.80.22前在锁链盔甲上的所有锻造效果
+Iron armors smithing.png|23w12a与基岩版1.19.80.22前在铁盔甲上的所有锻造效果
+Golden armors smithing.png|23w12a与基岩版1.19.80.22前在金盔甲上的所有锻造效果
+Diamond armors smithing.png|23w12a与基岩版1.19.80.22前在钻石盔甲上的所有锻造效果
+Netherite armors smithing.png|23w12a与基岩版1.19.80.22前在下界合金盔甲上的所有锻造效果
+Turtle Shell smithing.png|23w12a与基岩版1.19.80.22前在海龟壳上的所有锻造效果
+</gallery>
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox items|Ingredients}}
+
+[[Category:锻造模板|*]]
+
+[[de:Schmiedevorlage]]
+[[en:Smithing Template]]
+[[es:Molde de herrería]]
+[[fr:Modèle de forge]]
+[[ja:鍛冶型]]
+[[ko:대장장이 형판]]
+[[lzh:鍛模]]
+[[pl:Szablon kowalski]]
+[[pt:Molde de Ferraria]]
+[[ru:Кузнечный шаблон]]
+[[th:แม่พิมพ์หล่อ]]
+[[uk:Ковальський шаблон]]

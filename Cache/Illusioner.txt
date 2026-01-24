@@ -1,0 +1,226 @@
+{{About|Minecraft中的幻术师|Minecraft Dungeons中的同名生物|MCD:幻术师}}
+{{exclusive|java}}
+{{Infobox entity
+|group1=空闲
+|1-1=Illusioner.png
+|group2=生成分身
+|2-1=Illusioner Casting.png
+|group3=远程攻击
+|3-1=Illusioner Aiming.png
+|*-1size=x350px
+|health={{hp|32}}
+|behavior=敌对生物
+|classification=灾厄村民
+|damage='''弹射物（{{EntityLink|arrow}}，持有{{ItemLink|Bow}}）：'''<br>
+''简单、普通、困难的伤害基数为2.11、2.22、2.33，速度为32米/秒时''<br>
+{{AutoDmg|4}}<br>
+|size=高度：1.95格<br>
+宽度：0.6格
+|spawn=仅命令
+|equipment={{ItemLink|Bow}}<br>{{BlockLink|Ominous Banner}}（袭击队长）
+|nobe=1
+}}
+
+'''幻术师（Illusioner）'''是一种尚未使用的[[敌对生物]]，也是一种[[灾厄村民]]。它可以[[隐身]]并召唤无敌的分身。
+
+== 生成 ==
+幻术师不会自然生成，游戏中亦不存在幻术师的[[刷怪蛋]]，但可以通过{{cmd|summon illusioner}}命令等方式生成。
+
+== 掉落物 ==
+当被玩家杀死时，幻术师会有8.5%的概率掉落它们的[[弓]]。如果使用带有抢夺魔咒的武器杀死幻术师，弓的掉落概率为抢夺I的9.5%、抢夺II的10.5%以及抢夺III的11.5%。它们掉落的弓通常有一定程度的破损。
+
+如果幻术师是一个[[袭击队长]]，那么被杀死后会掉落1个{{BlockLink|ominous banner}}。
+
+被[[玩家]]或驯服的[[狼]]杀死的幻术师会掉落{{xp|5}}。
+
+== 行为 ==
+[[File:IllusionerDuplicates.png|缩略图|右|250px|一个幻术师的四个分身，其本体是隐身的]]
+
+幻术师会攻击12格内的[[玩家]]、成年[[村民]]、[[流浪商人]]和[[铁傀儡]]。它可以使用咒语和弓来攻击。
+
+幻术师能够透过具有碰撞箱的方块发现攻击村民、流浪商人和铁傀儡。
+
+幻术师十分敏捷，总是试图让自己与玩家之间保持一定的距离；若与玩家离得太近，它们便会后退。
+
+幻术师有两种咒语：一种能使攻击对象[[失明]]，另一种能召唤分身并使本体隐身。
+
+尽管幻术师无法自然生成，但由命令生成的幻术师仍能参与正在发生的[[袭击]]。这意味着袭击中的幻术师有概率捡起袭击队长掉落的不祥旗帜，成为下一个袭击队长。
+
+敲[[钟]]会给予半径48格内的幻术师{{convert|3|秒}}的[[发光]]效果。
+
+如果幻术师被其他生物所攻击，附近的幻术师会对该生物产生敌意。幻术师不会反击[[女巫]]、[[劫掠兽]]和[[灾厄村民]]。
+
+幻术师会主动远离[[嘎枝]]。
+
+=== 生物族群 ===
+{{main|灾厄村民}}
+
+幻术师是[[灾厄村民]]，不会被[[唤魔者]]的尖牙伤害，不会被[[劫掠兽]]的咆哮伤害，不会被[[卫道士#“Johnny”卫道士|“Johnny”卫道士]]攻击。幻术师与其他灾厄村民之间即使发生了误伤也不会相互攻击。幻术师可以加入正在发生的袭击，即使不是在袭击事件中被生成的。
+
+=== 造成失明 ===
+只有在[[区域难度]]大于2时，幻术师才会使用失明咒语。
+
+每当幻术师遇到一个新的攻击对象，它会举起手臂、发出声音并生成黑色烟雾（{{EffectSprite|particle-illusioner-blindness}}）施法，使其受到持续20秒的{{EffectLink|Blindness}}效果。幻术师不会短时间内在同一个攻击对象身上多次施放这个咒语，除非它先将注意力转移到其他攻击对象上，再转移回原来的攻击对象。
+
+这个咒语会重置幻术师的咒语冷却时间到{{convert|1|秒}}，以及重置失明咒语的冷却时间到{{convert|9|秒}}。
+
+=== 生成分身 ===
+在幻术师参与到战斗之中时，它会先举起手臂、发出声音并产生蓝色烟雾（{{EffectSprite|particle-illusioner-mirror}}）施法，使自己得到持续60秒的{{EffectLink|Invisibility}}效果，并且每当隐身效果快结束时会刷新效果。
+
+只要幻术师具备隐身的状态效果，它都会召唤4个假的分身。幻术师的隐身咒语能使其完全隐身，无论幻术师此时手中持有或身上装备何种物品，其本体都不会显示，但幻术师的分身仍然可以显示本体所持有或装备的物品。
+
+这些来自隐身本体的分身会轻微摇晃，只有幻术师受到攻击它们才会消失。这些分身面对的方向与其移动的位置与本体相同。每当本体使用弓攻击时，它们会使用射击的动画，虽然只有本体才能射击和造成伤害。有时当幻术师的分身生成时，其四个分身并不会离开本体，而是四个分身会重叠和本体一起，由于分身只是本体位置偏移后渲染的模型，并没有碰撞体积，此时幻术师仍会受到伤害。
+
+当幻术师本体受到伤害时，其分身会迅速返回本体位置，又迅速到达新的位置，发出攻击信号。有时当幻术师没有受到攻击时，其分身也会自行瞬移到新的位置。当幻术师拥有攻击目标且已产生分身时，每隔35秒分身会直接达到新的位置。
+
+如果一个隐身的幻术师得到{{EffectLink|Glowing}}效果，所有的分身都会发光，而本体仍然处于隐身状态。
+
+所有的分身在技术上都属于本体，并不会生成新的实体。
+
+一旦幻术师的[[隐身]]效果结束后，分身会消失。
+
+这个咒语会重置幻术师的咒语冷却时间到{{convert|1|秒}}，以及重置隐身咒语的冷却时间到{{convert|17|秒}}。
+
+== 音效 ==
+{{Sound table
+|sound=Illusioner idle1.ogg
+|sound2=Illusioner idle2.ogg
+|sound3=Illusioner idle3.ogg
+|sound4=Illusioner idle4.ogg
+|subtitle={{tp|subtitles.entity.illusioner.ambient}}
+|source=敌对生物
+|description=空闲时随机播放此声音
+|id=entity.illusioner.ambient
+|translationkey=subtitles.entity.illusioner.ambient
+}}
+{{Sound table
+|sound=Evoker cast1.ogg
+|sound2=Evoker cast2.ogg
+|subtitle={{tp|subtitles.entity.illusioner.cast_spell}}
+|source=敌对生物
+|description=准备施法
+|id=entity.illusioner.cast_spell
+|translationkey=subtitles.entity.illusioner.cast_spell
+}}
+{{Sound table 
+|sound=Illusioner death1.ogg
+|sound2=Illusioner death2.ogg
+|subtitle={{tp|subtitles.entity.illusioner.death}}
+|source=敌对生物
+|description=死亡
+|id=entity.illusioner.death
+|translationkey=subtitles.entity.illusioner.death
+}}
+{{Sound table
+|sound=Illusioner hurt1.ogg
+|sound2=Illusioner hurt2.ogg
+|sound3=Illusioner hurt3.ogg
+|subtitle={{tp|subtitles.entity.illusioner.hurt}}
+|source=敌对生物
+|description=受伤
+|id=entity.illusioner.hurt
+|translationkey=subtitles.entity.illusioner.hurt
+}}
+{{Sound table
+|sound=Illusioner mirror move1.ogg
+|sound2=Illusioner mirror move2.ogg
+|subtitle={{tp|subtitles.entity.illusioner.mirror_move}}
+|source=敌对生物
+|description=隐形并使分身传送
+|id=entity.illusioner.mirror_move
+|translationkey=subtitles.entity.illusioner.mirror_move
+}}
+{{Sound table
+|sound=Illusioner prepare blind.ogg
+|subtitle={{tp|subtitles.entity.illusioner.prepare_blindness}}
+|source=敌对生物
+|description=施法使玩家失明
+|id=entity.illusioner.prepare_blindness
+|translationkey=subtitles.entity.illusioner.prepare_blindness
+}}
+{{Sound table
+|sound=Illusioner prepare mirror.ogg
+|subtitle={{tp|subtitles.entity.illusioner.prepare_mirror}}
+|source=敌对生物
+|description=召唤分身
+|id=entity.illusioner.prepare_mirror
+|translationkey=subtitles.entity.illusioner.prepare_mirror
+|distance=16
+|foot=1}}
+
+== 数据值 ==
+=== ID ===
+{{ID table
+|generatetranslationkeys=java
+|Illusioner
+|spritetype=entity
+|nameid=illusioner
+|showentitytags=1|entitytags={{GameTag|entity|illusioner}}
+|foot=1}}
+
+=== 实体数据 ===
+{{main|实体数据格式}}
+幻术师有与之相联系的包含许多该[[生物]]属性的存档数据。
+
+{{/ED}}
+
+== 进度 ==
+{{Load advancements|adventure.root;adventure.shoot_arrow;adventure.throw_trident;adventure.arbalistic;adventure.kill_mob_near_sculk_catalyst;adventure.overoverkill;adventure.spear_many_mobs}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.12|dev=17w16a|[[File:Illusioner JE1.png|32px]] 加入了幻术师。}}
+|{{HistoryLine|||dev=17w17a|现在幻术师只会在[[区域难度]]大于等于3时使用失明咒语。
+|为幻术师加入了新的音效。}}
+|{{HistoryLine|||dev=17w17b|现在幻术师会在区域难度大于等于2时使用失明咒语。}}
+|{{HistoryLine||1.13|dev=pre5|幻术师的[[命名空间ID|实体ID]]从<code>illusion_illager</code>更改为<code>illusioner</code>。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Illusioner JE2.png|32px]] 更改了幻术师的纹理。}}
+|{{HistoryLine|||dev=18w46a|为幻术师加入了[[战利品表]]。}}
+|{{HistoryLine|||dev=19w13a|[[File:Illusioner celebrating.gif|32px]] 如果袭击事件内村民全部死亡或床全部被破坏，幻术师会跳跃欢呼。}}
+|{{HistoryLine||2019年9月29日|link=none|[[MINECON Live 2019]]中提到幻术师将来可能会生成于[[袭击]]中。}}
+|{{HistoryLine||1.18|dev=21w37a|幻术师不再和幼年村民敌对。}}
+|{{HistoryLine|||dev=pre5|更改了纹理，移除了几个多余的像素点。}}
+|{{HistoryLine||1.19|dev=22w17a|[[File:Illusioner JE3.png|32px]] 更改了模型，现在可以渲染出袍子纹理的最下方两行像素。}}
+|{{HistoryLine||1.21.2|dev=24w40a|现在幻术师会主动远离[[嘎枝]]。<ref>{{bug|MC-277138|||WAI}}</ref>}}
+}}
+
+== 你知道吗 ==
+* 与[[掠夺者]]相似，通过命令使幻术师手中没有弓时，幻术师将无法进行攻击，但仍然能吟诵咒语。
+* 当幻术师在副手持有物品时，物品的方向是错误的。
+* 据[[Cory Scheviak|Cojomax99]]说，幻术师拥有在[[袭击]]中生成的数据，尽管它不会在队伍中自然生成。
+* 在[[纹理更新]]中，幻术师的眼睛由蓝色变成了绿色。
+* [[MCD:幻术师|幻术师]]在[[Minecraft Dungeons]]中的[[MCD:悚伏寒冬|悚伏寒冬DLC]]关卡里作为一种[[MCD:小Boss|小Boss]]出现，尽管其形象设计和技能与原版有所不同。
+* 幻术师会在愚人节快照[[20w14∞]]中的随机维度里自然生成。
+
+== 画廊 ==
+<gallery>
+File:IllusionerVsVillager.png|一个幻术师使用弓杀死了一个村民
+File:IllusionerPreparingSpell.png|一个幻术师正在准备吟诵失明咒语
+File:Illusioner with Ominous Banner.png|幻术师袭击队长
+File:Sitting Illusioner.png|坐着的幻术师
+</gallery>
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox entities|Mobs}}
+{{Navbox unused features}}
+
+[[Category:敌对生物]]
+[[Category:未使用的生物]]
+
+[[cs:Iluzionista]]
+[[de:Illusionist]]
+[[en:Illusioner]]
+[[es:Ilusionista]]
+[[fr:Illusionniste]]
+[[it:Illusore]]
+[[ja:イリュージョナー]]
+[[ko:환술사]]
+[[nl:Illusionist]]
+[[pl:Iluzjoner]]
+[[pt:Ilusionista]]
+[[ru:Иллюзор]]
+[[th:อิลลูชันเนอร์]]

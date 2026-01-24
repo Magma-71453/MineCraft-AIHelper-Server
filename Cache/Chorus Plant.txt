@@ -1,0 +1,102 @@
+{{about|会掉落[[紫颂果]]的方块||紫颂}}
+{{Infobox block
+|image=Chorus Plant.png
+|invimage=Chorus Plant
+|light=0
+}}
+
+'''紫颂植株（Chorus Plant）'''是一种自然生成于[[末地]]的方块。它们可以用[[紫颂花]]来种植。
+
+== 生成 ==
+=== 自然生成 ===
+紫颂植株在末地外岛上作为[[紫颂树]]的“枝干”生成。
+
+=== 紫颂花 ===
+[[紫颂花]]生长时会生成紫颂植株。
+
+== 获取 ==
+{{see also|Tutorial:获取任意物品}}
+紫颂植株无法在未开启[[作弊]]的[[生存模式]]的世界中获取。使用[[创造模式]]或启用[[作弊]]，紫颂植株可以通过[[创造模式物品栏]]、[[创造模式]]中使用{{ctrl|选取方块}}或[[命令]]等方式获得。
+
+== 破坏 ==
+挖掘紫颂植株的合适工具是斧和剑。
+
+{{Breaking table}}
+
+紫颂植株被破坏后会掉落0-1个[[紫颂果]]。
+
+== 用途 ==
+=== 支撑 ===
+如果六个相邻的方块不符合以下要求，则紫颂植株方块会自动破坏（有可能会掉落紫颂果）：
+* 除非至少有一个垂直相邻的方块是空气，否则如果至少有一个其他紫颂植株水平相邻则会自动破坏。
+* 除非下面是紫颂植株或末地石，或者与一个在下方是紫颂植株或[[末地石]]的紫颂植株水平连接，否则紫颂植株也会被自动破坏。
+
+== 音效 ==
+{{Sound table/Block/Wood}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Chorus Plant
+|spritetype=block
+|nameid=chorus_plant
+|showblocktags=1
+|blocktags={{GameTag|block|chorus_plant}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Chorus Plant
+|spritetype=block
+|nameid=chorus_plant
+|foot=1}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+{{Block states table}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.9|dev=2015年6月22日|slink=https://instagram.com/p/4ObC5EpMOO/|Jeb在Instagram上发布了紫颂花，顺便还写了一句"[[MineCon#2015|MINECON 2015]] HYPE!"
+}}
+|{{HistoryLine|||dev=15w31a|[[File:Chorus Plant JE1 BE1.png|32px]] 加入了紫颂植株。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，该方块的数字ID为199。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Chorus Plant JE2 BE2.png|32px]] 更改了紫颂植株的纹理。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|[[File:Chorus Plant JE1 BE1.png|32px]] 加入了紫颂植株，可以在生存模式使用[[精准采集]]魔咒获得其物品形式。}}
+|{{HistoryLine|||dev=1.0.0.1|紫颂植株不再能在生存模式中使用带有精准采集魔咒的工具获得。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Chorus Plant JE2 BE2.png|32px]] 更改了紫颂植株的纹理。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU46|xbone=CU36|ps3=1.38|psvita=1.38|ps4=1.38|wiiu=Patch 15|[[File:Chorus Plant JE1 BE1.png|32px]] 加入了紫颂植株。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Chorus Plant JE2 BE2.png|32px]] 更改了紫颂植株的纹理。}}
+}}
+
+== 画廊 ==
+<gallery>
+File:Chorus Tree.png|一棵紫颂树
+File:MineconEndCity.png|第一张关于紫颂植株的图片，由[[Jens Bergensten]]透露
+File:ChorusPlants.png|一些完全生长的紫颂植株和紫颂花，还有一个在末地石上的紫颂花和一些[[末影人]]
+File:FailedChorus.png|在其生成位置发芽失败的紫颂植株
+File:End Highlands.png|紫颂树和末地城
+</gallery>
+
+== 导航 ==
+{{Navbox blocks|natural blocks}}
+
+[[分类:植物]]
+
+[[de:Choruspflanze]]
+[[en:Chorus Plant]]
+[[es:Planta chorus]]
+[[fr:Plante de chorus]]
+[[ja:コーラスプラント]]
+[[ko:후렴초]]
+[[nl:Chorusplant]]
+[[pl:Łodyga refrenusu]]
+[[pt:Planta do Coro]]
+[[ru:Растение хоруса]]

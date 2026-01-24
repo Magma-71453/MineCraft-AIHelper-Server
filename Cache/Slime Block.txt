@@ -1,0 +1,205 @@
+{{Distinguish|黏液球|史莱姆}}{{Infobox block
+|image=Slime Block.png
+|invimage=Slime Block
+|light=0
+}}
+{{quote|你可以在黏液块上跳来跳去，那感觉就像某种涂满了鼻涕的蹦蹦床。弹跳的高度取决于你下落的距离。这么说吧，从六格高的地方跳到黏液块上，你将被弹到四格高！咻——！虽然这很有趣，但也意味着你的脚碰到了黏液块。你可能会想烧了那双鞋，还有那对脚。小心驶得万年船。|[[Tom Stone]]<ref>{{article|block-week-slime|Block of the Week: Slime|March 10, 2017}}</ref>||Tom Stone Mojavatar.png}}
+
+'''黏液块（Slime Block）'''是一种允许玩家在其上进行弹跳的[[光照透明方块]]。
+
+== 生成 ==
+黏液块不会生成在世界中。
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|mode=noname
+|A1= Slimeball 
+|B1= Slimeball 
+|C1= Slimeball
+|A2= Slimeball 
+|B2= Slimeball 
+|C2= Slimeball
+|A3= Slimeball 
+|B3= Slimeball 
+|C3= Slimeball
+|Output= Slime Block
+|type=Decoration block
+|foot=1
+}}
+
+== 破坏 ==
+黏液块被挖掘时会立刻被破坏。
+
+{{Breaking table}}
+
+黏液块被破坏后会掉落自身。
+
+== 用途 ==
+玩家落至黏液块上不会受到摔落伤害。
+
+黏液块有一些滑，但程度不及[[冰]]。
+
+黏液块会减缓在其上移动的[[实体]]的速度。{{more info|補充infobox阻力係數與屬性/速度的內容}}
+
+=== 弹跳性 ===
+黏液块会弹起掉落在其上方的玩家、生物和粒子{{more info|所有粒子？}}（[[物品实体]]、[[下落的方块]]、[[矿车]]和[[船]]等不受影响），弹起高度与该个体的垂直速度有关，弹起高度<math>y</math>与下落高度<math>x</math>的关系式为<math>y = 3\times\surd(x)+2</math>。连续弹跳时，弹跳高度会迅速衰减。
+
+* 例如，从255格的高度落至黏液块上会被弹起约50格；从100格的高度落至黏液块上会被弹起32格；从50格的高度落至黏液块上会被弹起约23格。
+
+如果玩家落在黏液块上面时保持{{ctrl|潜行}}，则不会继续弹跳。{{in|be}}若玩家落在黏液块上面时按住{{ctrl|跳跃}}，无论速度大小，接触黏液块后仅会进行一次普通的跳跃。
+
+除[[鸡]]、[[恶魂]]、[[蝙蝠]]、[[幻翼]]、[[蜜蜂]]、[[鹦鹉]]和[[恼鬼]]外，大多数生物均可在黏液块上反复弹跳。当玩家试图在黏液块顶部生成一匹[[马]]时，这匹马可能会“陷进”黏液块里。
+
+在黏液块上放置[[地毯]]、[[铁轨]]、[[活板门]]、[[红石中继器]]或[[红石比较器]]都不会使生物停止弹跳，也不会让其受到摔落伤害。[[炼药锅]]和[[堆肥桶]]也有相同的效果，但仅限于中心区域。与之类似，在黏液块上放置[[压力板]]也能得到同样的效果，但会使压力板被激活。[[蛋糕]]、[[台阶]]和其他半体积方块则会终止弹跳。
+
+=== 物品运输 ===
+当黏液块表面有水流通过时，其表面上的可捡拾[[物品]]将会快速移动（但速度不及它们在[[冰]]面上的速度）。这一特性对于[[物品（实体）|资源]]运输尤其管用，但须将物品以一定角度抛出，且不受水流位置影响（就算水流并不在黏液块顶部，运输也可以进行）。由于黏液块不会融化，相比于冰来讲，它们的安全性更佳。
+
+=== 通过活塞移动 ===
+{{Schematic
+|caption=活塞A可以推出，因为黏液块无视相邻的黑曜石。活塞B无法推出，因为钻石块被黏液块“黏连”，但被黑曜石阻止移动，黏液块因此也无法移动。
+|pi-e+A|SL|||pi-e+B|SL||-
+||obsidian||||MB|obsidian
+}}
+{{Schematic
+|caption=一种在某个方向上仅1方块宽的“活塞虫”。通过按一定顺序激活侦测器而不断移动，移动方向{{in|je|nc=1}}取决于首先激活的侦测器，{{in|be|nc=1}}则取决于两个活塞的随机优先级（可通过牺牲掉双向运行能力解决，将一侧的黏性活塞改为普通活塞，活塞虫将向普通活塞指向的方向移动）。
+|style=clear:right
+|obs-e|sp-e|SL|SL|-
+|SL|SL|sp-w|obs-w|-
+}}
+[[File:Dico's fast engine compacted by Xbxp.png|缩略图|250px|一个仅适用于{{el|je}}的基于「推出的活塞无法被移动」的自动飞行器引擎，顶端的[[红石块]]和[[黏性活塞]]需最后放置]]
+
+当黏液块被[[活塞]]推动时，实体（[[末影龙]]、[[物品展示框]]和[[画]]除外）会向着被推动的方向弹射出去。当活塞收回时，则不会弹射实体。
+
+当黏液块被活塞推动或拉动时，它会试图带着所有相邻的方块朝自身移动的方向移动。可以被它移动的方块种类与[[活塞#移动方块结构|能被黏性活塞'''拉回''']]的方块相同。无法被黏性活塞拉回的方块会留在原位。而被移动的方块则会依次推动其他方块，而不单是在活塞前面的方块。举例来说，一个在地上的黏液块会试图移动它自身下方的地面方块，从而在移动的方向上依次推动附加的地面方块，就像它被活塞直接推动一样。
+
+[[蜂蜜块]]是唯一的例外，虽然它能被黏性活塞拉动，但在毗邻的黏液块被移动时，它们'''不会'''随之移动。[[带釉陶瓦]]不能被黏性活塞拉动，因而也无法随黏液块移动。
+
+当黏液块被相邻的黏液块移动时会发生同样的情况。举例来说，当一个单独的活塞作用于一个2×2×2正方体的黏液块里面的任何一个方块时，它能做为一个单位被整体推动或拉动。
+
+当黏液块和活塞不能移动的方块相邻时，它会忽略不动的方块。但是如果相邻的方块可被移动但被不动的方块挡住，黏液块将不会移动。
+
+黏液块不能被非黏性活塞拉动，当它相邻的非黏液块被活塞移动时它也不会移动。
+
+活塞最大可移动12个方块依然适用。举例来说，12个连在一起的黏液块可以被黏性活塞推动或拉动，如果再继续连接其他可移动方块，活塞就不再能将其移动了。
+
+活塞不能通过黏液块的“挂钩”构造来移动自身，但可用多个活塞建造[[Tutorial:飞行器|自动行走装置]]。
+{{-}}
+
+=== 合成材料 ===
+{{crafting usage|Slime Block}}
+
+=== 酿造材料 ===
+{{Brewing
+|head=1
+|Slime Block
+|Mundane Potion
+|base=Water Bottle
+}}
+{{Brewing
+|Slime Block
+|Potion of Oozing
+|foot=1
+}}
+
+== 音效 ==
+{{Sound table/Block/Slime Block}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Slime Block
+|spritetype=block
+|nameid=slime_block
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Slime Block
+|spritetype=block
+|nameid=slime
+|foot=1}}
+
+== 成就 ==
+{{load achievements|trampoline}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2013年12月20日|link={{tweet|jeb_|413984532191526912}}|[[Jeb]]公布了第一个关于黏液块的图片。当时黏液块被称作“弹性方块”。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.8|dev=14w02a|[[File:Slime Block JE1.png|32px]] 加入了黏液块。}}
+|{{HistoryLine|||dev=14w18a|现在黏液块被活塞推动时可以移动相邻方块。
+|现在黏液块被活塞垂直推动可以把生物弹到空中。}}
+|{{HistoryLine|||dev=14w19a|当黏液块连接到一个活塞时现在可以让实体横向或纵向移动。}}
+|{{HistoryLine|||dev=14w25a|由于加入了明确的[[方块模型]]引用技术，黏液块内部的方块现在有了单独的纹理。在此之前，其原先使用的是<code>slime.png</code>中心10×10像素映射。}}
+|{{HistoryLine|||dev=14w32c|将破坏/放置黏液块的音效更改为史莱姆的受伤音效。}}
+|{{HistoryLine||1.12|dev=17w16a|现在当[[带釉陶瓦]]被黏性活塞拉动时，黏液块的作用面不再会被吸附。}}
+|{{HistoryLine|||dev=pre3|现在当带釉陶瓦被任何种类的活塞拉动时，黏液块的任何一面都不再会被吸附。}}
+|{{HistoryLine||1.13|dev=17w47a|黏液块的ID从<code>slime</code>更改为<code>slime_block</code>。
+|在[[扁平化]]之前，黏液块的数字ID为165。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Slime Block JE2 BE3.png|32px]] 更改了黏液块的纹理。}}
+|{{HistoryLine||1.15|dev=19w42a|被活塞推动时，黏液块不再和[[蜂蜜块]]粘在一起。}}
+|{{HistoryLine||1.17|dev=21w08a|黏液块和[[蜂蜜块]]在创造模式选项卡中一起被移动到“红石”选项卡中。}}
+|{{HistoryLine||1.20.5|dev=24w13a|现在黏液块可以用来酿造渗浆药水。}}
+|{{HistoryLine|||exp=update_1_21|dev=pre1|用黏液块酿造渗浆药水的功能现在属于[[实验性内容]]。<ref>{{bug|MC-269999|||Fixed}}</ref>}}
+|{{HistoryLine||1.21|dev=24w18a|24w13a中的变更不再属于[[实验性内容]]。}}
+|{{HistoryLine||1.21.2|dev=pre2|现在玩家在潜行时摔落到黏液块上时不再会受到摔落伤害，并能以此阻止继续弹跳。<ref>{{bug|MC-54532|||Fixed}}</ref><ref>{{bug|MC-275834#comment-1359640}}</ref>}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.14.0|dev=build 1|[[File:Slime Block BE1.png|32px]] 加入了黏液块。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Slime Block BE2.png|32px]] 更改了黏液块的纹理。}}
+|{{HistoryLine||1.14.0|dev=1.14.0.2|[[File:Slime Block JE2 BE3.png|32px]] 更改了黏液块的纹理，以匹配{{el|je}}。
+|被活塞推动时，黏液块不再和[[蜂蜜块]]粘在一起。}}
+|{{HistoryLine||1.21.0|exg=1.21|dev=1.21.0.20|现在黏液块可以用来酿造渗浆药水。}}
+|{{HistoryLine|||exg=none|dev=1.21.0.22|1.21.0.20中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.21.50|dev=1.21.50.26|现在玩家在潜行时摔落在黏液块上时不会受到摔落伤害，并能以此阻止继续弹跳。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU31|xbone=CU19|ps3=1.22|psvita=1.22|ps4=1.22|wiiu=Patch 3|[[File:Slime Block JE1 BE1.png|32px]] 加入了黏液块。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Slime Block JE2 BE3.png|32px]] 更改了黏液块的纹理。}}
+|{{HistoryLine|new 3ds}}
+|{{HistoryLine||0.1.0|[[File:Slime Block JE1.png|32px]] 加入了黏液块。}} 
+}}
+
+== 你知道吗 ==
+* 若速度足够快，一个飞出[[铁轨]]并落在黏液块上的[[矿车]]可以弹到对面的铁轨上。
+* [[兔子]]不会在黏液块上跳跃。
+* 被活塞上的黏液块向上弹出的实体将上升略大于6.4个方块，其中包括活塞的上升距离。被横向弹出的实体将在弹射方向上移动3.510个方块。
+* 当玩家落到黏液块上时尝试跳跃会导致玩家弹起的高度减少到不到{{frac|1|4}}格。
+
+== 画廊 ==
+<gallery>
+File:Kl66PIp.png|这张照片被Jeb从Twitter发布到了Impur上，并说“这是2013年最后一张图片”
+File:14w02a.png|这个14w02a的横幅展示了一只用黏液块做的史莱姆，它的嘴和眼睛是用黑色羊毛做的<ref>https://www.mojang.com/2014/01/minecraft-snapshot-14w02a/</ref>
+File:Sheep jumping on slime blocks.png|一只绵羊从高处落到黏液块上
+File:Slimeblockzombie.gif|一只僵尸在黏液块上跳跃
+File:HeightOFBounceX2.png|弹跳高度测试。X轴是开始高度，Y轴返回高度，顶端的红线是最大可能的弹跳高度
+File:Slime Block Story Mode.png|在[[Minecraft: Story Mode]]中合成一个黏液块
+</gallery>
+
+== 参见 ==
+* [[史莱姆]]
+* [[黏液球]]
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox blocks|natural blocks|redstone blocks}}
+{{Navbox redstone}}
+
+[[de:Schleimblock]]
+[[en:Slime Block]]
+[[es:Bloque de slime]]
+[[fr:Bloc de slime]]
+[[ja:スライムブロック]]
+[[ko:슬라임 블록]]
+[[lzh:黏膠塊]]
+[[nl:Slijmblok]]
+[[pl:Blok szlamu]]
+[[pt:Bloco de Slime]]
+[[ru:Блок слизи]]
+[[uk:Слизовий блок]]

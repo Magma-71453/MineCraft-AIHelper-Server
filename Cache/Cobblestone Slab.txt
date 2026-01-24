@@ -1,0 +1,137 @@
+{{Infobox block
+|image=Cobblestone Slab.png
+|invimage=Cobblestone Slab
+|redstone-conductor='''单台阶'''：否<br>'''双台阶'''{{only|je}}：是<br>'''[[#方块状态|上半]]双台阶'''{{only|be}}：否<br>'''[[#方块状态|下半]]双台阶'''{{only|be}}：是
+|suffocating='''双台阶'''：是<br>'''单台阶'''：否
+}}
+'''圆石台阶（Cobblestone Slab）'''是[[圆石]]制作的[[台阶]]。
+
+== 生成 ==
+=== 自然生成 ===
+圆石台阶会自然生成于[[掠夺者前哨站]]中。
+
+圆石台阶还会生成在[[村庄]]和[[林地府邸]]中。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|A3= Cobblestone
+|B3= Cobblestone
+|C3= Cobblestone
+|Output= Cobblestone Slab,6
+|type= Building block
+}}
+
+=== 切石 ===
+{{Stonecutting
+|Cobblestone
+|Cobblestone Slab, 2
+}}
+
+== 破坏 ==
+挖掘圆石台阶的合适工具是镐。圆石台阶需要木镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+圆石台阶被破坏后会掉落自身，双台阶被破坏后会掉落两个组成自身的台阶。
+
+== 用途 ==
+{{main|台阶#用途}}
+
+== 音效 ==
+{{Sound table/Block/Stone}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table|generatetranslationkeys=java
+|Cobblestone Slab|spritetype=block|nameid=cobblestone_slab
+|showblocktags=1|showitemtags=1
+|blocktags={{GameTag|block|cobblestone_slab}}
+|itemtags={{GameTag|item|cobblestone_slab}}|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|showaliasids=1
+|Cobblestone Slab
+|spritetype=block
+|nameid=cobblestone_slab
+|aliasid=stone_block_slab / 3
+|translationkey=tile.stone_slab.cobble.name}}
+{{ID table
+|Cobblestone Double Slab
+|spritetype=block
+|nameid=cobblestone_double_slab
+|translationkey=tile.double_stone_slab.cobble.name
+|aliasid=double_stone_block_slab / 3
+|foot=1}}
+
+=== 方块数据 ===
+{{see also|基岩版数据值}}
+{{In|be}}圆石台阶使用以下数据值：
+
+;双层石质台阶
+{{:台阶/DV}}
+;石质台阶
+{{:台阶/DV2}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+
+{{Block states table|圆石台阶|圆石双层台阶,圆石台阶}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java Beta}}
+|{{HistoryLine||1.3|[[File:Cobblestone Slab JE1 BE1.png|32px]] 加入了圆石台阶。}}
+|{{HistoryLine||1.7|[[File:Cobblestone Slab JE2 BE2.png|32px]] 更改了圆石台阶的纹理。}}
+
+|{{HistoryLine|java}}
+|{{HistoryLine||1.2.1|dev=1.2|合成配方从输出3个圆石台阶更改为6个。}}
+|{{HistoryLine||1.11|dev=16w39a|圆石台阶现在会在[[林地府邸]]中生成。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，圆石台阶和圆石双层台阶方块的数字ID分别是44和43，数据值均为3。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Cobblestone Slab JE3.png|32px]] 更改了圆石台阶的纹理。}}
+|{{HistoryLine|||dev=18w47a|圆石台阶现在会在[[掠夺者前哨站]]中生成。}}
+|{{HistoryLine|||dev=18w48a|圆石台阶现在会在[[平原村庄]]中生成。}}
+|{{HistoryLine|||dev=18w50a|[[File:Cobblestone Slab JE4 BE3.png|32px]] 更改了圆石台阶的纹理。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.1.0|[[File:Cobblestone Slab JE1 BE1.png|32px]] 加入了圆石台阶。
+|圆石台阶的ID为<code>stone_slab</code>，但其物品形式的ID被错误地注册为<code>double_stone_slab</code>。
+|圆石双层台阶的直接物品形式ID为<code>real_double_stone_slab</code>。}}
+|{{HistoryLine||0.2.0|[[File:Cobblestone Slab BE2.png|32px]] 更改了圆石台阶的纹理。}}
+|{{HistoryLine||0.3.0|圆石台阶现在可通过[[合成]]在生存模式中获取。}}
+|{{HistoryLine||0.3.2|圆石台阶现在可在[[创造模式物品栏]]中找到。}}
+|{{HistoryLine||0.4.0|[[File:Cobblestone Slab JE2 BE2.png|32px]] 下半部分的圆石台阶侧面纹理现在使用圆石纹理的下半部分。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.1.0|dev=1.1.0.0|圆石台阶现在会在[[林地府邸]]中生成。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Cobblestone Slab JE4 BE3.png|32px]] 更改了圆石台阶的纹理。
+|圆石台阶现在会在[[掠夺者前哨站]]和[[平原村庄]]中生成。}}
+|{{HistoryLine||1.19.0|dev=1.19.0.26|圆石台阶和圆石双层台阶的ID被更改为<code>stone_block_slab</code>和<code>double_stone_block_slab</code>。}}
+|{{HistoryLine||1.20.30|dev=1.20.20.20|圆石台阶现在使用<code>minecraft:vertical_half</code>[[方块状态]]，而非<code>top_slot_bit</code>。}}
+|{{HistoryLine||1.21.0|dev=1.21.0.23|<code>stone_block_slab</code>ID的不同石头台阶类型[[方块状态]]被拆分为各自独立的ID。}}
+|{{HistoryLine||1.21.20|dev=1.21.10.20|<code>double_stone_block_slab</code>ID的不同石头台阶类型[[方块状态]]被拆分为各自独立的ID。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU1|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|[[File:Cobblestone Slab JE1 BE1.png|32px]] 加入了圆石台阶。}}
+|{{HistoryLine||xbox=TU3|[[File:Cobblestone Slab JE2 BE2.png|32px]] 更改了圆石台阶的纹理。}}
+|{{HistoryLine||xbox=TU54|xbone=CU44|ps3=1.52|psvita=1.52|ps4=1.52|wiiu=Patch 24|switch=1.0.4|圆石台阶现在会在[[林地府邸]]中生成。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Cobblestone Slab JE4 BE3.png|32px]] 更改了圆石台阶的纹理。}}
+|{{HistoryLine||ps3=none|psvita=none|ps4=1.91|圆石台阶现在会在[[掠夺者前哨站]]和[[平原]] [[村庄]]中生成。}}
+|{{HistoryLine|new3ds}}
+|{{HistoryLine||0.1.0|[[File:Cobblestone Slab JE2 BE2.png|32px]] 加入了圆石台阶。}}
+|{{HistoryLine||1.9.19|圆石台阶现在会在[[林地府邸]]中生成。}}
+}}
+
+== 导航 ==
+{{Navbox slab}}
+{{Navbox blocks|building blocks}}
+
+[[en:Cobblestone Slab]]
+[[fr:Dalle de pierres]]
+[[ja:丸石のハーフブロック]]
+[[ko:조약돌 반 블록]]
+[[pt:Laje de Pedregulho]]
+[[uk:Плита з кругляку]]

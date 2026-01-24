@@ -1,0 +1,449 @@
+{{about|常规版本中的生物|25w14craftmine中的宠物|宠物青蛙}}
+{{Infobox entity
+|group1=温带
+|1-1=Temperate Frog.png
+|group2=寒带
+|2-1=Cold Frog.png
+|group3=热带
+|3-1=Warm Frog.png
+|invimage=Frog Spawn Egg
+|health={{hp|10}}
+|behavior=友好生物
+|damage='''{{only|je|for=近战攻击}}'''（见{{slink||捕食}}）：<br>{{AutoDmg|10}}
+|spawn=
+{{BiomeLink|Swamp}}<br>
+{{BiomeLink|Mangrove Swamp}}
+|size=高度：0.55格<br>宽度：0.5格
+|usableitems=
+{{ItemLink|Slimeball}}<br>
+{{ItemLink|Lead}}<br>
+{{ItemLink|Name Tag}}
+}}
+'''青蛙（Frog）'''是一种生成于[[沼泽]]和[[红树林沼泽]]的[[友好生物]]。
+
+== 生成 ==
+=== 自然生成 ===
+溫帶青蛙自然生成于[[沼泽]]生物群系，熱帶青蛙自然生成于[[红树林沼泽]]生物群系。
+
+{{in|be}}青蛙生成无亮度要求，空间检测范围为2×2×2。
+
+=== 蝌蚪 ===
+[[蝌蚪]]会在生成20分钟后成长为青蛙，这是生存模式中寒帶青蛙唯一的生成途径。给其喂食[[黏液球]]可加速成长，每次缩短10%的剩余成长时间。
+
+=== 肤色 ===
+青蛙有寒帶、熱帶、溫帶3种變種，分別為绿色、白色、橙色，青蛙的變種取决于其生成时（包括蝌蚪成长为青蛙）所处的生物群系。
+
+{{in|je}}游戏通过判断[[Java版标签|标签]]以确定生成的青蛙类型，标签<code>#spawns_warm_variant_frogs</code>会使生物群系生成熱帶青蛙，<code>#spawns_cold_variant_frogs</code>会生成寒帶青蛙，其余则是溫帶青蛙。
+
+具体的如下表所示：
+
+{| class="wikitable collapsible"
+|-
+! rowspan="2" | 青蛙種類
+|-
+! style="text-align: center;" | '''{{EntitySprite|Cold Frog}}<br>寒帶'''
+! style="text-align: center;" | '''{{EntitySprite|Temperate Frog}}<br>溫帶'''
+! style="text-align: center;" | '''{{EntitySprite|Warm Frog}}<br>熱帶'''
+|-
+! rowspan="3" | 生物群系
+|-
+
+|{{BiomeLink|Frozen River}}<br>{{BiomeLink|Snowy Beach}}<br>{{BiomeLink|Grove}}<br>{{BiomeLink|Frozen Peaks}}<br>{{BiomeLink|Jagged Peaks}}<br>{{BiomeLink|Snowy Plains}}<br>{{BiomeLink|Ice Spikes}}<br>{{BiomeLink|Snowy Slopes}}<br>{{BiomeLink|Snowy Taiga}}<br>{{only|be|for={{BiomeLink|Cold Ocean}}}}<br>{{only|be|for={{BiomeLink|Deep Cold Ocean}}}}<br>{{BiomeLink|Frozen Ocean}}<br>{{BiomeLink|Deep Frozen Ocean}}<br>{{BiomeLink|Deep Dark}}<br>{{BiomeLink|The End}}<br>{{only|for={{BiomeLink|End Barrens}}|je}}<br>{{only|for={{BiomeLink|End Highlands}}|je}}<br>{{only|for={{BiomeLink|End Midlands}}|je}}<br>{{only|for={{BiomeLink|Small End Islands}}|je}}
+
+|{{BiomeLink|River}}<br>{{BiomeLink|Beach}}<br>{{BiomeLink|Stony Shore}}<br>{{BiomeLink|Taiga}}<br>{{BiomeLink|Old Growth Pine Taiga}}<br>{{BiomeLink|Old Growth Spruce Taiga}}<br>{{BiomeLink|Birch Forest}}<br>{{BiomeLink|Old Growth Birch Forest}}<br>{{BiomeLink|Dark Forest}}<br>{{BiomeLink|Pale Garden}}<br>{{BiomeLink|Forest}}<br>{{BiomeLink|Flower Forest}}<br>{{BiomeLink|Mushroom Fields}}<br>{{BiomeLink|Stony Peaks}}<br>{{BiomeLink|Meadow}}<br>{{BiomeLink|Cherry Grove}}<br>{{BiomeLink|Plains}}<br>{{BiomeLink|Sunflower Plains}}<br>{{BiomeLink|Swamp}}<br>{{BiomeLink|Windswept Hills}}<br>{{BiomeLink|Windswept Gravelly Hills}}<br>{{BiomeLink|Windswept Forest}}<br>{{BiomeLink|Ocean}}<br>{{BiomeLink|Deep Ocean}}<br>{{only|je|for={{BiomeLink|Cold Ocean}}}}<br>{{only|je|for={{BiomeLink|Deep Cold Ocean}}}}<br>{{only|je|for={{BiomeLink|Lukewarm Ocean}}}}<br>{{only|je|for={{BiomeLink|Deep Lukewarm Ocean}}}}<br>{{BiomeLink|Dripstone Caves}}<br>{{BiomeLink|Lush Caves}}<br>{{only|je|for={{BiomeLink|The Void}}}}
+
+|{{BiomeLink|Jungle}}<br>{{BiomeLink|Bamboo Jungle}}<br>{{BiomeLink|Sparse Jungle}}<br>{{BiomeLink|Badlands}}<br>{{BiomeLink|Eroded Badlands}}<br>{{BiomeLink|Wooded Badlands}}<br>{{BiomeLink|Desert}}<br>{{BiomeLink|Savanna}}<br>{{BiomeLink|Savanna Plateau}}<br>{{BiomeLink|Windswept Savanna}}<br>{{BiomeLink|Mangrove Swamp}}<br>{{BiomeLink|Warm Ocean}}<br>{{only|be|for={{BiomeLink|Lukewarm Ocean}}}}<br>{{only|be|for={{BiomeLink|Deep Lukewarm Ocean}}}}<br>{{BiomeLink|Basalt Deltas}}<br>{{BiomeLink|Crimson Forest}}<br>{{BiomeLink|Nether Wastes}}<br>{{BiomeLink|Soul Sand Valley}}<br>{{BiomeLink|Warped Forest}}
+|}
+
+== 掉落物 ==
+青蛙被[[玩家]]或驯服的[[狼]]杀死时会掉落{{xp|1|3}}。
+
+== 行为 ==
+[[File:WithOurPowersCombined.gif|thumb|青蛙捕食小型岩浆怪后掉落蛙明灯]]
+[[File:Three types of frog and froglight.png|thumb|三种青蛙与其对应的蛙明灯]]
+青蛙在陆地上会漫无目的地缓慢游荡、四处跳跃，在水中则会游泳。在水中，青蛙的移动速度要快得多，且通常会向上游动并停留在水面上。它们的四肢脱离地面时会微微张开。它们还时常鼓动鸣囊。
+
+青蛙最高可以跳8格高。与[[山羊]]相似，青蛙在摔落时受到的伤害相较正常水平少{{hp|5}}。青蛙会倾向于跳上[[大型垂滴叶]]和[[睡莲]]。
+
+青蛙可以被[[拴绳]]拴住。
+
+青蛙不会溺水。
+
+=== 捕食 ===
+青蛙会捕食[[史莱姆|小型史莱姆]]。它们发现目标时会提高移动速度，伸出舌头迅速将其吸入口中，并掉落1个[[黏液球]]。
+
+青蛙也会以相同的方式捕食[[岩浆怪|小型岩浆怪]]。寒帶、溫帶、熱帶的青蛙吞食岩浆怪后分别会掉落1个青翠、赭黄和珠光变种的[[蛙明灯]]。
+
+{{in|je}}青蛙捕食时会对猎物造成{{hp|10}}的基础攻击伤害直到其死亡，猎物因此而死亡时没有死亡动画。
+
+{{in|be}}被青蛙吞食的实体会瞬间消失，而没有死亡动画。
+
+=== 繁殖 ===
+{{see also|繁殖}}
+青蛙会跟随{{only|je|for=10格内|short=1}}/{{only|be|for=16格内|short=1}}手持[[黏液球]]的玩家。
+
+给两只青蛙喂食黏液球会使其[[繁殖]]，掉落{{xp|1|7}}。繁殖{{only|je|for=5分钟}}/{{only|be|for=1分钟}}后才能再次繁殖。其中一只青蛙会搜寻上方有空气的[[水源]]，并在其上方产下[[青蛙卵]]。
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Frog idle1.ogg
+|sound2=Frog idle2.ogg
+|sound3=Frog idle3.ogg
+|sound4=Frog idle4.ogg
+|sound5=Frog idle5.ogg
+|sound6=Frog idle6.ogg
+|sound7=Frog idle7.ogg
+|sound8=Frog idle8.ogg
+|subtitle={{tp|subtitles.entity.frog.ambient}}
+|source=友好生物
+|description=空闲时随机播放此声音
+|id=entity.frog.ambient
+|translationkey=subtitles.entity.frog.ambient
+|volume=0.3-1.0
+|pitch=0.9-0.95
+}}
+{{Sound table
+|sound=Frog death1.ogg
+|sound2=Frog death2.ogg
+|sound3=Frog death3.ogg
+|subtitle={{tp|subtitles.entity.frog.death}}
+|source=友好生物
+|description=死亡
+|id=entity.frog.death
+|translationkey=subtitles.entity.frog.death
+}}
+{{Sound table
+|sound=Frog eat1.ogg
+|sound2=Frog eat2.ogg
+|sound3=Frog eat3.ogg
+|sound4=Frog eat4.ogg
+|subtitle={{tp|subtitles.entity.frog.eat}}
+|source=友好生物
+|description=进食
+|id=entity.frog.eat
+|translationkey=subtitles.entity.frog.eat
+|volume=0.6
+|pitch=0.9-1.0
+}}
+{{Sound table
+|sound=Frog hurt1.ogg
+|sound2=Frog hurt2.ogg
+|sound3=Frog hurt3.ogg
+|sound4=Frog hurt4.ogg
+|sound5=Frog hurt5.ogg
+|subtitle={{tp|subtitles.entity.frog.hurt}}
+|source=友好生物
+|description=受伤
+|id=entity.frog.hurt
+|translationkey=subtitles.entity.frog.hurt
+}}
+{{Sound table
+|sound=Frog lay spawn1.ogg
+|sound2=Frog lay spawn2.ogg
+|subtitle={{tp|subtitles.entity.frog.lay_spawn}}
+|source=友好生物
+|description=青蛙产卵
+|id=entity.frog.lay_spawn
+|translationkey=subtitles.entity.frog.lay_spawn
+|volume=0.25
+}}
+{{Sound table
+|sound=Frog long jump1.ogg
+|sound2=Frog long jump2.ogg
+|sound3=Frog long jump3.ogg
+|sound4=Frog long jump4.ogg
+|subtitle={{tp|subtitles.entity.frog.long_jump}}
+|source=友好生物
+|description=跳跃
+|id=entity.frog.long_jump
+|translationkey=subtitles.entity.frog.long_jump
+|volume=0.12
+|pitch=0.8-1.0
+}}
+{{Sound table
+|sound=Frog step1.ogg
+|sound2=Frog step2.ogg
+|sound3=Frog step3.ogg
+|sound4=Frog step4.ogg
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|source=友好生物
+|description=行走
+|id=entity.frog.step
+|translationkey=subtitles.block.generic.footsteps
+}}
+{{Sound table
+|sound=Frog tongue1.ogg
+|sound2=Frog tongue2.ogg
+|sound3=Frog tongue3.ogg
+|sound4=Frog tongue4.ogg
+|subtitle=MC-249080
+|source=友好生物
+|description=伸出舌头捕食生物
+|id=entity.frog.tongue
+|translationkey=-
+|volume=0.5
+|foot=1
+}}
+
+{{el|be}}：
+{{Sound table
+|bedrock=1
+|sound=Frog idle1.ogg
+|sound2=Frog idle2.ogg
+|sound3=Frog idle3.ogg
+|sound4=Frog idle4.ogg
+|sound5=Frog idle5.ogg
+|sound6=Frog idle6.ogg
+|sound7=Frog idle7.ogg
+|sound8=Frog idle8.ogg
+|source=友好生物
+|description=空闲时随机播放此声音
+|id=mob.frog.ambient
+|typeid=ambient
+|soundvolume=0.82
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Frog eat1.ogg
+|sound2=Frog eat2.ogg
+|sound3=Frog eat3.ogg
+|sound4=Frog eat4.ogg
+|source=友好生物
+|description=进食
+|id=mob.frog.eat
+|typeid=eat
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Frog hurt1.ogg
+|sound2=Frog hurt2.ogg
+|sound3=Frog hurt3.ogg
+|sound4=Frog hurt4.ogg
+|sound5=Frog hurt5.ogg
+|source=友好生物
+|description=受伤
+|id=mob.frog.hurt
+|typeid=hurt
+|soundvolume=0.65
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Frog death1.ogg
+|sound2=Frog death2.ogg
+|sound3=Frog death3.ogg
+|source=友好生物
+|description=死亡
+|id=mob.frog.death
+|typeid=death
+|soundvolume=0.65
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Frog long jump1.ogg
+|sound2=Frog long jump2.ogg
+|sound3=Frog long jump3.ogg
+|sound4=Frog long jump4.ogg
+|source=友好生物
+|description=跳跃
+|id=mob.frog.jump_to_block
+|typeid=jump_to_block
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Frog step1.ogg
+|sound2=Frog step2.ogg
+|sound3=Frog step3.ogg
+|sound4=Frog step4.ogg
+|source=友好生物
+|description=行走
+|id=mob.frog.step
+|typeid=step
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Frog tongue1.ogg
+|sound2=Frog tongue2.ogg
+|sound3=Frog tongue3.ogg
+|sound4=Frog tongue4.ogg
+|source=敌对生物
+|description=伸出舌头捕食生物
+|id=mob.frog.tongue
+|typeid=mob.frog.tongue
+|soundvolume
+|soundpitch
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Frog lay spawn1.ogg
+|sound2=Frog lay spawn2.ogg
+|source=敌对生物
+|description=产卵
+|id=mob.frog.lay_spawn
+|typeid=lay_spawn
+|soundvolume=0.3
+|soundpitch=0.9
+|sounddistance
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}:
+{{ID table
+|generatetranslationkeys=java
+|Frog
+|spritetype=entity
+|nameid=frog
+|showentitytags=1|entitytags={{GameTag|entity|frog}}
+|foot=1}}
+
+{{el|be}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Frog
+|spritetype=entity
+|nameid=frog
+|foot=1}}
+
+=== 实体数据 ===
+{{el|je}}：
+{{main|实体数据格式}}
+
+青蛙有与之相联系的包含许多该生物属性的存档数据。
+
+{{/ED}}
+
+{{el|be}}：
+{{see also|基岩版存档格式/实体格式|基岩版存档格式/实体格式/组件}}
+
+{{loadPage|青蛙/DV|青蛙肤色|h4}}
+
+== 成就 ==
+{{Load achievements|overkill;with-our-powers-combined;it-spreads;over-overkill;mob-kabob}}
+
+== 进度 ==
+{{Load advancements|husbandry.breed_an_animal;husbandry.breed_all_animals;adventure.root;adventure.shoot_arrow;adventure.throw_trident;adventure.arbalistic;husbandry.leash_all_frog_variants;adventure.kill_mob_near_sculk_catalyst;adventure.overoverkill;adventure.spear_many_mobs}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2019年9月23日|link={{ytl|Anv-lZc0pIM}}|在[[MINECON Live 2019]]生物群系投票中，青蛙被宣布为[[沼泽]]生物群系选项的一部分。}}
+|{{HistoryLine||2019年9月28日|link={{article|everything-we-announced-minecon-live-2019}}|沼泽选项未在投票中胜出，这意味着其提及特性的开发工作将会延后。}}
+|{{HistoryLine||2021年10月16日|link={{ytl|or1DfXdqu3U|t=1135}}|[[File:Temperate Frog (pre-release).png|32px]] [[File:Cold Frog (pre-release).png|32px]] [[File:Warm Frog (pre-release).png|32px]] [[Minecraft Live 2021]]的视频片段展示了青蛙，并宣布青蛙将在[[荒野更新]]中加入游戏。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.19|dev=22w11a|[[File:Temperate Frog JE1.png|32px]] [[File:Cold Frog JE1.png|32px]] [[File:Warm Frog JE1.png|32px]] 加入了青蛙，可使用[[黏液球]]繁殖。
+|青蛙自然生成于[[沼泽]]生物群系。}}
+|{{HistoryLine|||dev=22w13a|更改了一些生物群系的对应青蛙肤色。<ref>{{bug|MC-249115|||Fixed}}</ref>}}
+|{{HistoryLine|||dev=22w14a|现在青蛙还会生成于[[红树林沼泽]]生物群系。
+|现在捕食猎物时改为对猎物造成10点的基础攻击伤害，而非之前直接清除实体的方式。}}
+|{{HistoryLine||1.20.2|dev=23w31a|青蛙现在被[[拴绳]]拴住时若受到伤害，会进入惊慌状态。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.18.10|dev=1.18.10.24|exg=wild_update|[[File:Temperate Frog BE1.png|32px]] [[File:Cold Frog BE1.png|32px]] [[File:Warm Frog BE1.png|32px]] 加入了青蛙。
+|青蛙可使用[[海草]]繁殖。}}
+|{{HistoryLine|||dev=1.18.10.26|为青蛙加入了新音效。
+|现在青蛙会捕食小型[[岩浆怪]]，捕食后会掉落[[蛙明灯]]。}}
+|{{HistoryLine|||dev=1.18.10.27|现在青蛙不再捕食[[山羊]]。<ref>{{bug|MCPE-151536|||Fixed}}</ref><ref>{{tweet|Badgerisi|1479030938373955586|I will admit that seeing Frogs eat Goats was extremely hilarious! 😂 It is however not intended and was just some prototype code that was forgotten while developing :) One of the reasons for betas/snaps is to find these small mistakes and fix em <3}}</ref>}}
+|{{HistoryLine||1.18.30|dev=1.18.20.21|exg=wild_update|提高了青蛙的跳跃频率。
+|现在生成于草甸的青蛙为溫帶变种。
+|调整了青蛙跳跃和吐舌头时的动画。}}
+|{{HistoryLine|||dev=1.18.20.23|现在可以使用[[黏液球]]来繁殖和吸引青蛙，而不是使用海草。
+|现在青蛙会倾向于跳上[[睡莲]]和[[大型垂滴叶]]。}}
+|{{HistoryLine||1.19.0|dev=1.19.0.20|青蛙不再属于[[实验性玩法]]。}}
+|{{HistoryLine|||dev=1.19.0.24|现在青蛙还会生成于红树林沼泽生物群系。}}
+|{{HistoryLine|||dev=1.19.0.30|现在青蛙被玩家杀死后会掉落经验。}}
+}}
+
+== 你知道吗 ==
+* 熱帶青蛙的原型为现实中的非洲[[wikipedia:grey foam-nest tree frog|大灰攀蛙]]，<ref>{{ytl|w6zLprHHZOk|Minecraft Live 2021 @2:08:31|Minecraft|October 16, 2021|t=2h8m31}}</ref>溫帶青蛙的原型为现实中的{{w|牛蛙}}。<ref>{{ytl|n9TpuPGH9hk|Minecraft Now: Wild Update and Farlands ft AntVenom!|Minecraft|May 19, 2022|t=619s}}</ref>
+* 青蛙最初被设计为吃掉萤火虫来产生[[蛙明灯]]，但在开发者发现一些种类的萤火虫在现实生活中对一些种类的青蛙有毒后，这项计划就被取消了。<ref>{{ytl|a5Wd9ciTmTI|t=544}}</ref>
+* 青蛙和[[美西螈]]都是两栖动物，但是青蛙离开[[水]]后不会因为脱水而受到伤害并死亡。
+* {{in|je}}可以通过修改{{cd|frog_food.json}}让青蛙主动攻击大部分[[生物]]，包括[[玩家]]和其他青蛙。对于[[盔甲架]]、[[末影龙]]，青蛙会不断尝试吞食它，但无法对其造成伤害也无法吞食。
+
+== 画廊 ==
+<gallery>
+FrogPixel.png|[[MINECON Live 2019]]生物群系投票中沼泽生物群系的青蛙
+Frogs.png|3种肤色的青蛙
+Walking Frogs.gif|3种青蛙的行走动画<ref>{{tweet|kingbdogz|1471148048134782982|when the squad hops into town:|December 15, 2021}}</ref>
+</gallery>
+
+=== 渲染图 ===
+<gallery>
+Temperate Frog.gif|溫帶青蛙鼓动鸣囊
+Cold Frog.gif|寒帶青蛙鼓动鸣囊
+Warm Frog.gif|熱帶青蛙鼓动鸣囊
+Swamp Frog Walking.gif|溫帶青蛙行走
+Cold Frog Walking.gif|寒帶青蛙行走
+Tropical Frog Walking.gif|熱帶青蛙行走
+Frog Jump.gif|溫帶青蛙跳跃
+Frog Swim.gif|溫帶青蛙游动
+Frog Water Idle.gif|溫帶青蛙在水中歇息
+Frog Tongue.gif|溫帶青蛙伸出舌头
+</gallery>
+
+=== 概念艺术 ===
+<gallery>
+Concept art frog 1.png|青蛙的腿部动画设计<ref>{{ytl|PCrbr_ann7I|The Secrets of Minecraft: How We Invented Frogs|Minecraft|April 23, 2022}}</ref>
+Concept art frog 2.png|青蛙的嘴部动画设计
+Concept art frog 3.png|青蛙的脚部模型设计
+Concept art frog 4.png|青蛙的腿部模型设计
+Concept art frog 5.png|未使用的蓝色青蛙
+Green frog 1.png|基于{{w|红眼树蛙}}设计的青蛙
+Green frog 2.png
+Green frog 3.png
+Green frog 3 croak.png
+Green frog 3 tongue.png
+Frog 1.png|基于{{w|牛蛙}}设计的青蛙
+Frog 2.png
+Frog 3.png
+Frog sizes.png|青蛙早期模型与玩家的对比图
+Big Temprate Frog old.png|早期的温带青蛙
+Green Frog old.png|早期的寒带青蛙
+</gallery>
+
+=== 其他媒体 ===
+<gallery>
+Frog and Mangrove swamp artwork.png|红树林沼泽主题的手机壁纸
+MC-The-Wild-Update Frog.png|青蛙的官方艺术作品
+Frog1.gif|溫帶青蛙伸舌头动图
+Frog2.gif|熱帶青蛙动图
+Frog4.gif|溫帶青蛙动图
+FrogCatcher.gif|Noor与青蛙
+LEGO Frog.png|[[乐高Minecraft]]中的青蛙
+</gallery>
+
+=== [[角色创建器]]物品 ===
+<gallery>
+Frog Hat.png|青蛙帽子 - InPvP
+Frog Headset DogHouse.png|青蛙耳机 - DogHouse
+Frog Headset ChewMingo.png|青蛙耳机 - ChewMingo
+Froggy Shirt.png|青蛙衫
+Frog Slippers Sapix.png|青蛙拖鞋 - Sapix
+Frog Slippers Cyclone.png|青蛙拖鞋 - Cyclone
+</gallery>
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox entities|Mobs}}
+
+[[Category:友好生物]]
+
+[[de:Frosch]]
+[[en:Frog]]
+[[es:Rana]]
+[[fr:Grenouille]]
+[[it:Rana]]
+[[ja:カエル]]
+[[ko:개구리]]
+[[pl:Żaba]]
+[[pt:Sapo]]
+[[ru:Лягушка]]
+[[uk:Жаба]]

@@ -1,0 +1,173 @@
+{{tr|mode=H|干|幹}}{{About|方块|种植作物的方法|生产}}
+{{Infobox block
+|group1=干燥
+|1-1=Farmland.png
+|group2=湿润
+|2-1=Moist Farmland.png
+|invimage=Farmland
+}}
+
+'''耕地（Farmland）'''是一种可以用来种植与生长[[农作物]]的[[方块]]。
+
+== 生成 ==
+=== 自然生成 ===
+耕地自然生成在[[村庄]]的[[农田]]里，其上方种着[[小麦植株]]、[[马铃薯]]、[[胡萝卜]]、[[甜菜植株]]、[[南瓜茎]]或[[西瓜茎]]。
+
+耕地也自然生成在[[林地府邸]]的“[[林地府邸/结构/农场#小麦农场|小麦农场]]”和“[[林地府邸/结构/农场#瓜房|瓜房]]”两种房间里。
+
+{{Block distribution}}
+
+=== 锄 ===
+对着[[泥土]]、[[草方块]]或[[土径]]{{control|使用}}[[锄]]可将其犁成耕地。
+
+== 获取 ==
+{{see also|Tutorial:获取任意物品}}
+耕地无法在未开启[[作弊]]的[[生存模式]]的世界中获取。使用[[创造模式]]或启用[[作弊]]，耕地可以通过[[创造模式物品栏]]、[[创造模式]]中使用{{ctrl|选取方块}}或[[命令]]等方式获得。
+
+== 破坏 ==
+挖掘耕地的合适工具是锹。
+
+{{Breaking table}}
+
+耕地被破坏后会掉落1个[[泥土]]。
+
+== 用途 ==
+耕地是游戏中一些[[农作物]]生长所必需的方块，这些农作物有[[小麦植株]]、[[马铃薯]]、[[胡萝卜]]、[[甜菜植株]]、[[南瓜茎]]、[[西瓜茎]]、[[火把花植株]]和[[瓶子草植株]]。
+
+除此以外，一些植物也能种植在耕地上面，包括[[树苗]]、[[矮草丛]]、[[高草丛]]、[[矮枯草丛]]、[[高枯草丛]]、[[蕨]]、[[大型蕨]]、[[花]]、[[甜浆果]]、[[大型垂滴叶]]、[[杜鹃花丛]]、[[盛开的杜鹃花丛]]、{{only|for=[[枯萎的灌木]]|je}}、[[灌木丛]]、[[萤火虫灌木丛]]、[[粉红色花簇]]和[[野花簇]]。
+
+[[小型垂滴叶]]只有在至少1格深的[[水源]]中才可种植在耕地上。
+
+{{IN|java}}在2×2的树苗中，若西北方的一棵被种在耕地里，则所有树苗都不会生长。
+
+{{IN|bedrock}}2×2的云杉和丛林树苗若西北方的一棵被种在耕地里，则所有树苗都不会生长。
+
+=== 湿润耕地 ===
+[[File:Farmland Hydration.png|250px|thumb|湿润耕地的所需条件]]
+用锄转化或玩家放置的耕地方块开始都是干燥的，没有湿润且上方没有种植作物时，耕地方块会在一段时间后重新退化成泥土。
+
+耕地的湿润程度由范围是0-7的“湿润值”（对应方块状态{{only|for={{cd|moisture}}|je}}或{{only|for={{cd|moisturized_amount}}|be}}）决定。“湿润值”达到最大值7时，耕地会进入湿润状态；为最小值0且仍可以降低，并且上方没有种植作物时，耕地将会退化成泥土。
+
+要让耕地湿润，必须满足且保持以下条件之一：
+* 自身或高一格平面内、以自身为中心的9×9范围内需要存在至少一个[[水]]（水源或水流）或[[含水]]方块。
+* 当前生物群系正在[[降雨]]，[[降雪]]无法使耕地湿润。
+
+满足上述条件的耕地将在接受到随机刻后，使自身“湿润值”直接变为7，即进入湿润状态；否则会逐渐减少。耕地湿润的过程不受其他因素影响。耕地和水之间即使有方块阻挡也不会影响湿润过程。单个水方块最多能湿润周围9×9范围的耕地。
+
+不同类型的[[种子]]在湿润的耕地的生长速度更快。湿润的耕地能使[[小麦植株]]在比一个[[昼夜更替]]多一点点的时间内完全成熟。
+
+=== 退化 ===
+满足以下条件之一时，耕地会退化成泥土：
+* 耕地方块完全干涸（“湿润值”为0），且接收到下一个随机刻时上方没有种植[[作物]]。
+* 碰撞箱体积大于0.512的生物（如[[玩家]]）[[摔落]]到耕地上时，耕地有<math>f-0.5</math>的概率退化，其中<math>f</math>为下落高度，如果摔落高度小于等于0.5格则不会退化，大于1.5格则必定退化。
+** 碰撞箱体积小于或等于0.512，因此即使摔落也不会导致耕地退化的生物有[[美西螈]]、[[烈焰人]]{{only|be}}、[[猫]]、[[洞穴蜘蛛]]、[[鸡]]、[[鳕鱼]]、[[海豚]]、[[末影螨]]、[[狐狸]]、[[青蛙]]、[[发光鱿鱼]]{{Only|je}}、小型[[岩浆怪]]{{Only|je}}、[[豹猫]]、[[鹦鹉]]、[[河豚]]{{Only|je}}、[[兔子]]、[[鲑鱼]]、[[蠹虫]]、小型[[史莱姆]]{{Only|je}}、[[雪傀儡]]{{only|be}}、[[蝌蚪]]、[[鱿鱼]]{{only|je}}、[[热带鱼]]、[[狼]]以及各类幼年生物等。
+* [[固体方块]]覆盖在耕地方块的上方，比如南瓜或西瓜在上方长出，或{{only|je|for=活塞头推到耕地上方}}。
+
+当耕地退化时，在其上的作物会掉落为物品。
+
+[[劫掠兽]]在耕地上行走时不会破坏耕地，但会破坏其上的作物{{only|je}}或任何植物{{only|be}}。
+
+=== 转变 ===
+[[杜鹃树]]长成后会将其下方的耕地转变为[[缠根泥土]]。
+
+[[大型云杉]]长成后会将其下方{{only|BE|short=1|for=及周围}}的耕地转变为[[灰化土]]。
+
+== 音效 ==
+{{Sound table/Block/Gravel}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Farmland
+|spritetype=block
+|nameid=farmland
+|showblocktags=1
+|blocktags={{GameTag|blocks|farmland}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table|generatetranslationkeys=bedrock
+|Farmland|spritetype=block|nameid=farmland|foot=1}}
+
+=== 方块数据值 ===
+{{see also|基岩版数据值}}
+{{/DV}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+{{Block states table}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2009年5月21日|link={{notch|110762705/my-list-on-tile-types-so-far}}|[[Notch]]对耕地感兴趣。}}
+|{{HistoryLine|java Indev}}
+|{{HistoryLine||20100206-2034|[[File:Farmland JE1.png|32px]] [[File:Moist Farmland JE1.png|32px]] 加入了耕地。
+|出现了一个允许玩家破坏任何方块（即使是[[基岩]]）的漏洞：在一个方块下面放置一块泥土，耕这块泥土，然后在耕地上面播种，这会导致耕地上面的方块消失并不掉落任何物品。}}
+|{{HistoryLine|java Beta}}
+|{{HistoryLine||1.2|修复了通过耕地破坏方块的漏洞。}}
+|{{HistoryLine||1.6|dev=Test Build 3|现在可用锹更快地挖掘耕地。}}
+|{{HistoryLine||1.7|[[File:Farmland JE2.png|32px]] [[File:Moist Farmland JE2.png|32px]] 更改了纹理。耕地侧面的泥土纹理现在与其他泥土类方块同步，在此之前是向下移动一层的，这在犁地的时候可以见到。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.0.0|dev=Beta 1.9-pre5|[[File:Farmland JE3 BE1.png|32px]] [[File:Moist Farmland JE3 BE1.png|32px]] 更改了侧面的泥土纹理。}}
+|{{HistoryLine|||dev=Beta 1.9-pre6|修复了在耕地下方放置栅栏，能够防止作物和耕地受到玩家和动物的行走踩踏的漏洞。}}
+|{{HistoryLine|||dev=?|被动型生物能够在耕地旁边且亮度足够的草方块上生成，并踩踏耕地。}}
+|{{HistoryLine||1.1|dev=11w48a|耕地只能被玩家在耕地上跳跃或掉落造成踩踏，走上耕地不再造成踩踏。其他生物也同样只能通过跳跃而不是走上去踩踏耕地。}}
+|{{HistoryLine|||dev=11w49a|粒子不再破坏耕地。}}
+|{{HistoryLine|||dev=?|[[西瓜]]和[[南瓜]]不再需要耕地来生长了，它们可以生长在普通的[[泥土]]或[[草方块]]上。}}
+|{{HistoryLine||1.9|dev=15w46a|小型生物掉到耕地上时不会再把耕地变成泥土。}}
+|{{HistoryLine||1.10.1|耕地的高度由一格降低成{{frac|15|16}}格。}}
+|{{HistoryLine||1.11|dev=16w38a|对耕地使用{{control|选取方块}}键会给予玩家耕地本身而不是[[泥土]]。}}
+|{{HistoryLine|||dev=16w39a|耕地现在会在[[林地府邸]]中自然生成。}}
+|{{HistoryLine||1.13|dev=17w47a|耕地现在加入[[创造模式物品栏]]，在“装饰方块”下。
+|在[[扁平化]]前，方块的数字ID为60。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Farmland JE4 BE4.png|32px]] [[File:Moist Farmland JE4 BE2.png|32px]] 更改了耕地的纹理。}}
+|{{HistoryLine||1.15|dev=19w36a|放置在耕地上能够不使耕地退化的方块现在如果被活塞推进耕地的上方时，不再使耕地退化为泥土。}}
+|{{HistoryLine|pocket alpha}}
+|{{HistoryLine||0.4.0|[[File:Farmland JE3 BE1.png|32px]] [[File:Moist Farmland JE3 BE1.png|32px]] 加入了耕地。}}
+|{{HistoryLine||0.5.0|在耕地上跳会使耕地变回泥土。}}
+|{{HistoryLine||0.9.0|dev=build 1|耕地现在会在[[村庄]]中自然生成。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=?|[[File:Farmland BE2.png|32px]] 耕地现在使用[[砂土]]作为其侧面纹理。}}
+|{{HistoryLine||1.1.0|dev=1.1.0.0|耕地现在会在[[林地府邸]]中自然生成。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Farmland BE3.png|32px]] 更改了耕地的纹理。
+|耕地现在是[[村民]]的工作站点方块。}}
+|{{HistoryLine||1.11.0|dev=1.11.0.1|耕地不再是村民的工作站点方块了。}}
+|{{HistoryLine||1.12.0|dev=1.12.0.2|[[File:Farmland JE4 BE4.png|32px]] 耕地不再使用砂土作为侧面纹理。}}
+|{{HistoryLine||1.16.100|dev=1.16.100.52|对耕地使用{{control|选取方块}}键会给予玩家耕地本身而不是[[泥土]]。|现在可使用{{cmd|give}}命令获得。}}
+|{{HistoryLine||1.19.40|dev=1.19.40.21|碰撞箱高度由全高改为{{frac|15|16}}格高。}}
+|{{HistoryLine|||dev=1.19.40.24|暂时回退了上述更改。}}
+|{{HistoryLine||1.19.50|dev=1.19.50.20|重新将碰撞箱高度由全高改为{{frac|15|16}}格高。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU1|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|[[File:Farmland JE3 BE1.png|32px]] [[File:Moist Farmland JE3 BE1.png|32px]] 加入了耕地。}}
+|{{HistoryLine||xbox=TU55|xbone=CU47|ps3=1.54|psvita=1.53|ps4=1.54|wiiu=Patch 25|switch=1.0.5|耕地是一个方块，你可以直接在创造模式里“选择”它。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Farmland JE4 BE4.png|32px]] [[File:Moist Farmland JE4 BE2.png|32px]] 更改了耕地的纹理。}}
+|{{HistoryLine|new 3ds}}
+|{{HistoryLine||0.1.0|[[File:Farmland JE3 BE1.png|32px]] [[File:Moist Farmland JE3 BE1.png|32px]] 加入了耕地。}}
+}}
+
+== 你知道吗 ==
+* 一个水源方块最多可以向水平各个方向流淌7个方块。从水源方块中流出来的水湿润耕地的行为与水源方块湿润耕地的行为相同。正因如此，如果高效利用水源方块，存在利用一个水源方块湿润23×23甚至更大面积耕地的可能性。水也可以往下流，如果在最大建筑高度，仅竖直往下流就可以湿润384÷2×（9×9-1）格，也就是15360格耕地。
+
+== 参见 ==
+* [[种植]]
+
+== 导航 ==
+{{Navbox blocks|natural blocks}}
+
+[[de:Ackerboden]]
+[[en:Farmland]]
+[[es:Tierra de cultivo]]
+[[fr:Terre labourée]]
+[[hu:Termőföld]]
+[[it:Terra zappata]]
+[[ja:耕地]]
+[[ko:경작지]]
+[[lzh:疇]]
+[[nl:Akkerland]]
+[[pl:Pole uprawne]]
+[[pt:Terra Arada]]
+[[ru:Грядка]]
+[[uk:Рілля]]

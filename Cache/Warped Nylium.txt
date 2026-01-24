@@ -1,0 +1,79 @@
+{{distinguish|菌丝体}}
+{{for|红色的菌岩变种|绯红菌岩}}
+{{Infobox block
+|image=Warped Nylium.png
+|invimage=Warped Nylium
+}}
+
+'''诡异菌岩（Warped Nylium）'''是一种在[[下界]]自然生成的方块。
+
+== 生成 ==
+=== 自然生成 ===
+诡异菌岩在[[诡异森林]]中自然生成。
+
+{{Block distribution}}
+
+=== 人工生成 ===
+对在诡异菌岩旁的[[下界岩]]{{ctrl|使用}}[[骨粉]]可以使下界岩变为诡异菌岩。激活朝向下界岩的内有骨粉的[[发射器]]也能使下界岩转变成诡异菌岩。{{in|je}}此过程中下界岩的上方必须是[[空气]]。
+
+==== 传播规则 ====
+如果在以下界岩为中心3×3×3的区域内有诡异菌岩，那么对下界岩使用[[骨粉]]时就能转变为诡异菌岩。
+
+== 破坏 ==
+挖掘诡异菌岩的合适工具是[[镐]]。诡异菌岩需要木镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+没有被具有[[精准采集]]的工具挖掘破坏时，诡异菌岩被破坏后会掉落1个[[下界岩]]。
+
+被具有精准采集的工具挖掘破坏时，诡异菌岩被破坏后会掉落自身。
+
+== 用途 ==
+类似于[[草方块]]和[[菌丝体]]，当上方放有固体方块时诡异菌岩会退化（基于[[随机刻]]）。但不同的是，当上方有[[水]]或[[熔岩]]时诡异菌岩不会退化。
+
+{{in|je}}当[[雪]]覆盖在诡异菌岩上时，诡异菌岩也会退化。<ref>{{bug|MC-174639|||WAI}}</ref>
+
+类似于草方块，玩家可以对诡异菌岩{{ctrl|使用}}[[骨粉]]。这个诡异菌岩、附近的诡异菌岩和绯红菌岩上方会生成两种[[菌索]]（有1%的概率生成[[绯红菌索]]<ref>{{bug|MC-182102||对诡异菌岩使用骨粉会生成绯红菌和绯红菌索|WAI}}</ref>）、两种[[下界菌]]（多数是诡异菌）和[[下界苗]]，还有{{frac|1|8}}的概率生成1格高的[[缠怨藤]]。
+
+[[诡异菌]]必须种在诡异菌岩上才能用骨粉使其生长为对应的[[巨型诡异菌]]。
+
+[[末影人]]可以搬起及放下诡异菌岩。关闭[[游戏规则]]{{gamerule|mobGriefing}}将阻止该行为。
+
+== 音效 ==
+{{Sound table/Block/Nylium}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table|generatetranslationkeys=java
+|Warped Nylium|spritetype=block|nameid=warped_nylium
+|showblocktags=1|rowspan=0|blocktags={{GameTag|block|warped_nylium}}|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table|generatetranslationkeys=bedrock|Warped Nylium|spritetype=block|nameid=warped_nylium|foot=1}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.16|dev=20w06a|[[File:Warped Nylium JE1 BE1.png|32px]] 加入了诡异菌岩。}}
+|{{HistoryLine|||dev=20w07a|诡异菌岩现在可以通过和[[猪灵]]以物易物获得，这使得其可再生。}}
+|{{HistoryLine|||dev=20w10a|诡异菌岩不再能通过和猪灵以物易物获得，这使得其不可再生。}}
+|{{HistoryLine|||dev=20w12a|现在可对诡异菌岩使用[[骨粉]]来使其长出植物。}}
+|{{HistoryLine|||dev=20w22a|诡异菌岩现在必须使用带有[[精准采集]]魔咒的工具采集，否则只会掉落[[下界岩]]。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.16.0|dev=1.16.0.51|[[File:Warped Nylium JE1 BE1.png|32px]] 加入了诡异菌岩。
+|可以对诡异菌岩使用骨粉来生长[[菌索]]和[[下界菌]]。}}
+}}
+
+== 你知道吗 ==
+* 菌岩的英文名称nylium是“'''N'''ether（[[下界]]）”和“M'''y'''ce'''lium'''（[[菌丝体]]）”的混成词。<ref>{{cite|url=https://www.minecraft.net/en-us/article/block-month--nylium|title=Block of the Month: Nylium|quote=Nether Mycelium}}</ref>
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox blocks|natural blocks}}
+
+[[en:Warped Nylium]]
+[[ko:진홍빛 네사체]]
+[[pt:Nicélio Carmesim]]

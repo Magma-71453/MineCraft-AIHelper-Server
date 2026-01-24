@@ -1,0 +1,91 @@
+{{Infobox block
+|image=Blackstone Wall.png
+|invimage=Blackstone Wall
+|invimage2=----
+|invimage3=Blackstone Wall BE
+}}
+'''黑石墙（Blackstone Wall）'''是[[黑石]]制作的[[墙]]。
+
+== 生成 ==
+=== 自然生成 ===
+黑石墙会自然生成于[[堡垒遗迹]]里。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|A2=Blackstone
+|B2=Blackstone
+|C2=Blackstone
+|A3=Blackstone
+|B3=Blackstone
+|C3=Blackstone
+|Output=Blackstone Wall,6
+|type= Decoration block
+}}
+=== 切石 ===
+{{Stonecutting
+|Blackstone
+|Blackstone Wall
+}}
+
+== 破坏 ==
+挖掘黑石墙的合适工具是镐。黑石墙需要木镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+黑石墙被破坏后会掉落自身。
+
+== 用途 ==
+{{main|墙#用途}}
+黑石墙可用于装饰，并有与其他墙相似的特性。
+
+== 音效 ==
+{{Sound table/Block/Stone}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Blackstone Wall
+|spritetype=block
+|nameid=blackstone_wall
+|showblocktags=1|blocktags={{GameTag|block|blackstone_wall}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Blackstone Wall
+|spritetype=block
+|nameid=blackstone_wall
+|foot=1}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+{{Block states table}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.16|dev=20w15a|[[File:Blackstone Wall JE1.png|32px]] 加入了黑石墙。}}
+|{{HistoryLine||1.16|dev=20w16a|现在黑石墙会自然生成在[[堡垒遗迹]]中。}}
+|{{HistoryLine||1.17|dev=21w07a|[[File:Blackstone Wall JE2.png|32px]] 略微更改了黑石墙的纹理。}}
+|{{HistoryLine|||dev=21w08a|[[File:Blackstone Wall JE3.png|32px]] 再次略微更改了黑石墙的纹理。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.16.0|dev=1.16.0.57|[[File:Blackstone Wall BE1.png|32px]] 加入了黑石墙。}}
+|{{HistoryLine||1.17.0|dev=1.17.0.50|[[File:Blackstone Wall BE2.png|32px]] 略微更改了黑石墙的纹理。}}
+}}
+
+== 导航 ==
+{{Navbox wall}}
+{{Navbox blocks|building blocks}}
+
+[[en:Blackstone Wall]]
+[[fr:Muret de roche noire]]
+[[ja:ブラックストーンの塀]]
+[[ko:흑암 담장]]
+[[pt:Muro de Pedra-Negra]]
+[[uk:Чорнокам'яна стіна]]

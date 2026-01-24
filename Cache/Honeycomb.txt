@@ -1,0 +1,107 @@
+{{tr|mode=T|蜜脾|蜂巢（物品）|蜂巢蜜}}
+{{Distinguish|蜂巢（方块）{{!}}{{tr|蜂巢（方块）|蜂窩|蜂巢（方塊）}}}}
+{{Infobox item
+|image=Honeycomb.png
+|invimage=Honeycomb
+}}
+
+'''蜜脾（Honeycomb）'''是可以从[[蜂巢（方块）|蜂巢]]或[[蜂箱]]中获得的[[物品]]。
+
+== 获取 ==
+当蜂巢或蜂箱的<code>honey_level</code>达到5而呈现出蜂蜜纹理时，对其{{ctrl|使用}}[[剪刀]]或触发装有剪刀的[[发射器]]可以获得3个蜜脾。
+
+=== 箱子战利品 ===
+{{LootChestItem|honeycomb}}
+
+== 用途 ==
+=== 涂蜡 ===
+手持蜜脾对着[[铜块]]、[[切制铜块]]、[[切制铜楼梯]]、[[切制铜台阶]]、[[雕纹铜块]]、[[铜格栅]]、[[铜灯]]、[[铜门]]、[[铜活板门]]、[[避雷针]]、[[铜傀儡像]]、[[铜灯笼]]、[[铜链]]或[[铜栏杆]]、[[铜箱子]]或[[铜傀儡]]按下{{ctrl|使用}}可消耗一个蜜脾并将其涂蜡，上述方块和生物涂蜡后不再会改变[[氧化]]状态。朝向以上方块的装有蜜脾的[[发射器]]被激活时也可将其涂蜡。
+
+手持蜜脾对着[[告示牌]]或[[悬挂式告示牌]]按下{{ctrl|使用}}可将其涂蜡，并消耗一个蜜脾，涂蜡后的告示牌不再能被编辑文字、染色或改变发亮效果。
+
+=== 合成材料 ===
+{{crafting usage|Honeycomb}}
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Honeycomb wax on1.ogg
+|sound2=Honeycomb wax on2.ogg
+|sound3=Honeycomb wax on3.ogg
+|subtitle={{tp|subtitles.item.honeycomb.wax_on}}
+|id=item.honeycomb.wax_on
+|translationkey=subtitles.item.honeycomb.wax_on
+|source=方块
+|description=为铜质方块或告示牌打蜡
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Honeycomb
+|spritetype=item
+|nameid=honeycomb
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Honeycomb
+|spritetype=item
+|nameid=honeycomb
+|foot=1}}
+
+== 成就 ==
+{{load achievements|wax-on-wax-off}}
+
+== 进度 ==
+{{load advancements|husbandry.wax_on}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.15|dev=19w34a|[[File:Honeycomb JE1 BE2.png|32px]] 加入了蜜脾。
+|可用于合成[[蜂箱]]。}}
+|{{HistoryLine|||dev=19w41a|现在可以用于合成[[蜜脾块]]。}}
+|{{HistoryLine|||dev=pre3|[[File:Honeycomb texture change 1.15pre2 to 1.15pre3.gif|32px]] 更改了蜜脾的纹理。纹理透明部分的颜色通道被填充成黑色。}}
+|{{HistoryLine||1.17|dev=20w45a|蜜脾现在可以用于和[[铜块]]及其变种合成不会进一步锈蚀的变种。
+|蜜脾现在可以用于合成蜡烛。}}
+|{{HistoryLine|||dev=21w11a|现在对[[铜块]]、[[切制铜块]]、[[切制铜台阶]]、[[切制铜楼梯]]及其[[铜块#锈蚀|斑驳]]与[[铜块#锈蚀|锈蚀]]变种{{Control|使用}}蜜脾可对其涂蜡，同时产生黄色的粒子效果。
+|现在装有蜜脾的发射器被激活后可以为其前方的铜块（及上述变种）涂蜡。}}
+|{{HistoryLine|||dev=21w14a|现在用蜜脾或装有蜜脾的发射器也可以对铜块（及其切制、台阶与楼梯变种）的[[铜块#锈蚀|氧化]]变种涂蜡了。}}
+|{{HistoryLine||1.20|dev=23w12a|蜜脾现在可用于给[[告示牌]]涂蜡。}}
+|{{HistoryLine||1.20.3|exp=update_1_21|dev=23w45a|蜜脾现在可以在[[试炼密室]]的战利品箱中获得。}}
+|{{HistoryLine||1.21|dev=24w18a|23w45a中的变更不再属于[[实验性内容]]。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.14.0|dev=1.14.0.1|[[File:Honeycomb BE1.png|32px]] 加入了蜜脾。}}
+|{{HistoryLine|||dev=1.14.0.4|[[File:Honeycomb JE1 BE2.png|32px]] 更改了蜜脾的纹理，使其与[[Java版]]匹配。}}
+|{{HistoryLine||1.16.210|exg=caves_and_cliffs_en|dev=1.16.210.57|蜜脾现在可以用于和铜块及其变种合成不会进一步锈蚀的变种。
+|现在对铜块、切制铜块、切制铜台阶、切制铜楼梯及其斑驳与锈蚀变种使用蜜脾可对其涂蜡。
+|现在装有蜜脾的发射器被激活后可以为其前方的铜块（及上述变种）涂蜡。}}
+|{{HistoryLine||1.16.220|exg=caves_and_cliffs_en|dev=1.16.220.52|现在使用蜜脾涂蜡时会产生黄色的粒子效果。}}
+|{{HistoryLine||1.17.0|exg=caves_and_cliffs_en|dev=1.16.230.52|现在用蜜脾或装有蜜脾的发射器也可以对铜块（及其切制、台阶与楼梯变种）的[[铜块#锈蚀|氧化]]变种涂蜡了。}}
+|{{HistoryLine|||exg=none|dev=1.17.0.52|1.16.210.57、1.16.220.52和1.16.230.52中的变更不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.17.10|dev=1.17.10.22|蜜脾现在可以用于合成蜡烛。}}
+|{{HistoryLine||1.19.80|dev=1.19.80.22|蜜脾现在可用于给[[告示牌]]涂蜡。}}
+|{{HistoryLine||1.20.60|exg=updateAnnouncedLive2023|dev=1.20.60.20|蜜脾现在可以在[[试炼密室]]的战利品箱中获得。}}
+|{{HistoryLine||1.21.0|dev=1.21.0.22|1.20.60.20中的变更不再属于[[实验性玩法]]。}}
+}}
+
+== 导航 ==
+{{Navbox items|Ingredients}}
+
+[[cs:Plástev medu]]
+[[de:Honigwabe]]
+[[en:Honeycomb]]
+[[es:Panal]]
+[[fr:Rayon de miel]]
+[[it:Favo]]
+[[ja:ハニカム]]
+[[ko:벌집 조각]]
+[[pl:Plaster miodu]]
+[[pt:Favo de Mel]]
+[[ru:Пчелиные соты]]
+[[uk:Медові стільники]]

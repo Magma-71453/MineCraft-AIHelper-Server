@@ -1,0 +1,574 @@
+{{About|Minecraft中的普通羊驼|与流浪商人一同生成的变种|行商羊驼|其他游戏中的生物}}
+{{Distinguish|骆驼}}
+{{Infobox entity
+|group1=沙褐色
+|1-1=Creamy Llama.png
+|1-2=Baby Creamy Llama.png
+|group2=白色
+|2-1=White Llama.png
+|2-2=Baby White Llama.png
+|group3=棕色
+|3-1=Brown Llama.png
+|3-2=Baby Brown Llama.png
+|group4=灰色
+|4-1=Gray Llama.png
+|4-2=Baby Gray Llama.png
+|group5=装备地毯
+|5-1=White Carpeted Llama.png;
+Orange Carpeted Llama.png;
+Magenta Carpeted Llama.png;
+Light Blue Carpeted Llama.png;
+Yellow Carpeted Llama.png;
+Lime Carpeted Llama.png;
+Pink Carpeted Llama.png;
+Gray Carpeted Llama.png;
+Light Gray Carpeted Llama.png;
+Cyan Carpeted Llama.png;
+Purple Carpeted Llama.png;
+Blue Carpeted Llama.png;
+Brown Carpeted Llama.png;
+Green Carpeted Llama.png;
+Red Carpeted Llama.png;
+Black Carpeted Llama.png
+|1-1caption=成年
+|2-1caption=成年
+|3-1caption=成年
+|4-1caption=成年
+|*-2caption=幼年
+|*-2size=80px
+|extratext={{tr|查看|檢視}}[[#渲染图|所有渲染图]]
+|invimage=Llama Spawn Egg
+|health={{HpRange|15|30}}<br>均匀分布随机数
+|behavior=友好生物
+|damage='''弹射物（{{EntityLink|llama-spit}}）：'''<br>{{AutoDmg|1}}
+|size='''成年：'''<br>高度：1.87格<br>宽度：0.9格<br>
+'''幼年：'''<br>高度：0.935格<br>宽度：0.45格
+|spawn=
+{{BiomeLink|Windswept Hills}}<br>
+{{BiomeLink|Windswept Gravelly Hills}}<br>
+{{BiomeLink|Windswept Forest}}<br>
+{{BiomeLink|Savanna Plateau}}<br>
+{{BiomeLink|Windswept Savanna}}{{only|be}}<br>
+{{BiomeLink|Savanna}}{{only|be}}
+|usableitems=
+{{BlockLink|Chest}}<br>
+{{BlockLink|Carpets}}<br>
+{{ItemLink|Lead}}<br>
+{{ItemLink|Wheat}}<br>
+{{BlockLink|Hay Bale}}<br>
+{{ItemLink|Shears}}<br>
+{{ItemLink|Name Tag}}
+}}
+{{quote|羊驼有四种颜色：棕色、灰色、白色和沙褐色。作为中立的生物，它们还能像马一样被驯服，并且能被拴在一起而形成一列驼队，它们才没有我之前说得那么恐怖。说实话！羊驼甚至可以有小宝宝，说得好像它们还不够可爱一样。|[[Tom Stone]]<ref>{{article|meet-llama|Meet the Llama}}</ref>||Tom Stone Mojavatar.png}}
+
+'''羊驼（Llama）'''是一种驯服后可以驮运货物的友好生物。
+
+== 生成 ==
+羊驼会在[[热带高原]]、{{only|be|for=[[热带草原]]、[[风袭热带草原]]}}、[[风袭丘陵]]、[[风袭森林]]和[[风袭沙砾丘陵]]中自然生成，生成的地方亮度等级需大于等于7且位于草方块上。
+
+羊驼有10%的概率生成为幼年个体。
+
+{{in|je}}不对着羊驼使用的[[刷怪蛋]]生成的羊驼总是成年羊驼<ref>{{bug|MC-160945|||WAI}}</ref>；而{{in|be}}使用刷怪蛋生成的幼年羊驼与自然生成概率一致。
+
+== 掉落物 ==
+成年羊驼死亡后会掉落以下物品：
+{{DropTable|name=Llama
+|{{DropLine|name=Leather|quantity=0-2|lootingquantity=0-1}}
+}}
+* 已装备的{{BlockLink|Carpets}}和{{BlockLink|Chest}}。
+* [[物品栏]]内的任何物品。
+* {{xp|1|3}}，若被[[玩家]]或驯服的[[狼]]杀死。
+
+杀死幼年羊驼不会掉落任何物品或经验。
+
+== 行为 ==
+=== 吐唾沫 ===
+{{see also|羊驼唾沫}}
+如果羊驼受到攻击，它会试图逃离攻击者，停止逃跑后朝攻击者吐一口唾沫，造成{{hp|1}}的伤害（无论是否被驯服，无论是否成年）。与大多数会反击目标至死亡的生物不同，羊驼只会吐一次唾沫，无论是否命中都不会再继续攻击，但被吐中的生物有可能反击羊驼。当它们向攻击者吐唾沫时，有时会因为误击同类而导致一群羊驼互相攻击。当[[难度]]为和平时，羊驼不会攻击玩家。
+
+羊驼会主动攻击未驯服的[[狼]]。羊驼会基于它们的强度（实体数据{{cd|Strength}}）击退狼。遇到强度为4或5的羊驼，狼总会逃跑；<ref>{{bug|MC-107643|||WAI}}</ref>对于较弱的羊驼，狼则会时不时相应地逃跑。
+
+在没有被激怒的情况下，羊驼不会攻击驯服的狼。但如果玩家驯服了正在被羊驼攻击的狼，羊驼仍会继续攻击。
+
+=== 牵引 ===
+当一只羊驼被[[拴绳]]拴住时，附近最多10只羊驼或[[行商羊驼]]（无论是否被驯服，无论是否成年）会以一定的顺序跟随该羊驼，形成一支驼队。虽然每支驼队可容纳的羊驼或行商羊驼数量有限，但玩家还可以再拴住一只羊驼形成另一支驼队。
+
+{{in|je}}如果驼队中的一只羊驼突然死亡或被传送到范围外，排在其后面的所有羊驼或行商羊驼都会脱节并且不再跟着驼队；{{in|be}}这种情况会导致驼队成员的顺序有变动，但不会脱节。
+
+如果被拴绳拴住的羊驼与其他实体连接，则不会形成驼队。
+
+=== 驯服 ===
+成年羊驼可以被驯服。骑乘羊驼直到心形[[粒子]]出现即为成功驯服。羊驼被驯服后，玩家可以通过骑着羊驼打开物品栏来查看它的物品栏UI，或者在{{control|潜行}}时对着羊驼{{ctrl|使用}}来打开。
+
+驯服难度取决于羊驼的{{cd|Temper}}值（好感度），好感度越高的羊驼越容易驯服。羊驼好感度的初值为0，最高值为30。当玩家骑上未驯服的羊驼时，会随机生成一个范围在0到99内的数。羊驼在好感度高于该数值时被驯服，否则玩家会被弹下驼背，并且好感度增加5。喂食羊驼亦能增加好感度，详见[[#喂食|下文]]。
+
+{{in|be}}与其他可驯服生物一样，驯服的羊驼死亡时会给世界中的所有玩家显示一条[[死亡消息]]，而{{in|je|nc=1}}不会<ref>{{bug|MC-71778}}</ref>。
+
+已驯服的羊驼不能被装备[[鞍]]，因此玩家无法通过骑乘控制它们移动。
+
+==== 装饰 ====
+[[File:All llama swag patterns.png|缩略图|右|250px|羊驼所有的装饰样式]]
+
+已驯服的羊驼拥有用于装备1个[[地毯]]的{{SlotSprite|Carpet}}槽位，不同颜色的地毯产生的装饰样式不同。
+
+{{in|je}}可以通过命令{{cmd|item}}在羊驼的<code>armor.body</code>槽位装备地毯。
+
+玩家可使用[[剪刀]]将羊驼上身的地毯剪下。
+
+{{in|je}}{{EffectLink|invisibility}}状态下的羊驼仍会显示其身上的地毯。
+
+==== 储存 ====
+{{Filetr|Llama UI.png|thumb|250px|装备有灰色地毯和箱子的羊驼UI}}
+
+手持[[箱子]]对着已驯服的羊驼{{ctrl|使用}}能装备上箱子，并根据强度（实体数据{{cd|Strength}}）给出3、6、9、12或15格的物品栏空间。物品栏空间数量的算法是3*{{cd|Strength}}。
+
+玩家无法卸下羊驼身上的箱子，除非它们死亡。
+
+=== 喂食 ===
+手持食物对着羊驼{{control|使用}}可给其喂食。下表罗列出了羊驼可食用的食物和其对羊驼的效果。
+
+{| class="wikitable" style="text-align:center" data-description="Llama food"
+ !食物
+ !生命值恢复点数
+ !缩短成长时间
+ !好感度增加数
+ !备注
+ |-
+ ! style="text-align:left" |{{ItemLink|Wheat}}
+ |{{hp|2}}
+ |{{only|je|for=10秒（200刻）}}<br>{{only|be|for=2分钟（2400刻）}}
+ |  +3
+ |
+ |-
+ ! style="text-align:left" |{{BlockLink|Hay Bale}}
+ |{{hp|10}}
+ |{{only|je|for=1.5分钟（1800刻）}}<br>{{only|be|for=18分钟（21600刻）}}
+ |  +6
+ |能使生命值满的且驯服的羊驼进入[[繁殖|求爱模式]]。
+ |}
+
+羊驼会跟随{{only|je|for=10格内|short=1}}/{{only|be|for=16格内|short=1}}手持干草捆的玩家。
+
+==== 繁殖 ====
+{{see also|繁殖}}
+给两只生命值已满的已驯服的羊驼喂食干草捆，可以使它们进入[[繁殖]]模式。
+
+两只羊驼繁殖时，会产下一只幼年羊驼。
+
+{{in|be}}一只羊驼和一只行商羊驼繁殖时，有均等概率产下一只幼年羊驼或幼年行商羊驼。
+
+{{in|je}}一只羊驼和一只行商羊驼繁殖时，会产下一只幼年羊驼。
+
+每次繁殖后会掉落{{xp|1|7}}，双亲进入{{only|je|for=5分钟|short=1}}/{{only|be|for=1分钟|short=1}}的冷却时间，之后才能继续繁殖。
+
+幼年羊驼的毛色会等概率地遗传自其双亲之一。普通羊驼身上的地毯样式不会遗传。
+
+繁殖出的幼年羊驼的强度则是在1和较强双亲的强度间取一个随机整数，这个数有3%的概率会加1，但最大值仍然是5。查看下表以快速参考具体概率。
+
+{|class="wikitable"
+!rowspan=2 |
+较强双亲的强度
+!colspan=5 | 子代强度
+|-
+!1 !!2 !!3 !!4 !!5
+|-
+!1
+| 97% || 3% ||  ||  || 
+|-
+! 2
+| 48.5% || 50% || 1.5% ||  || 
+|-
+! 3
+| 32.33% || 33.33% || 33.33% || 1% || 
+|-
+! 4
+| 24.25% || 25% || 25% || 25% || 0.75%
+|-
+! 5
+| 19.4% || 20% || 20% || 20% || 20.6%
+|}
+
+以较强双亲的某一行为基准，其对应的列中的数据显示各种子代强度的可能性。
+
+== 统计 ==
+所有的羊驼具有2种“马匹统计”，每只羊驼都有所不同：生命值、强度。 这些数据是在羊驼出生或生成后固定的，喂食对其没有影响。
+
+==== 生命值 ====
+羊驼的生命值范围在{{hp|15}}到{{hp|30}}之间，但趋于均值{{hp|22.5}}。生命值为奇数的羊驼不会在生命条中显示出最后半颗心。
+
+==== 强度 ====
+羊驼的强度（实体数据{{cd|Strength}}）影响羊驼能够携带的物品数量以及使[[狼]]逃离的能力，其范围为1-5，但趋向于1-3。
+
+{|class="wikitable"
+!colspan=5 | 野生羊驼的强度分布
+|-
+! 1 !! 2 !! 3 !! 4 !! 5
+|-
+| 32.8% || 32.8% || 32.8% || 0.8% || 0.8%
+|}
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Llama idle1.ogg
+|sound2=Llama idle2.ogg
+|sound3=Llama idle3.ogg
+|sound4=Llama idle4.ogg
+|sound5=Llama idle5.ogg
+|subtitle={{tp|subtitles.entity.llama.ambient}}
+|source=友好生物
+|description=空闲时随机播放此声音
+|id=entity.llama.ambient
+|translationkey=subtitles.entity.llama.ambient
+}}
+{{Sound table
+|sound=Llama angry1.ogg
+|subtitle={{tp|subtitles.entity.llama.angry}}
+|source=友好生物
+|description=驯服失败
+|id=entity.llama.angry
+|translationkey=subtitles.entity.llama.angry
+}}
+{{Sound table
+|sound=Chicken plop.ogg
+|subtitle={{tp|subtitles.entity.llama.chest}}
+|source=友好生物
+|description=装备箱子
+|id=entity.llama.chest
+|translationkey=subtitles.entity.llama.chest
+}}
+{{Sound table
+|sound=Llama death1.ogg
+|sound2=Llama death2.ogg
+|subtitle={{tp|subtitles.entity.llama.death}}
+|source=友好生物
+|description=死亡
+|id=entity.llama.death
+|translationkey=subtitles.entity.llama.death
+}}
+{{Sound table
+|sound=Llama eat1.ogg
+|sound2=Llama eat2.ogg
+|sound3=Llama eat3.ogg
+|subtitle={{tp|subtitles.entity.llama.eat}}
+|source=友好生物
+|description=进食
+|id=entity.llama.eat
+|translationkey=subtitles.entity.llama.eat
+}}
+{{Sound table
+|sound=Llama hurt1.ogg
+|sound2=Llama hurt2.ogg
+|sound3=Llama hurt3.ogg
+|subtitle={{tp|subtitles.entity.llama.hurt}}
+|source=友好生物
+|description=受伤
+|id=entity.llama.hurt
+|translationkey=subtitles.entity.llama.hurt
+}}
+{{Sound table
+|sound=Llama spit1.ogg
+|sound2=Llama spit2.ogg
+|subtitle={{tp|subtitles.entity.llama.spit}}
+|source=友好生物
+|description=攻击
+|id=entity.llama.spit
+|translationkey=subtitles.entity.llama.spit
+}}
+{{Sound table
+|sound=Llama step1.ogg
+|sound2=Llama step2.ogg
+|sound3=Llama step3.ogg
+|sound4=Llama step4.ogg
+|sound5=Llama step5.ogg
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|source=友好生物
+|description=行走
+|id=entity.llama.step
+|translationkey=subtitles.block.generic.footsteps
+}}
+{{Sound table
+|sound=Llama swag.ogg
+|subtitle={{tp|subtitles.entity.llama.swag}}
+|source=友好生物
+|description=装备地毯
+|id=entity.llama.swag
+|translationkey=subtitles.entity.llama.swag
+|distance=16
+}}
+{{Sound table
+|sound=Llama unequip.ogg
+|subtitle={{tp|subtitles.item.llama_carpet.unequip}}
+|source=友好生物
+|description=剪下地毯
+|id=item.llama_carpet.unequip
+|translationkey=subtitles.item.llama_carpet.unequip
+|distance=16
+|foot=1}}
+
+{{el|be}}：
+{{Sound table
+|bedrock=1
+|sound=mob.llama.idle1.wav
+|sound2=mob.llama.idle2.wav
+|sound3=mob.llama.idle3.wav
+|sound4=mob.llama.idle4.wav
+|sound5=mob.llama.idle5.wav
+|source=友好生物
+|description=空闲时随机播放此声音
+|id=mob.llama.idle
+|typeid=ambient
+|soundvolume=0.8
+|soundpitch=0.8-1.2
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=mob.llama.death1.wav
+|sound2=mob.llama.death2.wav
+|source=友好生物
+|description=死亡
+|id=mob.llama.death
+|typeid=death
+|soundvolume=0.8
+|soundpitch=0.8-1.2
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=mob.llama.hurt1.wav
+|sound2=mob.llama.hurt2.wav
+|sound3=mob.llama.hurt3.wav
+|source=友好生物
+|description=受伤
+|id=mob.llama.hurt
+|typeid=hurt
+|soundvolume=0.8
+|soundpitch=0.8-1.2
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=mob.llama.angry1.wav
+|source=友好生物
+|description=驯服失败
+|id=mob.llama.angry
+|typeid=mad
+|soundvolume=0.8
+|soundpitch=0.8-1.2
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=mob.llama.spit1.wav
+|sound2=mob.llama.spit2.wav
+|source=友好生物
+|description=攻击
+|id=mob.llama.spit
+|typeid=shoot
+|soundvolume=0.8
+|soundpitch=0.8-1.2
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=mob.llama.step1.wav
+|sound2=mob.llama.step2.wav
+|sound3=mob.llama.step3.wav
+|sound4=mob.llama.step4.wav
+|sound5=mob.llama.step5.wav
+|source=友好生物
+|description=行走
+|id=mob.llama.step
+|typeid=step
+|soundvolume=0.15
+|soundpitch=1.0
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=mob.llama.swag.wav
+|source=友好生物
+|description=装备地毯
+|id=mob.llama.swag
+|typeid=armor
+|soundvolume=0.5
+|soundpitch=1.0
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=mob.horse.armor.wav
+|source=友好生物
+|description=装备箱子
+|id=mob.horse.armor
+|typeid=add.chest
+|soundvolume=1.0
+|soundpitch=0.8-1.2
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=mob.llama.eat1.wav
+|sound2=mob.llama.eat2.wav
+|sound3=mob.llama.eat3.wav
+|source=友好生物
+|description=进食
+|id=mob.llama.eat
+|typeid=eat
+|soundvolume=0.5-1.5
+|soundpitch=0.8-1.2
+|sounddistance
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Llama
+|spritetype=entity
+|nameid=llama
+|showentitytags=1|entitytags={{GameTag|entity|llama}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Llama
+|spritetype=entity
+|nameid=llama
+|foot=1}}
+
+=== 实体数据 ===
+{{el|je}}：
+{{main|实体数据格式}}
+
+羊驼有与之相联系的包含许多该[[生物]]属性的存档数据。
+
+{{/ED}}
+
+{{el|be}}：
+{{see also|基岩版存档格式/实体格式|基岩版存档格式/实体格式/组件}}
+
+== 成就 ==
+{{Load achievements|so-i-got-that-going-for-me;overkill;it-spreads;over-overkill;mob-kabob}}
+
+== 进度 ==
+{{Load advancements|husbandry.tame_an_animal;husbandry.breed_an_animal;husbandry.breed_all_animals;adventure.root;adventure.shoot_arrow;adventure.throw_trident;adventure.arbalistic;adventure.kill_mob_near_sculk_catalyst;adventure.overoverkill;adventure.spear_many_mobs}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2016年7月26日|link={{tweet|jeb_|757952180146012160}}|[[Jeb]]在推特举行了一次投票，让用户决定是将现实中的[[wzh:大羊驼|{{tr|大羊驼|駱馬|大羊駝}}]]（Llama）还是[[wzh:羊驼|羊-{}-驼]]（Alpaca）加入游戏。最终二者得票分别为58%和42%。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.11|dev=16w39a|{{animate|Creamy Llama JE1 BE1.png;White Carpeted Llama JE1 BE1.png;Yellow Carpeted Llama JE1 BE1.png;Light Gray Carpeted Llama JE1 BE1.png;Brown Carpeted Llama JE1 BE1.png|32px}} {{animate|White Llama JE1 BE1.png;Orange Carpeted Llama JE1 BE1.png;Lime Carpeted Llama JE1 BE1.png;Cyan Carpeted Llama JE1 BE1.png;Green Carpeted Llama JE1 BE1.png|32px}} {{animate|Brown Llama JE1 BE1.png;Magenta Carpeted Llama JE1 BE1.png;Pink Carpeted Llama JE1 BE1.png;Purple Carpeted Llama JE1 BE1.png;Red Carpeted Llama JE1 BE1.png|32px}} {{animate|Gray Llama JE1 BE1.png;Light Blue Carpeted Llama JE1 BE1.png;Gray Carpeted Llama JE1 BE1.png;Blue Carpeted Llama JE1 BE1.png;Black Carpeted Llama JE1 BE1.png|32px}} {{tr|加入了羊驼（实际上是胜出的大羊驼）。|加入了駱馬。|加入了羊駝（實際上是勝出的大羊駝）。}}
+|[[File:Baby Creamy Llama JE1 BE1.png|32px]] [[File:Baby White Llama JE1 BE1.png|32px]] [[File:Baby Brown Llama JE1 BE1.png|32px]] [[File:Baby Gray Llama JE1 BE1.png|32px]] 加入了幼年羊驼。}}
+|{{HistoryLine|||dev=16w39b|现在羊驼的掉落物数量受[[抢夺]]魔咒的影响。}}
+|{{HistoryLine|||dev=16w41a|显著降低了羊驼的生成概率。}}
+|{{HistoryLine||1.14|dev=18w43a|{{animate|Creamy Llama JE2 BE2.png;White Carpeted Llama JE2 BE2.png;Yellow Carpeted Llama JE2 BE2.png;Light Gray Carpeted Llama JE2 BE2.png;Brown Carpeted Llama JE2 BE2.png|32px}} {{animate|White Llama JE2 BE2.png;Orange Carpeted Llama JE2 BE2.png;Lime Carpeted Llama JE2 BE2.png;Cyan Carpeted Llama JE2 BE2.png;Green Carpeted Llama JE2 BE2.png|32px}} {{animate|Brown Llama JE2 BE2.png;Magenta Carpeted Llama JE2 BE2.png;Pink Carpeted Llama JE2 BE2.png;Purple Carpeted Llama JE2 BE2.png;Red Carpeted Llama JE2 BE2.png|32px}} {{animate|Gray Llama JE2 BE2.png;Light Blue Carpeted Llama JE2 BE2.png;Gray Carpeted Llama JE2 BE2.png;Blue Carpeted Llama JE2 BE2.png;Black Carpeted Llama JE2 BE2.png|32px}} 更改了羊驼的纹理。
+|[[File:Baby Creamy Llama JE2 BE2.png|32px]] [[File:Baby White Llama JE2 BE2.png|32px]] [[File:Baby Brown Llama JE2 BE2.png|32px]] [[File:Baby Gray Llama JE2 BE2.png|32px]] 更改了幼年羊驼的纹理。}}
+|{{HistoryLine||1.16|dev=20w15a|现在发射器可以给驯服的羊驼装上[[地毯]]和[[箱子]]。}}
+|{{HistoryLine||1.17|dev=21w20a|羊驼不再在[[难度#和平|和平难度]]下攻击玩家。}}
+|{{HistoryLine||1.18|dev=exp6|现在羊驼会跟随手持[[干草捆]]的玩家。}}
+|{{HistoryLine||1.19|dev=22w17a|更改了所有羊驼变种的箱子纹理，现在使用[[纹理更新]]后的箱子纹理。}}
+|{{HistoryLine||1.21.5|dev=25w03a|拥有{{EffectLink|invisibility}}效果的羊驼现在总是会渲染其装备的地毯和箱子。<ref>{{bug|MC-13738|||Fixed}}</ref>}}
+|{{HistoryLine||1.21.6|dev=25w20a|现在玩家可以使用剪刀移除羊驼身上的地毯。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.1.0|dev=1.1.0.0|{{animate|Creamy Llama JE1 BE1.png;White Carpeted Llama JE1 BE1.png;Yellow Carpeted Llama JE1 BE1.png;Light Gray Carpeted Llama JE1 BE1.png;Brown Carpeted Llama JE1 BE1.png|32px}} {{animate|White Llama JE1 BE1.png;Orange Carpeted Llama JE1 BE1.png;Lime Carpeted Llama JE1 BE1.png;Cyan Carpeted Llama JE1 BE1.png;Green Carpeted Llama JE1 BE1.png|32px}} {{animate|Brown Llama JE1 BE1.png;Magenta Carpeted Llama JE1 BE1.png;Pink Carpeted Llama JE1 BE1.png;Purple Carpeted Llama JE1 BE1.png;Red Carpeted Llama JE1 BE1.png|32px}} {{animate|Gray Llama JE1 BE1.png;Light Blue Carpeted Llama JE1 BE1.png;Gray Carpeted Llama JE1 BE1.png;Blue Carpeted Llama JE1 BE1.png;Black Carpeted Llama JE1 BE1.png|32px}} 加入了羊驼。
+|[[File:Baby Creamy Llama JE1 BE1.png|32px]] [[File:Baby White Llama JE1 BE1.png|32px]] [[File:Baby Brown Llama JE1 BE1.png|32px]] [[File:Baby Gray Llama JE1 BE1.png|32px]] 加入了幼年羊驼。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|{{animate|Creamy Llama JE2 BE2.png;White Carpeted Llama JE2 BE2.png;Yellow Carpeted Llama JE2 BE2.png;Light Gray Carpeted Llama JE2 BE2.png;Brown Carpeted Llama JE2 BE2.png|32px}} {{animate|White Llama JE2 BE2.png;Orange Carpeted Llama JE2 BE2.png;Lime Carpeted Llama JE2 BE2.png;Cyan Carpeted Llama JE2 BE2.png;Green Carpeted Llama JE2 BE2.png|32px}} {{animate|Brown Llama JE2 BE2.png;Magenta Carpeted Llama JE2 BE2.png;Pink Carpeted Llama JE2 BE2.png;Purple Carpeted Llama JE2 BE2.png;Red Carpeted Llama JE2 BE2.png|32px}} {{animate|Gray Llama JE2 BE2.png;Light Blue Carpeted Llama JE2 BE2.png;Gray Carpeted Llama JE2 BE2.png;Blue Carpeted Llama JE2 BE2.png;Black Carpeted Llama JE2 BE2.png|32px}} 更改了羊驼的纹理。
+|[[File:Baby Creamy Llama JE2 BE2.png|32px]] [[File:Baby White Llama JE2 BE2.png|32px]] [[File:Baby Brown Llama JE2 BE2.png|32px]] [[File:Baby Gray Llama JE2 BE2.png|32px]] 更改了幼年羊驼的纹理。}}
+|{{HistoryLine||1.17.10|dev=1.17.10.22|羊驼不再在和平难度下攻击玩家。}}
+|{{HistoryLine||1.19.60|dev=1.19.60.22|现在发射器可以给驯服的羊驼装上[[地毯]]和[[箱子]]。}}
+|{{HistoryLine||1.20.30|dev=1.20.20.20|羊驼现在会跟随手持[[干草捆]]的玩家。}}
+|{{HistoryLine||1.21.90|dev=1.21.90.25|现在玩家可以使用剪刀移除羊驼身上的地毯。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU54|xbone=CU44|ps3=1.52|psvita=1.52|ps4=1.52|wiiu=Patch 24|switch=1.0.4|{{animate|Creamy Llama JE1 BE1.png;White Carpeted Llama JE1 BE1.png;Yellow Carpeted Llama JE1 BE1.png;Light Gray Carpeted Llama JE1 BE1.png;Brown Carpeted Llama JE1 BE1.png|32px}} {{animate|White Llama JE1 BE1.png;Orange Carpeted Llama JE1 BE1.png;Lime Carpeted Llama JE1 BE1.png;Cyan Carpeted Llama JE1 BE1.png;Green Carpeted Llama JE1 BE1.png|32px}} {{animate|Brown Llama JE1 BE1.png;Magenta Carpeted Llama JE1 BE1.png;Pink Carpeted Llama JE1 BE1.png;Purple Carpeted Llama JE1 BE1.png;Red Carpeted Llama JE1 BE1.png|32px}} {{animate|Gray Llama JE1 BE1.png;Light Blue Carpeted Llama JE1 BE1.png;Gray Carpeted Llama JE1 BE1.png;Blue Carpeted Llama JE1 BE1.png;Black Carpeted Llama JE1 BE1.png|32px}} 加入了羊驼。
+|[[File:Baby Creamy Llama JE1 BE1.png|32px]] [[File:Baby White Llama JE1 BE1.png|32px]] [[File:Baby Brown Llama JE1 BE1.png|32px]] [[File:Baby Gray Llama JE1 BE1.png|32px]] 加入了幼年羊驼。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|{{animate|Creamy Llama JE2 BE2.png;White Carpeted Llama JE2 BE2.png;Yellow Carpeted Llama JE2 BE2.png;Light Gray Carpeted Llama JE2 BE2.png;Brown Carpeted Llama JE2 BE2.png|32px}} {{animate|White Llama JE2 BE2.png;Orange Carpeted Llama JE2 BE2.png;Lime Carpeted Llama JE2 BE2.png;Cyan Carpeted Llama JE2 BE2.png;Green Carpeted Llama JE2 BE2.png|32px}} {{animate|Brown Llama JE2 BE2.png;Magenta Carpeted Llama JE2 BE2.png;Pink Carpeted Llama JE2 BE2.png;Purple Carpeted Llama JE2 BE2.png;Red Carpeted Llama JE2 BE2.png|32px}} {{animate|Gray Llama JE2 BE2.png;Light Blue Carpeted Llama JE2 BE2.png;Gray Carpeted Llama JE2 BE2.png;Blue Carpeted Llama JE2 BE2.png;Black Carpeted Llama JE2 BE2.png|32px}} 更改了羊驼的纹理。
+|[[File:Baby Creamy Llama JE2 BE2.png|32px]] [[File:Baby White Llama JE2 BE2.png|32px]] [[File:Baby Brown Llama JE2 BE2.png|32px]] [[File:Baby Gray Llama JE2 BE2.png|32px]] 更改了幼年羊驼的纹理。}}
+|{{HistoryLine|3ds}}
+|{{HistoryLine||1.9.19|{{animate|Creamy Llama JE1 BE1.png;White Carpeted Llama JE1 BE1.png;Yellow Carpeted Llama JE1 BE1.png;Light Gray Carpeted Llama JE1 BE1.png;Brown Carpeted Llama JE1 BE1.png|32px}} {{animate|White Llama JE1 BE1.png;Orange Carpeted Llama JE1 BE1.png;Lime Carpeted Llama JE1 BE1.png;Cyan Carpeted Llama JE1 BE1.png;Green Carpeted Llama JE1 BE1.png|32px}} {{animate|Brown Llama JE1 BE1.png;Magenta Carpeted Llama JE1 BE1.png;Pink Carpeted Llama JE1 BE1.png;Purple Carpeted Llama JE1 BE1.png;Red Carpeted Llama JE1 BE1.png|32px}} {{animate|Gray Llama JE1 BE1.png;Light Blue Carpeted Llama JE1 BE1.png;Gray Carpeted Llama JE1 BE1.png;Blue Carpeted Llama JE1 BE1.png;Black Carpeted Llama JE1 BE1.png|32px}} 加入了羊驼。
+|[[File:Baby Creamy Llama JE1 BE1.png|32px]] [[File:Baby White Llama JE1 BE1.png|32px]] [[File:Baby Brown Llama JE1 BE1.png|32px]] [[File:Baby Gray Llama JE1 BE1.png|32px]] 加入了幼年羊驼。}}
+}}
+
+== 你知道吗 ==
+* 羊驼的绿色和紫色地毯样式上分别有[[苦力怕]]与[[末影人]]的图案。穿着灰色地毯的羊驼有着一个与超级英雄类似的面具。
+* 羊驼向狼吐唾沫的行为参考自现实中{{w|大羊驼|大羊-{}-驼}}对郊狼和狗的天生攻击性。
+
+== 画廊 ==
+<gallery>
+File:All llama colors.png|羊驼的4种毛色
+File:Llama fighting.png|两只羊驼互相吐唾沫
+File:A Llama Getting Attacked By Bees.jpg|羊驼因吐出的唾沫误伤了[[蜜蜂]]而被反击
+</gallery>
+
+=== 渲染图 ===
+==== 沙褐色 ====
+<gallery>
+Creamy Llama.png
+Baby Creamy Llama.png
+</gallery>
+
+==== 白色 ====
+<gallery>
+White Llama.png
+Baby White Llama.png
+</gallery>
+
+==== 棕色 ====
+<gallery>
+Brown Llama.png
+Baby Brown Llama.png
+</gallery>
+
+==== 灰色 ====
+<gallery>
+Gray Llama.png
+Baby Gray Llama.png
+</gallery>
+
+==== 装备地毯 ====
+<gallery>
+White Carpeted Llama.png
+Orange Carpeted Llama.png
+Magenta Carpeted Llama.png
+Light Blue Carpeted Llama.png
+Yellow Carpeted Llama.png
+Lime Carpeted Llama.png
+Pink Carpeted Llama.png
+Gray Carpeted Llama.png
+Light Gray Carpeted Llama.png
+Cyan Carpeted Llama.png
+Purple Carpeted Llama.png
+Blue Carpeted Llama.png
+Brown Carpeted Llama.png
+Green Carpeted Llama.png
+Red Carpeted Llama.png
+Black Carpeted Llama.png
+</gallery>
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox entities|mobs}}
+
+[[Category:友好生物]]
+[[Category:可驯服生物]]
+
+[[de:Lama]]
+[[en:Llama]]
+[[es:Llama]]
+[[fr:Lama]]
+[[it:Lama]]
+[[ja:ラマ]]
+[[ko:라마]]
+[[nl:Lama]]
+[[pl:Lama]]
+[[pt:Lhama]]
+[[ru:Лама]]
+[[th:ลามะ]]
+[[uk:Лама]]

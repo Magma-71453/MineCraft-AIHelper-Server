@@ -1,0 +1,84 @@
+{{Infobox block
+|image=Chiseled Polished Blackstone.png
+|invimage=Chiseled Polished Blackstone
+}}
+
+'''雕纹磨制黑石（Chiseled Polished Blackstone）'''是[[磨制黑石]]制作的装饰性方块，每个面都有着猪鼻图案。
+
+== 生成 ==
+=== 自然生成 ===
+雕纹磨制黑石作为[[堡垒遗迹]]和下界的[[废弃传送门]]的一部分自然生成。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+  |B2=Polished Blackstone Slab
+  |B3=Polished Blackstone Slab
+  |Output=Chiseled Polished Blackstone
+  |type=Building block
+}}
+
+=== 切石 ===
+{{Stonecutting
+|Polished Blackstone;Blackstone
+|Chiseled Polished Blackstone
+}}
+
+== 破坏 ==
+挖掘雕纹磨制黑石的合适工具是镐。雕纹磨制黑石需要木镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+雕纹磨制黑石被破坏后会掉落自身。
+
+== 用途 ==
+雕纹磨制黑石目前仅用于装饰。
+
+== 音效 ==
+{{sound table/Block/Stone}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|showblocktags=1
+|rowspan=0
+|blocktags={{GameTag|blocks|chiseled_polished_blackstone}}
+|Chiseled Polished Blackstone
+|spritetype=block
+|nameid=chiseled_polished_blackstone
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Chiseled Polished Blackstone
+|spritetype=block
+|nameid=chiseled_polished_blackstone
+|foot=1}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.16|dev=20w15a|[[File:Polished Blackstone JE1 BE1.png|32px]] [[File:Chiseled_Polished_Blackstone JE1 BE1.png|32px]] 加入了雕纹磨制黑石。}}
+|{{HistoryLine||1.16|dev=20w16a|现在雕纹磨制黑石会作为[[堡垒遗迹]]的一部分自然生成。
+|现在雕纹磨制黑石会作为[[废弃传送门]]的一部分自然生成。}}
+|{{HistoryLine||1.16.2|dev=20w28a|由于更改了猪灵的以物易物，雕纹磨制黑石现在是可再生的了。}}
+
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.16.0|dev=1.16.0.57|[[File:Polished Blackstone JE1 BE1.png|32px]] [[File:Chiseled Polished Blackstone JE1 BE1.png|32px]] 加入了雕纹磨制黑石。}}
+|{{HistoryLine|||dev=1.16.0.59|现在雕纹磨制黑石会作为废弃传送门的一部分自然生成。}}
+}}
+
+== 导航 ==
+{{Navbox blocks|building blocks}}
+
+[[de:Gemeißelter polierter Schwarzstein]]
+[[en:Chiseled Polished Blackstone]]
+[[fr:Pierre noire sculptée]]
+[[ko:조각된 윤나는 흑암]]
+[[pt:Pedra-Negra Polida Talhada]]
+[[uk:Різьблений полірований чорнокамінь]]

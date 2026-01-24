@@ -1,0 +1,410 @@
+{{for|Minecraft Dungeons中的同名物品|Dungeons:鞘翅}}
+{{Infobox item
+|image=Elytra.png
+|invimage=Elytra
+|invimage2=Broken Elytra
+}}
+
+'''鞘翅（Elytra）'''是外观类似[[披风]]的稀有物品，装备后能使玩家滑翔。
+
+== 获取 ==
+=== 自然生成 ===
+鞘翅仅在[[末地船]]里自然生成。每个末地船里都会有一个[[物品展示框]]，当中陈列着一个鞘翅。一只[[潜影贝]]守护着鞘翅和两个宝箱。
+
+=== 修复 ===
+==== 合并物品 ====
+{{Crafting
+|ignoreusage=1
+|custom=1
+|Damaged Elytra
+|Damaged Elytra
+|Output=Elytra
+|description= 两个鞘翅的耐久叠加在一起，再额外增加5%的耐久值。
+|type=Transportation
+}}
+
+{{Grinding
+|showdescription=1
+|ingredients=两个损坏的[[鞘翅]]
+|Damaged Elytra
+|Damaged Elytra
+|Elytra
+|description=叠加两个鞘翅的剩余耐久度，再额外获得5%的耐久度。会损失所有非诅咒魔咒。
+}}
+
+将两个鞘翅放进玩家[[物品栏]]的合成方格内也能够合并它们。
+
+==== 材料修复 ====
+鞘翅也能通过[[铁砧]]使用[[幻翼膜]]修复。
+{| class="wikitable" data-description="Repairing an elytra"
+! scope="col" style="width:64px;" | 名称
+! 材料
+! [[铁砧]]配方
+|-
+! scope="row" style="text-align: center;" | '''鞘翅'''
+| [[鞘翅]] +<br>[[幻翼膜]]
+| style="width: 260px; padding: 1px;" | {{Anvil|title=鞘翅|Input1=Damaged Elytra|Input2=Phantom Membrane, 2|Output=Elytra}}
+|-
+|}
+每个幻翼膜给予108（鞘翅耐久度的25%）的耐久度。修复前后鞘翅的[[魔咒]]会被保留。
+
+== 用途 ==
+<div style='float:right'>{{animate|Steve in elytra.png;Alex in elytra.png|150px}}</div>
+鞘翅装备在胸甲槽上。如胸甲一样，鞘翅可以直接在物品栏内装备，也可以由[[发射器]]装上，或者手持鞘翅按下{{Control|使用}}键。{{in|java}}在创造模式下按{{ctrl|使用}}键将鞘翅装备到空盔甲槽后会在物品栏中留下一副同样的鞘翅。鞘翅默认为灰色，但若玩家使用了[[披风]]，鞘翅会印上披风的图案，图案在鞘翅破损或已附魔的情况下也会保留。
+
+=== 滑翔 ===
+{{Distinguish|飞行|section=1}}
+{{split|滑翔|reason=页面过长、过于技术性。|section=1}}
+要开始滑翔，玩家必须在空中按{{Ctrl|跳跃}}键，此时鞘翅会像鸟的翅膀那样张开。鞘翅的使用-{}-者可以瞄准任意方向以变换滑翔方向和高度。减少高度可以加速滑翔，增加高度则会减少滑翔速度。此外，大幅度改变方向会导致滑翔速度剧烈下降。{{in|be}}处于[[生存模式]]和[[冒险模式]]的玩家可以通过单击{{Ctrl|跳跃}}键来主动取消滑翔状态。
+
+通过直接瞄准滑行高度极限值下的水平线可以实现最大距离的安全而简单的航程。此时玩家的速度慢得足以让他们做别的事情，例如整理物品栏等等。
+
+{{in|bedrock}}玩家拥有[[飘浮]]效果时可以滑翔，此时玩家会缓缓下降，并且飞行速度较慢，可以正常使用[[烟花火箭]]或带有[[激流]]魔咒的[[三叉戟]]加速。处于[[创造模式]]下的玩家可以在[[空气]]或[[液体]]中自由下落时长按{{Ctrl|跳跃}}键来开始向上加速滑翔。处于飞行状态且穿着鞘翅的玩家快速按两下{{Ctrl|跳跃}}键来进入自由移动状态时，会立刻开始滑翔。
+
+==== 滑翔公式 ====
+根据当前玩家的速度和状态，可以推导出这一[[游戏刻]]玩家滑翔的速度。
+
+滑翔公式共含有下列参数：玩家当前速度<math>v_o</math>（当前速度包括上一游戏刻的速度和这一游戏刻内滑翔之外的速度）、俯仰角<math>\alpha</math>和偏航角<math>\beta</math>，根据这些参数可以得出滑翔速度<math>v</math>。
+
+在开始计算前，先计算一些通用的变量：当前水平速度<math>v_{oh}</math>。
+
+<math>v_{oh}=\sqrt{v_{ox}^2+v_{oz}^2}</math>
+
+首先，应用滑翔下落加速度。公式中的<math>g</math>代表[[重力]]，默认情况下为-0.08m/gt{{^|2}}。
+
+<math>v=(v_{ox},v_{oy}+g(1-0.75\cos^2\alpha),v_{oz})</math>
+
+如果此时视角垂直向上或向下，滑翔速度计算就此中止，此时滑翔速度正好等于自由下落速度。
+
+如果速度垂直分量为负数，即速度向下时，应用俯冲前进速度。
+
+<math>v=(v_x+0.1v_y{\cos}^2\alpha\sin\beta,(1-0.1{\cos}^2\alpha)v_y,v_z-0.1v_y{\cos}^2\alpha\cos\beta)</math>
+
+如果俯仰角为负数，即视角向上<ref>Minecraft坐标系中，俯仰角向下为正数，向上为负数。</ref>时，继续应用提升速度。
+
+<math>v=(v_x-0.04v_{oh}\sin\alpha\sin\beta,v_y-0.128v_{oh}\sin\alpha,v_z+0.04v_{oh}\sin\alpha\cos\beta)</math>
+
+在之前速度的基础上，加上滑翔前进速度。
+
+<math>v=(0.9v_x-0.1v_{oh}\sin\beta,v_y,0.9v_z+0.1v_{oh}\cos\beta)</math>
+
+最后，加入空气阻力。
+
+<math>v=(0.99v_x, 0.98v_y, 0.99v_z)</math>
+
+到这里，滑翔速度计算结束。
+
+==== 下落速度 ====
+使用鞘翅可以控制自身的下落速度。通过改变俯仰角，起到控制垂直速度的作用。下文中提及的加速与减速都以向下为正方向。
+
+如果玩家完全平视，即俯仰角为0，下落速度会逐渐稳定，最终下落速度为{{frac|441|2950}}米每游戏刻（正常游戏速度中的2.99米每秒）。此垂直下落速度在下文中被称为稳定速度。
+
+如果玩家视角向下，即俯仰角大于0，根据当前垂直下落速度的不同可能加速也有可能减速。如果当前垂直下落速度小于稳定速度，则无论俯仰角多大下落速度都将加速；如果大于稳定速度，如果俯仰角较小，则下落减速而不是增速。当垂直下落速度超过自由下落终端速度（3.92米每游戏刻，或78.4米每秒）时，下落只会减速或稳定不变。
+
+如果玩家视角向上，即俯仰角小于0，则加速和减速不仅取决于当前下落速度和俯仰角，还取决于当前的水平速度。如果水平速度为0，则加速与减速的曲线与视角向下类似。如果水平速度不为0，根据俯仰角不同可能会减速也有可能会加速，当水平速度大于<math>(125v_{oy}+490)/784</math>米每游戏刻时，无论俯仰角多小，垂直速度只会减速，或者反向加速使得玩家回升高度。
+
+如果玩家视角垂直向上或向下，则相当于自由下落。
+
+下落速度与俯仰角、水平速度的关系可以参照[https://www.desmos.com/calculator/mpprs2nfau?lang=zh-CN 此图表]。
+
+下落速度受到[[缓降]]状态效果影响。
+
+==== 高度与水平速度 ====
+使用鞘翅滑行时，垂直速度和水平速度可以互相转化，牺牲高度以换取水平速度，牺牲速度以获得高度。
+
+当垂直速度为正，即玩家向上运动时，无论俯仰角多大，水平速度都会减慢。当视角向下时，水平速度每游戏刻减少1%；视角向上时，视角越接近垂直向上，水平速度削减越多，每游戏刻最多削减4.5%。
+
+当垂直速度为负，即玩家向下运动时，玩家完全平视时水平速度最快。当垂直下落速度大于<math>(100v_{ox}/891)-0.02</math>米每游戏刻时，水平速度才有可能加速。当水平速度小于0.1782米每游戏刻（3.564米每秒）时，只要玩家在下落且不是垂直下落，在完全平视时水平速度就会增加。
+
+为了获得最高的滑翔效率，即航程与起飞高度之比为最大，玩家应完全平视。在这种情况下，当滑翔时间足够长时，水平速度会稳定在1.51米每游戏刻，即正常游戏速度下的30.2米每秒，航程与总下落高度之比接近<samp>10.1:1</samp>。
+
+当玩家以13.05°向上滑翔时，稳定时垂直下落速度最小，为0.07米每游戏刻（1.4米每秒）。
+
+当玩家以53.37°向下滑翔时，稳定时水平速度最大，为3.39米每游戏刻（67.7米每秒）。
+
+水平速度与俯仰角、垂直速度的关系可以参照[https://www.desmos.com/calculator/cxrz7anx8u?lang=zh-CN 此图表]。
+
+当玩家滑翔转弯时，速度会快速从原先的方向转变到新的方向，而垂直速度基本不受转弯的影响。当急转弯时，水平速度会锐减。利用急转弯快速减速的特性，玩家可以使用这种技巧精确地降落到指定的位置。
+
+==== 加速滑翔 ====
+使用[[烟花火箭]]和带激流魔咒的[[三叉戟]]可以使得滑翔速度加快。
+
+使用烟花火箭时，每游戏刻都会给予玩家0.85米每游戏刻的推动速度和原速度50%的阻力速度。如果原滑翔速度为<math>v_o</math>，玩家当前视角单位向量为<math>v_a</math>，则当前速度会变为<math>0.85v_a+0.5v_o</math>。当原滑翔速度小于1.7米每游戏刻（34米每秒）时，烟花火箭会加速滑翔；但当原滑翔速度大于1.7米每游戏刻时，滑翔减速，最终稳定在1.7米每游戏刻<ref>{{bug|MC-138973}}</ref>。以约45°向上滑翔可获得最高上升高度，使用飞行时间为3的烟花火箭时，上升高度约为104格。{{info needed|这是实验数据，缺乏理论推导}}烟花火箭的加速时间与它本身的存在时间相同，如果烟花火箭使用了任何一种[[烟火之星]]合成，那么烟花火箭在消失后会在玩家身上爆裂并造成严重伤害。
+
+{{in|je}}玩家使用烟花火箭加速滑翔时会同步生成一个不可见的烟花火箭实体，因此如果撞向了某些被弹射物击中时有特殊现象的方块或实体，会有与烟花火箭碰撞这些方块相同的现象，如带有爆裂效果的烟花火箭提前爆裂，[[紫水晶]]类方块发出特殊音效，[[游戏规则]]{{gamerule|projectilesCanBreakBlocks}}值为{{cd|true}}时[[紫颂花]]、[[饰纹陶罐]]被破坏等。
+
+若玩家在烟花火箭的飞行时间结束之前停止滑翔，且该烟花火箭无爆裂效果，则玩家身边仍会出现烟花火箭飞行时产生的粒子直到烟花火箭的飞行时间结束。在此期间再次进入滑翔状态可以继续受到烟花火箭剩余的推进效果。
+
+使用带有[[激流]]魔咒的三叉戟，且玩家处于水中（包括在[[降雨]]和[[雷暴]]时的露天环境中）时，投掷三叉戟会使得玩家冲刺，获得巨大的加速，飞行的高度和距离都远超不使用鞘翅滑翔时的效果。如果原滑翔速度为<math>v_o</math>，玩家当前视角单位向量为<math>v_a</math>，激流魔咒的等级为<math>a</math>，在三叉戟投掷的那一游戏刻，当前速度会变为<math>0.75(a+1)v_a+v_o</math>。三叉戟需要11游戏刻才可以进行一次冲刺，在理想条件下，以35.54°向下连续冲刺可以达到最大速度34.6米每游戏刻（692米每秒）。以约30°向上冲刺可获得最高上升高度，在雨中使用激流3三叉戟加速时，上升高度约为177格。{{info needed|这是实验数据，缺少理论推导}}
+
+被以带有[[冲击]]魔咒的[[弓]]射出的[[箭]]、带有[[击退]]魔咒的[[剑]]伤害时，产生的击退可以对滑翔中的玩家产生加速，但由于伤害方向不可控，造成的加速也难以控制。
+
+另外，由于鞘翅本身的飞行原理，可以通过特定的俯仰操作并借助一定的初始起飞高度实现相对于初始起飞高度的无动力爬升飞行。例如，以35°向下滑翔60格高度，然后以50°向上滑翔30格高度后再转为25°继续上升直到最高点，并不断重复这个操作，每次能上升5到10格。一种简单但效率低而不稳定的方法是40°向上和40°向下交替进行，每次能上升2~3格。另一种更加复杂的方法是缓慢增大俯角直到45-48°左右向下滑翔80格，拉平1秒，然后向上快速抬升到70°左右并由快到慢地减少角度到十几度，平均每次能上升15格。
+
+注意：当玩家急转弯时，水平速度会锐减。因此如果需要在无动力爬升飞行中转向，无论使用何种俯仰操作方式，都建议尽可能在每次俯仰操作循环中的飞行最高点进行转向，这样可以在转向时损失最少的速度和高度。一旦熟练掌握无动力爬升飞行，便可以做到缺乏物资补给情况下在主世界或末地进行完全不依赖[[烟花火箭]]的长距离飞行，甚至也可用于缺乏烟花火箭与[[末影珍珠]]情况下坠入[[虚空]]时进行自救<ref>https://www.bilibili.com/video/BV1xpy8Y1ESZ/</ref>。
+
+==== 下落与摔落伤害 ====
+当当前垂直速度小于0.5米每游戏刻（10米每秒）时，下落高度会重置为1米，在通常情况下落地不会产生[[摔落伤害]]。
+
+在没有加速的情况下，以58.22°向上滑翔到以38.61°向下滑翔不会产生摔落伤害。如果越过这两个临界角度，下落高度就不会重置，落地时的下落高度约为越过临界角度的位置到地面的高度。
+
+==== 动能伤害 ====
+当玩家滑翔时被水平方向上的方块或[[世界边界]]{{only|je}}阻拦，根据撞击速度的大小，玩家会受到与撞击速度成正比的动能伤害。在撞击时，对于碰撞方向的速度分量会被立刻设置为0，如果撞上了方块组成的“墙角”，则水平速度立刻变为0。撞击速度<math>v_c</math>为当前水平速率<math>v_{oh}</math>减去碰撞后的水平速率<math>v_h'</math>，即<math>v_c=v_{oh}-v_h'</math>。动能伤害为<math>10v_c-3</math>，如果计算值不大于0，则不会造成动能伤害。
+
+滑翔时仅在一个水平坐标轴方向上撞上墙时，动能伤害为<math>10(v_{oh}*(1-cos\theta))-3</math>，其中θ为撞击前的水平速度方向与墙之间的夹角。
+
+当水平速度小于0.3米每游戏刻（6米每秒）时，无论以什么方向水平撞向方块，都不会造成动能伤害。
+
+=== 耐久度 ===
+{{fakeImage|{{invSprite|Broken Elytra}}|损毁的鞘翅}}
+
+在玩家使用鞘翅滑翔时，鞘翅的[[耐久度]]会随时间减少，1秒减少1耐久度。一个鞘翅有432点耐久度，因此使用未附魔的鞘翅的最大滑翔时间为7分11秒。可以通过[[铁砧]]和[[附魔书]]给鞘翅附上[[耐久]]魔咒以延长使用寿命。耐久III会使鞘翅平均每4秒才减少1耐久度，因而此时平均可累计滑翔28分44秒。
+
+当耐久度降到1时，鞘翅会失效，并显示损毁的纹理。损耗会在耐久度降到1时停止，因此鞘翅不会真正因耐久度消耗而被损坏或消失。
+
+可以在铁砧上使用[[幻翼膜]]，或者在[[砂轮]]上将两个鞘翅组合以修复耐久度。在铁砧中，每个幻翼膜可以修复108的耐久度，4个幻翼膜就可以把鞘翅的耐久度修满。
+
+=== 魔咒 ===
+鞘翅能获得以下[[魔咒]]，但只能通过使用[[铁砧]]获得：
+{| class="wikitable sortable"
+|-
+! 魔咒 !! 最大等级
+|-
+| [[耐久]] || III
+|-
+| [[经验修补]] || I
+|-
+| [[消失诅咒]] || I
+|-
+| [[绑定诅咒]] || I
+|}
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Equip leather1.ogg
+|sound2=Equip leather2.ogg
+|sound3=Equip leather3.ogg
+|sound4=Equip leather4.ogg
+|sound5=Equip leather5.ogg
+|sound6=Equip leather6.ogg
+|subtitle={{tp|subtitles.item.armor.equip_elytra}}
+|source=玩家
+|description=装备鞘翅<ref group="音效">{{bug|MC-94060|||Fixed}}</ref>
+|id=item.armor.equip_elytra
+|translationkey=subtitles.item.armor.equip_elytra
+}}
+{{Sound table
+|sound=Elytra loop.ogg
+|subtitle={{tp|subtitles.item.elytra.flying}}
+|source=玩家
+|description=滑翔时的循环音效
+|id=item.elytra.flying
+|translationkey=subtitles.item.elytra.flying
+|foot=1}}
+
+{{el|be}}：
+{{Sound table
+|bedrock=1
+|sound=Armor.equip leather1.wav
+|sound2=Armor.equip leather2.wav
+|sound3=Armor.equip leather3.wav
+|sound4=Armor.equip leather4.wav
+|sound5=Armor.equip leather5.wav
+|sound6=Armor.equip leather6.wav
+|source=玩家
+|description=玩家装备鞘翅
+|id=armor.equip_leather
+|typeid=armor.equip_elytra
+|soundvolume
+|soundpitch
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Elytra loop.ogg
+|source=友好生物
+|description=滑翔时的循环音效
+|id=elytra.loop
+|typeid=elytra.loop
+|soundvolume
+|soundpitch
+|sounddistance
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Elytra
+|spritetype=item
+|nameid=elytra
+|showitemtags=1
+|itemtags={{GameTag|item|elytra}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Elytra
+|spritetype=item
+|nameid=elytra
+|foot=1}}
+
+== 成就 ==
+{{load achievements|super-sonic}}
+
+== 进度 ==
+{{load advancements|end.elytra}}
+
+== 视频 ==
+{{bv|BV1Dt411M7a7}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||2015年10月5日|link={{tweet|_tomcc|651042141397979136}}|[[Tommaso Checchi]]说[[Jeb]]在Minecraft PC上正在开发一个神秘的隐藏特性——“它就像{{tr|马里奥|瑪利歐}}64。（it's like Mario 64.）”}}
+|{{HistoryLine||2015年10月6日|link={{tweet|jeb_|651416814791081984}}|Jeb发表了一张一个玩家穿着鞘翅围绕着[[末地城]]滑翔的[https://gfycat.com/SerpentineHighlevelAmurminnow 动图]。鞘翅使用了[[末影龙]]的翅膀纹理。}}
+|{{HistoryLine||2015年10月6日|link={{tweet|jeb_|651419480187346944}}|Jeb发表了一张折叠的鞘翅的[http://i.imgur.com/LBgZCyW.png 图片]，并且展示了玩家在滑翔时鞘翅会替代披风。}}
+|{{HistoryLine||2015年10月6日|link={{tweet|jeb_|651423700777074688}}|Jeb发表了一张印有Mojang徽标图案的鞘翅的[https://gfycat.com/LeadingIndolentGangesdolphin 动图]，并沿着河流穿过针叶林滑翔。}}
+|{{HistoryLine||1.9|dev=15w41a|[[File:Elytra JE1 BE1.png|32px]] [[File:Elytra (item) JE1 BE1.png|32px]] [[File:Broken Elytra (item) JE1 BE1.png|32px]] 加入了鞘翅。|此时鞘翅使用[[皮革]]来回复耐久度。}}
+|{{HistoryLine|||dev=15w42a|现在在玩家潜行时鞘翅会微微张开。
+|玩家现在撞到墙上会受到伤害并且有了死亡消息。
+|玩家现在可以通过1格的间隙了（滑翔时的碰撞箱降低）。
+|鞘翅的滑翔高度现在不能比开始点高了，也就是说不能往上飞了。}}
+|{{HistoryLine|||dev=16w06a|鞘翅现在可以识别玩家的披风，并为每个官方披风采用不同的鞘翅设计（参见[[#画廊|画廊]]）。此外，Jeb正在开发一项功能，允许玩家像更改常规的玩家皮肤一样更改鞘翅设计。}}
+|{{HistoryLine|||dev=16w07a|鞘翅需要在空中按跳跃键来进入滑翔状态了。
+|现在[[选项|选项菜单]]中的“披风”选项会影响自定义鞘翅的纹理。
+|加入了[[游戏规则]]<code>disableElytraMovementCheck</code>。}}
+|{{HistoryLine||1.9.1|dev=pre1|加入了滑翔时的声音。}}
+|{{HistoryLine||1.10|dev=16w21a|鞘翅在重新登录后不再停止{{tr|工作|運作}}。<ref>{{bug|MC-97201|||Fixed}}</ref>}}
+|{{HistoryLine||1.11|dev=16w32a|现在可以放在[[盔甲架]]上了，就像其他的盔甲。}}
+|{{HistoryLine|||dev=16w38a|现在在[[僵尸]]、[[骷髅]]和[[盔甲架]]上变得可见。}}
+|{{HistoryLine|||dev=16w41a|现在有装备鞘翅时的声音了。}}
+|{{HistoryLine||1.11.1|dev=16w50a|当使用鞘翅滑翔时，使用烟花火箭会推进玩家。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，此物品的数字ID是443。}}
+|{{HistoryLine|||dev=18w14a|鞘翅现在需要在铁砧中使用幻翼膜来修补而不是皮革。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Elytra JE2 BE2.png|32px]] [[File:Elytra (item) JE2 BE2.png|32px]] [[File:Broken Elytra (item) JE2 BE2.png|32px]] 更改了鞘翅的纹理。}}
+|{{HistoryLine||1.15|dev=19w39a|鞘翅的张开动画重复出现时<!-- The deployment animation of elytra -->会导致玩家闪烁。}}
+|{{HistoryLine|||dev=19w42a|鞘翅张开和合起的动画现在是平滑的。
+|鞘翅现在在玩家起跳时就能立刻打开，而不是等到玩家下坠时才打开。}}
+|{{HistoryLine||1.18|dev=exp7|现在鞘翅仅会在使用[[烟花火箭]]推进时被消耗耐久度。
+|现在鞘翅的耐久度降为0时会消失。
+|使用烟花火箭推进时的鞘翅滑翔速度从每秒30格降到每秒26格。}}
+|{{HistoryLine||1.18|dev=21w37a|回退了exp7中的更改。}}
+|{{HistoryLine||1.19.4|dev=23w05a|现在手持的鞘翅可以通过按使用键与对应盔甲槽中的物品交换位置。}}
+|{{HistoryLine||1.21.2|dev=24w33a|鞘翅的稀有度由常见改为史诗。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|[[File:Elytra JE1 BE1.png|32px]] [[File:Elytra (item) JE1 BE1.png|32px]] [[File:Broken Elytra (item) JE1 BE1.png|32px]] 加入了鞘翅。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.2.0|dev=1.2.0.2|当使用鞘翅滑翔时，使用[[烟花火箭]]会推进玩家。}}
+|{{HistoryLine||1.2.3|dev=1.2.3.3|鞘翅的英文名从'''Elytra Wings'''变成了'''Elytra'''。}}
+|{{HistoryLine||1.6.0|dev=1.6.0.5|鞘翅现在使用[[幻翼膜]]修补而不是皮革。}}
+|{{HistoryLine||1.10.0|dev=1.10.0.3|[[File:Elytra (item) JE2 BE2.png|32px]][[File:Broken Elytra (item) JE2 BE2.png|32px]][[File:Elytra JE2 BE2.png|32px]] 更改了鞘翅的纹理。}}
+|{{HistoryLine||1.21.30|dev=1.21.30.21|鞘翅的稀有度由常见改为史诗。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU46|xbone=CU36|ps3=1.38|psvita=1.38|ps4=1.38|wiiu=Patch 15|switch=1.0.1|[[File:Elytra (item) JE1 BE1.png|32px]][[File:Broken Elytra (item) JE1 BE1.png|32px]][[File:Elytra JE1 BE1.png|32px]] 加入了鞘翅。}}
+|{{HistoryLine||xbox=TU53|xbone=CU43|ps3=1.49|psvita=1.49|ps4=1.50|wiiu=Patch 23|switch=1.0.3|当使用鞘翅滑翔时，使用[[烟花火箭]]会推进玩家。}}
+|{{HistoryLine||xbox=TU69|xbone=none|ps3=1.76|psvita=1.76|ps4=1.76|wiiu=Patch 38|switch=none|鞘翅现在使用[[幻翼膜]]修补而不是皮革。}}
+|{{HistoryLine||xbox=none|xbone=none|ps3=none|psvita=none|ps4=1.90|wiiu=none|switch=none|[[File:Elytra (item) JE2 BE2.png|32px]][[File:Broken Elytra (item) JE2 BE2.png|32px]][[File:Elytra JE2 BE2.png|32px]] 更改了鞘翅的纹理。}}
+|{{HistoryLine|new 3ds}}
+|{{HistoryLine||1.7.10|[[File:Elytra (item) JE1 BE1.png|32px]][[File:Broken Elytra (item) JE1 BE1.png|32px]][[File:Elytra JE1 BE1.png|32px]] 加入了鞘翅。}}
+}}
+
+== 你知道吗 ==
+* 在现实生活中，[[wzh:翅鞘|鞘翅]]是[[wzh:鞘翅目|鞘翅目昆虫]]和[[wzh:蠼螋|革翅目昆虫]]的前翅，覆盖着它们实际用于飞行的翅膀。
+* 使用鞘翅滑翔时玩家的碰撞箱更小，位于玩家底部，仅有0.6格高。
+* 玩家可以通过按{{Ctrl|潜行}}键，然后按{{Ctrl|跳跃}}键来使用鞘翅在梯子上滑行。这样玩家可以在梯子上快速下降，但是如果玩家在接触地面时速度太快，会造成致命的摔落伤害。使用[[烟花火箭]]也可以加速玩家下降。
+* 如果玩家对着一堵墙疾跑然后快速按下跳跃键，玩家会短暂地进入滑翔状态，并向上蹿一小段距离。这个组合动作能让玩家跳上1.5格或2格高的墙。
+* {{in|java}}如果玩家在滑翔时飞入水或熔岩中，玩家不会结束滑翔，在水中移动时会有一个看起来像是“失速”的游泳动画（但不能游泳）。一旦玩家接触底面，滑翔就会结束。
+** 此外，烟花可以在水和熔岩中使用，但由于液体的影响，其加速距离较短。这对于水下游泳非常有用。
+* 鞘翅可以使用命令装备到[[生物]]上，但只有生物NBT标签内的<code>FallFlying</code> 为<code>1b</code> 时，生物才能进行滑翔。大多数生物在着陆前将沿着三条不同的滑翔路线之一（不受生物控制）滑翔并在落地时重新获得它们的AI。
+** 除此之外，[[鱿鱼]]和[[鸡]]也是一样的，但鱿鱼的AI会让它在半空中尝试“游泳”，从而使它直线下降，这是因为它与鞘翅冲突。而鸡由于下落缓慢，因此会移动更长的距离。
+** [[末影人]]、被驯服的[[猫]]和[[狼]]只有在落地后才能瞬移。
+** 因为[[恼鬼]]会穿过方块，不能落地重新获得AI，所以直到它们死亡前都会一直滑翔下去。
+** 像[[鹦鹉]]和[[恼鬼]]这类会飞的生物，可以在空中控制方向，但不能上下滑翔。[[海豚]]也有这种能力。
+* 虽然正常情况下鞘翅不会因为耐久度归0而消失，但穿戴带有[[荆棘]]魔咒且耐久度为1的鞘翅的生物被攻击时，鞘翅会因为触发魔咒效果而耐久度归0并消失。
+
+== 画廊 ==
+<gallery>
+ElytraFlight.gif|第一张关于鞘翅的视频
+FoldedWings.png|一个折叠着的鞘翅和一个披风作比较
+ElytraEnd.png|在末地船里的鞘翅
+PlayerElytraBack.png|一个玩家穿着鞘翅
+PlayerElytraFront.png|一个玩家正在依靠鞘翅滑翔
+Broken Elytra.png|损坏的鞘翅，只剩1点耐久
+UpcomingElytras.jpg|鞘翅将会拟合官方的披风
+FlyBlock.png|玩家在滑翔时使用盾牌格挡
+Suspic10us.jpg|一张官方宣传图中使用鞘翅的玩家
+Steve Gliding with Elytra.png|使用鞘翅滑行的Steve
+Alex Gliding with Elytra.png|使用鞘翅滑行的Alex
+Enchanted Elytra (item).gif|附魔的鞘翅
+Elytra (texture) JE2 BE2.png|鞘翅的纹理，左边的透明部分为披风腾出空间
+</gallery>
+
+=== 原主机版独有内容 ===
+<gallery>
+GLIDE.png|Glide小游戏的截图
+GLIDE2.png|另一个Glide小游戏的截图
+GLIDE Official.jpg|Glide海报
+Elytra Tutorial Map.jpg|官方的鞘翅主题地图
+</gallery>
+
+=== 设计 ===
+<gallery>
+Mojang employees Elytra.png|[[Mojang]]披风（旧版）
+Mojang employees 2015 Elytra.png|Mojang披风
+Volgar ElytraR.png|Mojang Studios披风
+Crowdin Translator Elytra.png|[[Crowdin]]翻译者披风
+DannyBstyle's Elytra.png|dannyBstyle的披风
+JulianClark's Elyrtra.png|JulianClark的披风
+Millionth Customer Elytra.png|第100万位购买游戏的玩家的披风
+MINECON 2011 Attendees Elytra.png|[[MINECON 2011]]参与者披风
+MINECON 2012 Attendees Elytra.png|[[MINECON 2012]]参与者披风
+MINECON 2013 Attendees Elytra.png|[[MINECON 2013]]参与者披风
+MINECON 2015 Attendees Elytra.png|[[MINECON 2015]]参与者披风
+MINECON 2016 Attendees Elytra.png|[[MINECON 2016]]参与者披风
+MINECON LIVE 2019 Founder's Elytra.png|[[MINECON Live 2019]]策划者的披风
+Mojira Moderator Elytra.png|[[Mojira]]核查员披风
+MrMessiah's Elytra.png|MrMessiah的披风
+Prismarine Elytra.png|[[海晶石]]披风
+Realms Mapmaker Elytra.png|[[Realms]]地图制作者的披风
+Cobalt Elytra.png|[[Mojang AB|Cobalt]]披风
+Scrolls Elytra.png|[[Scrolls]]披风
+Turtle Elytra.png|[[海龟]]披风
+PancapeElyR.png|薄煎饼披风
+MSCapeElyR.png|迁移者披风
+Gr8 Escape's elytra.png|生日披风
+Valentine Elytra.png|情人节披风
+Vanilla cape elytra JE.png|原版披风{{only|java}}
+Vanilla cape elytra BE.png|原版披风{{only|bedrock}}
+Cherry Cape Elytra JE.png|樱花披风{{only|java}}
+Cherry Cape Elytra BE.png|樱花披风{{only|bedrock}} 
+15yearElytra JE.png|15周年纪念披风{{only|java}}
+15yearElytra BE.png|15周年纪念披风{{only|bedrock}}
+</gallery>
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox items|Tools & Utilities}}
+
+{{Navbox gameplay}}
+
+[[de:Elytren]]
+[[en:Elytra]]
+[[es:Élitros]]
+[[fr:Élytres]]
+[[ja:エリトラ]]
+[[ko:겉날개]]
+[[lzh:翼]]
+[[nl:Dekschild]]
+[[pl:Elytry]]
+[[pt:Élitros]]
+[[ru:Элитры]]
+[[th:Elytra]]
+[[tr:Elitra]]
+[[uk:Елітри]]

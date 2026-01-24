@@ -1,0 +1,18 @@
+{{tr|mode=T|旋风|旋風}}
+'''旋-{}-风（Breeze{{tr|,&#32;|）'''或'''狂風（|,&#32;}}Guster）'''可以指：
+== Minecraft ==
+* {{EntityLink|Breeze}} - 生成于[[试炼密室]]的敌对生物，可掉落旋风棒。
+* {{ItemLink|Breeze Rod}} - 旋风人的掉落物。
+* {{ItemLink|Breeze Spawn Egg}} - 只能通过[[创造模式物品栏]]或[[命令]]获得的物品，用于生成旋风人。
+* {{ItemLink|Guster Banner Pattern}} - 用于自定义[[旗帜]]的物品。
+* {{ItemLink|Guster Pottery Sherd}} - 用于制作[[饰纹陶罐]]的物品。
+
+== Minecraft Dungeons ==
+* {{DuFlairLink|Whirlwind}} - [[MCD:赛季|赛季一：云上攀登]]的升级特效。
+* {{DuItemLink|Whirlwind}} - 一种近战武器。
+* {{DuEnchantmentLink|Swirling}} - 一种魔咒。
+
+{{disambig}}
+
+[[en:Guster]]
+[[ru:Вихрь (значения)]]

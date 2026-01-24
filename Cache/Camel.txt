@@ -1,0 +1,496 @@
+{{Distinguish|羊驼}}
+{{about||亡灵变种|骆驼尸壳}}
+{{Infobox entity
+|group1=站立
+|1-1=Camel.png
+|1-2=Camel.png
+|group2=坐下
+|2-1=Sitting Camel.png
+|2-2=Sitting Camel.png
+|group3=站立，套上鞍
+|3-1=Saddled Camel.png
+|group4=坐下，套上鞍
+|4-1=Sitting Saddled Camel.png
+|1-1caption=成年
+|2-1caption=成年
+|*-2caption=幼年
+|*-2size=85px
+|invimage1=Camel Spawn Egg
+|health={{hp|32}}
+|behavior=友好生物
+|spawn=
+{{BiomeLink|desert}}<br>
+{{EnvLink|id=desert village|沙漠村庄}}
+|size='''成年：'''<br>高度：2.375格<br>宽度：1.7格<br>
+'''幼年：'''<br>高度：1.23075格<br>宽度：0.765格
+|usableitems=
+{{ItemLink|Saddle}}<br>
+{{BlockLink|Cactus}}<br>
+{{ItemLink|Lead}}<br>
+{{ItemLink|Name Tag}}
+}}
+{{quote|在足迹与故事更新中，你会发现沙漠里的一位新居民——骆驼！骆驼也许以暴躁而闻名，但实际上它们在Minecraft中却是相当温顺的存在。它们喜欢坐下和漫无目的地闲逛，但它们也同样喜欢去冒险。|[[Duncan Geere]]<ref>{{article|camel|Mob Menagerie: Camel|June 22, 2023}}</ref>||Duncan Geere Mojavatar.png}}
+
+'''骆驼（Camel）'''是一种生成于[[沙漠]]和[[村庄|沙漠村庄]]的[[友好生物]]。
+
+== 生成 ==
+[[File:Camel village.png|thumb|沙漠村庄里坐下的骆驼]]
+
+駱駝會自然生成於[[沙漠]]。{{in|be}}仅生成在露天的[[沙子]]、[[红沙]]、[[砂岩]]上方。
+
+骆驼也会自然生成于[[沙漠村庄]]的中心，每个沙漠村庄只会生成一只骆驼。
+
+== 掉落物 ==
+成年骆驼被[[玩家]]或驯服的[[狼]]杀死时掉落{{xp|1|3}}。与其他幼年动物一样，幼年骆驼死亡时不掉落任何物品和经验。
+
+套在骆驼身上的[[鞍]]也会在其死亡时掉落。
+
+== 行为 ==
+骆驼会漫无目的地游荡，也会躲避[[水]]、[[熔岩]]和悬崖。
+
+骆驼在未被骑乘时有时会坐下，歇息十几秒后再缓慢站起。坐着的骆驼不会被其他生物推动。{{in|be}}坐着的骆驼没有碰撞箱。坐着的骆驼若{{only|be|for=被玩家骑乘}}、受到[[伤害]]或被[[拴绳]]拴住时与拴绳另一端的距离大于6格则会迅速站起来。
+
+骆驼可以缓慢地恢复生命值，每[[游戏刻]]有{{frac|1|900}}的概率恢复{{hp|1}}{{verify|bedrock=1}}。
+
+骆驼可以走上碰撞箱为1.5格高的方块（如[[栅栏]]和[[墙]]）。
+
+骆驼从小于6.5格高的方块跌落时不会受到[[摔落伤害]]。
+
+=== 骑乘 ===
+[[File:Husks can't reach.png|thumb|[[尸壳]]无法攻击骆驼上的玩家]]
+骑着成年骆驼打开物品栏，或者在{{control|潜行}}时对其按{{control|使用}}键即可查看骆驼的UI，其中有一个{{SlotSprite|Saddle}}鞍槽。玩家也可以手持[[鞍]]对其按{{control|使用}}键来直接套上鞍。
+
+套上鞍的成年骆驼可被玩家控制方向，可进入{{control|疾跑}}状态。骆驼移动的速度为3.89m/s，疾跑的速度为8.20m/s。
+
+骑乘骆驼时，经验条会被骆驼的冲刺蓄力条替代，该冲刺蓄力条的外观与[[马]]等生物的跳跃蓄力条相同。骑乘骆驼时长按{{control|跳跃}}可以进行冲刺蓄力，蓄力时松开跳跃可使骑乘的骆驼高速向前冲刺。随着蓄力时间的增加，蓄力条先快速向右填充，冲刺的速度逐渐增加；在蓄力0.5秒时蓄力条达到最右端橙色区域，此时蓄力的程度最大，冲刺的速度最大，横向速度为40.00m/s，纵向速度为10.43m/s，最多前进12格、向上跳起1.85格高；之后蓄力条先快后慢地缩回，冲刺速度逐渐衰减。{{info_needed|蓄力程度与蓄力时间的函数关系。}}骆驼冲刺的横向速度受[[迅捷]]和[[缓慢]]状态效果影响，纵向速度受[[跳跃提升]]状态效果影响。冲刺后，骆驼进入持续2.75秒的冷却时间，冷却期间骆驼不能疾跑，不能进行冲刺。
+
+一只骆驼可以搭载2名玩家，前座玩家可以控制方向，后座玩家可以转动身体、与周围互动，但无法控制骆驼移动。两名玩家不能互相伤害，也无法伤害骆驼。来自比玩家低0.5格以上距离的生物的单体近战攻击无法伤害玩家。非玩家的骑手无法控制骆驼站起或移动。
+
+{{in|java}}套有鞍的骆驼坐着时，骑乘着的玩家可以按下{{Control|向前}}键使骆驼站起。
+
+=== 喂食与繁殖 ===
+{{see also|繁殖}}
+骆驼会跟随{{only|je|short=1|for=10格内}}/{{only|be|short=1|for=16格内}}手持[[仙人掌]]的玩家。
+
+给生命值未满的成年骆驼喂食仙人掌可使其恢复{{hp|2}}点生命值。给幼年骆驼喂食仙人掌可缩短其成长时间。
+
+给两只生命值已满的成年骆驼喂食仙人掌能让它们[[繁殖]]出一只幼年骆驼，并掉落{{xp|1|7}}，双亲在{{only|je|for=5分钟|short=1}}/{{only|be|for=1分钟|short=1}}内不能再次繁殖。
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Camel ambient1.ogg
+|sound2=Camel ambient2.ogg
+|sound3=Camel ambient3.ogg
+|sound4=Camel ambient4.ogg
+|sound5=Camel ambient5.ogg
+|sound6=Camel ambient6.ogg
+|sound7=Camel ambient7.ogg
+|sound8=Camel ambient8.ogg
+|subtitle={{tp|subtitles.entity.camel.ambient}}
+|source=友好生物
+|description=空闲时随机播放此声音
+|id=entity.camel.ambient
+|translationkey=subtitles.entity.camel.ambient
+|volume=0.45
+}}
+{{Sound table
+|sound=Camel dash1.ogg
+|sound2=Camel dash2.ogg
+|sound3=Camel dash3.ogg
+|sound4=Camel dash4.ogg
+|sound5=Camel dash5.ogg
+|sound6=Camel dash6.ogg
+|subtitle={{tp|subtitles.entity.camel.dash}}
+|source=友好生物
+|description=冲刺
+|id=entity.camel.dash
+|translationkey=subtitles.entity.camel.dash
+}}
+{{Sound table
+|sound=Camel dash_ready1.ogg
+|subtitle={{tp|subtitles.entity.camel.dash_ready}}
+|source=友好生物
+|description=冲刺冷却结束
+|id=entity.camel.dash_ready
+|translationkey=subtitles.entity.camel.dash_ready
+|volume=0.25
+}}
+{{Sound table
+|sound=Camel death1.ogg
+|sound2=Camel death2.ogg
+|subtitle={{tp|subtitles.entity.camel.death}}
+|source=友好生物
+|description=死亡
+|id=entity.camel.death
+|translationkey=subtitles.entity.camel.death
+}}
+{{Sound table
+|sound=Camel eat1.ogg
+|sound2=Camel eat2.ogg
+|sound3=Camel eat3.ogg
+|sound4=Camel eat4.ogg
+|sound5=Camel eat5.ogg
+|subtitle={{tp|subtitles.entity.camel.eat}}
+|source=友好生物
+|description=进食
+|id=entity.camel.eat
+|translationkey=subtitles.entity.camel.eat
+|volume=0.2
+}}
+{{Sound table
+|sound=Camel hurt1.ogg
+|sound2=Camel hurt2.ogg
+|sound3=Camel hurt3.ogg
+|sound4=Camel hurt4.ogg
+|subtitle={{tp|subtitles.entity.camel.hurt}}
+|source=友好生物
+|description=受伤
+|id=entity.camel.hurt
+|translationkey=subtitles.entity.camel.hurt
+}}
+{{Sound table
+|sound=Saddle equip.ogg
+|subtitle={{tp|subtitles.entity.camel.saddle}}
+|source=友好生物
+|description=装备鞍
+|id=entity.camel.saddle
+|translationkey=subtitles.entity.camel.saddle
+|pitch=0.8
+}}
+{{Sound table
+|sound=Camel sit1.ogg
+|sound2=Camel sit2.ogg
+|sound3=Camel sit3.ogg
+|sound4=Camel sit4.ogg
+|subtitle={{tp|subtitles.entity.camel.sit}}
+|source=友好生物
+|description=坐下
+|id=entity.camel.sit
+|translationkey=subtitles.entity.camel.sit
+|volume=0.3
+}}
+{{Sound table
+|sound=Camel stand1.ogg
+|sound2=Camel stand2.ogg
+|sound3=Camel stand3.ogg
+|sound4=Camel stand4.ogg
+|sound5=Camel stand5.ogg
+|subtitle={{tp|subtitles.entity.camel.stand}}
+|source=友好生物
+|description=站起
+|id=entity.camel.stand
+|translationkey=subtitles.entity.camel.stand
+|volume=0.3
+}}
+{{Sound table
+|sound=Camel step1.ogg
+|sound2=Camel step2.ogg
+|sound3=Camel step3.ogg
+|sound4=Camel step4.ogg
+|sound5=Camel step5.ogg
+|sound6=Camel step6.ogg
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|source=友好生物
+|description=行走
+|id=entity.camel.step
+|translationkey=subtitles.block.generic.footsteps
+|volume=0.5
+}}
+{{Sound table
+|sound=Camel step_sand1.ogg
+|sound2=Camel step_sand2.ogg
+|sound3=Camel step_sand3.ogg
+|sound4=Camel step_sand4.ogg
+|sound5=Camel step_sand5.ogg
+|sound6=Camel step_sand6.ogg
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|source=友好生物
+|description=在沙子或红沙上方行走
+|id=entity.camel.step_sand
+|translationkey=subtitles.block.generic.footsteps
+|volume=0.45
+|foot=1
+}}
+
+{{el|be}}：
+{{Sound table
+|bedrock=1
+|sound=Camel ambient1.ogg
+|sound2=Camel ambient2.ogg
+|sound3=Camel ambient3.ogg
+|sound4=Camel ambient4.ogg
+|sound5=Camel ambient5.ogg
+|sound6=Camel ambient6.ogg
+|sound7=Camel ambient7.ogg
+|sound8=Camel ambient8.ogg
+|source=友好生物
+|description=空闲时随机播放此声音
+|id=mob.camel.ambient
+|typeid=ambient
+|soundvolume=0.45/0.5/0.3<ref group="音效" name="volume">这里代表8条音效文件分别以3种不同的音高播放，其中第1和第2条为0.45，第8条和第9条为0.3，其他为0.5</ref>
+|soundpitch=0.8-1.2
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Camel dash1.ogg
+|sound2=Camel dash2.ogg
+|sound3=Camel dash3.ogg
+|sound4=Camel dash4.ogg
+|sound5=Camel dash5.ogg
+|sound6=Camel dash6.ogg
+|source=友好生物
+|description=冲刺
+|id=mob.camel.dash
+|typeid=dashing
+|soundvolume=1.0
+|soundpitch=1.0
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Camel dash_ready1.ogg
+|source=友好生物
+|description=冲刺冷却结束
+|id=mob.camel.dash_ready
+|typeid=dash_ready
+|soundvolume=1.0
+|soundpitch=0.25
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Camel death1.ogg
+|sound2=Camel death2.ogg
+|source=友好生物
+|description=死亡
+|id=mob.camel.death
+|typeid=death
+|soundvolume=1.0
+|soundpitch=0.8-1.2
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Camel eat1.ogg
+|sound2=Camel eat2.ogg
+|sound3=Camel eat3.ogg
+|sound4=Camel eat4.ogg
+|sound5=Camel eat5.ogg
+|source=友好生物
+|description=进食
+|id=mob.camel.eat
+|typeid=eat
+|soundvolume=1.0
+|soundpitch=0.2
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Camel hurt1.ogg
+|sound2=Camel hurt2.ogg
+|sound3=Camel hurt3.ogg
+|sound4=Camel hurt4.ogg
+|source=友好生物
+|description=受伤
+|id=mob.camel.hurt
+|typeid=hurt
+|soundvolume=1.0
+|soundpitch=0.8-1.0
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Camel sit1.ogg
+|sound2=Camel sit2.ogg
+|sound3=Camel sit3.ogg
+|sound4=Camel sit4.ogg
+|source=友好生物
+|description=坐下
+|id=mob.camel.sit
+|typeid=sit_down
+|soundvolume=1.0
+|soundpitch=0.3
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Camel stand1.ogg
+|sound2=Camel stand2.ogg
+|sound3=Camel stand3.ogg
+|sound4=Camel stand4.ogg
+|sound5=Camel stand5.ogg
+|source=友好生物
+|description=站起
+|id=mob.camel.stand
+|typeid=stand_up
+|soundvolume=1.0
+|soundpitch=0.3
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Camel step1.ogg
+|sound2=Camel step2.ogg
+|sound3=Camel step3.ogg
+|sound4=Camel step4.ogg
+|sound5=Camel step5.ogg
+|sound6=Camel step6.ogg
+|source=友好生物
+|description=行走
+|id=mob.camel.step
+|typeid=step
+|soundvolume=1.0
+|soundpitch=0.5
+|sounddistance
+}}
+{{Sound table
+|bedrock=1
+|sound=Camel step_sand1.ogg
+|sound2=Camel step_sand2.ogg
+|sound3=Camel step_sand3.ogg
+|sound4=Camel step_sand4.ogg
+|sound5=Camel step_sand5.ogg
+|sound6=Camel step_sand6.ogg
+|source=友好生物
+|description=在沙子或红沙上方行走
+|id=mob.camel.step_sand
+|typeid=step_sand
+|soundvolume=1.0
+|soundpitch=0.45
+|sounddistance
+|foot=1
+}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Camel
+|spritetype=entity
+|nameid=camel
+|showentitytags=1|entitytags={{GameTag|entity|camel}}
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Camel
+|spritetype=entity
+|nameid=camel
+|foot=1}}
+
+=== 实体数据 ===
+{{el|je}}：
+{{main|实体数据格式}}
+骆驼有与之相联系的包含许多该[[生物]]属性的存档数据。
+
+{{/ED}}
+
+{{el|be}}：
+{{see also|基岩版存档格式/实体格式|基岩版存档格式/实体格式/组件}}
+
+== 成就 ==
+{{Load achievements|overkill;it-spreads;over-overkill;mob-kabob}}
+
+== 进度 ==
+{{Load advancements|husbandry.breed_an_animal;husbandry.breed_all_animals;adventure.root;adventure.shoot_arrow;adventure.throw_trident;adventure.arbalistic;adventure.kill_mob_near_sculk_catalyst;adventure.overoverkill;adventure.spear_many_mobs}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2022年10月15日|link={{ytl|yZRXmHiEh7U&t}}|[[File:Camel.png|32px]] [[File:Camel.png|20px]] [[File:Saddled Camel.png|32px]] [[Minecraft Live 2022]]宣布骆驼将在1.20版本中加入。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.19.3|exp=update_1_20|dev=22w42a|[[File:Camel JE1 BE2.png|32px]] [[File:Camel JE1 BE2.png|20px]] [[File:Saddled Camel JE1 BE2.png|32px]] 加入了骆驼。}}
+|{{HistoryLine|||dev=22w43a|调整了骆驼行走的循环动画。}}
+|{{HistoryLine||1.20|dev=23w12a|骆驼不再属于[[实验性内容]]。}}
+|{{HistoryLine||1.20.2|dev=23w31a|骆驼现在被[[拴绳]]拴住时若受到伤害，会进入惊慌状态。}}
+|{{HistoryLine||1.21.5|dev=25w07a|现在骆驼会生成于沙漠。}}
+|{{HistoryLine||1.21.11|dev=25w44a|现在骆驼被玩家在水里骑乘时不再会下沉。}}
+|{{HistoryLine||1.21.11|dev=25w46a|骆驼被生物控制时不再能进入惊慌状态。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.19.50|exg=1.20|dev=1.19.50.21|[[File:Camel BE1.png|32px]] [[File:Camel BE1.png|20px]] [[File:Saddled Camel BE1.png|32px]] 加入了骆驼。}}
+|{{HistoryLine|||dev=1.19.50.22|骆驼现在会自然恢复生命值。
+|调整了骆驼行走的循环动画。}}
+|{{HistoryLine|||dev=1.19.50.23|骆驼现在可以走上碰撞箱为1.5格高的方块。
+|被骑乘的骆驼不再可以浮在水面上。}}
+|{{HistoryLine|||dev=1.19.50.24|骆驼不再可以走上碰撞箱为1.5格高的方块。}}
+|{{HistoryLine||1.19.60|exg=1.20|dev=1.19.60.20|[[File:Camel JE1 BE2.png|32px]] [[File:Camel JE1 BE2.png|20px]]  [[File:Saddled Camel JE1 BE2.png|32px]] 更改了骆驼的纹理以匹配{{el|je}}。<ref>{{bug|MCPE-163350|||Fixed}}</ref>
+|现在骆驼坐下时会减小碰撞箱。
+|减小了幼年骆驼的尺寸。
+|更改了骆驼的冲刺冷却栏的颜色以匹配{{el|je}}。
+|现在[[幽匿感测体]]可以检测到骆驼的站起与坐下。}}
+|{{HistoryLine|||dev=1.19.60.22|现在对骆驼{{control|使用}}鞍会直接装备鞍。}}
+|{{HistoryLine|||dev=1.19.60.25|骆驼不再能够进入可骑乘实体中。}}
+|{{HistoryLine||1.19.70|exg=1.20|dev=1.19.70.22|骆驼现在再次可以走上碰撞箱为1.5格高的方块。}}
+|{{HistoryLine||1.20.0|dev=1.20.0.21|骆驼不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.20.50|dev=1.20.50.21|现在船上的幼年骆驼成年后会脱离船。<ref>{{bug|MCPE-171870|||Fixed}}</ref>}}
+|{{HistoryLine||1.21.70|dev=1.21.70.23|现在骆驼会生成于沙漠。}}
+|{{HistoryLine||1.21.80|dev=1.21.80.22|现在骆驼不再会错误地生成在过于狭小的位置。<ref>{{bug|MCPE-190700|||Fixed}}</ref>}}
+|{{HistoryLine||1.21.130|dev=1.21.130.24|现在骆驼被玩家在水里骑乘时不再会下沉。}}
+}}
+
+== 你知道吗 ==
+* Minecraft中的骆驼是基于现实中的{{w|单峰骆驼}}（Dromedary）开发的，这种骆驼背上只有一个驼峰。
+* 骆驼行走时的动画中同侧前腿和后腿摆动方向相同（即“顺拐”），但冲刺时异侧前腿和后腿的摆动方向相同，后者与[[马]]等生物移动时一致。
+
+== 画廊 ==
+=== 截图 ===
+<gallery>
+File:Camel-article1.jpg|一只骆驼
+File:Camel-article2.jpg|成年骆驼和幼年骆驼
+File:Camel-article3.jpg|Zuri和Alex骑着骆驼
+File:Camel-article4.jpg|Steve骑着骆驼
+</gallery>
+
+=== 渲染图 ===
+<gallery>
+File:Camel Idle.gif|骆驼空闲时抖动耳朵
+File:Saddled Camel Idle.gif
+File:Camel Sitdown.gif|骆驼坐下的动画
+File:Saddled Camel Sitdown.gif
+File:Camel Standup.gif|骆驼起身的动画
+File:Saddled Camel Standup.gif
+File:Camel Walk.gif|骆驼行走动画
+File:Saddled Camel Walk.gif
+File:Camel Dash.gif|骆驼冲刺动画
+File:Saddled Camel Dash.gif
+</gallery>
+
+=== 概念图 ===
+<gallery>
+Camel Llama.png|早期基于[[羊驼]]制作的骆驼<ref>{{ytl|2X8oVJUyqo4|Making Minecraft Mobs: Meet the Camel!}}</ref>
+Camel Llama 2.png
+Camel Sheet 2.png|骆驼的毛色与面部模型设计
+Camel Sheet 3.png|骆驼的面部特征设计
+Camel Explorations.png
+Hairy camel concept art.jpg
+</gallery>
+
+=== 艺术作品 ===
+<gallery>
+Trails&TalesPixelArt-2.png|Alex与骆驼的像素画
+Trails&TalesPixelArt-3.png|Steve和Alex骑乘骆驼的像素画
+File:Sunny and Alex with Camel Artwork.jpg|Sunny和Alex骑乘骆驼的艺术作品
+</gallery>
+
+== 参考 ==
+{{reflist}}
+
+== 导航 ==
+{{Navbox entities|Mobs}}
+
+[[Category:友好生物]]
+
+[[de:Dromedar]]
+[[en:Camel]]
+[[es:Camello]]
+[[fr:Dromadaire]]
+[[it:Dromedario]]
+[[ja:ラクダ]]
+[[ko:낙타]]
+[[pl:Wielbłąd]]
+[[pt:Camelo]]
+[[ru:Верблюд]]
+[[uk:Верблюд]]

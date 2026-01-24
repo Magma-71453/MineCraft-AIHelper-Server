@@ -1,0 +1,136 @@
+{{Infobox block
+|title=结构空位
+|image=Structure Void.png
+|image2=Structure Void BE.png
+|imagecaption={{el|je}}
+|image2caption={{el|be}}
+|invimage=Structure Void
+|invimage2=----
+|invimage3=Structure Void BE
+|light=0
+}}
+'''结构空位（Structure Void）'''是用于标记加载结构时不替换某一位置的方块。
+
+== 生成 ==
+结构空位不会生成在世界中。
+
+== 获取 ==
+{{see also|Tutorial:获取任意物品}}
+结构空位无法在未开启[[作弊]]的[[生存模式]]的世界中获取。使用[[创造模式]]或启用[[作弊]]，结构空位可以通过{{only|for=[[创造模式物品栏]]（需要启用“{{tp|options.operatorItemsTab}}”，或“{{tp|itemGroup.hotbar}}”中有结构空位）|JE}}、[[创造模式]]中使用{{ctrl|选取方块}}或[[命令]]等方式获得。
+
+== 破坏 ==
+结构空位被挖掘时会立刻被破坏，用于挖掘的工具的耐久度不会下降。
+
+{{Breaking table}}
+
+{{in|java}}结构空位被破坏后不会掉落。
+
+{{in|bedrock}}结构空位被破坏后会掉落自身。<ref>{{bug|MCPE-176453}}</ref>
+
+== 用途 ==
+[[生存模式]]下的玩家也可以放置结构空位。
+
+结构空位通常不可见，并且没有碰撞箱。
+
+与[[光源方块]]类似，结构空位不会被[[水]]或[[熔岩]]冲毁，能够阻止其流动。
+
+结构空位可以作为结构的一部分被存储，表示结构生成时该位置不进行替换：当包含结构空位的结构被生成时，结构空位不会生成（而[[空气]]会生成），因此这一位置原有的方块不会被替换。这使得结构的形状可以不是长方体。
+
+玩家可以通过将结构生成在完全由结构空位构成的空间中，此时剩下的结构空位就是该结构包含的结构空位。
+
+=== Java版 ===
+{{Filetr|InvisibleBlocksShow.png|缩略图|250px|{{in|java}}结构空位（右二）以及游戏中的其他隐形方块被渲染出的立方体框外观}}
+
+结构空位具有一个小型的判定箱，位于方块的中心。
+
+在结构空位的判定箱上尝试放置不是结构空位的方块时，方块会取代结构空位。
+
+结构空位是一种“隐形方块”，处于开启了“显示隐形方块”的存储模式[[结构方块]]的存储区域范围内的结构空位会显示出一个淡红色的立方体框。
+
+<gallery>
+Structure Void Outline Box.png|结构空位的判定箱
+Structure Void Outline Box (shown).png|结构空位的判定箱和[[结构方块]]启用的渲染
+</gallery>
+{{-}}
+
+=== 基岩版 ===
+结构空位被视为一个完整的方块，具有完整方块大小的判定箱，并允许一些方块（如[[火把]]）附着于其上。
+
+在结构空位的判定箱上尝试放置方块时，方块会放在结构空位的旁边而不是取代结构空位。
+
+无法通过在结构空位的位置上放置方块来将其取代。
+
+处于[[创造模式]]的[[玩家]]手持结构空位时，世界中的结构空位会渲染出一个红色的虚线框纹理。
+
+<gallery>
+StructureVoidBEFeatures1.png|附着红石粉和火把并传递了红石信号的结构空位
+StructureVoidBEFeatures2.png|附着红石粉和火把并传递了红石信号的结构空位，其中的结构空位被显示
+</gallery>
+
+== 音效 ==
+{{Sound table/Block/Stone}}
+
+== 数据值 ==
+=== ID ===
+{{edition|java}}：
+{{ID table
+|generatetranslationkeys=java
+|Structure Void
+|spritetype=block
+|nameid=structure_void
+|foot=1}}
+
+{{edition|bedrock}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Structure Void
+|spritename=Structure Void BE
+|spritetype=block
+|nameid=structure_void
+|foot=1}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+{{Block states table}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.10|dev=16w20a|[[File:Structure Void (item) JE1.png|32px]] 加入了结构空位。此前开发者使用[[屏障]]实现其功能。
+|[[File:Structure Void (shown) JE1.png|32px]][[File:Structure Void Outline Box (shown) JE1.png|32px]] 储存模式的结构方块在其“显示隐形方块”选项开启时，其中的结构空位将被渲染。}}
+|{{HistoryLine|||dev=pre1|结构空位的硬度由-1改为0。
+|结构空位的爆炸抗性由18000003改为0。}}
+|{{HistoryLine||1.13|dev=17w47a|在[[扁平化]]之前，结构空位的ID是217。}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Structure Void (item) JE2.png|32px]] 更改了结构空位的物品纹理。}}
+|{{HistoryLine||1.15|dev=19w39a|[[File:Structure Void (shown) JE2.png|32px]][[File:Structure Void Outline Box (shown) JE2.png|32px]] 结构方块中显示的结构空位不再有黑色描边。}}
+|{{HistoryLine||1.17|dev=21w20a|[[File:Structure Void (shown) JE3.png|32px]][[File:Structure Void Outline Box (shown) JE3.png|32px]] 更改了结构空位的渲染颜色。}}
+|{{HistoryLine||1.19.3|dev=22w42a|被破坏时不再产生[[粒子]]，以与[[光源方块]]保持一致。<ref>{{bug|MC-221568|||Fixed}}</ref>}}
+|{{HistoryLine|||dev=22w44a|现在结构空位可从创造模式物品栏中获取。}}
+|{{HistoryLine|pocket}}
+|{{HistoryLine||1.0.0|dev=0.17.0.1|加入了结构空位，因没有分配方块ID而无法在游戏中获得。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.13.0|exg=1|dev=1.13.0.1|[[File:Structure Void (held) BE1.png|32px]]  加入了结构空位。
+|[[File:Structure Air (item) BE1.png|32px]][[File:Structure Air (held) BE1.png|32px]] 加入了[[结构空气]]。}}
+|{{HistoryLine||1.16.0|dev=1.16.0.57|结构空位的功能不再属于[[实验性玩法]]。}}
+|{{HistoryLine||1.19.70|dev=1.19.70.20|更改了结构空位的判定箱形状。}}
+|{{HistoryLine||1.20.30|dev=1.20.20.20|现在不再能选中结构空位。}}
+|{{HistoryLine|||dev=1.20.20.21|结构空位的硬度由-1改为0。
+|结构空位的爆炸抗性由3,600,000.75改为0。}}
+|{{HistoryLine|||dev=1.20.20.22|现在手持结构空位时能选中结构空位。}}
+|{{HistoryLine||1.20.50|dev=1.20.50.20|现在没有手持结构空位时也能选中结构空位，但其没有轮廓箱。}}
+|{{HistoryLine||1.21.30|dev=1.21.30.21|移除了方块状态<code>structure_void_type</code>，现有的结构空气会转化为结构空位。}}
+}}
+
+== 参考 ==
+{{Reflist}}
+
+== 参见 ==
+* [[结构方块]]
+
+== 导航 ==
+{{Navbox blocks|others}}
+
+[[en:Structure Void]]
+[[fr:Vide de structure]]
+[[ja:ストラクチャーヴォイド]]
+[[pt:Vazio estrutural]]

@@ -1,0 +1,86 @@
+{{Infobox block|image=Mossy Stone Brick Stairs.png
+|invimage=Mossy Stone Brick Stairs
+}}
+'''苔石砖楼梯（Mossy Stone Brick Stairs）'''是[[苔石砖]]制作的[[楼梯]]。
+
+== 生成 ==
+=== 自然生成 ===
+苔石砖楼梯会自然生成于主世界的[[废弃传送门]]。
+
+{{Block distribution}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|foot=1
+|A1= Mossy Stone Bricks |A2= Mossy Stone Bricks |A3= Mossy Stone Bricks
+|B2= Mossy Stone Bricks |B3= Mossy Stone Bricks
+|C3= Mossy Stone Bricks
+|Output= Mossy Stone Brick Stairs,4
+|type= Building block
+}}
+
+=== 切石 ===
+{{Stonecutting
+|foot=1
+|Mossy Stone Bricks
+|Mossy Stone Brick Stairs
+}}
+
+== 破坏 ==
+挖掘苔石砖楼梯的合适工具是镐。苔石砖楼梯需要木镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table}}
+
+苔石砖楼梯被破坏后会掉落自身。
+
+== 用途 ==
+{{main|楼梯#用途}}
+
+== 音效 ==
+{{Sound table/Block/Stone}}
+
+== 数据值 ==
+=== ID ===
+{{el|je}}：
+{{ID table
+|Mossy Stone Brick Stairs
+|generatetranslationkeys=java
+|spritetype=block
+|nameid=mossy_stone_brick_stairs
+|showblocktags=1 |blocktags={{GameTag|block|mossy_stone_brick_stairs}}
+|showitemtags=1 |itemtags={{GameTag|item|mossy_stone_brick_stairs}}
+|foot=1}}
+
+{{el|be}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Mossy Stone Brick Stairs
+|spritetype=block
+|nameid=mossy_stone_brick_stairs
+|foot=1}}
+
+=== 方块状态 ===
+{{see also|方块状态}}
+
+{{Block states table}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine|java}}
+|{{HistoryLine||1.14|dev=18w43a|[[File:Mossy Stone Brick Stairs JE1.png|32px]] 加入了苔石砖楼梯。}}
+|{{HistoryLine|||dev=18w47a|[[File:Mossy Stone Brick Stairs JE2 BE1.png|32px]] 更改了苔石砖楼梯的纹理。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.9.0|dev=1.9.0.0|[[File:Mossy Stone Brick Stairs JE2 BE1.png|32px]] 加入了苔石砖楼梯。}}
+|{{HistoryLine|console}}
+|{{HistoryLine||xbox=TU5|xbone=CU1|ps3=1.00|psvita=1.00|ps4=1.00|wiiu=Patch 1|switch=1.0.1|[[File:Mossy Stone Brick Stairs JE2 BE1.png|32px]] 加入了苔石砖楼梯。}}
+}}
+
+== 导航 ==
+{{Navbox stairs}}
+{{Navbox blocks|building blocks}}
+
+[[en:Mossy Stone Brick Stairs]]
+[[ja:苔むした石レンガの階段]]
+[[pt:Escadas de tijolos de pedra musgosos]]
+[[uk:Сходи з моховитої кам'яної цегли]]

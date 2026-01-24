@@ -1,0 +1,373 @@
+{{Infobox block
+|group1=未氧化
+|1-1=Copper Grate.png
+|group2=斑驳
+|2-1=Exposed Copper Grate.png
+|group3=锈蚀
+|3-1=Weathered Copper Grate.png
+|group4=氧化
+|4-1=Oxidized Copper Grate.png
+|invimage=Copper Grate
+|invimage2=Exposed Copper Grate
+|invimage3=Weathered Copper Grate
+|invimage4=Oxidized Copper Grate
+|invimage5=----
+|invimage6=Waxed Copper Grate
+|invimage7=Waxed Exposed Copper Grate
+|invimage8=Waxed Weathered Copper Grate
+|invimage9=Waxed Oxidized Copper Grate
+|autovalue-id = 铜格栅;斑驳的铜格栅;锈蚀的铜格栅;氧化的铜格栅;涂蜡的铜格栅;涂蜡的斑驳铜格栅;涂蜡的锈蚀铜格栅;涂蜡的氧化铜格栅
+}}
+
+'''{{tr|铜格{{zh pron|栅|cn=zhà}}|銅格柵|銅網格}}（Copper Grate）'''是一种有孔的铜质方块。
+
+== 生成 ==
+铜格栅、斑驳的铜格栅、锈蚀的铜格栅、氧化的铜格栅、涂蜡的斑驳铜格栅和涂蜡的锈蚀铜格栅不会生成在世界中，只能通过[[氧化]]机制生成。
+
+=== 自然生成 ===
+涂蜡的铜格栅和涂蜡的氧化铜格栅会生成在[[试炼密室]]中。
+
+{{Block distribution|涂蜡的铜格栅, 涂蜡的氧化铜格栅}}
+
+== 获取 ==
+=== 合成 ===
+{{Crafting
+|head=1
+|A2=Matching Unwaxed Block of Copper; Matching Waxed Block of Copper
+|B1=Matching Unwaxed Block of Copper; Matching Waxed Block of Copper
+|B3=Matching Unwaxed Block of Copper; Matching Waxed Block of Copper
+|C2=Matching Unwaxed Block of Copper; Matching Waxed Block of Copper
+|Output=Matching Unwaxed Copper Grate, 4; Matching Waxed Copper Grate, 4
+}}
+{{Crafting
+|Matching Unwaxed Copper Grate
+|Honeycomb
+|Output=Matching Waxed Copper Grate
+|foot=1
+}}
+
+=== 切石 ===
+{{Stonecutting
+|Matching Unwaxed Block of Copper; Matching Waxed Block of Copper
+|Matching Unwaxed Copper Grate, 4; Matching Waxed Copper Grate, 4
+}}
+
+== 破坏 ==
+挖掘铜格栅的合适工具是镐。铜格栅需要石镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。
+
+{{Breaking table|铜格栅,斑驳的铜格栅,锈蚀的铜格栅,氧化的铜格栅,涂蜡的铜格栅,涂蜡的斑驳铜格栅,涂蜡的锈蚀铜格栅,涂蜡的氧化铜格栅}}
+
+铜格栅被破坏后会掉落自身。
+
+== 用途 ==
+铜格栅可以[[含水]]。{{in|je}}不像多数可含水的方块，铜格栅是一个完整方块且没有任何一个表面允许水的流出或流入。
+
+生物无法在铜格栅上生成。
+
+与[[玻璃]]类似，透过铜格栅看其他邻近的同种铜格栅时，邻近的铜格栅会隐形。
+
+=== 氧化 ===
+{{main|氧化}}
+铜格栅受[[氧化]]机制影响，能够在不同变种之间转化。
+
+== 音效 ==
+{{el|je}}：
+{{Sound table
+|sound=Copper Grate break1.ogg
+|sound2=Copper Grate break2.ogg
+|sound3=Copper Grate break3.ogg
+|sound4=Copper Grate break4.ogg
+|subtitle={{tp|subtitles.block.generic.break}}
+|source={{tp|soundCategory.block}}
+|description=破坏方块
+|id=block.copper_grate.break
+|translationkey=subtitles.block.generic.break
+}}
+{{Sound table
+|sound=Copper Grate step1.ogg
+|sound2=Copper Grate step2.ogg
+|sound3=Copper Grate step3.ogg
+|sound4=Copper Grate step4.ogg
+|sound5=Copper Grate step5.ogg
+|sound6=Copper Grate step6.ogg
+|subtitle={{tp|subtitles.block.generic.fall}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=带有摔落伤害时摔落在方块上
+|id=block.copper_grate.fall
+|translationkey=subtitles.block.generic.fall
+}}
+{{Sound table
+|sound=Copper Grate step1.ogg
+|sound2=Copper Grate step2.ogg
+|sound3=Copper Grate step3.ogg
+|sound4=Copper Grate step4.ogg
+|sound5=Copper Grate step5.ogg
+|sound6=Copper Grate step6.ogg
+|subtitle={{tp|subtitles.block.generic.hit}}
+|source={{tp|soundCategory.block}}
+|description=挖掘方块
+|id=block.copper_grate.hit
+|translationkey=subtitles.block.generic.hit
+}}
+{{Sound table
+|sound=Copper Grate break1.ogg
+|sound2=Copper Grate break2.ogg
+|sound3=Copper Grate break3.ogg
+|sound4=Copper Grate break4.ogg
+|subtitle={{tp|subtitles.block.generic.place}}
+|source={{tp|soundCategory.block}}
+|description=放置方块
+|id=block.copper_grate.place
+|translationkey=subtitles.block.generic.place
+}}
+{{Sound table
+|sound=Copper Grate step1.ogg
+|sound2=Copper Grate step2.ogg
+|sound3=Copper Grate step3.ogg
+|sound4=Copper Grate step4.ogg
+|sound5=Copper Grate step5.ogg
+|sound6=Copper Grate step6.ogg
+|subtitle={{tp|subtitles.block.generic.footsteps}}
+|source=[[声音#实体依赖分类|实体依赖]]
+|description=在方块上行走
+|id=block.copper_grate.step
+|translationkey=subtitles.block.generic.footsteps
+}}
+{{Sound table/Misc/Oxidation/JE}}
+
+{{el|be}}：
+{{Sound table
+|bedrock=1
+|sound=Copper Grate step1.ogg
+|sound2=Copper Grate step2.ogg
+|sound3=Copper Grate step3.ogg
+|sound4=Copper Grate step4.ogg
+|sound5=Copper Grate step5.ogg
+|sound6=Copper Grate step6.ogg
+|source=方块
+|description=方块作为物品使用时发出的音效
+|id=step.copper_grate
+|typeid=item.use.on
+}}
+{{Sound table
+|sound=Copper Grate break1.ogg
+|sound2=Copper Grate break2.ogg
+|sound3=Copper Grate break3.ogg
+|sound4=Copper Grate break4.ogg
+|source=方块
+|description=破坏方块
+|id=break.copper_grate
+|typeid=break
+|soundpitch=0.8
+}}
+{{Sound table
+|sound=Copper Grate step1.ogg
+|sound2=Copper Grate step2.ogg
+|sound3=Copper Grate step3.ogg
+|sound4=Copper Grate step4.ogg
+|sound5=Copper Grate step5.ogg
+|sound6=Copper Grate step6.ogg
+|source=方块
+|description=挖掘方块
+|id=step.copper_grate
+|typeid=hit
+|soundvolume=1.0
+|soundpitch=0.5
+}}
+{{Sound table
+|sound=Copper Grate break1.ogg
+|sound2=Copper Grate break2.ogg
+|sound3=Copper Grate break3.ogg
+|sound4=Copper Grate break4.ogg
+|source=方块
+|description=放置方块
+|id=break.copper_grate
+|typeid=place
+|soundpitch=0.8
+}}
+{{Sound table
+|sound=Copper Grate step1.ogg
+|sound2=Copper Grate step2.ogg
+|sound3=Copper Grate step3.ogg
+|sound4=Copper Grate step4.ogg
+|sound5=Copper Grate step5.ogg
+|sound6=Copper Grate step6.ogg
+|source=方块
+|description=带有摔落伤害时摔落在方块上
+|id=step.copper_grate
+|typeid=fall
+}}
+{{Sound table
+|sound=Copper Grate step1.ogg
+|sound2=Copper Grate step2.ogg
+|sound3=Copper Grate step3.ogg
+|sound4=Copper Grate step4.ogg
+|sound5=Copper Grate step5.ogg
+|sound6=Copper Grate step6.ogg
+|source=方块
+|description=在方块上行走
+|id=step.copper_grate
+|typeid=step
+|soundvolume=0.2
+}}
+{{Sound table
+|sound=Copper Grate step1.ogg
+|sound2=Copper Grate step2.ogg
+|sound3=Copper Grate step3.ogg
+|sound4=Copper Grate step4.ogg
+|sound5=Copper Grate step5.ogg
+|sound6=Copper Grate step6.ogg
+|source=方块
+|description=在方块上跳跃
+|id=step.copper_grate
+|typeid=jump
+|soundvolume=0.12
+|soundpitch=1.1
+}}
+{{Sound table
+|sound=Copper Grate step1.ogg
+|sound2=Copper Grate step2.ogg
+|sound3=Copper Grate step3.ogg
+|sound4=Copper Grate step4.ogg
+|sound5=Copper Grate step5.ogg
+|sound6=Copper Grate step6.ogg
+|source=方块
+|description=在方块上着陆
+|id=step.copper_grate
+|typeid=land
+}}
+{{Sound table/Misc/Oxidation/BE}}
+
+== 数据值 ==
+=== ID ===
+{{el|je}}：
+{{ID table
+|generatetranslationkeys=java
+|Copper Grate
+|spritetype=block
+|nameid=copper_grate
+|showblocktags=1 |blocktagsmerge=8 |blocktags={{GameTag|block|copper_grate,exposed_copper_grate,weathered_copper_grate,oxidized_copper_grate,waxed_copper_grate,waxed_exposed_copper_grate,waxed_weathered_copper_grate,waxed_oxidized_copper_grate}}}}
+{{ID table
+|Exposed Copper Grate
+|spritetype=block
+|nameid=exposed_copper_grate}}
+{{ID table
+|Weathered Copper Grate
+|spritetype=block
+|nameid=weathered_copper_grate}}
+{{ID table
+|Oxidized Copper Grate
+|spritetype=block
+|nameid=oxidized_copper_grate}}
+{{ID table
+|Waxed Copper Grate
+|spritetype=block
+|nameid=waxed_copper_grate}}
+{{ID table
+|Waxed Exposed Copper Grate
+|spritetype=block
+|nameid=waxed_exposed_copper_grate}}
+{{ID table
+|Waxed Weathered Copper Grate
+|spritetype=block
+|nameid=waxed_weathered_copper_grate}}
+{{ID table
+|Waxed Oxidized Copper Grate
+|spritetype=block
+|nameid=waxed_oxidized_copper_grate
+|foot=1}}
+
+{{el|be}}：
+{{ID table
+|generatetranslationkeys=bedrock
+|Copper Grate
+|spritetype=block
+|nameid=copper_grate}}
+{{ID table
+|Exposed Copper Grate
+|spritetype=block
+|nameid=exposed_copper_grate}}
+{{ID table
+|Weathered Copper Grate
+|spritetype=block
+|nameid=weathered_copper_grate}}
+{{ID table
+|Oxidized Copper Grate
+|spritetype=block
+|nameid=oxidized_copper_grate}}
+{{ID table
+|Waxed Copper Grate
+|spritetype=block
+|nameid=waxed_copper_grate}}
+{{ID table
+|Waxed Exposed Copper Grate
+|spritetype=block
+|nameid=waxed_exposed_copper_grate}}
+{{ID table
+|Waxed Weathered Copper Grate
+|spritetype=block
+|nameid=waxed_weathered_copper_grate}}
+{{ID table
+|Waxed Oxidized Copper Grate
+|spritetype=block
+|nameid=waxed_oxidized_copper_grate
+|foot=1}}
+
+=== 方块状态 ===
+{{main|方块状态}}
+{{Block states table|铜格栅,涂蜡的铜格栅,斑驳的铜格栅,涂蜡的斑驳铜格栅,锈蚀的铜格栅,涂蜡的锈蚀铜格栅,氧化的铜格栅,涂蜡的氧化铜格栅}}
+
+== 进度 ==
+{{load advancements|prefix=husbandry|wax_on;wax_off}}
+
+== 历史 ==
+{{HistoryTable
+|{{HistoryLine||2023年10月15日|link={{ytl|DnY5xz11lR0}}|[[File:Copper Grate JE1 BE1.png|32px]] [[File:Oxidized Copper Grate JE1 BE1.png|32px]] 铜格栅在[[Minecraft Live 2023]]中公布，将作为[[试炼密室]]结构的一部分生成。}}
+|{{HistoryLine||2023年10月24日|link=https://pbs.twimg.com/media/F9OpOZYbMAAc4h1?format=jpg&name=large|[[File:Exposed Copper Grate JE1 BE1.png|32px]] [[File:Weathered Copper Grate JE1 BE1.png|32px]] 公布了铜格栅的其余氧化变种。}}
+|{{HistoryLine|java}}
+|{{HistoryLine||1.20.3|dev=23w43a|exp=update_1_21|[[File:Copper Grate JE1 BE1.png|32px]] [[File:Exposed Copper Grate JE1 BE1.png|32px]] [[File:Weathered Copper Grate JE1 BE1.png|32px]] [[File:Oxidized Copper Grate JE1 BE1.png|32px]] 加入了铜格栅。}}
+|{{HistoryLine|||dev=23w45a|生物不再能在铜格栅上生成。
+|铜格栅的所有变种现在都不是窒息方块。在此前，只有铜格栅不是窒息方块。
+|铜格栅现在可以在[[试炼密室]]中自然生成。}}
+|{{HistoryLine|||dev=23w46a|铜格栅现在可以含水。}}
+|{{HistoryLine||1.20.5|dev=24w03a|exp=update_1_21|现在使用切石机将铜块加工为铜格栅时只会输出1个铜格栅，而不是4个。}}
+|{{HistoryLine|||dev=24w04a|回退了24w03a的更改。<ref>{{bug|MC-266078|||WAI}}</ref>}}
+|{{HistoryLine||1.21|dev=24w18a|铜格栅不再属于[[实验性内容]]。}}
+|{{HistoryLine|bedrock}}
+|{{HistoryLine||1.20.50|dev=1.20.50.22|exg=updateAnnouncedLive2023|[[File:Copper Grate JE1 BE1.png|32px]] [[File:Exposed Copper Grate JE1 BE1.png|32px]] [[File:Weathered Copper Grate JE1 BE1.png|32px]] [[File:Oxidized Copper Grate JE1 BE1.png|32px]] 加入了铜格栅。}}
+|{{HistoryLine|||dev=1.20.50.23|加入了所有涂蜡的铜格栅氧化变种的合成配方。}}
+|{{HistoryLine||1.20.60|exg=updateAnnouncedLive2023|dev=1.20.60.20|铜格栅现在可以在[[试炼密室]]中自然生成。}}
+|{{HistoryLine|||dev=1.20.60.21|铜格栅现在可以含水。<ref>{{bug|MCPE-176379|||Fixed}}</ref>
+|现在铜格栅被涂蜡时会变为涂蜡的铜格栅。在此之前，铜格栅被涂蜡时会变为[[涂蜡的铜块]]。<ref>{{bug|MCPE-176373|||Fixed}}</ref>}}
+|{{HistoryLine||1.21.0|dev=1.21.0.22|铜格栅不再属于[[实验性玩法]]。}}
+}}
+
+== 你知道吗 ==
+* 现实中的铁丝网是铜格栅的灵感来源之一。<ref name="SarahTweet">{{tweet|SarahBoevingArt|1718161962041782577|Two different blocks! The grates were more inspired by chain link fences etc. although the spleaves are cool too! 💖🙌|Oct 28, 2023}}</ref>
+* 铜格栅与[[23w13a_or_b]]中的[[铜枝叶]]有相似的设计，不过两者并没有关系。<ref name="SarahTweet"/>
+
+== 画廊 ==
+<gallery>
+Waxed copper grates in trial chambers.png|[[试炼密室]]中的涂蜡的铜格栅
+Waxed oxidized copper grates in trial chambers.png|试炼密室中涂蜡的氧化铜格栅
+All Oxidizing Blocks.png|所有不同氧化阶段的铜质方块，包括铜格栅
+The Trial Chamber Blocks Artwork.jpg|铜格栅和其他[[棘巧试炼]]新内容的艺术作品
+</gallery>
+
+== 参考 ==
+{{Reflist}}
+
+== 导航 ==
+{{Navbox blocks|building blocks}}
+
+[[de:Kupferrost]]
+[[en:Copper Grate]]
+[[es:Rejilla de cobre]]
+[[fr:Grille en cuivre]]
+[[ja:銅の金網]]
+[[ko:구리 격자]]
+[[lzh:銅柵網]]
+[[pl:Miedziana krata]]
+[[pt:Grade de Cobre]]
+[[ru:Медная решётка]]
+[[uk:Мідна решітка]]
